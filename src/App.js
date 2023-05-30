@@ -8,7 +8,7 @@ const App=()=>(
       </div>
    </div>
 
-    <div className={`bg-white border border-red ${styles.flexStart}`}>
+    <div className={`bg-white border-red-600 ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
          <GetStarted />
       </div>
