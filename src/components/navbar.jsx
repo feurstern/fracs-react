@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import { navLinks } from '../constant'
-
+import { menu, frac_logo } from '../Assets'
 
 
 const Navbar = () => {
@@ -11,8 +11,8 @@ const Navbar = () => {
   
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar'>
-        <img src='' alt="FRACS" className='w-[124px h-[32px]' />
-
+        <img src={frac_logo} alt="FRACS" className='w-[124px h-[32px]' />
+        <h1 className='pl-5 text-3xl text-white text-dimWhite'>FRACS</h1>
         <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
@@ -28,7 +28,7 @@ const Navbar = () => {
       </ul>
 
       <div className='sm:hidden flex flex-1 justify-end items-center'>
-            <img src='' alt='menu' 
+            <img src={menu} alt='menu' 
               className='w-28 h-28 object-contain'
              onClick={()=>setToggle(!toggle)}
             />
