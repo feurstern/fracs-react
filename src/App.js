@@ -8,7 +8,7 @@ const App=()=>(
       </div>
    </div>
 
-    <div className={`bg-white ${styles.flexStart}`}>
+    <div className={`bg-white border border-red ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
          <GetStarted />
       </div>
@@ -19,8 +19,6 @@ const App=()=>(
          <Footer />
       </div>
     </div>
- 
-    
  </div>
 );
 
