@@ -5,6 +5,8 @@
 ## Available Scripts
 
 In the project directory, you can run:
+**but since I don't not included node modules, you have to install for the project
+### `npm i`
 
 ### `npm start`
 
