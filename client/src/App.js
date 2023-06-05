@@ -1,9 +1,9 @@
 import { Navbar, Footer } from './components';
 import styles from './style';
-import {CreateBrowserRouter, Outlet, RouterProvider, createBrowserRouter,} from "react-router-dom";
+import {CreateBrowserRouter, Outlet, Route, RouterProvider, createBrowserRouter,} from "react-router-dom";
 import { Gallery, GetStarted, Home, Register } from './pages';
 
-
+//create basic layour of component.
 const Layout=()=>(
    <div>
       <Navbar />
@@ -15,6 +15,27 @@ const Layout=()=>(
    
 
 const router = createBrowserRouter([
+
+   // the main layout has the rendered page that depends on the child
+   { 
+      path :"/",
+      element: <Layout />,
+      children:[
+         {
+            path: "/",
+            element: <Home />
+         },
+         {
+            path:"/gallery",
+            element:<Gallery />
+         },
+         {
+            path:"/register",
+            element:<Register />
+         }
+      ],
+
+   },
    {
       path:"/",
       element : <Home />
@@ -34,7 +55,7 @@ const App=()=>(
  <div className="bg-red-700 w-full overflow-hidden">
    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-         <Navbar />
+       <RouterProvider router={router} />
       </div>
    </div>
 
