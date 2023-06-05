@@ -119,3 +119,21 @@ export const runDown= [
       img : "",
   }
 ]
+
+export const otherLinks = [
+  { 
+    id:"other-link-1",
+    icon:"https://ourtoga.com/assets/media/logo/ourtoga-01.png",
+    link: "https://ourtoga.com/"
+  },
+  {
+    id:"other-link-2",
+    icon:"https://rjcons.com/public/img/icon/rj-cons-150x150.avif",
+    link:"https://rjcons.com/",
+  },
+  {
+    id:"other-link-3",
+    icon: "",
+    link: "",
+  }
+];
