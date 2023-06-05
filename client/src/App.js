@@ -3,25 +3,28 @@ import styles from './style';
 import {CreateBrowserRouter, Outlet, Route, RouterProvider, createBrowserRouter,} from "react-router-dom";
 import { Gallery, GetStarted, Home, Register } from './pages';
 
-//create basic layour of component.
-const Layout=()=>(
-   <div>
-      <Navbar />
-      <Outlet />
-      <Footer />
-   </div>
-)
+//create basic layout of component.
+const Layout=()=>{
+
+   return(
+      <div>
+         <Navbar/>
+         <Outlet/>
+         <footer/>
+      </div>
+   )
+}
 
    
 
 const router = createBrowserRouter([
 
-   // the main layout has the rendered page that depends on the child
+   // the main layout has the rendered page that depends on the child on the properties of <Outlet />
    { 
       path :"/",
       element: <Layout />,
       children:[
-         {
+         { 
             path: "/",
             element: <Home />
          },
@@ -49,7 +52,7 @@ const router = createBrowserRouter([
       element : <Gallery/>
    }
 
-])
+]);
 
 const App=()=>(
  <div className="bg-red-700 w-full overflow-hidden">
@@ -67,7 +70,7 @@ const App=()=>(
 
     <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-         <Footer />
+        
       </div>
     </div>
  </div>
