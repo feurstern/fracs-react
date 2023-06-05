@@ -1,5 +1,6 @@
 import { Navbar, Footer } from './components';
 import styles from './style';
+import {CreateBrowserRouter, RouterProvider,} from "react-router-dom";
 
 
 const App=()=>(
@@ -20,7 +21,7 @@ const App=()=>(
       <div className={`${styles.boxWidth}`}>
          <Footer />
       </div>
-    </div>
+    </div>s
  </div>
 );
 
