@@ -54,6 +54,7 @@ const router = createBrowserRouter([
 
 ]);
 
+
 const App=()=>(
  <div className="bg-red-700 w-full overflow-hidden">
    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
@@ -70,7 +71,8 @@ const App=()=>(
 
     <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        
+      <Footer/>
+       
       </div>
     </div>
  </div>

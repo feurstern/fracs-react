@@ -135,5 +135,51 @@ export const otherLinks = [
     id:"other-link-3",
     icon: "",
     link: "",
-  }
+  },
 ];
+
+export const footerLinks =[
+  {
+    title: "Related links",
+    link : [
+      {
+        name: "Gallery",
+        link:"Test"
+      },
+      {
+        name : "Register",
+        link: "Test"
+      },   
+    ]
+  },
+  {
+    title: "Community",
+    links:[
+      {
+        name:"Name Test",
+        link:"2"
+      },
+      {
+        name:"3",
+        link:"3"
+      },
+      {
+        name:"4",
+        link:"4"
+      }
+    ]
+  },
+  {
+    title: "Partner",
+    links:[
+      {
+        name:"1",
+        link:"1"
+      },
+      {
+        name:"2",
+        link:"2"
+      }
+    ]
+  }
+]
