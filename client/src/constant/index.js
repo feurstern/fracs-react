@@ -141,7 +141,7 @@ export const otherLinks = [
 export const footerLinks =[
   {
     title: "Related links",
-    link : [
+    links : [
       {
         name: "Gallery",
         link:"Test"
