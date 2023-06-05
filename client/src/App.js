@@ -1,7 +1,7 @@
 import { Navbar, Footer } from './components';
 import styles from './style';
 import {CreateBrowserRouter, Outlet, Route, RouterProvider, createBrowserRouter,} from "react-router-dom";
-import { Gallery, GetStarted, Home, Register } from './pages';
+import { Gallery, GetStarted, Home, Register, Certification } from './pages';
 
 //create basic layout of component.
 const Layout=()=>{
@@ -35,6 +35,10 @@ const router = createBrowserRouter([
          {
             path:"/register",
             element:<Register />
+         },
+         {
+            path:"/certifications",
+            element: <Certification/>
          }
       ],
 
@@ -50,6 +54,10 @@ const router = createBrowserRouter([
    {
       path : "/gallery",
       element : <Gallery/>
+   },
+   {
+      path:"/certifcations",
+      element : <Certification/>
    }
 
 ]);
@@ -65,6 +73,7 @@ const App=()=>(
 
     <div className={`bg-white border-red-600 ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
+      
          
       </div>
     </div>

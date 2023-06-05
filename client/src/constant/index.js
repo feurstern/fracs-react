@@ -5,6 +5,10 @@ export const navLinks = [
       title: "Home",
     },
     {
+      id:"/certifications",
+      title: "Certifcations"
+    },
+    {
       id: "/gallery",
       title: "Gallery",
     },
@@ -144,18 +148,18 @@ export const footerLinks =[
     links : [
       {
         name: "Gallery",
-        link:"Test"
+        link:"/gallery"
       },
       {
         name : "Register",
-        link: "Test"
+        link: "/register"
       },   
     ]
   },
   {
     title: "Community",
     links:[
-      {
+      { 
         name:"Name Test",
         link:"2"
       },
@@ -173,12 +177,12 @@ export const footerLinks =[
     title: "Partner",
     links:[
       {
-        name:"1",
-        link:"1"
+        name:"ourtoga.com",
+        link:"https://ourtoga.com/"
       },
-      {
-        name:"2",
-        link:"2"
+      { 
+        name:"rjcons.com",
+        link:"https://rjcons.com/"
       }
     ]
   }

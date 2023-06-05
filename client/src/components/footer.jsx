@@ -2,6 +2,7 @@ import styles from "../style";
 import { frac_logo } from "../Assets";
 import { footerLinks, otherLinks } from "../constant";
 import { Link } from "react-router-dom";
+import { Gallery, Register } from "../pages";
 
 const Footer = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
@@ -22,18 +23,18 @@ const Footer = () => (
       <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
         {footerLinks.map((footerlink) => (
           <div key={footerlink.title} className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}>
-            <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
+            <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-black">
               {footerlink.title}
             </h4>
             <ul className="list-none mt-4">
               {footerlink.links.map((link, index) => (
                 <li
-                  key={link.name}
-                  className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${
+                  key={link.link}
+                  className={`font-poppins font-normal text-[16px] leading-[24px] text-black hover:text-secondary cursor-pointer ${
                     index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
                   }`}
                 >  
-                  <Link to={`${link.link}`}>{link.name}</Link>
+                  {link.name}              
                 </li>
               ))}
             </ul>
@@ -43,7 +44,7 @@ const Footer = () => (
     </div>
 
     <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
-      <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
+      <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-black">
         Copyright Ⓒ 2023 PT. Rajawali Konsulindo. All Rights Reserved.
       </p>
 
