@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { navLinks } from '../constant'
 import { menu, frac_logo } from '../Assets'
 import styles from '../style'
+import { Link } from 'react-router-dom'
 
 
 const Navbar = () => {
@@ -22,9 +23,8 @@ const Navbar = () => {
               active === nav.title ? "text-white" : "text-dimWhite"
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onClick={() => setActive(nav.title)}
-          >
-            <a href={`#${nav.id}`}>{nav.title}</a>
-           
+          >        
+            <Link to={`${nav.id}`}>{nav.title}</Link>
           </li>
         ))}
       </ul>
@@ -50,7 +50,7 @@ const Navbar = () => {
                   } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
                   onClick={() => setActive(nav.title)}
                 >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
+                 <Link to={`${nav.id}`}>{nav.title}</Link>
                 </li>
               ))}
             </ul>
