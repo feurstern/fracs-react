@@ -1,5 +1,7 @@
-import { Navbar, GetStarted, Footer } from './components';
+import { Navbar, Footer } from './components';
 import styles from './style';
+
+
 const App=()=>(
  <div className="bg-red-700 w-full overflow-hidden">
    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
@@ -10,7 +12,7 @@ const App=()=>(
 
     <div className={`bg-white border-red-600 ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-         <GetStarted />
+         
       </div>
     </div>
 
