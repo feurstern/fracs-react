@@ -2,6 +2,7 @@ import React from "react";
 import styles from "../../style";
 import GetStarted from "../getStarted";
 import aboutUs from '../../Assets/about-us.jpg'
+import { Link } from "react-router-dom";
 
 const Section1 = () => {
   return (
@@ -13,7 +14,7 @@ const Section1 = () => {
           <img src={``} alt="test" />
           <p className={`${styles.paragraph} ml-2`}>
             <span className="text-black">Register</span>
-            <span className="text-black">here ....</span>
+            <span className="text-black"> here</span>
           </p>
         </div>
 
@@ -53,7 +54,7 @@ const Section1 = () => {
         <img src={aboutUs} alt="showcase" className="w-[100%] h-[100%] relative z-[5]"/>
         <div className="absolute z-[0] w-[40%] h-[35%] top-0  pink__gradient"/>
         <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40"/>
-        <div className="abosolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient"/>
+        <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient"/>
       </div>
 
       <div className={`ss:hidden ${styles.flexCenter}`}>
