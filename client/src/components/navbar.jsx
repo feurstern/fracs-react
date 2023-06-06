@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar'>
         <img src={frac_logo} alt="FRACS" className='w-[124px h-[32px]' />
-        <h1 className={`${styles.defaultHeaderfont} pl-5`}>FRACS</h1>
+        <h1 className={`${styles.defaultHeaderfont} pl-5`}>FRACs</h1>
         <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
