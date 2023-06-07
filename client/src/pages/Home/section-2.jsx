@@ -1,44 +1,72 @@
-import React from 'react'
-import styles, { layout } from '../../style'
-import { trainingOutLine } from '../../constant'
+import { runDown } from "../../constant";
+import styles, { layout } from "../../style";
 
-
-const featureTraining =({icon,title,content,img, index})=>{
-  <div className={`flex flex-row p-6 rounded-[20px]${index !== trainingOutLine.length -1 ?"mb-6" : "mb-0"} feature-card`}>
-    <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
-       <img src={``} alt='icon-star'/>
+const FeatureCard = ({ icon, title, content, index }) => (
+  <div
+    className={`flex flex-row p-6 rounded-[20px] ${
+      index !== runDown.length - 1 ? "mb-6" : "mb-0"
+    } feature-card`}
+  >
+    <div
+      className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}
+    >
+      <img src={icon} alt="star" className="w-[50%] h-[50%] object-contain" />
     </div>
-    <div className='flex-1 flex flex-col ml-3'>
-      <h4 className='font-poppins font-semibold text-black text-[18px] leading-[23px]'>
-         {title}
+    <div className="flex-1 flex flex-col ml-4">
+      <h4 className="font-poppins font-semibold text-black text-[18px] leading-[23.4px] mb-1">
+        {title}
       </h4>
-      <p className='font-poppis font-normal text-black text-[16px] leading-[24px]'>
+      <p className="font-poppins font-normal text-black text-[16px] leading-[24px]">
         {content}
       </p>
     </div>
   </div>
-};
+);
 
+const Section2 = () => (
+  <section id="features" className={layout.section}>
+    <div className={layout.sectionInfo}>
+      <h2 className={styles.heading2}>
+        The FRAC <br className="sm:block hidden" /> Curriculum
+      </h2>
+      <p className={`${styles.paragraph} max-w-[550px] mt-5 mb-5`}>
+        The FRAC curriculum is designed to ensure every FRAC Certified Person
+        has the ability to identify and handle financial risks in the company.
+        The FRAC curriculum is developed based on science and professional
+        practical intensive experience so that it is applicable and effective.
+        The FRAC curriculum is regularly reviewed to ensure its suitability for
+        industry needs.
+      </p>
+      <p className={`${styles.paragraph} max-w-[550px] mt-5`}>
+        To ensure the quality of the FRAC Certified Person, IFMI developed the
+        certification scheme and FRAC Curriculum as a single short course and
+        certification exam using Global certification standards. Training
+        becomes a prerequisite to be able to become a FRAC candidate so as to
+        ensure the standardized knowledge and competence of each FRAC candidate.
+      </p>
+      <p className={`${styles.paragraph} max-w-[550px] mt-5`}>
+        The training will be conducted by IFMI Training Partner for 2 full days,
+        or if conducted after working hours program, as a four-day program.
+        After the training, participants will have to take an exam with 100
+        questions to be completed within 2.5 hours. Participants must achieve a
+        score of 60 to pass the exam. The exam is conducted online.
+      </p>
+      <p className={`${styles.paragraph} max-w-[550px] mt-5`}>
+        If a participant does not pass the exam, he/she can retake the exam and
+        pay the retest fee. There is no limit to the number of times one can
+        retake the exam. To enhance the credibility of the program, the program
+        is aimed at accreditation. The program is offered as a training and exam
+        package. IFMI also requires recertification to ensure the continuity of
+        competence of each FRAC Certified Person.
+      </p>
+    </div>
 
-const Section2 = () => {
-  return (
-     <section className={layout.section}>
-       <div className={layout.sectionInfo}>
-         <h2 className={styles.heading2}>
-            FRAC Curriculum
-         </h2>
-         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-         </p>
-         <button styles={`mt-10`}/>
-       </div>
+    <div className={`${layout.sectionImg} flex-col`}>
+      {runDown.map((feature, index) => (
+        <FeatureCard key={feature.id} {...feature} index={index} />
+      ))}
+    </div>
+  </section>
+);
 
-       <div className={`${layout.sectionImg}flex-col`}>
-       {trainingOutLine.map((feature,index)=>(
-        <featureTraining key={feature.id} {...feature} index={index}/>
-       ))}
-       </div>
-     </section>
-  )
-}
-
-export default Section2
+export default Section2;

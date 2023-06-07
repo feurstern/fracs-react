@@ -60,7 +60,6 @@ const Section1 = () => {
       <div className={`ss:hidden ${styles.flexCenter}`}>
        <GetStarted/>
       </div>
-
     </section>
   );
 };
