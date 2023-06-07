@@ -1,3 +1,5 @@
+import star from '../Assets/Star.svg'
+
 export const navLinks = [
   {
     id: "/",
@@ -59,75 +61,74 @@ export const runDown = [
     id: "session-1",
     title: "Sesi 1",
     content: "Memahami Risiko Keuangan dalam Konteks Perusahaan",
-    img: "",
+    icon: star
   },
   {
     id: "session-2",
     title: "Sesi 2 ",
     content: "Memahami Risiko Pasar",
-    img: "",
+    icon:star
   },
   {
     id: "session-3",
     title: "Sesi 3",
     content: "Memahami Risiko Kredit",
-    img: "",
+    icon:star
   },
 
   {
     id: "session-4",
     title: "Sesi 4",
     content: "Memahami Risiko Likuiditas dan Arus Kas",
-    img: "",
+    icon:star
   },
   {
     id: "session-5",
     title: "Sesi 5",
     content: "Mengelola Risiko Pasar Melalui Hedging (1)",
-    img: "",
+    icon: star
   },
   {
     id: "session-6",
     title: "Sesi 6",
     content: "Mengelola Risiko Pasar Melalui Hedging (2)",
-    img: "",
+    icon:star
   },
   {
     id: "session-7",
     title: "Sesi 7",
     content: "Mengelola Risiko Pasar Melalui Operasional",
-    img: "",
+    icon:star,
   },
   {
     id: "session-8",
     title: "Sesi 8",
     content: "Mengelola Risiko Kredit untuk Korporasi",
-    img: "",
+    icon:star,
   },
   {
     id: "session-9",
     title: "Sesi 9",
     content: "Mengelola Risiko Likuiditas dan Arus Kas untuk Korporasi",
-    img: "",
+    icon:star
   },
   {
     id: "session-10",
     title: "Sesi 10",
-    content:
-      "Memahami Risiko Keuangan yang Timbul dari Kegagalan Bisnis dan Investasi",
-    img: "",
+    content: "Memahami Risiko Keuangan yang Timbul dari Kegagalan Bisnis dan Investasi",
+    icon:star
   },
   {
     id: "session-11",
     title: "Sesi 11",
     content: "Mengenali Potensi Risiko Keuangan dalam Laporan Keuangan",
-    img: "",
+    icon:star
   },
   {
     id: "session-12",
     title: "Sesi 12",
     content: "Praktek Mengenali Potensi Risiko Keuangan dalam Laporan Keuangan",
-    img: "",
+    icon:star,
   },
 ];
 
