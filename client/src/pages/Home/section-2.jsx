@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../../style'
+import styles, { layout } from '../../style'
 import { trainingOutLine } from '../../constant'
 
 
@@ -19,9 +19,25 @@ const featureTraining =({icon,title,content,img, index})=>{
   </div>
 };
 
+
 const Section2 = () => {
   return (
-    <div className=''></div>
+     <section className={layout.section}>
+       <div className={layout.sectionInfo}>
+         <h2 className={styles.heading2}>
+            FRAC Curriculum
+         </h2>
+         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+         </p>
+         <button styles={`mt-10`}/>
+       </div>
+
+       <div className={`${layout.sectionImg}flex-col`}>
+       {trainingOutLine.map((feature,index)=>(
+        <featureTraining key={feature.id} {...feature} index={index}/>
+       ))}
+       </div>
+     </section>
   )
 }
 
