@@ -21,7 +21,7 @@ class App extends Component{
    componentDidMount(){
       this.callAPI();
    };
-
+   
    render(){
       return(
          <div className="bg-red-700 w-full overflow-hidden">
@@ -47,6 +47,8 @@ class App extends Component{
       );
    }
 }
+
+// check whether the api has been succesfully or not
 
 //create basic layout of component.
 const Layout=()=>{
