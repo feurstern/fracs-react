@@ -28,11 +28,11 @@ const Section3 = () => {
                 </tr>
                  <tr>
                     <td>2</td>
-                    <td>The candidate posses atleast Highschool graduate</td>
+                    <td>The candidate posses atleast Highschool graduate.</td>
                 </tr>
                  <tr>
                     <td>3</td>
-                    <td>The candidate is having experience counted as two years as minimum or currently having postgraduate or undergraduate in any field</td>
+                    <td>The candidate is having experience counted as two years as minimum or currently having postgraduate or undergraduate in any field.</td>
                 </tr>
                  <tr>
                     <td>4</td>
@@ -40,7 +40,7 @@ const Section3 = () => {
                 </tr>
                  <tr>
                     <td>5</td>
-                    <td>The candidate is already taken the certification exam which being held by FRAC curicullum</td>
+                    <td>The candidate is already taken the certification exam which being held by FRAC curicullum.</td>
                 </tr>
                  <tr>
                     <td>6</td>
