@@ -2,6 +2,51 @@ import { Navbar, Footer } from './components';
 import styles from './style';
 import {CreateBrowserRouter, Outlet, Route, RouterProvider, createBrowserRouter,} from "react-router-dom";
 import { Gallery, GetStarted, Home, Register, Certification } from './pages';
+import React,{Component} from 'react';
+
+//fetch api from nodejs
+class App extends Component{
+   constructor(props){
+      super(props);
+      this.state = {apiResponse: ""};
+   };
+
+   callAPI(){
+      fetch("http://localhost:3001/testAPI")
+      .then(res=> res.text())
+      .then(res=> this.setState({apiResponse : res}))
+      .catch(err=> err);
+   };
+
+   componentDidMount(){
+      this.callAPI();
+   };
+
+   render(){
+      return(
+         <div className="bg-red-700 w-full overflow-hidden">
+            <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+                <div className={`${styles.boxWidth}`}>
+               <RouterProvider router={router} />
+            </div>
+         </div>
+
+         <div className={`bg-white border-red-600 ${styles.flexStart}`}>
+            <div className={`${styles.boxWidth}`}>
+            </div>
+          </div>
+
+    <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+      <Home/>
+      <Footer/>
+       
+      </div>
+    </div>
+ </div>
+      );
+   }
+}
 
 //create basic layout of component.
 const Layout=()=>{
@@ -63,29 +108,5 @@ const router = createBrowserRouter([
 ]);
 
 
-const App=()=>(
- <div className="bg-red-700 w-full overflow-hidden">
-   <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
-       <RouterProvider router={router} />
-      </div>
-   </div>
-
-    <div className={`bg-white border-red-600 ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-      
-        
-      </div>
-    </div>
-
-    <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-      <Home/>
-      <Footer/>
-       
-      </div>
-    </div>
- </div>
-);
 
 export default App;
