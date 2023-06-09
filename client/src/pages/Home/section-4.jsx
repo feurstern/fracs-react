@@ -3,7 +3,7 @@ import styles, {layout} from '../../style'
 
 const Section4 = () => {
   return (
-    <section className={`mt-[50px] mb-[20px]`}>
+    <section className={`mt-[100px] mb-[20px]`}>
      <div className={`${styles.flexStart2}`}>
         <h1 className={`${styles.heading2} text-black`}>
             The FRAC Certification Fee
