@@ -11,15 +11,22 @@ class App extends Component{
       this.state = {apiResponse: ""};
    };
 
-   callAPI(){
+   callAPITest(){
       fetch("http://localhost:3001/testAPI")
+      .then(res=> res.text())
+      .then(res=> this.setState({apiResponse : res}))
+      .catch(err=> err);
+   };
+   callAPIRegister(){
+      fetch("http://localhost:3001/register")
       .then(res=> res.text())
       .then(res=> this.setState({apiResponse : res}))
       .catch(err=> err);
    };
 
    componentDidMount(){
-      this.callAPI();
+      this.callAPITest();
+      this.callAPIRegister();
    };
    
    render(){
@@ -27,7 +34,8 @@ class App extends Component{
          <div className="bg-red-700 w-full overflow-hidden">
             <div className={`${styles.paddingX} ${styles.flexCenter}`}>
                 <div className={`${styles.boxWidth}`}>
-               <RouterProvider router={router} />
+                  <RouterProvider router={router} />
+                  <p>{this.state.apiResponse}</p>
             </div>
          </div>
 
