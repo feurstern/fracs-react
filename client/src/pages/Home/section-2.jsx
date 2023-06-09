@@ -24,7 +24,7 @@ const FeatureCard = ({ icon, title, content, index }) => (
 );
 
 const Section2 = () => (
-  <section id="features" className={layout.section}>
+  <section id="features" className={`${styles.flexStart2}`}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
         The FRAC <br className="sm:block hidden" /> Curriculum
