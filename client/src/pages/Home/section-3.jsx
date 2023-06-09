@@ -4,7 +4,7 @@ import scheme from "../../Assets/schemes.jpeg"
 
 const Section3 = () => {
   return (
-    <section className={` mt-[10px]`}>
+    <section className={` mt-[100px]`}>
         <div className={`${styles.flexStart2}`}>
             <h1 className={`${styles.heading2} mb-[20px]`}>Curriculum Schemes</h1>
         </div>

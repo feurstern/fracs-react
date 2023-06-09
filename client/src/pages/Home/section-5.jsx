@@ -5,7 +5,7 @@ import {feedBack} from '../../constant'
 const Section5 = () => {
   return (
     <section
-      className={`${styles.paddingY} ${styles.paddingY} flex-col relative`}
+      className={`${styles.paddingY} ${styles.paddingY} flex-col relative mt-[100px]`}
     >
       <div className="absolute z-[0] w-[60%] -right-[50%] rounded-full red__gradient bottom-40 "></div>
 
