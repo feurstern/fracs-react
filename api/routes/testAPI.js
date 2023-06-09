@@ -5,7 +5,7 @@ router.get('/', function(req,res,next){
     res.send("Connected succesfully");
 });
 
-module.export =router;
+module.exports =router;
 
 
 

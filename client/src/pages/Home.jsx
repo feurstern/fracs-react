@@ -4,6 +4,7 @@ import Section2 from './Home/section-2'
 import Section3 from './Home/section-3'
 import Section4 from './Home/section-4'
 import Section5 from './Home/section-5'
+import Section7 from './Home/section-7'
 
 const Home = () => {
   return (
@@ -13,7 +14,8 @@ const Home = () => {
         <Section2/> {/* About curriculum */}
         <Section3/> {/* curriculum scheme */}
         <Section4/> {/* certififcation fee */}
-        <Section5/> 
+        <Section5/> {/* testimonials */}
+        <Section7/> {/* persuade the candidate */}
     </div>
   )
 }
