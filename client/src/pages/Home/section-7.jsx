@@ -1,5 +1,6 @@
 import React from "react";
 import styles, { layout } from "../../style";
+import Button from "../../components/Button";
 
 const Section7 = () => {
   return (
@@ -14,6 +15,7 @@ const Section7 = () => {
         </p>
       </div>
       <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
+          <Button />
       </div>
     </section>
   );
