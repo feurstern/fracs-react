@@ -11,12 +11,12 @@ class App extends Component{
       this.state = {apiResponse: ""};
    };
 
-   callAPITest(){
-      fetch("http://localhost:3001/testAPI")
-      .then(res=> res.text())
-      .then(res=> this.setState({apiResponse : res}))
-      .catch(err=> err);
-   };
+   // callAPITest(){
+   //    fetch("http://localhost:3001/testAPI")
+   //    .then(res=> res.text())
+   //    .then(res=> this.setState({apiResponse : res}))
+   //    .catch(err=> err);
+   // };
    callAPIRegister(){
       fetch("http://localhost:3001/register")
       .then(res=> res.text())
@@ -25,7 +25,7 @@ class App extends Component{
    };
 
    componentDidMount(){
-      this.callAPITest();
+      // this.callAPITest();
       this.callAPIRegister();
    };
    
