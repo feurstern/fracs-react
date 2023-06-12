@@ -55,6 +55,8 @@ const Footer = () => (
             key={oth.id}
             src={oth.icon}
             alt={oth.id}
+            width={20}
+            height={20}
             className={`w-[21px] h-[21px] object-contain cursor-pointer ${
               index !== oth.length - 1 ? "mr-6" : "mr-0"
             }`}
