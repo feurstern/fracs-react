@@ -57,7 +57,7 @@ class App extends Component{
 }
 
 // check whether the api has been succesfully or not
-
+//
 //create basic layout of component.
 const Layout=()=>{
 
