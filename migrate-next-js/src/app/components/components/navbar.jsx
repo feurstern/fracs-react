@@ -4,6 +4,7 @@ import { navLinks } from '@/app/constant'
 import { frac_logo, menu } from '@/app/Assets'
 import styles from '@/app/style'
 import { Link } from 'react-router-dom'
+import Image from 'next/image'
 
 
 const Navbar = () => {
@@ -13,8 +14,8 @@ const Navbar = () => {
   
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar'>
-        <img src={frac_logo} alt="FRACS" className='w-[124px h-[32px]' />
-        <h1 className={`${styles.defaultHeaderfont} pl-5`}>FRACs</h1>
+        <Image src={frac_logo} alt="FRACS" className='w-[50px] h-[50px]' />
+        <h1 className={`${styles.defaultHeaderFont} pl-5`}>FRAC</h1>
         <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
@@ -30,7 +31,7 @@ const Navbar = () => {
       </ul>
 
       <div className='sm:hidden flex flex-1 justify-end items-center'>
-            <img src={menu} alt='menu' 
+            <Image src={menu} alt='menu' 
               className='w-28 h-28 object-contain'
              onClick={()=>setToggle(!toggle)}
             />

@@ -2,6 +2,7 @@ import React from 'react'
 import styles, {layout} from '@/app/style'
 import { scheme } from '@/app/Assets'
 import Image from 'next/image'
+
 const Section3 = () => {
   return (
     <section className={` mt-[100px]`}>

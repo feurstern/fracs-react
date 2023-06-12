@@ -3,6 +3,7 @@ import { frac_logo } from "@/app/Assets";
 import { footerLinks, otherLinks } from "@/app/constant";
 import Link from "next/link";
 import { Gallery, Register } from "@/app/pages/pages";
+import Image from "next/image";
 
 const Footer = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
@@ -50,7 +51,7 @@ const Footer = () => (
 
       <div className="flex flex-row md:mt-0 mt-6">
         {otherLinks.map((oth, index) => (
-          <img
+          <Image
             key={oth.id}
             src={oth.icon}
             alt={oth.id}
