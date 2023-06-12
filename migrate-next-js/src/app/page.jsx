@@ -1,9 +1,8 @@
 "use client"
 import { Navbar, Footer } from './components/components';
 import styles from './style';
-
 import {CreateBrowserRouter, Outlet, Route, RouterProvider, createBrowserRouter,} from "react-router-dom";
-import { Gallery, GetStarted, Home, Register, Certification } from './pages';
+import { Gallery, GetStarted, Home, Register, Certification } from './pages/pages';
 import React,{Component} from 'react';
 
 //fetch api from nodejs

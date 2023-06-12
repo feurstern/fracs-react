@@ -1,7 +1,7 @@
 import React from 'react'
-import styles, {layout} from '../../style'
-import scheme from "../../Assets/schemes.jpeg"
-
+import styles, {layout} from '@/app/style'
+import { scheme } from '@/app/Assets'
+import Image from 'next/image'
 const Section3 = () => {
   return (
     <section className={` mt-[100px]`}>
@@ -9,7 +9,7 @@ const Section3 = () => {
             <h1 className={`${styles.heading2} mb-[20px]`}>Curriculum Schemes</h1>
         </div>
         <div className={`${styles.flexCenter} mb-[30px] pb-[15px]`}>
-          <img src={scheme}  alt='scheme'/>
+          <Image src={scheme}  alt='scheme'/>
         </div>
         <h3 className={`${styles.flexStart2} font-poppins font-semibold xs:text-[25px] text-[20px] text-black xs:leading-[60px] mb-[25px]`}>
         The requirments for become the candidate FRAC certification as follows:</h3>

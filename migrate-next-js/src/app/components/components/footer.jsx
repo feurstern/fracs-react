@@ -1,8 +1,8 @@
-import styles from "../style";
-import { frac_logo } from "../Assets";
-import { footerLinks, otherLinks } from "../constant";
-import { Link } from "react-router-dom";
-import { Gallery, Register } from "../pages";
+import styles from "@/app/style";
+import { frac_logo } from "@/app/Assets";
+import { footerLinks, otherLinks } from "@/app/constant";
+import Link from "next/link";
+import { Gallery, Register } from "@/app/pages/pages";
 
 const Footer = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>

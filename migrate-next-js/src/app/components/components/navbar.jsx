@@ -1,8 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
-import { navLinks } from '../constant'
-import { menu, frac_logo } from '../Assets'
-import styles from '../style'
+import { navLinks } from '@/app/constant'
+import { frac_logo, menu } from '@/app/Assets'
+import styles from '@/app/style'
 import { Link } from 'react-router-dom'
 
 

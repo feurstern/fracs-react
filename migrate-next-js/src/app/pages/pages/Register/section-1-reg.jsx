@@ -1,6 +1,6 @@
 import React, { Component, useState, useReducer} from 'react'
 import axios, { Axios } from 'axios'
-import styles, {layout} from '../../style';
+import styles, {layout} from '@/app/style';
 
 
 class Register extends Component {
@@ -29,7 +29,7 @@ const Section1reg = () => {
     };
 
     return (
-        <div className={`${styles.flexStart2}`} onLoad={getDataRegisterApi}>
+        <div className={`${styles.flexStart2}`}>
             <div className={`${styles.flexStart2}`}>
                 <h1 className={`${styles.heading2}`}>
                     Register

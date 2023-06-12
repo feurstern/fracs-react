@@ -1,5 +1,5 @@
 import React from 'react'
-import styles, {layout} from '../../style'
+import styles from '@/app/style'
 
 const Section4 = () => {
   return (

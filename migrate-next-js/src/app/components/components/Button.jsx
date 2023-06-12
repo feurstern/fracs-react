@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../style'
+import styles from '@/app/style'
 import { Link } from 'react-router-dom'
 
 const Button = ({styles}) => {

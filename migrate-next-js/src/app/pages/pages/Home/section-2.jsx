@@ -1,5 +1,5 @@
-import { runDown } from "../../constant";
-import styles, { layout } from "../../style";
+import { runDown } from "@/app/constant";
+import styles, {layout} from "@/app/style";
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div

@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "../../style";
-import GetStarted from "../getStarted";
-import aboutUs from '../../Assets/about-us.jpg'
+import styles from "@/app/style";
+import { GetStarted } from "..";
+import { aboutUs } from "@/app/Assets";
 import { Link } from "react-router-dom";
 
 const Section1 = () => {
