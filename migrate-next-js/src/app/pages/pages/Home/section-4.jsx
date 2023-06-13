@@ -36,37 +36,37 @@ const Section4 = () => {
                     <td className='border border-black'>1</td>
                     <td className='border border-black'>Pelatihan dan Ujian FRAC</td>
                     <td className='border border-black'>Rp. 7.300.000(offline) dan Rp. 6.300.000(online) per kandidat</td>
-                    <td className='border border-black text-left'>Anda akan mendapatkan akses ke pelatihan intensif dan ujian sertifikasi</td>
+                    <td className='border border-black text-left pr-[10px] pl-[10px]'>Anda akan mendapatkan akses ke pelatihan intensif dan ujian sertifikasi</td>
                 </tr>
                 <tr className='border border-black'>
                     <td className='border border-black'>2</td>
                     <td className='border border-black'>Ujian Ulang FRAC</td>
                     <td className='border border-black'>Rp. xxxx per kandidat</td>
-                    <td className='border border-black text-left'>Jika Anda membutuhkan kesempatan kedua dalam ujian.</td>
+                    <td className='border border-black text-left pr-[10px] pl-[10px]'>Jika Anda membutuhkan kesempatan kedua dalam ujian.</td>
                 </tr>
                 <tr className='border border-black'>
                     <td className='border border-black'>3</td>
                     <td className='border border-black'>Administrasi Resertifikasi</td>
                     <td className='border border-black'>Rp. xxxxx per kandidat</td>
-                    <td className='border border-black text-left'>Untuk memastikan kompetensi Anda tetap terjaga, kami menyarankan resertifikasi setiap 2 tahun.</td>
+                    <td className='border border-black text-left pr-[10px] pl-[10px]'>Untuk memastikan kompetensi Anda tetap terjaga, kami menyarankan resertifikasi setiap 2 tahun.</td>
                 </tr>
                 <tr className='border border-black'>
                     <td className='border border-black'>4</td>
                     <td className='border border-black'>Penundaan Ujian FRAC</td>
                     <td className='border border-black'>Rp. xxxx per kandidat</td>
-                    <td className='border border-black text-left'>Jika Anda perlu menunda ujian.</td>
+                    <td className='border border-black text-left pr-[10px] pl-[10px]'>Jika Anda perlu menunda ujian.</td>
                 </tr>
                 <tr className='border border-black'>
                     <td className='border border-black'>5</td>
                     <td className='border border-black'>Banding Ujian FRAC</td>
                     <td className='border border-black'>Rp. xxxx per kandidat</td>
-                    <td className='border border-black text-left'>Jika Anda ingin melalukan appeal atau banding atas hasil ujiannya.</td>
+                    <td className='border border-black text-left pr-[10px] pl-[10xp]'>Jika Anda ingin melalukan appeal atau banding atas hasil ujiannya.</td>
                 </tr>
                 <tr className='border border-black'>
                     <td className='border border-black'>6</td>
-                    <td className='border border-black'>Reaktivtasi Sertifikasi FRAC</td>
+                    <td className='border border-black'>Reaktivitasi Sertifikasi FRAC</td>
                     <td className='border border-black'>Rp. xxxx per kandidat</td>
-                    <td className='border border-black text-left'>Jika sertifikasi Anada perlu diaktifkan kembali.</td>
+                    <td className='border border-black text-left pr-[10px] pl-[10px]'>Jika sertifikasi Anada perlu diaktifkan kembali.</td>
                 </tr>
             </tbody>
         </table>

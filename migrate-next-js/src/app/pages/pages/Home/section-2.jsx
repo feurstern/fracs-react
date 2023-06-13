@@ -1,12 +1,11 @@
 import { runDown } from "@/app/constant";
-import styles, {layout} from "@/app/style";
+import styles, { layout } from "@/app/style";
 import Image from "next/image";
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
-    className={`flex flex-row p-6 rounded-[20px] ${
-      index !== runDown.length - 1 ? "mb-6" : "mb-0"
-    } feature-card`}
+    className={`flex flex-row p-6 rounded-[20px] ${index !== runDown.length - 1 ? "mb-6" : "mb-0"
+      } feature-card`}
   >
     <div
       className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}
@@ -31,35 +30,25 @@ const Section2 = () => (
         The FRAC <br className="sm:block hidden" /> Curriculum
       </h2>
       <p className={`${styles.paragraph} max-w-[600px] mt-5 mb-5`}>
-        The FRAC curriculum is designed to ensure every FRAC Certified Person
-        has the ability to identify and handle financial risks in the company.
-        The FRAC curriculum is developed based on science and professional
-        practical intensive experience so that it is applicable and effective.
-        The FRAC curriculum is regularly reviewed to ensure its suitability for
-        industry needs.
+        International Financial Modeling Institute (IFMI) mengembangkan Financial Risk for Corporation (FRAC) sebagai sebuah program sertifikasi
+        dengan spesialisasi dalam menangani risiko keuangan di perusahaan. Kurikulum Sertifikasi FRAC dirancang khusus untuk membantu Anda mencapai tujuan tersebut.
+        Kurikulum ini merupakan perpaduan dari ilmu pengetahuan yang terkini dan pengalaman praktis profesional, membuatnya sangat aplikatif dan efektif dalam situasi dunia nyata.
       </p>
       <p className={`${styles.paragraph} max-w-[600px] mt-5`}>
-        To ensure the quality of the FRAC Certified Person, IFMI developed the
-        certification scheme and FRAC Curriculum as a single short course and
-        certification exam using Global certification standards. Training
-        becomes a prerequisite to be able to become a FRAC candidate so as to
-        ensure the standardized knowledge and competence of each FRAC candidate.
+        Untuk menjadi kandidat FRAC,  Anda diwajibkan untuk mengikuti pelatihan yang diselenggarakan oleh Training Partner IFMI.
+        Pelatihan ini menjadi prasyarat untuk mengikuti ujian sertifikasi FRAC sekaligus memastikan
+        standar materi program yang diterima setiap kandidat FRAC.
       </p>
       <p className={`${styles.paragraph} max-w-[600px] mt-5`}>
-        The training will be conducted by IFMI Training Partner for 2 full days,
-        or if conducted after working hours program, as a four-day program.
-        After the training, participants will have to take an exam with 100
-        questions to be completed within 2.5 hours. Participants must achieve a
-        score of 60 to pass the exam. The exam is conducted online.
+        Ujian sertifikasi FRAC berupa ujian dengan 100 soal yang harus diselesaikan dalam waktu 2,5 jam.
+        Peserta harus mencapai skor 60 untuk lulus ujian. Ujian dilakukan secara online.
+        Ujian sertifikasi FRAC memberikan kesempatan kepada kandidat FRAC dapat mengulang kembali ujian sertifikasi FRAC bilamana belum lulus ujian.
       </p>
       <p className={`${styles.paragraph} max-w-[600px] mt-5`}>
-        If a participant does not pass the exam, he/she can retake the exam and
-        pay the retest fee. There is no limit to the number of times one can
-        retake the exam. To enhance the credibility of the program, the program
-        is aimed at accreditation. The program is offered as a training and exam
-        package. IFMI also requires recertification to ensure the continuity of
-        competence of each FRAC Certified Person.
+        Salah satu acuan yang menjadi dasar pengembangan FRAC adalah pengalaman IFMI mengelola program sertifikasi
+        Professional Financial Modeler (PFM) yang telah terlebih dahulu dikembangkan dan mendapatkan akreditasi global dari IAS (Amerika) dan KAN (Indonesia).
       </p>
+      <p className={`${styles.paragraph} max-w-[600px] mt-5`}></p>
       <h2 className={`${styles.heading3} mt-[20px]`}>
         About FRAC's Certification
       </h2>
@@ -75,9 +64,6 @@ const Section2 = () => (
         most companies. Participants will also learn to measure and deal with
         corporate financial risks.
       </p>
-      <p className={`${styles.paragraph} max-w-[600px] mt-5`}>
-      </p>
-
     </div>
 
     <div className={`${layout.sectionImg} flex-col`}>

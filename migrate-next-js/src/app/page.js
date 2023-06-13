@@ -36,7 +36,6 @@ class App extends Component{
             <div className={`${styles.paddingX} ${styles.flexCenter}`}>
                 <div className={`${styles.boxWidth}`}>
                   <RouterProvider router={router} />
-                  <p>{this.state.apiResponse}</p>
             </div>
          </div>
 
