@@ -1,3 +1,4 @@
+'use client'
 import React, { Component, useState, useReducer} from 'react'
 import axios, { Axios } from 'axios'
 import styles, {layout} from '@/app/style';
