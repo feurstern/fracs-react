@@ -401,6 +401,26 @@
         "chunks": [],
         "async": false
       }
+    },
+    "(app-client)/./src/app/pages/pages/Register/section-1-reg.jsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/pages/pages/Register/section-1-reg.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/pages/pages/Register/section-1-reg.jsx",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/pages/pages/Register/section-1-reg.jsx",
+        "name": "default",
+        "chunks": [],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
@@ -1423,6 +1443,30 @@
     },
     "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/page.js#default": {
       "id": "(app-client)/./src/app/page.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/pages/pages/Register/section-1-reg.jsx": {
+      "id": "(app-client)/./src/app/pages/pages/Register/section-1-reg.jsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/pages/pages/Register/section-1-reg.jsx#": {
+      "id": "(app-client)/./src/app/pages/pages/Register/section-1-reg.jsx",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/pages/pages/Register/section-1-reg.jsx#default": {
+      "id": "(app-client)/./src/app/pages/pages/Register/section-1-reg.jsx",
       "name": "default",
       "chunks": [
         "app/page:static/chunks/app/page.js"
