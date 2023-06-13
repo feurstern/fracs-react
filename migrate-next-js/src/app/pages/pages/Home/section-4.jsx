@@ -14,6 +14,12 @@ const Section4 = () => {
             IFMI has set the all of the fees about FRAC as:
         </h2>
      </div>
+     <div className={`${styles.flexStart2}`}>
+        <p className={`${styles.paragraph}`}>
+        Keputusan untuk menjadi FRAC adalah investasi yang berharga untuk masa depan karir Anda. Berikut adalah rincian biaya yang terkait dengan sertifikasi FRAC:
+        </p>
+
+     </div>
 
      <div className={`${styles.flexCenter} mt-[40px]`}>
         <table className={`border-collapse border border-black text-[18px]`}>

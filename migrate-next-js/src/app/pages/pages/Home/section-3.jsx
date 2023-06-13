@@ -13,55 +13,52 @@ const Section3 = () => {
           <Image src={scheme}  alt='scheme'/>
         </div>
         <h3 className={`${styles.flexStart2} font-poppins font-semibold xs:text-[25px] text-[20px] text-black xs:leading-[60px] mb-[25px]`}>
-        The requirments for become the candidate FRAC certification as follows:</h3>
-        <div id='table-scheme' className={`${styles.flexStart2} font-poppins text-[18px]`}>
-         <table className='table-fixed'>
-            <thead className='text-center'>
-              <tr>
-              <th className='w-[20px]'>No</th>
-              <th className='w-[6000px]'>Description</th>
+        Tertarik untuk menjadi profesional di bidang manajemen risiko keuangan dengan sertifikasi FRAC? Berikut adalah langkah-langkah dan persyaratan yang perlu Anda penuhi:</h3>
+        <div id='table-scheme' className={`${styles.flexCenter} font-poppins text-[18px]`}>
+         <table className='table-fixed border border-black'>
+            <thead className='text-center border border-black'>
+              <tr className='border border-black'>
+              <th className='w-[50px] border border-black'>No</th>
+              <th className='w-[200px] text-left pl-2 border border-black'>Persyaratan</th>
+              <th className='w-[800px] border border-black'>Penjelasan</th>
               </tr>
             </thead>
             <tbody className='w-[20px] text-justify mt-[2px] mb-[5px]'>
                 <tr className=''>
-                    <td>1.</td>
-                    <td>The candidate is a male or female at least 21 years old.</td>
+                    <td className='text-center border border-black'>1.</td>
+                    <td className='border border-black pl-2'><b>Pendidikan</b></td>
+                    <td className='border border-black pl-[10px] pr-[10px]'>Minimal lulusan SMU. Jika Anda adalah seorang profesional dengan pengalaman kerja minimal 2 
+                    tahun atau sedang menjalani pendidikan sarjana atau diploma, Anda juga memenuhi syarat.</td>
                 </tr>
                  <tr>
-                    <td>2.</td>
-                    <td>The candidate must posses atleast Highschool graduate.</td>
+                    <td className='text-center border border-black'>2.</td>
+                    <td className='border border-black pl-2'><b>Akun Profil</b>
+                    </td>
+                    <td className='border border-black pl-[10px] pr-[10px]'>Buat akun profil pada website kami dan lengkapi dokumen-dokumen seperti CV, 
+                    foto profesional, KTP, dan sertifikat pelatihan dengan kurikulum FRAC.</td>
                 </tr>
                  <tr>
-                    <td>3.</td>
-                    <td>The candidate is having experience counted as two years as minimum or currently having postgraduate or undergraduate in any field.</td>
+                    <td className='text-center border border-black'>3.</td>
+                    <td className='border border-black pl-2'><b>Pelatihan Sertifikasi</b></td>
+                    <td className='border border-black pl-[10px] pr-[10px]'>Ikuti dan lulus pelatihan sertifikasi FRAC yang diselenggarakan oleh Training Partner IFMI. 
+                    Ini akan memastikan bahwa Anda memiliki pengetahuan dan keterampilan yang dibutuhkan.</td>
                 </tr>
                  <tr>
-                    <td>4.</td>
-                    <td>The candidate must have an account that already submited all the required documents such as CV, photo, ID card which being legally approved by the local goverment.</td>
+                    <td className='text-center border border-black'>4.</td>
+                    <td className='border border-black pl-2'><b>Komitmen Etis</b></td>
+                    <td className='border border-black pl-[10px] pr-[10px]'>Anda harus berkomitmen untuk menjaga kerahasiaan dan integritas proses, dokumentasi dan materi pelatihan. 
+                    Selain itu, Anda juga harus berkomitmen untuk tidak terlibat dalam tindakan yang melanggar etika atau hukum.</td>
                 </tr>
                  <tr>
-                    <td>5.</td>
-                    <td>The candidate is already taken the certification exam which being held by FRAC curicullum.</td>
+                    <td className='text-center border border-black'>5.</td>
+                    <td className='border border-black pl-2'><b>Biaya Ujian</b></td>
+                    <td className='border border-black pl-[10px] pr-[10px]'>Lunasi biaya ujian sertifikasi FRAC sesuai dengan ketentuan yang telah ditetapkan oleh IFMI.</td>
                 </tr>
-                 <tr>
-                    <td>6.</td>
-                    <td>The candidate has attended and passed the FRAC training class organized by IFMI Training Partner. </td>
-                </tr>
-                 <tr>
-                    <td>7.</td>
-                    <td>The candidate is compulsory to make commitment toward the integrity, the private, the documents, and the material lesson of IFMI or other training IFMI's partner, included the candidate should not use the certification as the proofment of the certification of competence's FRAC.</td>
-                </tr>
-                 <tr>
-                    <td>8.</td>
-                    <td>The candidate is compulsory to make commitment toward the behavioural, cheating matter, crime matter that will be make any missconduct for IFMI and any stalkholder who might affliated with IFMI</td>
-                </tr>
-                 <tr>
-                    <td>9.</td>
-                    <td>The candidate must pay the exam fee. </td>
-                </tr>
-                 <tr>
-                    <td>10.</td>
-                    <td>The candidate is compulsory to have a good sight, not blindly, and the candidate is able to use computer.</td>
+                <tr>
+                    <td className='text-center border border-black'>6.</td>
+                    <td className='border border-black pl-2'><b>Kemampuan Dasar</b></td>
+                    <td className='border border-black pl-[10px] pr-[10px]'>Anda perlu mampu melihat dengan baik dan bisa menggunakan komputer secara mandiri untuk mengoperasikakan komputer,
+                    mengakses internet, dan menggunakan program office (tingkat dasar). </td>
                 </tr>
             </tbody>
          </table>
