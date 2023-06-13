@@ -18,17 +18,17 @@ class App extends Component{
    //    .then(res=> this.setState({apiResponse : res}))
    //    .catch(err=> err);
    // };
-   callAPIRegister(){
-      fetch("http://localhost:3001/register")
-      .then(res=> res.text())
-      .then(res=> this.setState({apiResponse : res}))
-      .catch(err=> err);
-   };
+   // callAPIRegister(){
+   //    fetch("http://localhost:3001/register")
+   //    .then(res=> res.text())
+   //    .then(res=> this.setState({apiResponse : res}))
+   //    .catch(err=> err);
+   // };
 
-   componentDidMount(){
-      // this.callAPITest();
-      this.callAPIRegister();
-   };
+   // componentDidMount(){
+   //    // this.callAPITest();
+   //    this.callAPIRegister();
+   // };
    
    render(){
       return(
@@ -36,7 +36,7 @@ class App extends Component{
             <div className={`${styles.paddingX} ${styles.flexCenter}`}>
                 <div className={`${styles.boxWidth}`}>
                   <RouterProvider router={router} />
-                  <p>{this.state.apiResponse}</p>
+                  {/* <p>{this.state.apiResponse}</p> */}
             </div>
          </div>
 
