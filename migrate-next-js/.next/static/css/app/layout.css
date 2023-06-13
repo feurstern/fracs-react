@@ -744,6 +744,18 @@ video {
 .w-full{
   width: 100%;
 }
+.w-\[4000px\]{
+  width: 4000px;
+}
+.w-\[500px\]{
+  width: 500px;
+}
+.w-\[450px\]{
+  width: 450px;
+}
+.w-\[300px\]{
+  width: 300px;
+}
 .min-w-\[140px\]{
   min-width: 140px;
 }
