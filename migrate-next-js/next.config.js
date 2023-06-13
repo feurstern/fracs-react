@@ -15,6 +15,7 @@ const nextConfig = {
             port : '',
             pathname : '/public/img/icon/**',
           },
+          
         ],
       },
 }
