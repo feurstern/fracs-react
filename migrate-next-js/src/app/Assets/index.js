@@ -5,6 +5,8 @@ import aboutUs from './about-us.jpg'
 import scheme from './schemes.jpeg'
 import quotes from './quotes.svg'
 import star from './Star.svg'
+import banner from './risk-management.jpg'
+import stop from './69-697827_anime-construction-worker-anime-worker-png-removebg-preview.png'
 
 export {
     menu,
@@ -14,5 +16,7 @@ export {
     scheme,
     quotes,
     star,
+    banner,
+    stop
 };
 

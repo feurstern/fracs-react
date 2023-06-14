@@ -41,7 +41,7 @@ const Section1reg = () => {
     const [state, dispatch] = useReducer(reducer,{data1: getDataRegisterApi(), button:true})
 
     return (
-        <div className={`${styles.flexStart2}`}>
+        <div className={`${styles.flexStart2} mt-[50px]`}>
             <div className={`${styles.flexStart2}`}>
                 <h1 className={`${styles.heading2}`}>
                     Register

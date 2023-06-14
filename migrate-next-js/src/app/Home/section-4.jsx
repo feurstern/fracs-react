@@ -60,13 +60,13 @@ const Section4 = () => {
                     <td className='border border-black'>5</td>
                     <td className='border border-black'>Banding Ujian FRAC</td>
                     <td className='border border-black'>Rp. xxxx per kandidat</td>
-                    <td className='border border-black text-left pr-[10px] pl-[10xp]'>Jika Anda ingin melalukan appeal atau banding atas hasil ujiannya.</td>
+                    <td className='border border-black text-left pr-[10px] pl-[10px]'>Jika Anda ingin melalukan appeal atau banding atas hasil ujiannya.</td>
                 </tr>
                 <tr className='border border-black'>
                     <td className='border border-black'>6</td>
                     <td className='border border-black'>Reaktivitasi Sertifikasi FRAC</td>
                     <td className='border border-black'>Rp. xxxx per kandidat</td>
-                    <td className='border border-black text-left pr-[10px] pl-[10px]'>Jika sertifikasi Anada perlu diaktifkan kembali.</td>
+                    <td className='border border-black text-left pr-[10px] pl-[10px]'>Jika sertifikasi Anda perlu diaktifkan kembali.</td>
                 </tr>
             </tbody>
         </table>

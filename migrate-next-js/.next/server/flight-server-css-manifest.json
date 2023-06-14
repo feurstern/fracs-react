@@ -10,11 +10,15 @@
       "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/globals.css",
       "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
     ],
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/gallery/page": [
+      "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/globals.css",
+      "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+    ],
     "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/register/page": [
       "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/globals.css",
       "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
     ],
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/gallery/page": [
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/certifications/page": [
       "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/globals.css",
       "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
     ]

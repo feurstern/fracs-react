@@ -176,6 +176,26 @@
         "async": false
       }
     },
+    "(app-client)/./src/app/Assets/69-697827_anime-construction-worker-anime-worker-png-removebg-preview.png": {
+      "*": {
+        "id": "(sc_client)/./src/app/Assets/69-697827_anime-construction-worker-anime-worker-png-removebg-preview.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/Assets/69-697827_anime-construction-worker-anime-worker-png-removebg-preview.png",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/Assets/69-697827_anime-construction-worker-anime-worker-png-removebg-preview.png",
+        "name": "default",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./src/app/Assets/Logo-FRAC-Final.png": {
       "*": {
         "id": "(sc_client)/./src/app/Assets/Logo-FRAC-Final.png",
@@ -291,6 +311,26 @@
       },
       "default": {
         "id": "(sc_client)/./src/app/Assets/quotes.svg",
+        "name": "default",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/Assets/risk-management.jpg": {
+      "*": {
+        "id": "(sc_client)/./src/app/Assets/risk-management.jpg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/Assets/risk-management.jpg",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/Assets/risk-management.jpg",
         "name": "default",
         "chunks": [],
         "async": false
@@ -457,6 +497,26 @@
       },
       "default": {
         "id": "(sc_client)/./src/app/register/section-1-reg.jsx",
+        "name": "default",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/certifications/error.js": {
+      "*": {
+        "id": "(sc_client)/./src/app/certifications/error.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/certifications/error.js",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/certifications/error.js",
         "name": "default",
         "chunks": [],
         "async": false
@@ -1137,11 +1197,35 @@
       ],
       "async": false
     },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/69-697827_anime-construction-worker-anime-worker-png-removebg-preview.png": {
+      "id": "(app-client)/./src/app/Assets/69-697827_anime-construction-worker-anime-worker-png-removebg-preview.png",
+      "name": "*",
+      "chunks": [
+        "app/certifications/page:static/chunks/app/certifications/page.js"
+      ],
+      "async": false
+    },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/69-697827_anime-construction-worker-anime-worker-png-removebg-preview.png#": {
+      "id": "(app-client)/./src/app/Assets/69-697827_anime-construction-worker-anime-worker-png-removebg-preview.png",
+      "name": "",
+      "chunks": [
+        "app/certifications/page:static/chunks/app/certifications/page.js"
+      ],
+      "async": false
+    },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/69-697827_anime-construction-worker-anime-worker-png-removebg-preview.png#default": {
+      "id": "(app-client)/./src/app/Assets/69-697827_anime-construction-worker-anime-worker-png-removebg-preview.png",
+      "name": "default",
+      "chunks": [
+        "app/certifications/page:static/chunks/app/certifications/page.js"
+      ],
+      "async": false
+    },
     "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/Logo-FRAC-Final.png": {
       "id": "(app-client)/./src/app/Assets/Logo-FRAC-Final.png",
       "name": "*",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1149,7 +1233,7 @@
       "id": "(app-client)/./src/app/Assets/Logo-FRAC-Final.png",
       "name": "",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1157,7 +1241,7 @@
       "id": "(app-client)/./src/app/Assets/Logo-FRAC-Final.png",
       "name": "default",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1165,7 +1249,7 @@
       "id": "(app-client)/./src/app/Assets/Star.svg",
       "name": "*",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1173,7 +1257,7 @@
       "id": "(app-client)/./src/app/Assets/Star.svg",
       "name": "",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1181,7 +1265,7 @@
       "id": "(app-client)/./src/app/Assets/Star.svg",
       "name": "default",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1189,7 +1273,7 @@
       "id": "(app-client)/./src/app/Assets/about-us.jpg",
       "name": "*",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1197,7 +1281,7 @@
       "id": "(app-client)/./src/app/Assets/about-us.jpg",
       "name": "",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1205,7 +1289,7 @@
       "id": "(app-client)/./src/app/Assets/about-us.jpg",
       "name": "default",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1213,7 +1297,7 @@
       "id": "(app-client)/./src/app/Assets/arrow-up.svg",
       "name": "*",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1221,7 +1305,7 @@
       "id": "(app-client)/./src/app/Assets/arrow-up.svg",
       "name": "",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1229,7 +1313,7 @@
       "id": "(app-client)/./src/app/Assets/arrow-up.svg",
       "name": "default",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1237,7 +1321,7 @@
       "id": "(app-client)/./src/app/Assets/menu.svg",
       "name": "*",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1245,7 +1329,7 @@
       "id": "(app-client)/./src/app/Assets/menu.svg",
       "name": "",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1253,7 +1337,7 @@
       "id": "(app-client)/./src/app/Assets/menu.svg",
       "name": "default",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1261,7 +1345,7 @@
       "id": "(app-client)/./src/app/Assets/quotes.svg",
       "name": "*",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1269,7 +1353,7 @@
       "id": "(app-client)/./src/app/Assets/quotes.svg",
       "name": "",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1277,7 +1361,31 @@
       "id": "(app-client)/./src/app/Assets/quotes.svg",
       "name": "default",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
+      ],
+      "async": false
+    },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/risk-management.jpg": {
+      "id": "(app-client)/./src/app/Assets/risk-management.jpg",
+      "name": "*",
+      "chunks": [
+        "app/certifications/page:static/chunks/app/certifications/page.js"
+      ],
+      "async": false
+    },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/risk-management.jpg#": {
+      "id": "(app-client)/./src/app/Assets/risk-management.jpg",
+      "name": "",
+      "chunks": [
+        "app/certifications/page:static/chunks/app/certifications/page.js"
+      ],
+      "async": false
+    },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/risk-management.jpg#default": {
+      "id": "(app-client)/./src/app/Assets/risk-management.jpg",
+      "name": "default",
+      "chunks": [
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1285,7 +1393,7 @@
       "id": "(app-client)/./src/app/Assets/schemes.jpeg",
       "name": "*",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1293,7 +1401,7 @@
       "id": "(app-client)/./src/app/Assets/schemes.jpeg",
       "name": "",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1301,7 +1409,7 @@
       "id": "(app-client)/./src/app/Assets/schemes.jpeg",
       "name": "default",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1309,7 +1417,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1317,7 +1425,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1325,7 +1433,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1333,7 +1441,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1341,7 +1449,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1349,7 +1457,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1357,7 +1465,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1365,7 +1473,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1373,7 +1481,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1381,7 +1489,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1389,7 +1497,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1397,7 +1505,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1405,7 +1513,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1413,7 +1521,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1421,7 +1529,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1429,7 +1537,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1437,7 +1545,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "default",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1445,7 +1553,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "default",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1453,7 +1561,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "defaultHead",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1461,7 +1569,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "defaultHead",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1469,7 +1577,7 @@
       "id": "(app-client)/./src/app/components/components/footer.jsx",
       "name": "*",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1477,7 +1585,7 @@
       "id": "(app-client)/./src/app/components/components/footer.jsx",
       "name": "",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1485,7 +1593,7 @@
       "id": "(app-client)/./src/app/components/components/footer.jsx",
       "name": "default",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1493,7 +1601,7 @@
       "id": "(app-client)/./src/app/components/components/navbar.jsx",
       "name": "*",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1501,7 +1609,7 @@
       "id": "(app-client)/./src/app/components/components/navbar.jsx",
       "name": "",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1509,7 +1617,7 @@
       "id": "(app-client)/./src/app/components/components/navbar.jsx",
       "name": "default",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1572,6 +1680,30 @@
       "name": "default",
       "chunks": [
         "app/register/page:static/chunks/app/register/page.js"
+      ],
+      "async": false
+    },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/certifications/error.js": {
+      "id": "(app-client)/./src/app/certifications/error.js",
+      "name": "*",
+      "chunks": [
+        "app/certifications/error:static/chunks/app/certifications/error.js"
+      ],
+      "async": false
+    },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/certifications/error.js#": {
+      "id": "(app-client)/./src/app/certifications/error.js",
+      "name": "",
+      "chunks": [
+        "app/certifications/error:static/chunks/app/certifications/error.js"
+      ],
+      "async": false
+    },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/certifications/error.js#default": {
+      "id": "(app-client)/./src/app/certifications/error.js",
+      "name": "default",
+      "chunks": [
+        "app/certifications/error:static/chunks/app/certifications/error.js"
       ],
       "async": false
     }
