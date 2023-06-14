@@ -422,6 +422,26 @@
         "async": false
       }
     },
+    "(app-client)/./src/app/certifications/error.js": {
+      "*": {
+        "id": "(sc_client)/./src/app/certifications/error.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/certifications/error.js",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/certifications/error.js",
+        "name": "default",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./src/app/components/components/footer.jsx": {
       "*": {
         "id": "(sc_client)/./src/app/components/components/footer.jsx",
@@ -502,21 +522,41 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/certifications/error.js": {
+    "(app-client)/./src/app/gallery/error.js": {
       "*": {
-        "id": "(sc_client)/./src/app/certifications/error.js",
+        "id": "(sc_client)/./src/app/gallery/error.js",
         "name": "*",
         "chunks": [],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./src/app/certifications/error.js",
+        "id": "(sc_client)/./src/app/gallery/error.js",
         "name": "",
         "chunks": [],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./src/app/certifications/error.js",
+        "id": "(sc_client)/./src/app/gallery/error.js",
+        "name": "default",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/register/error.js": {
+      "*": {
+        "id": "(sc_client)/./src/app/register/error.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/register/error.js",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/register/error.js",
         "name": "default",
         "chunks": [],
         "async": false
@@ -1573,6 +1613,30 @@
       ],
       "async": false
     },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/certifications/error.js": {
+      "id": "(app-client)/./src/app/certifications/error.js",
+      "name": "*",
+      "chunks": [
+        "app/certifications/error:static/chunks/app/certifications/error.js"
+      ],
+      "async": false
+    },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/certifications/error.js#": {
+      "id": "(app-client)/./src/app/certifications/error.js",
+      "name": "",
+      "chunks": [
+        "app/certifications/error:static/chunks/app/certifications/error.js"
+      ],
+      "async": false
+    },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/certifications/error.js#default": {
+      "id": "(app-client)/./src/app/certifications/error.js",
+      "name": "default",
+      "chunks": [
+        "app/certifications/error:static/chunks/app/certifications/error.js"
+      ],
+      "async": false
+    },
     "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/components/components/footer.jsx": {
       "id": "(app-client)/./src/app/components/components/footer.jsx",
       "name": "*",
@@ -1683,27 +1747,51 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/certifications/error.js": {
-      "id": "(app-client)/./src/app/certifications/error.js",
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/gallery/error.js": {
+      "id": "(app-client)/./src/app/gallery/error.js",
       "name": "*",
       "chunks": [
-        "app/certifications/error:static/chunks/app/certifications/error.js"
+        "app/gallery/error:static/chunks/app/gallery/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/certifications/error.js#": {
-      "id": "(app-client)/./src/app/certifications/error.js",
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/gallery/error.js#": {
+      "id": "(app-client)/./src/app/gallery/error.js",
       "name": "",
       "chunks": [
-        "app/certifications/error:static/chunks/app/certifications/error.js"
+        "app/gallery/error:static/chunks/app/gallery/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/certifications/error.js#default": {
-      "id": "(app-client)/./src/app/certifications/error.js",
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/gallery/error.js#default": {
+      "id": "(app-client)/./src/app/gallery/error.js",
       "name": "default",
       "chunks": [
-        "app/certifications/error:static/chunks/app/certifications/error.js"
+        "app/gallery/error:static/chunks/app/gallery/error.js"
+      ],
+      "async": false
+    },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/register/error.js": {
+      "id": "(app-client)/./src/app/register/error.js",
+      "name": "*",
+      "chunks": [
+        "app/register/error:static/chunks/app/register/error.js"
+      ],
+      "async": false
+    },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/register/error.js#": {
+      "id": "(app-client)/./src/app/register/error.js",
+      "name": "",
+      "chunks": [
+        "app/register/error:static/chunks/app/register/error.js"
+      ],
+      "async": false
+    },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/register/error.js#default": {
+      "id": "(app-client)/./src/app/register/error.js",
+      "name": "default",
+      "chunks": [
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     }
