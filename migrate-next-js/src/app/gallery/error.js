@@ -1,6 +1,8 @@
 'use client'
-
+import Image from 'next/image'
 import React from 'react'
+import { stop } from '../Assets'
+import styles from '../style'
 
 class ErrorBoundary extends React.Component {
   constructor(props) {
@@ -22,8 +24,9 @@ class ErrorBoundary extends React.Component {
     if (this.state.hasError) {
       // You can render any custom fallback UI
       return (
-        <div>
+        <div className={`${styles.flexCenter}`}>
           <h2>Oops, there is an error!</h2>
+          <Image src={stop} />
           <button
             type="button"
             onClick={() => this.setState({ hasError: false })}
