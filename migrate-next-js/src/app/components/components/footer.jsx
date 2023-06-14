@@ -2,7 +2,7 @@ import styles from "@/app/style";
 import { frac_logo } from "@/app/Assets";
 import { footerLinks, otherLinks } from "@/app/constant";
 import Link from "next/link";
-import { Gallery, Register } from "@/app/pages/pages";
+import Gallery from "@/app/gallery/page";
 import Image from "next/image";
 
 const Footer = () => (

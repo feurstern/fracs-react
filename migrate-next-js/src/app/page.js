@@ -2,7 +2,7 @@
 import { Navbar, Footer } from './components/components';
 import styles from './style';
 import {CreateBrowserRouter, Outlet, Route, RouterProvider, createBrowserRouter,} from "react-router-dom";
-import { Gallery, GetStarted, Home, Register, Certification } from './pages/pages';
+import Home from './Home/page';
 import React,{Component} from 'react';
 
 //fetch api from nodejs
@@ -35,7 +35,7 @@ class App extends Component{
          <div className="bg-red-700 w-full overflow-hidden">
             <div className={`${styles.paddingX} ${styles.flexCenter}`}>
                 <div className={`${styles.boxWidth}`}>
-                  <RouterProvider router={router} />
+                  {/* <RouterProvider router={router} /> */}
             </div>
          </div>
 
@@ -59,63 +59,64 @@ class App extends Component{
 // check whether the api has been succesfully or not
 //
 //create basic layout of component.
-const Layout=()=>{
+// no longer used due to next js support routing 
+// const Layout=()=>{
 
-   return(
-      <div>
-         <Navbar/>
-         <Outlet/>
-         <footer/>
-      </div>
-   )
-}
+//    return(
+//       <div>
+//          <Navbar/>
+//          <Outlet/>
+//          <footer/>
+//       </div>
+//    )
+// }
 
    
+// No longer used due to next js support routing
+// const router = createBrowserRouter([
 
-const router = createBrowserRouter([
+//    // the main layout has the rendered page that depends on the child on the properties of <Outlet />
+//    { 
+//       path :"/",
+//       element: <Layout />,
+//       children:[
+//          { 
+//             path: "/",
+//             element: <Home />
+//          },
+//          {
+//             path:"/gallery",
+//             element:<Gallery />
+//          },
+//          {
+//             path:"/register",
+//             element:<Register />
+//          },
+//          {
+//             path:"/certifications",
+//             element: <Certification/>
+//          }
+//       ],
 
-   // the main layout has the rendered page that depends on the child on the properties of <Outlet />
-   { 
-      path :"/",
-      element: <Layout />,
-      children:[
-         { 
-            path: "/",
-            element: <Home />
-         },
-         {
-            path:"/gallery",
-            element:<Gallery />
-         },
-         {
-            path:"/register",
-            element:<Register />
-         },
-         {
-            path:"/certifications",
-            element: <Certification/>
-         }
-      ],
+//    },
+//    {
+//       path:"/",
+//       element : <Home />
+//    },
+//    {
+//      path: "/register",
+//      element : <Register/>  
+//    },
+//    {
+//       path : "/gallery",
+//       element : <Gallery/>
+//    },
+//    {
+//       path:"/certifcations",
+//       element : <Certification/>
+//    }
 
-   },
-   {
-      path:"/",
-      element : <Home />
-   },
-   {
-     path: "/register",
-     element : <Register/>  
-   },
-   {
-      path : "/gallery",
-      element : <Gallery/>
-   },
-   {
-      path:"/certifcations",
-      element : <Certification/>
-   }
-
-]);
+// ]);
 
 
 
