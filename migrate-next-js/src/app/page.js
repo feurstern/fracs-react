@@ -35,6 +35,7 @@ class App extends Component{
          <div className="bg-red-700 w-full overflow-hidden">
             <div className={`${styles.paddingX} ${styles.flexCenter}`}>
                 <div className={`${styles.boxWidth}`}>
+                  <Navbar/>
                   {/* <RouterProvider router={router} /> */}
             </div>
          </div>

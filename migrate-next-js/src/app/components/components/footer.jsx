@@ -1,3 +1,4 @@
+'use client'
 import styles from "@/app/style";
 import { frac_logo } from "@/app/Assets";
 import { footerLinks, otherLinks } from "@/app/constant";

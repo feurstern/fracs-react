@@ -1,10 +1,11 @@
+'use client'
 import React from 'react'
 import { useState } from 'react'
 import { navLinks } from '@/app/constant'
 import { frac_logo, menu } from '@/app/Assets'
 import styles from '@/app/style'
-import { Link } from 'react-router-dom'
 import Image from 'next/image'
+import Link from 'next/link'
 
 
 const Navbar = () => {
@@ -25,7 +26,7 @@ const Navbar = () => {
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onClick={() => setActive(nav.title)}
           >        
-            <Link to={`${nav.id}`}>{nav.title}</Link>
+            <Link href={`${nav.id}`}>{nav.title}</Link>
           </li>
         ))}
       </ul>
@@ -51,7 +52,7 @@ const Navbar = () => {
                   } ${index === navLinks.length - 1 ? "mb-0" : "mb-4"}`}
                   onClick={() => setActive(nav.title)}
                 >
-                 <Link to={`${nav.id}`}>{nav.title}</Link>
+                 <Link href={`${nav.id}`}>{nav.title}</Link>
                 </li>
               ))}
             </ul>
