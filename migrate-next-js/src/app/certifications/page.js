@@ -4,6 +4,7 @@ import { Navbar,Footer } from '../components/components'
 import styles from '../style'
 import Page404 from './404'
 import Section1cer from './section-1-cer'
+import Cta from './cta'
 
 const page = () => {
   return (
@@ -24,6 +25,7 @@ const page = () => {
           <div className={`${styles.boxWidth}`}>
             <Page404/>
             <Section1cer/>
+            <Cta/>
             <Footer/>
           </div>
 

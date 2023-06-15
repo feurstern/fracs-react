@@ -219,3 +219,30 @@ export const feedBack = [
     img:"https://ourtoga.com/uploads/participant/USR-0251983467lBDr/passphoto/passphoto_pbsDztmg.png",
   }
 ]
+
+export const standarImparsialitas =[
+  {
+    id:"1",
+    content:"IFMI secara proaktif mengidentifikasi dan meminimalisir risiko terhadap standar dan netralitas, serta menyelesaikan konflik yang mungkin muncul. Kami sangat terbuka untuk menerima masukan dari pihak ketiga terkait prinsip keadilan, netralitas, dan kerahasiaan. Anda dapat mengirimkan masukan tersebut melalui halaman Contact Us."
+  },
+  {
+    id:"2",
+    content: "Kemitraan strategis dengan Training Partner IFMI ada untuk menjamin kualitas dan standar FRAC. Training Partner IFMI membantu para Kandidat FRAC menjadi siap menghadapi ujian sertifikasi dengan pelatihan berbasis kurikulum FRAC. Namun, IFMI selalu berdiri netral dan tidak memberikan kompensasi dalam bentuk apapun kepada Training Partner terkait partisipasi Kandidat FRAC."
+  },
+  {
+    id:"3",
+    content : "Kewenangan mutlak dalam menentukan kelulusan Kandidat FRAC ada di tangan IFMI yang memutuskan secara mandiri apakah seorang Kandidat memenuhi standar dan kompetensi sebagai Person Tersertifikasi FRAC. Termasuk dalam hal mencabut atau menarik sertifikat FRAC."
+  },
+  {
+    id:"4",
+    content : "Penting bagi IFMI untuk menjaga kerahasiaan semua data dan informasi dari para peserta dan Person Tersertifikasi FRAC. Informasi tersebut tidak akan disebarkan kecuali diwajibkan oleh hukum."
+  },
+  {
+    id:"5",
+    content: "FMI secara proaktif mengidentifikasi dan meminimalisir risiko terhadap standar dan netralitas, serta menyelesaikan konflik yang mungkin muncul. Kami sangat terbuka untuk menerima masukan dari pihak ketiga terkait prinsip keadilan, netralitas, dan kerahasiaan. Anda dapat mengirimkan masukan tersebut melalui halaman Contact Us."
+  },
+  {
+    id:"6",
+    content : "Sekalipun kami bekerja sama dengan penyedia pelatihan yang menggunakan BOK atau kurikulum kami sebagai acuan, harap diingat bahwa hasil pelatihan atau sertifikat dari mereka bukan indikator kompetensi, jaminan kelulusan ujian, dan tidak berpengaruh pada keputusan ujian program sertifikasi IFMI." 
+  }
+];
