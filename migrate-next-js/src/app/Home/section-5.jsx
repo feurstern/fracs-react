@@ -10,7 +10,7 @@ const Section5 = () => {
     >
       <div className="absolute z-[0] w-[60%] -right-[50%] rounded-full red__gradient bottom-40 "></div>
 
-      <div className="w-full flex justify-between items-center md:flex-row flex-col sm: mb-16 mb-6 relative z-[1] bg-red-600 border rounded-lg ">
+      <div className="w-full flex justify-between items-center md:flex-row flex-col sm: mb-16 mb-6 relative z-[1] bg-red-600 border rounded-lg p-[15px]">
         <h2 className={`${styles.heading2}`}>
           What People Are <br className="sm:hidden" /> Saying About Us
         </h2>

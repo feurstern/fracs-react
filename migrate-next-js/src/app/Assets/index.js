@@ -7,6 +7,8 @@ import quotes from './quotes.svg'
 import star from './Star.svg'
 import banner from './risk-management.jpg'
 import stop from './69-697827_anime-construction-worker-anime-worker-png-removebg-preview.png'
+import favico from './favicon.ico'
+import kan from './Untitled.png'
 
 export {
     menu,
@@ -17,6 +19,8 @@ export {
     quotes,
     star,
     banner,
-    stop
+    stop,
+    favico,
+    kan
 };
 

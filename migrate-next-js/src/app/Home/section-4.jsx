@@ -23,7 +23,7 @@ const Section4 = () => {
 
      <div className={`${styles.flexCenter} mt-[40px]`}>
         <table className={`border-collapse border border-black text-[18px]`}>
-            <thead>
+            <thead className='bg-red-600 text-white'>
             <tr>
                 <th className='w-[50px] border border-black'>No</th>
                 <th className='w-[300px] border border-black'>Keterangan</th>

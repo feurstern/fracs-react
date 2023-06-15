@@ -1,7 +1,8 @@
 "use client"
 import { Navbar, Footer } from './components/components';
 import styles from './style';
-import {CreateBrowserRouter, Outlet, Route, RouterProvider, createBrowserRouter,} from "react-router-dom";
+//no longer needed due to migrate to NextJS
+// import {CreateBrowserRouter, Outlet, Route, RouterProvider, createBrowserRouter,} from "react-router-dom";
 import Home from './Home/page';
 import React,{Component} from 'react';
 

@@ -7,6 +7,7 @@ import Section4  from './section-4'
 import Section5 from './section-5'
 import Section6 from './section-6'
 import Section7 from './section-7'
+import Section51 from './section-5-1'
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         <Section2/>
         <Section3/>
         <Section4/>
+        <Section51/>
         <Section5/>
         <Section7/>
     </>
