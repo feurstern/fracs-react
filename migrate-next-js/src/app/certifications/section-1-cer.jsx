@@ -7,7 +7,7 @@ const Section1cer = ({id, content}) => {
   return (
     <section className={`${styles.center} mt-[50px]`}>
       <div>
-        <h1 className={`${styles.heading2} ${styles.flexCenter}`}>
+        <h1 className={`${styles.heading2} ${styles.flexCenter} mb-[50px]`}>
           Standar & Imparsialitas
         </h1>
       </div>
@@ -47,6 +47,10 @@ const Section1cer = ({id, content}) => {
           Sekalipun kami bekerja sama dengan penyedia pelatihan yang menggunakan BOK atau kurikulum kami sebagai acuan, harap diingat bahwa hasil pelatihan atau sertifikat dari mereka bukan indikator kompetensi, 
           jaminan kelulusan ujian, dan tidak berpengaruh pada keputusan ujian program sertifikasi IFMI.
           </p>
+        </div>
+        <div className={`mt-[10px]`}>
+          <p className={`${styles.paragraph} max-w-[600px]`}></p>
+ 
         </div>
 
       </div>
