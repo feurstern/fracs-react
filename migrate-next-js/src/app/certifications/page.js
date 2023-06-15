@@ -3,6 +3,7 @@ import ErrorBoundary from './error'
 import { Navbar,Footer } from '../components/components'
 import styles from '../style'
 import Page404 from './404'
+import Section1cer from './section-1-cer'
 
 const page = () => {
   return (
@@ -22,6 +23,7 @@ const page = () => {
         <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
             <Page404/>
+            <Section1cer/>
             <Footer/>
           </div>
 
