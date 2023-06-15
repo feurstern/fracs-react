@@ -10,8 +10,8 @@ const styles = {
     flexStart: "flex justify-center items-start",
     flexBetween : "flex justify-between",
     flexStart2 : "flex justitfy-start items-start",
-    
-  
+
+    lineBorder : "border border-black",
     paddingX: "sm:px-16 px-6",
     paddingY: "sm:py-16 py-6",
     padding: "sm:px-16 px-6 sm:py-12 py-4",
