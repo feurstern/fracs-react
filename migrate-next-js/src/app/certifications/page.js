@@ -5,6 +5,7 @@ import styles from '../style'
 import Page404 from './404'
 import Section1cer from './section-1-cer'
 import Cta from './cta'
+import Section2cer from './section-2-cer'
 
 const page = () => {
   return (
@@ -25,6 +26,7 @@ const page = () => {
           <div className={`${styles.boxWidth}`}>
             <Page404/>
             <Section1cer/>
+            <Section2cer/>
             <Cta/>
             <Footer/>
           </div>

@@ -336,6 +336,46 @@
         "async": false
       }
     },
+    "(app-client)/./src/app/Assets/office-long-1.png": {
+      "*": {
+        "id": "(sc_client)/./src/app/Assets/office-long-1.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/Assets/office-long-1.png",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/Assets/office-long-1.png",
+        "name": "default",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/Assets/office-long-2.png": {
+      "*": {
+        "id": "(sc_client)/./src/app/Assets/office-long-2.png",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/Assets/office-long-2.png",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/Assets/office-long-2.png",
+        "name": "default",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./src/app/Assets/quotes.svg": {
       "*": {
         "id": "(sc_client)/./src/app/Assets/quotes.svg",
@@ -537,6 +577,26 @@
       },
       "default": {
         "id": "(sc_client)/./src/app/page.js",
+        "name": "default",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/certifications/section-2-cer.jsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/certifications/section-2-cer.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/certifications/section-2-cer.jsx",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/certifications/section-2-cer.jsx",
         "name": "default",
         "chunks": [],
         "async": false
@@ -1483,6 +1543,54 @@
       ],
       "async": false
     },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/office-long-1.png": {
+      "id": "(app-client)/./src/app/Assets/office-long-1.png",
+      "name": "*",
+      "chunks": [
+        "app/register/error:static/chunks/app/register/error.js"
+      ],
+      "async": false
+    },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/office-long-1.png#": {
+      "id": "(app-client)/./src/app/Assets/office-long-1.png",
+      "name": "",
+      "chunks": [
+        "app/register/error:static/chunks/app/register/error.js"
+      ],
+      "async": false
+    },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/office-long-1.png#default": {
+      "id": "(app-client)/./src/app/Assets/office-long-1.png",
+      "name": "default",
+      "chunks": [
+        "app/register/error:static/chunks/app/register/error.js"
+      ],
+      "async": false
+    },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/office-long-2.png": {
+      "id": "(app-client)/./src/app/Assets/office-long-2.png",
+      "name": "*",
+      "chunks": [
+        "app/register/error:static/chunks/app/register/error.js"
+      ],
+      "async": false
+    },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/office-long-2.png#": {
+      "id": "(app-client)/./src/app/Assets/office-long-2.png",
+      "name": "",
+      "chunks": [
+        "app/register/error:static/chunks/app/register/error.js"
+      ],
+      "async": false
+    },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/office-long-2.png#default": {
+      "id": "(app-client)/./src/app/Assets/office-long-2.png",
+      "name": "default",
+      "chunks": [
+        "app/register/error:static/chunks/app/register/error.js"
+      ],
+      "async": false
+    },
     "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/quotes.svg": {
       "id": "(app-client)/./src/app/Assets/quotes.svg",
       "name": "*",
@@ -1808,6 +1916,30 @@
       "name": "default",
       "chunks": [
         "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/certifications/section-2-cer.jsx": {
+      "id": "(app-client)/./src/app/certifications/section-2-cer.jsx",
+      "name": "*",
+      "chunks": [
+        "app/certifications/page:static/chunks/app/certifications/page.js"
+      ],
+      "async": false
+    },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/certifications/section-2-cer.jsx#": {
+      "id": "(app-client)/./src/app/certifications/section-2-cer.jsx",
+      "name": "",
+      "chunks": [
+        "app/certifications/page:static/chunks/app/certifications/page.js"
+      ],
+      "async": false
+    },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/certifications/section-2-cer.jsx#default": {
+      "id": "(app-client)/./src/app/certifications/section-2-cer.jsx",
+      "name": "default",
+      "chunks": [
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },

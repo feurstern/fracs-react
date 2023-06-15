@@ -9,6 +9,8 @@ import banner from './risk-management.jpg'
 import stop from './69-697827_anime-construction-worker-anime-worker-png-removebg-preview.png'
 import favico from './favicon.ico'
 import kan from './Untitled.png'
+import office1 from './office-long-1.png'
+import office2 from './office-long-2.png'
 
 export {
     menu,
@@ -21,6 +23,8 @@ export {
     banner,
     stop,
     favico,
-    kan
+    kan,
+    office1,
+    office2,
 };
 
