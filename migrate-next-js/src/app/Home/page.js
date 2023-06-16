@@ -12,7 +12,7 @@ import Section51 from './section-5-1'
 const Home = () => {
   return (
     <>
-        <Banner/>
+        {/* <Banner/> */}
         <Section1/>
         <Section2/>
         <Section3/>

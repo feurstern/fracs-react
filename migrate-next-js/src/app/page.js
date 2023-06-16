@@ -5,6 +5,8 @@ import styles from './style';
 // import {CreateBrowserRouter, Outlet, Route, RouterProvider, createBrowserRouter,} from "react-router-dom";
 import Home from './Home/page';
 import React,{Component} from 'react';
+import Banner from './Home/banner';
+import Image from 'next/image';
 
 //fetch api from nodejs
 class App extends Component{
@@ -40,7 +42,9 @@ class App extends Component{
                   {/* <RouterProvider router={router} /> */}
             </div>
          </div>
-
+         <div className={``}>
+               <Banner/>
+            </div>
          <div className={`bg-white border-red-600 ${styles.flexStart}`}>
             <div className={`${styles.boxWidth}`}>
             </div>
