@@ -1,9 +1,11 @@
+"use server"
 import React from 'react'
 import handler from './testDB'
 const page = () => {
     handler();
   return (
-    <div>page</div>
+    <div>page
+    {handler}</div>
   )
 }
 

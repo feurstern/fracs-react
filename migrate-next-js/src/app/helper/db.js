@@ -1,13 +1,15 @@
 const mysql = require('mysql');
 
-const dbConnection = mysql.createPool({
+const dbConnection = mysql.createPool(
+  {
   host: '',
   user: '',
   password: '',
   database: '',
-});
+  }
+);
 
-const query = (sql, values) => {
+const query = (sql, values) => {``
   return new Promise((resolve, reject) => {
     dbConnection.getConnection((err, connection) => {
       if (err) {
@@ -15,7 +17,6 @@ const query = (sql, values) => {
       } else {
         connection.query(sql, values, (error, results) => {
           connection.release(); 
-
           if (error) {
             reject(error);
           } else {

@@ -10,6 +10,7 @@ const handler = async(req,res)=>{
             console.log(`The database is error: ${err}`)
             res.status(500).jsonn({data:err})
         }
-}
+};
+
 
 export default handler
