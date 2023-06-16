@@ -582,46 +582,6 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/certifications/section-2-cer.jsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/certifications/section-2-cer.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/certifications/section-2-cer.jsx",
-        "name": "",
-        "chunks": [],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/certifications/section-2-cer.jsx",
-        "name": "default",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/gallery/error.js": {
-      "*": {
-        "id": "(sc_client)/./src/app/gallery/error.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/gallery/error.js",
-        "name": "",
-        "chunks": [],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/gallery/error.js",
-        "name": "default",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./src/app/register/section-1-reg.jsx": {
       "*": {
         "id": "(sc_client)/./src/app/register/section-1-reg.jsx",
@@ -657,6 +617,46 @@
       },
       "default": {
         "id": "(sc_client)/./src/app/register/error.js",
+        "name": "default",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/gallery/error.js": {
+      "*": {
+        "id": "(sc_client)/./src/app/gallery/error.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/gallery/error.js",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/gallery/error.js",
+        "name": "default",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/certifications/section-2-cer.jsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/certifications/section-2-cer.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/certifications/section-2-cer.jsx",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/certifications/section-2-cer.jsx",
         "name": "default",
         "chunks": [],
         "async": false
@@ -1337,25 +1337,11 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
     "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/69-697827_anime-construction-worker-anime-worker-png-removebg-preview.png": {
       "id": "(app-client)/./src/app/Assets/69-697827_anime-construction-worker-anime-worker-png-removebg-preview.png",
       "name": "*",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1363,7 +1349,7 @@
       "id": "(app-client)/./src/app/Assets/69-697827_anime-construction-worker-anime-worker-png-removebg-preview.png",
       "name": "",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1371,7 +1357,7 @@
       "id": "(app-client)/./src/app/Assets/69-697827_anime-construction-worker-anime-worker-png-removebg-preview.png",
       "name": "default",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1379,7 +1365,7 @@
       "id": "(app-client)/./src/app/Assets/Logo-FRAC-Final.png",
       "name": "*",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1387,7 +1373,7 @@
       "id": "(app-client)/./src/app/Assets/Logo-FRAC-Final.png",
       "name": "",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1395,7 +1381,7 @@
       "id": "(app-client)/./src/app/Assets/Logo-FRAC-Final.png",
       "name": "default",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1403,7 +1389,7 @@
       "id": "(app-client)/./src/app/Assets/Star.svg",
       "name": "*",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1411,7 +1397,7 @@
       "id": "(app-client)/./src/app/Assets/Star.svg",
       "name": "",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1419,7 +1405,7 @@
       "id": "(app-client)/./src/app/Assets/Star.svg",
       "name": "default",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1427,7 +1413,7 @@
       "id": "(app-client)/./src/app/Assets/Untitled.png",
       "name": "*",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1435,7 +1421,7 @@
       "id": "(app-client)/./src/app/Assets/Untitled.png",
       "name": "",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1443,7 +1429,7 @@
       "id": "(app-client)/./src/app/Assets/Untitled.png",
       "name": "default",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1451,7 +1437,7 @@
       "id": "(app-client)/./src/app/Assets/about-us.jpg",
       "name": "*",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1459,7 +1445,7 @@
       "id": "(app-client)/./src/app/Assets/about-us.jpg",
       "name": "",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1467,7 +1453,7 @@
       "id": "(app-client)/./src/app/Assets/about-us.jpg",
       "name": "default",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1475,7 +1461,7 @@
       "id": "(app-client)/./src/app/Assets/arrow-up.svg",
       "name": "*",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1483,7 +1469,7 @@
       "id": "(app-client)/./src/app/Assets/arrow-up.svg",
       "name": "",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1491,7 +1477,7 @@
       "id": "(app-client)/./src/app/Assets/arrow-up.svg",
       "name": "default",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1499,7 +1485,7 @@
       "id": "(app-client)/./src/app/Assets/favicon.ico",
       "name": "*",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1507,7 +1493,7 @@
       "id": "(app-client)/./src/app/Assets/favicon.ico",
       "name": "",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1515,7 +1501,7 @@
       "id": "(app-client)/./src/app/Assets/favicon.ico",
       "name": "default",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1523,7 +1509,7 @@
       "id": "(app-client)/./src/app/Assets/menu.svg",
       "name": "*",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1531,7 +1517,7 @@
       "id": "(app-client)/./src/app/Assets/menu.svg",
       "name": "",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1539,7 +1525,7 @@
       "id": "(app-client)/./src/app/Assets/menu.svg",
       "name": "default",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1547,7 +1533,7 @@
       "id": "(app-client)/./src/app/Assets/office-long-1.png",
       "name": "*",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1555,7 +1541,7 @@
       "id": "(app-client)/./src/app/Assets/office-long-1.png",
       "name": "",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1563,7 +1549,7 @@
       "id": "(app-client)/./src/app/Assets/office-long-1.png",
       "name": "default",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1571,7 +1557,7 @@
       "id": "(app-client)/./src/app/Assets/office-long-2.png",
       "name": "*",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1579,7 +1565,7 @@
       "id": "(app-client)/./src/app/Assets/office-long-2.png",
       "name": "",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1587,7 +1573,7 @@
       "id": "(app-client)/./src/app/Assets/office-long-2.png",
       "name": "default",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1595,7 +1581,7 @@
       "id": "(app-client)/./src/app/Assets/quotes.svg",
       "name": "*",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1603,7 +1589,7 @@
       "id": "(app-client)/./src/app/Assets/quotes.svg",
       "name": "",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1611,7 +1597,7 @@
       "id": "(app-client)/./src/app/Assets/quotes.svg",
       "name": "default",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1619,7 +1605,7 @@
       "id": "(app-client)/./src/app/Assets/risk-management.jpg",
       "name": "*",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1627,7 +1613,7 @@
       "id": "(app-client)/./src/app/Assets/risk-management.jpg",
       "name": "",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1635,7 +1621,7 @@
       "id": "(app-client)/./src/app/Assets/risk-management.jpg",
       "name": "default",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1643,7 +1629,7 @@
       "id": "(app-client)/./src/app/Assets/schemes.jpeg",
       "name": "*",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1651,7 +1637,7 @@
       "id": "(app-client)/./src/app/Assets/schemes.jpeg",
       "name": "",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1659,7 +1645,7 @@
       "id": "(app-client)/./src/app/Assets/schemes.jpeg",
       "name": "default",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1667,7 +1653,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1675,7 +1661,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1683,7 +1669,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1691,7 +1677,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1699,7 +1685,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1707,7 +1693,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1715,7 +1701,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1723,7 +1709,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1731,7 +1717,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1739,7 +1725,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1747,7 +1733,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1755,7 +1741,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1763,7 +1749,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1771,7 +1757,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1779,7 +1765,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1787,7 +1773,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1795,7 +1781,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "default",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1803,7 +1789,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "default",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1811,7 +1797,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "defaultHead",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1819,7 +1805,7 @@
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "defaultHead",
       "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1827,7 +1813,7 @@
       "id": "(app-client)/./src/app/certifications/error.js",
       "name": "*",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1835,7 +1821,7 @@
       "id": "(app-client)/./src/app/certifications/error.js",
       "name": "",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1843,7 +1829,7 @@
       "id": "(app-client)/./src/app/certifications/error.js",
       "name": "default",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1851,7 +1837,7 @@
       "id": "(app-client)/./src/app/components/components/footer.jsx",
       "name": "*",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1859,7 +1845,7 @@
       "id": "(app-client)/./src/app/components/components/footer.jsx",
       "name": "",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1867,7 +1853,7 @@
       "id": "(app-client)/./src/app/components/components/footer.jsx",
       "name": "default",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1875,7 +1861,7 @@
       "id": "(app-client)/./src/app/components/components/navbar.jsx",
       "name": "*",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1883,7 +1869,7 @@
       "id": "(app-client)/./src/app/components/components/navbar.jsx",
       "name": "",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1891,7 +1877,7 @@
       "id": "(app-client)/./src/app/components/components/navbar.jsx",
       "name": "default",
       "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     },
@@ -1919,53 +1905,19 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/certifications/section-2-cer.jsx": {
-      "id": "(app-client)/./src/app/certifications/section-2-cer.jsx",
-      "name": "*",
-      "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
-      ],
-      "async": false
-    },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/certifications/section-2-cer.jsx#": {
-      "id": "(app-client)/./src/app/certifications/section-2-cer.jsx",
-      "name": "",
-      "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
-      ],
-      "async": false
-    },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/certifications/section-2-cer.jsx#default": {
-      "id": "(app-client)/./src/app/certifications/section-2-cer.jsx",
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/globals.css#": {
+      "id": "null",
       "name": "default",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
-      ],
-      "async": false
+        "static/css/app/layout.css"
+      ]
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/gallery/error.js": {
-      "id": "(app-client)/./src/app/gallery/error.js",
-      "name": "*",
-      "chunks": [
-        "app/gallery/error:static/chunks/app/gallery/error.js"
-      ],
-      "async": false
-    },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/gallery/error.js#": {
-      "id": "(app-client)/./src/app/gallery/error.js",
-      "name": "",
-      "chunks": [
-        "app/gallery/error:static/chunks/app/gallery/error.js"
-      ],
-      "async": false
-    },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/gallery/error.js#default": {
-      "id": "(app-client)/./src/app/gallery/error.js",
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
       "name": "default",
       "chunks": [
-        "app/gallery/error:static/chunks/app/gallery/error.js"
-      ],
-      "async": false
+        "static/css/app/layout.css"
+      ]
     },
     "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/register/section-1-reg.jsx": {
       "id": "(app-client)/./src/app/register/section-1-reg.jsx",
@@ -2012,6 +1964,54 @@
       "name": "default",
       "chunks": [
         "app/register/error:static/chunks/app/register/error.js"
+      ],
+      "async": false
+    },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/gallery/error.js": {
+      "id": "(app-client)/./src/app/gallery/error.js",
+      "name": "*",
+      "chunks": [
+        "app/gallery/error:static/chunks/app/gallery/error.js"
+      ],
+      "async": false
+    },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/gallery/error.js#": {
+      "id": "(app-client)/./src/app/gallery/error.js",
+      "name": "",
+      "chunks": [
+        "app/gallery/error:static/chunks/app/gallery/error.js"
+      ],
+      "async": false
+    },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/gallery/error.js#default": {
+      "id": "(app-client)/./src/app/gallery/error.js",
+      "name": "default",
+      "chunks": [
+        "app/gallery/error:static/chunks/app/gallery/error.js"
+      ],
+      "async": false
+    },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/certifications/section-2-cer.jsx": {
+      "id": "(app-client)/./src/app/certifications/section-2-cer.jsx",
+      "name": "*",
+      "chunks": [
+        "app/certifications/page:static/chunks/app/certifications/page.js"
+      ],
+      "async": false
+    },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/certifications/section-2-cer.jsx#": {
+      "id": "(app-client)/./src/app/certifications/section-2-cer.jsx",
+      "name": "",
+      "chunks": [
+        "app/certifications/page:static/chunks/app/certifications/page.js"
+      ],
+      "async": false
+    },
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/certifications/section-2-cer.jsx#default": {
+      "id": "(app-client)/./src/app/certifications/section-2-cer.jsx",
+      "name": "default",
+      "chunks": [
+        "app/certifications/page:static/chunks/app/certifications/page.js"
       ],
       "async": false
     }

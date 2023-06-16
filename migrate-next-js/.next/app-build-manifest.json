@@ -1,30 +1,30 @@
 {
   "pages": {
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
+    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/page": [
+    "/register/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/app/register/page.js"
     ],
-    "/certifications/page": [
+    "/register/error": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/certifications/page.js"
+      "static/chunks/app/register/error.js"
     ],
-    "/certifications/loading": [
+    "/register/loading": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/certifications/loading.js"
-    ],
-    "/certifications/error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/certifications/error.js"
+      "static/chunks/app/register/loading.js"
     ],
     "/gallery/page": [
       "static/chunks/webpack.js",
@@ -41,20 +41,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/gallery/error.js"
     ],
-    "/register/loading": [
+    "/certifications/loading": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/register/loading.js"
+      "static/chunks/app/certifications/loading.js"
     ],
-    "/register/page": [
+    "/certifications/error": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/register/page.js"
+      "static/chunks/app/certifications/error.js"
     ],
-    "/register/error": [
+    "/certifications/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/register/error.js"
+      "static/chunks/app/certifications/page.js"
     ]
   }
 }
