@@ -8,6 +8,7 @@ import Section5 from './section-5'
 import Section6 from './section-6'
 import Section7 from './section-7'
 import Section51 from './section-5-1'
+import Cta from '../certifications/cta'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
         {/* <Banner/> */}
         <Section1/>
         <Section2/>
+        <Cta/>
         <Section3/>
         <Section4/>
         <Section51/>

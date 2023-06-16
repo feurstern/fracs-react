@@ -7,6 +7,7 @@ import Section1cer from './section-1-cer'
 import Cta from './cta'
 import Section2cer from './section-2-cer'
 
+
 const page = () => {
   return (
     <div className='bg-red-700 w-full overflow-hidden'>
