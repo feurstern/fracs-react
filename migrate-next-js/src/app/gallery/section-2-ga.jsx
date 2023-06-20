@@ -1,17 +1,41 @@
 import React from 'react'
 import styles, {layout} from '../style'
 import Image from 'next/image'
+import { business } from '../Assets'
 
 const Section2ga = () => {
   return (
     <section className={`pt-[50px]`}>
-        <div className={`${styles.galleryImageContainer}`}>
-            <div>
+        <div className={`${styles.galleryImageContainer} cursor-pointer`}>
+            <div className='hover:bg-red-700'>
                 <Image 
-                className='h-auto max-w-full rounded-lg' 
-                src={`https://cdnwpedutorenews.gramedia.net/wp-content/uploads/2022/09/23084516/bisnis-810x550.jpg`} 
-                width={100} 
-                height={100} />
+                className='h-auto max-w-full rounded-lg hover:opacity-50' 
+                src={business}/>
+            </div>
+            <div className='hover:bg-red-700'>
+                <Image 
+                className='h-auto max-w-full rounded-lg hover:opacity-50' 
+                src={business}/>
+            </div>
+            <div className='hover:bg-red-700'>
+                <Image 
+                className='h-auto max-w-full rounded-lg hover:opacity-50' 
+                src={business}/>
+            </div>
+            <div className='hover:bg-red-700'>
+                <Image
+                className='h-auto max-w-full rounded-lg hover:opacity-50'
+                src={business}/>
+            </div>
+            <div className='hover:bg-red-700'>
+                <Image 
+                 className='h-auto max-w-full rounded-lg hover:opacity-50'
+                 src={business}/>
+            </div>
+            <div className='hover:bg-red-700'>
+                <Image 
+                className='h-auto max-w-full rounded-lg hover:opacity-50'
+                src={business}/>
             </div>
         </div>
     </section>
