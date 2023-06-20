@@ -6,6 +6,7 @@ const styles = {
     paragraph: "font-poppins font-normal text-black text-[18px] leading-[30.8px] text-justify",
 
     galleryImageContainer : "grid grid-cols-2 md:grid-cols-3 gap-4",
+    textHoverImage : "text-white text-[16px]",
 
     defaultHeaderFont : "font-poppins font-semibold text-3xl text-white text-dimWhite",
     flexCenter: "flex justify-center items-center",
