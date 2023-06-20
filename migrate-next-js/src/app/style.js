@@ -5,6 +5,8 @@ const styles = {
     heading3: "font-poppins font-semibold xs:text-[25px] text-[20px] text-black xs:leading-[50px] ",
     paragraph: "font-poppins font-normal text-black text-[18px] leading-[30.8px] text-justify",
 
+    galleryImageContainer : "grid grid-cols-2 md:grid-cols-3 gap-4",
+
     defaultHeaderFont : "font-poppins font-semibold text-3xl text-white text-dimWhite",
     flexCenter: "flex justify-center items-center",
     flexStart: "flex justify-center items-start",

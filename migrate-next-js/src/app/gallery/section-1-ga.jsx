@@ -20,6 +20,10 @@ const Section1ga = () => {
                     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
             </div>
+
+            <div className={`tp-[10px]`}>
+            
+            </div>
         </section>
 
     )
