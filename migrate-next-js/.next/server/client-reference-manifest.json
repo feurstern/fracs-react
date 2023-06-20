@@ -296,6 +296,26 @@
         "async": false
       }
     },
+    "(app-client)/./src/app/Assets/bisnis-810x550.jpg": {
+      "*": {
+        "id": "(sc_client)/./src/app/Assets/bisnis-810x550.jpg",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/Assets/bisnis-810x550.jpg",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/Assets/bisnis-810x550.jpg",
+        "name": "default",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./src/app/Assets/favicon.ico": {
       "*": {
         "id": "(sc_client)/./src/app/Assets/favicon.ico",
@@ -562,6 +582,26 @@
         "async": false
       }
     },
+    "(app-client)/./src/app/gallery/page.js": {
+      "*": {
+        "id": "(sc_client)/./src/app/gallery/page.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/gallery/page.js",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/gallery/page.js",
+        "name": "default",
+        "chunks": [],
+        "async": false
+      }
+    },
     "(app-client)/./src/app/page.js": {
       "*": {
         "id": "(sc_client)/./src/app/page.js",
@@ -577,46 +617,6 @@
       },
       "default": {
         "id": "(sc_client)/./src/app/page.js",
-        "name": "default",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/register/section-1-reg.jsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/register/section-1-reg.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/register/section-1-reg.jsx",
-        "name": "",
-        "chunks": [],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/register/section-1-reg.jsx",
-        "name": "default",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/register/error.js": {
-      "*": {
-        "id": "(sc_client)/./src/app/register/error.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/register/error.js",
-        "name": "",
-        "chunks": [],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/register/error.js",
         "name": "default",
         "chunks": [],
         "async": false
@@ -661,11 +661,51 @@
         "chunks": [],
         "async": false
       }
+    },
+    "(app-client)/./src/app/register/section-1-reg.jsx": {
+      "*": {
+        "id": "(sc_client)/./src/app/register/section-1-reg.jsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/register/section-1-reg.jsx",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/register/section-1-reg.jsx",
+        "name": "default",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./src/app/register/error.js": {
+      "*": {
+        "id": "(sc_client)/./src/app/register/error.js",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/app/register/error.js",
+        "name": "",
+        "chunks": [],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/app/register/error.js",
+        "name": "default",
+        "chunks": [],
+        "async": false
+      }
     }
   },
   "edgeSSRModuleMapping": {},
   "clientModules": {
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/components/app-router.js": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\components\\app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -673,7 +713,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/components/app-router.js": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -681,7 +721,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/components/app-router.js#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\components\\app-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
       "chunks": [
@@ -689,7 +729,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/components/app-router.js#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
       "chunks": [
@@ -697,7 +737,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/components/app-router.js#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\components\\app-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "default",
       "chunks": [
@@ -705,7 +745,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/components/app-router.js#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "default",
       "chunks": [
@@ -713,15 +753,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/components/app-router.js#getServerActionDispatcher": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
-      "name": "getServerActionDispatcher",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/components/app-router.js#getServerActionDispatcher": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\components\\app-router.js#getServerActionDispatcher": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "getServerActionDispatcher",
       "chunks": [
@@ -729,7 +761,15 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/components/app-router.js#urlToUrlWithoutFlightMarker": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#getServerActionDispatcher": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "getServerActionDispatcher",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "urlToUrlWithoutFlightMarker",
       "chunks": [
@@ -737,7 +777,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/components/app-router.js#urlToUrlWithoutFlightMarker": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js#urlToUrlWithoutFlightMarker": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "urlToUrlWithoutFlightMarker",
       "chunks": [
@@ -745,7 +785,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/components/error-boundary.js": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\components\\error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -753,7 +793,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/components/error-boundary.js": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -761,7 +801,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/components/error-boundary.js#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\components\\error-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
       "chunks": [
@@ -769,7 +809,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/components/error-boundary.js#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
       "chunks": [
@@ -777,7 +817,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/components/error-boundary.js#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\components\\error-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "default",
       "chunks": [
@@ -785,7 +825,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/components/error-boundary.js#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "default",
       "chunks": [
@@ -793,15 +833,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/components/error-boundary.js#ErrorBoundaryHandler": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
-      "name": "ErrorBoundaryHandler",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/components/error-boundary.js#ErrorBoundaryHandler": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundaryHandler",
       "chunks": [
@@ -809,7 +841,15 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/components/error-boundary.js#ErrorBoundary": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundaryHandler": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "ErrorBoundaryHandler",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\components\\error-boundary.js#ErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundary",
       "chunks": [
@@ -817,7 +857,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/components/error-boundary.js#ErrorBoundary": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js#ErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundary",
       "chunks": [
@@ -825,7 +865,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/components/redirect-boundary.js": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -833,7 +873,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/components/redirect-boundary.js": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -841,7 +881,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/components/redirect-boundary.js#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "",
       "chunks": [
@@ -849,7 +889,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/components/redirect-boundary.js#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "",
       "chunks": [
@@ -857,7 +897,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/components/redirect-boundary.js#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "default",
       "chunks": [
@@ -865,7 +905,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/components/redirect-boundary.js#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "default",
       "chunks": [
@@ -873,15 +913,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/components/redirect-boundary.js#RedirectErrorBoundary": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
-      "name": "RedirectErrorBoundary",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/components/redirect-boundary.js#RedirectErrorBoundary": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectErrorBoundary",
       "chunks": [
@@ -889,7 +921,15 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/components/redirect-boundary.js#RedirectBoundary": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectErrorBoundary": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+      "name": "RedirectErrorBoundary",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\components\\redirect-boundary.js#RedirectBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectBoundary",
       "chunks": [
@@ -897,7 +937,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/components/redirect-boundary.js#RedirectBoundary": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\components\\redirect-boundary.js#RedirectBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectBoundary",
       "chunks": [
@@ -905,7 +945,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -913,7 +953,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -921,7 +961,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "",
       "chunks": [
@@ -929,7 +969,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "",
       "chunks": [
@@ -937,7 +977,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\components\\router-reducer\\fetch-server-response.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "default",
       "chunks": [
@@ -945,7 +985,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\components\\router-reducer\\fetch-server-response.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "default",
       "chunks": [
@@ -953,7 +993,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/shared/lib/app-router-context.js": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -961,7 +1001,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/shared/lib/app-router-context.js": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -969,7 +1009,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/shared/lib/app-router-context.js#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "",
       "chunks": [
@@ -977,7 +1017,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/shared/lib/app-router-context.js#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "",
       "chunks": [
@@ -985,7 +1025,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/shared/lib/app-router-context.js#CacheStates": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#CacheStates": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "CacheStates",
       "chunks": [
@@ -993,7 +1033,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/shared/lib/app-router-context.js#CacheStates": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#CacheStates": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "CacheStates",
       "chunks": [
@@ -1001,7 +1041,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/shared/lib/app-router-context.js#AppRouterContext": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#AppRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "AppRouterContext",
       "chunks": [
@@ -1009,7 +1049,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/shared/lib/app-router-context.js#AppRouterContext": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#AppRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "AppRouterContext",
       "chunks": [
@@ -1017,7 +1057,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/shared/lib/app-router-context.js#LayoutRouterContext": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "LayoutRouterContext",
       "chunks": [
@@ -1025,7 +1065,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/shared/lib/app-router-context.js#LayoutRouterContext": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#LayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "LayoutRouterContext",
       "chunks": [
@@ -1033,7 +1073,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/shared/lib/app-router-context.js#GlobalLayoutRouterContext": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "GlobalLayoutRouterContext",
       "chunks": [
@@ -1041,7 +1081,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/shared/lib/app-router-context.js#GlobalLayoutRouterContext": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#GlobalLayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "GlobalLayoutRouterContext",
       "chunks": [
@@ -1049,7 +1089,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/shared/lib/app-router-context.js#TemplateContext": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\shared\\lib\\app-router-context.js#TemplateContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "TemplateContext",
       "chunks": [
@@ -1057,7 +1097,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/shared/lib/app-router-context.js#TemplateContext": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\shared\\lib\\app-router-context.js#TemplateContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "TemplateContext",
       "chunks": [
@@ -1065,7 +1105,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/shared/lib/hooks-client-context.js": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -1073,7 +1113,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/shared/lib/hooks-client-context.js": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -1081,7 +1121,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/shared/lib/hooks-client-context.js#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "",
       "chunks": [
@@ -1089,7 +1129,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "",
       "chunks": [
@@ -1097,15 +1137,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/shared/lib/hooks-client-context.js#SearchParamsContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "SearchParamsContext",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#SearchParamsContext": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "SearchParamsContext",
       "chunks": [
@@ -1113,7 +1145,15 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/shared/lib/hooks-client-context.js#PathnameContext": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#SearchParamsContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
+      "name": "SearchParamsContext",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\shared\\lib\\hooks-client-context.js#PathnameContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "PathnameContext",
       "chunks": [
@@ -1121,7 +1161,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#PathnameContext": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\shared\\lib\\hooks-client-context.js#PathnameContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "PathnameContext",
       "chunks": [
@@ -1129,7 +1169,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/shared/lib/server-inserted-html.js": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -1137,7 +1177,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/shared/lib/server-inserted-html.js": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -1145,7 +1185,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/shared/lib/server-inserted-html.js#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "",
       "chunks": [
@@ -1153,7 +1193,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "",
       "chunks": [
@@ -1161,15 +1201,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/shared/lib/server-inserted-html.js#ServerInsertedHTMLContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-      "name": "ServerInsertedHTMLContext",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#ServerInsertedHTMLContext": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "ServerInsertedHTMLContext",
       "chunks": [
@@ -1177,7 +1209,15 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/shared/lib/server-inserted-html.js#useServerInsertedHTML": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#ServerInsertedHTMLContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
+      "name": "ServerInsertedHTMLContext",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "useServerInsertedHTML",
       "chunks": [
@@ -1185,7 +1225,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#useServerInsertedHTML": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\shared\\lib\\server-inserted-html.js#useServerInsertedHTML": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "useServerInsertedHTML",
       "chunks": [
@@ -1193,7 +1233,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/components/layout-router.js": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\components\\layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -1201,7 +1241,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/components/layout-router.js": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -1209,7 +1249,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/components/layout-router.js#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\components\\layout-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
       "chunks": [
@@ -1217,7 +1257,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/components/layout-router.js#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
       "chunks": [
@@ -1225,7 +1265,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/components/layout-router.js#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\components\\layout-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "default",
       "chunks": [
@@ -1233,7 +1273,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/components/layout-router.js#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\components\\layout-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "default",
       "chunks": [
@@ -1241,7 +1281,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/components/render-from-template-context.js": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -1249,7 +1289,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -1257,7 +1297,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/components/render-from-template-context.js#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
       "chunks": [
@@ -1265,7 +1305,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/components/render-from-template-context.js#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
       "chunks": [
@@ -1273,7 +1313,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/components/render-from-template-context.js#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\components\\render-from-template-context.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "default",
       "chunks": [
@@ -1281,7 +1321,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/components/render-from-template-context.js#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\components\\render-from-template-context.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "default",
       "chunks": [
@@ -1289,7 +1329,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -1297,7 +1337,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -1305,7 +1345,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "",
       "chunks": [
@@ -1313,7 +1353,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "",
       "chunks": [
@@ -1321,7 +1361,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "default",
       "chunks": [
@@ -1329,7 +1369,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\components\\static-generation-searchparams-bailout-provider.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "default",
       "chunks": [
@@ -1337,551 +1377,599 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/69-697827_anime-construction-worker-anime-worker-png-removebg-preview.png": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\69-697827_anime-construction-worker-anime-worker-png-removebg-preview.png": {
       "id": "(app-client)/./src/app/Assets/69-697827_anime-construction-worker-anime-worker-png-removebg-preview.png",
       "name": "*",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/69-697827_anime-construction-worker-anime-worker-png-removebg-preview.png#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\69-697827_anime-construction-worker-anime-worker-png-removebg-preview.png#": {
       "id": "(app-client)/./src/app/Assets/69-697827_anime-construction-worker-anime-worker-png-removebg-preview.png",
       "name": "",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/69-697827_anime-construction-worker-anime-worker-png-removebg-preview.png#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\69-697827_anime-construction-worker-anime-worker-png-removebg-preview.png#default": {
       "id": "(app-client)/./src/app/Assets/69-697827_anime-construction-worker-anime-worker-png-removebg-preview.png",
       "name": "default",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/Logo-FRAC-Final.png": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\Logo-FRAC-Final.png": {
       "id": "(app-client)/./src/app/Assets/Logo-FRAC-Final.png",
       "name": "*",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/Logo-FRAC-Final.png#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\Logo-FRAC-Final.png#": {
       "id": "(app-client)/./src/app/Assets/Logo-FRAC-Final.png",
       "name": "",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/Logo-FRAC-Final.png#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\Logo-FRAC-Final.png#default": {
       "id": "(app-client)/./src/app/Assets/Logo-FRAC-Final.png",
       "name": "default",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/Star.svg": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\Star.svg": {
       "id": "(app-client)/./src/app/Assets/Star.svg",
       "name": "*",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/Star.svg#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\Star.svg#": {
       "id": "(app-client)/./src/app/Assets/Star.svg",
       "name": "",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/Star.svg#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\Star.svg#default": {
       "id": "(app-client)/./src/app/Assets/Star.svg",
       "name": "default",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/Untitled.png": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\Untitled.png": {
       "id": "(app-client)/./src/app/Assets/Untitled.png",
       "name": "*",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/Untitled.png#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\Untitled.png#": {
       "id": "(app-client)/./src/app/Assets/Untitled.png",
       "name": "",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/Untitled.png#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\Untitled.png#default": {
       "id": "(app-client)/./src/app/Assets/Untitled.png",
       "name": "default",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/about-us.jpg": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\about-us.jpg": {
       "id": "(app-client)/./src/app/Assets/about-us.jpg",
       "name": "*",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/about-us.jpg#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\about-us.jpg#": {
       "id": "(app-client)/./src/app/Assets/about-us.jpg",
       "name": "",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/about-us.jpg#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\about-us.jpg#default": {
       "id": "(app-client)/./src/app/Assets/about-us.jpg",
       "name": "default",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/arrow-up.svg": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\arrow-up.svg": {
       "id": "(app-client)/./src/app/Assets/arrow-up.svg",
       "name": "*",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/arrow-up.svg#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\arrow-up.svg#": {
       "id": "(app-client)/./src/app/Assets/arrow-up.svg",
       "name": "",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/arrow-up.svg#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\arrow-up.svg#default": {
       "id": "(app-client)/./src/app/Assets/arrow-up.svg",
       "name": "default",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/favicon.ico": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\bisnis-810x550.jpg": {
+      "id": "(app-client)/./src/app/Assets/bisnis-810x550.jpg",
+      "name": "*",
+      "chunks": [
+        "app/register/error:static/chunks/app/register/error.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\bisnis-810x550.jpg#": {
+      "id": "(app-client)/./src/app/Assets/bisnis-810x550.jpg",
+      "name": "",
+      "chunks": [
+        "app/register/error:static/chunks/app/register/error.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\bisnis-810x550.jpg#default": {
+      "id": "(app-client)/./src/app/Assets/bisnis-810x550.jpg",
+      "name": "default",
+      "chunks": [
+        "app/register/error:static/chunks/app/register/error.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\favicon.ico": {
       "id": "(app-client)/./src/app/Assets/favicon.ico",
       "name": "*",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/favicon.ico#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\favicon.ico#": {
       "id": "(app-client)/./src/app/Assets/favicon.ico",
       "name": "",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/favicon.ico#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\favicon.ico#default": {
       "id": "(app-client)/./src/app/Assets/favicon.ico",
       "name": "default",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/menu.svg": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\menu.svg": {
       "id": "(app-client)/./src/app/Assets/menu.svg",
       "name": "*",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/menu.svg#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\menu.svg#": {
       "id": "(app-client)/./src/app/Assets/menu.svg",
       "name": "",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/menu.svg#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\menu.svg#default": {
       "id": "(app-client)/./src/app/Assets/menu.svg",
       "name": "default",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/office-long-1.png": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\office-long-1.png": {
       "id": "(app-client)/./src/app/Assets/office-long-1.png",
       "name": "*",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/office-long-1.png#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\office-long-1.png#": {
       "id": "(app-client)/./src/app/Assets/office-long-1.png",
       "name": "",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/office-long-1.png#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\office-long-1.png#default": {
       "id": "(app-client)/./src/app/Assets/office-long-1.png",
       "name": "default",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/office-long-2.png": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\office-long-2.png": {
       "id": "(app-client)/./src/app/Assets/office-long-2.png",
       "name": "*",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/office-long-2.png#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\office-long-2.png#": {
       "id": "(app-client)/./src/app/Assets/office-long-2.png",
       "name": "",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/office-long-2.png#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\office-long-2.png#default": {
       "id": "(app-client)/./src/app/Assets/office-long-2.png",
       "name": "default",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/quotes.svg": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\quotes.svg": {
       "id": "(app-client)/./src/app/Assets/quotes.svg",
       "name": "*",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/quotes.svg#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\quotes.svg#": {
       "id": "(app-client)/./src/app/Assets/quotes.svg",
       "name": "",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/quotes.svg#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\quotes.svg#default": {
       "id": "(app-client)/./src/app/Assets/quotes.svg",
       "name": "default",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/risk-management.jpg": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\risk-management.jpg": {
       "id": "(app-client)/./src/app/Assets/risk-management.jpg",
       "name": "*",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/risk-management.jpg#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\risk-management.jpg#": {
       "id": "(app-client)/./src/app/Assets/risk-management.jpg",
       "name": "",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/risk-management.jpg#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\risk-management.jpg#default": {
       "id": "(app-client)/./src/app/Assets/risk-management.jpg",
       "name": "default",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/schemes.jpeg": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\schemes.jpeg": {
       "id": "(app-client)/./src/app/Assets/schemes.jpeg",
       "name": "*",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/schemes.jpeg#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\schemes.jpeg#": {
       "id": "(app-client)/./src/app/Assets/schemes.jpeg",
       "name": "",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/Assets/schemes.jpeg#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Assets\\schemes.jpeg#default": {
       "id": "(app-client)/./src/app/Assets/schemes.jpeg",
       "name": "default",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/image.js": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\image.js": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/image.js": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\image.js": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/image.js#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\image.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/image.js#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\image.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/image.js#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\image.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/image.js#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\image.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/link.js": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\link.js": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/page:static/chunks/app/register/page.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/link.js": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\link.js": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/page:static/chunks/app/register/page.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/link.js#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\link.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/page:static/chunks/app/register/page.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/link.js#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\link.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/page:static/chunks/app/register/page.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/client/link.js#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\client\\link.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/page:static/chunks/app/register/page.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/client/link.js#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\client\\link.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/page:static/chunks/app/register/page.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/shared/lib/head.js": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\shared\\lib\\head.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/shared/lib/head.js": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "*",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/shared/lib/head.js#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\shared\\lib\\head.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/shared/lib/head.js#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/shared/lib/head.js#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\shared\\lib\\head.js#default": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "default",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/shared/lib/head.js#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#default": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "default",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/shared/lib/head.js#defaultHead": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\shared\\lib\\head.js#defaultHead": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "defaultHead",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/dist/esm/shared/lib/head.js#defaultHead": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\dist\\esm\\shared\\lib\\head.js#defaultHead": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
       "name": "defaultHead",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/certifications/error.js": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\certifications\\error.js": {
       "id": "(app-client)/./src/app/certifications/error.js",
       "name": "*",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/page:static/chunks/app/register/page.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/certifications/error.js#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\certifications\\error.js#": {
       "id": "(app-client)/./src/app/certifications/error.js",
       "name": "",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/page:static/chunks/app/register/page.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/certifications/error.js#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\certifications\\error.js#default": {
       "id": "(app-client)/./src/app/certifications/error.js",
       "name": "default",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/page:static/chunks/app/register/page.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/components/components/footer.jsx": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\components\\components\\footer.jsx": {
       "id": "(app-client)/./src/app/components/components/footer.jsx",
       "name": "*",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/page:static/chunks/app/register/page.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/components/components/footer.jsx#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\components\\components\\footer.jsx#": {
       "id": "(app-client)/./src/app/components/components/footer.jsx",
       "name": "",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/page:static/chunks/app/register/page.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/components/components/footer.jsx#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\components\\components\\footer.jsx#default": {
       "id": "(app-client)/./src/app/components/components/footer.jsx",
       "name": "default",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/page:static/chunks/app/register/page.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/components/components/navbar.jsx": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\components\\components\\navbar.jsx": {
       "id": "(app-client)/./src/app/components/components/navbar.jsx",
       "name": "*",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/page:static/chunks/app/register/page.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/components/components/navbar.jsx#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\components\\components\\navbar.jsx#": {
       "id": "(app-client)/./src/app/components/components/navbar.jsx",
       "name": "",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/page:static/chunks/app/register/page.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/components/components/navbar.jsx#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\components\\components\\navbar.jsx#default": {
       "id": "(app-client)/./src/app/components/components/navbar.jsx",
       "name": "default",
       "chunks": [
-        "app/certifications/page:static/chunks/app/certifications/page.js"
+        "app/register/page:static/chunks/app/register/page.js"
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/page.js": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\gallery\\page.js": {
+      "id": "(app-client)/./src/app/gallery/page.js",
+      "name": "*",
+      "chunks": [
+        "app/register/page:static/chunks/app/register/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\gallery\\page.js#": {
+      "id": "(app-client)/./src/app/gallery/page.js",
+      "name": "",
+      "chunks": [
+        "app/register/page:static/chunks/app/register/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\gallery\\page.js#default": {
+      "id": "(app-client)/./src/app/gallery/page.js",
+      "name": "default",
+      "chunks": [
+        "app/register/page:static/chunks/app/register/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\page.js": {
       "id": "(app-client)/./src/app/page.js",
       "name": "*",
       "chunks": [
@@ -1889,7 +1977,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/page.js#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\page.js#": {
       "id": "(app-client)/./src/app/page.js",
       "name": "",
       "chunks": [
@@ -1897,7 +1985,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/page.js#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\page.js#default": {
       "id": "(app-client)/./src/app/page.js",
       "name": "default",
       "chunks": [
@@ -1905,69 +1993,21 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/globals.css#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\globals.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/layout.css"
       ]
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/layout.css"
       ]
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/register/section-1-reg.jsx": {
-      "id": "(app-client)/./src/app/register/section-1-reg.jsx",
-      "name": "*",
-      "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
-      ],
-      "async": false
-    },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/register/section-1-reg.jsx#": {
-      "id": "(app-client)/./src/app/register/section-1-reg.jsx",
-      "name": "",
-      "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
-      ],
-      "async": false
-    },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/register/section-1-reg.jsx#default": {
-      "id": "(app-client)/./src/app/register/section-1-reg.jsx",
-      "name": "default",
-      "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
-      ],
-      "async": false
-    },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/register/error.js": {
-      "id": "(app-client)/./src/app/register/error.js",
-      "name": "*",
-      "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
-      ],
-      "async": false
-    },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/register/error.js#": {
-      "id": "(app-client)/./src/app/register/error.js",
-      "name": "",
-      "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
-      ],
-      "async": false
-    },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/register/error.js#default": {
-      "id": "(app-client)/./src/app/register/error.js",
-      "name": "default",
-      "chunks": [
-        "app/register/error:static/chunks/app/register/error.js"
-      ],
-      "async": false
-    },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/gallery/error.js": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\gallery\\error.js": {
       "id": "(app-client)/./src/app/gallery/error.js",
       "name": "*",
       "chunks": [
@@ -1975,7 +2015,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/gallery/error.js#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\gallery\\error.js#": {
       "id": "(app-client)/./src/app/gallery/error.js",
       "name": "",
       "chunks": [
@@ -1983,7 +2023,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/gallery/error.js#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\gallery\\error.js#default": {
       "id": "(app-client)/./src/app/gallery/error.js",
       "name": "default",
       "chunks": [
@@ -1991,7 +2031,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/certifications/section-2-cer.jsx": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\certifications\\section-2-cer.jsx": {
       "id": "(app-client)/./src/app/certifications/section-2-cer.jsx",
       "name": "*",
       "chunks": [
@@ -1999,7 +2039,7 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/certifications/section-2-cer.jsx#": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\certifications\\section-2-cer.jsx#": {
       "id": "(app-client)/./src/app/certifications/section-2-cer.jsx",
       "name": "",
       "chunks": [
@@ -2007,11 +2047,59 @@
       ],
       "async": false
     },
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/certifications/section-2-cer.jsx#default": {
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\certifications\\section-2-cer.jsx#default": {
       "id": "(app-client)/./src/app/certifications/section-2-cer.jsx",
       "name": "default",
       "chunks": [
         "app/certifications/page:static/chunks/app/certifications/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\register\\section-1-reg.jsx": {
+      "id": "(app-client)/./src/app/register/section-1-reg.jsx",
+      "name": "*",
+      "chunks": [
+        "app/register/page:static/chunks/app/register/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\register\\section-1-reg.jsx#": {
+      "id": "(app-client)/./src/app/register/section-1-reg.jsx",
+      "name": "",
+      "chunks": [
+        "app/register/page:static/chunks/app/register/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\register\\section-1-reg.jsx#default": {
+      "id": "(app-client)/./src/app/register/section-1-reg.jsx",
+      "name": "default",
+      "chunks": [
+        "app/register/page:static/chunks/app/register/page.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\register\\error.js": {
+      "id": "(app-client)/./src/app/register/error.js",
+      "name": "*",
+      "chunks": [
+        "app/register/error:static/chunks/app/register/error.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\register\\error.js#": {
+      "id": "(app-client)/./src/app/register/error.js",
+      "name": "",
+      "chunks": [
+        "app/register/error:static/chunks/app/register/error.js"
+      ],
+      "async": false
+    },
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\register\\error.js#default": {
+      "id": "(app-client)/./src/app/register/error.js",
+      "name": "default",
+      "chunks": [
+        "app/register/error:static/chunks/app/register/error.js"
       ],
       "async": false
     }

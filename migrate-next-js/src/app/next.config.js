@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 
 module.exports = {
+  experimental: {
+    serverActions: true,
+  },
   images: {
     formats: ['image/avif', 'image/webp', 'image/png', 'image/jpeg', 'img/jpg'],
     remotePatterns: [
@@ -15,7 +18,7 @@ module.exports = {
         hostname : 'cdnwpedutorenews.gramedia.net/',
         port: "",
         pathname: '/wp-content/uploads/***',
-      }
+      },
     ],
   },
 }
