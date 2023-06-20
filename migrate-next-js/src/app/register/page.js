@@ -22,7 +22,6 @@ const Register = () => {
        <div className={`${styles.boxWidth}`}>
          <Page404/>
         <Section1reg/>
-
         <Footer/>
        </div>
      </div>

@@ -7,7 +7,7 @@ import Gallery from "@/app/gallery/page";
 import Image from "next/image";
 
 const Footer = () => (
-  <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
+  <section className={`${styles.flexCenter} ${styles.paddingY} flex-col pt-[50px]`}>
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
       <div className="flex-[1] flex flex-col justify-start mr-10">
         <Image
