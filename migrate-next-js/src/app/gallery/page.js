@@ -5,6 +5,7 @@ import { Footer, Navbar } from '../components/components'
 import Page404 from '../certifications/404'
 import ErrorBoundary from '../certifications/error'
 import { useState } from 'react'
+import Section1ga from './section-1-ga'
 
 const Gallery = () => {
   const [error, setError] = useState(null);
@@ -28,6 +29,7 @@ const Gallery = () => {
       <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Page404/>
+          <Section1ga/>
           <Footer/>
         </div>
       </div>
