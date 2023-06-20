@@ -3,7 +3,7 @@ import styles from '../style'
 
 const Section1ga = () => {
     return (
-        <section className={`pt-[50pxs]`}>
+        <section className={`pt-[50px]`}>
             <div className={`${styles.flexCenter}`}>
                 <h1 className={`${styles.heading2} ${styles.flexCenter}`}>
                     Gallery

@@ -10,6 +10,12 @@ module.exports = {
         port: '',
         pathname: '/assets/media/logo/**',
       },
+      {
+        protocol :"https",
+        hostname : 'cdnwpedutorenews.gramedia.net/',
+        port: "",
+        pathname: '/wp-content/uploads/***',
+      }
     ],
   },
 }

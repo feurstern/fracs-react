@@ -11,6 +11,7 @@ import favico from './favicon.ico'
 import kan from './Untitled.png'
 import office1 from './office-long-1.png'
 import office2 from './office-long-2.png'
+import business from './bisnis-810x550.jpg'
 
 export {
     menu,
@@ -26,5 +27,6 @@ export {
     kan,
     office1,
     office2,
+    business,
 };
 

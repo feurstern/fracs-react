@@ -29,9 +29,9 @@ const Gallery = () => {
 
       <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <Page404/>
-          <Section1ga/>
-          <Section2ga/>
+          {/* <Page404/> */}
+          <Section1ga/>{/*title of the page*/}
+          <Section2ga/>{/* image container */}
           <Footer/>
         </div>
       </div>

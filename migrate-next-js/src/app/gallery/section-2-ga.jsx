@@ -37,6 +37,11 @@ const Section2ga = () => {
                 className='h-auto max-w-full rounded-lg hover:opacity-50'
                 src={business}/>
             </div>
+            <div className='hover: bg-red-700'>
+             <Image 
+             className='h-auto max-w-full rounded-lg'
+             src={business}/>
+            </div>
         </div>
     </section>
   )
