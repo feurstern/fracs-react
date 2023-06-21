@@ -1,9 +1,6 @@
 /** @type {import('next').NextConfig} */
 
 module.exports = {
-  experimental: {
-    serverActions: true,
-  },
   images: {
     formats: ['image/avif', 'image/webp', 'image/png', 'image/jpeg', 'img/jpg'],
     remotePatterns: [
@@ -20,5 +17,8 @@ module.exports = {
         pathname: '/wp-content/uploads/***',
       },
     ],
+  },
+  experimental: {
+    serverActions: true,
   },
 }

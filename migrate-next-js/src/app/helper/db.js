@@ -4,9 +4,9 @@ const mysql = require('mysql');
 const dbConnection = mysql.createPool(
   {
     host: 'localhost',
-    user: 'u1089516',
-    password: 'p4nj4n9_AMAT',
-    database: 'u1089516_dev',
+    user: 'root',
+    password: '',
+    database: 'u1089516_dev_1',
   }
 );
 
