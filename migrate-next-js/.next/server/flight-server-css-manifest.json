@@ -1,14 +1,18 @@
 {
   "cssImports": {
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/layout.js": [
-      "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
-      "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/globals.css"
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\layout.js": [
+      "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+      "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\globals.css"
     ]
   },
   "cssModules": {
-    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/api/post/page": [
-      "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/globals.css",
-      "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\page": [
+      "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\globals.css",
+      "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+    ],
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\api\\post\\page": [
+      "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\globals.css",
+      "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
     ]
   }
 }

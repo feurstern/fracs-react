@@ -4,7 +4,7 @@ import handler from './testDB'
 const page = () => {
     handler();
   return (
-    <div>page
+    <div>
     {handler}</div>
   )
 }

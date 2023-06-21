@@ -2,11 +2,11 @@
 const db = require('../../helper/db');
 
 
-const handler = async(req,res)=>{
+const handler = async()=>{
     try{
         const results = await db('SELECT * FROM api_key',)
-        // res.status(200).json({data:results})
-        console.log(results);
+        
+        console.log(results[0]);
     }
     catch(err){
         console.log(`The database is error: ${err}`)
