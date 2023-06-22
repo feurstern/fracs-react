@@ -1,6 +1,7 @@
-import Head from "next/head";
+// import Head from "next/head";
 import { favico } from "@/app/Assets";
 import React from 'react'
+import { Head } from "next/document";
 
 const Page = (props) => {
   return (

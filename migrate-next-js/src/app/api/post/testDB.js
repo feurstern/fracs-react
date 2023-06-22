@@ -1,21 +1,12 @@
-const db = require('../../helper/db');
+import { query } from "../../helper/db";
 
- const test = "hello"
-const handler = async(req,res)=>{
-    try{
-        const results = await db('SELECT * FROM api_key',)
-        res.status(200).json({data:results})
-        console.log(results);
-    }
-    catch(err){
-        console.log(`The database is error: ${err}`)
-        res.status(500).jsonn({data:err})
-    }
-};
-
-handler();
-
-export default {
-    handler,
-    test
+export default async function handler(req, res) {
+  if(req.method === "POST" || req.method === "GET"){
+      console.log("Successfully connected");
+      var test = await query({
+      query:  "SELECT * FROM api_key ",
+      values: [],
+    });
+    res.status(200).json({test : test});
+  }
 }
