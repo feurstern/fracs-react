@@ -1,1 +1,3 @@
-{}
+{
+  "/api/post/page": "app/api/post/page.js"
+}
