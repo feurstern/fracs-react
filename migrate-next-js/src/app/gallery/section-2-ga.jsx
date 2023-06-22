@@ -11,7 +11,7 @@ const Section2ga = () => {
       <button type='button' className='pl-[10px] pr-[10px]'>Offline Training</button>
       <button type='button' className='pl-[10px] pr-[10px]'>Online Training</button>
      </div>
-        <div className={`${styles.galleryImageContainer} cursor-pointer pt-[20px]`}>
+        <div className={`${styles.galleryImageContainer} cursor-pointer pt-[20px] pb-[20px]`}>
             <div className='hover:bg-red-700 relative'>
                 <Image 
                 className='h-auto max-w-full rounded-lg hover:opacity-50' 
@@ -48,6 +48,17 @@ const Section2ga = () => {
                 src={business}
                 className='h-auto max-w-full rounded-lg hover:opacity-50' 
                 />
+            </div>
+            <div className='hover:bg-red-700'>
+                <Image
+                 className='h-auto max-w-full rounded-lg hover:opacity-50'
+                 src={business}
+                 />
+            </div>
+            <div className='hover:bg-red-700'>
+            <Image 
+                className='h-auto max-w-full rounded-lg hover:opacity-50'
+                src={business}/>
             </div>
         </div>
     </section>
