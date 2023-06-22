@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from '@/app/style'
 import Link from 'next/link'
 
 const Button = ({styles}) => {

@@ -1,7 +1,7 @@
 import React from "react";
-import styles, {layout} from "@/app/style";
+import styles from "../style";
 import Section6 from "./section-6";
-import { feedBack } from "@/app/constant";
+import { feedBack } from "../constant";
 
 const Section5 = () => {
   return (

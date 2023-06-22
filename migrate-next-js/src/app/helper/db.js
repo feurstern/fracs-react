@@ -1,34 +1,19 @@
-"use server"
-const mysql = require('mysql');
+import mysql from 'mysql2/promise'
 
-const dbConnection = mysql.createPool(
-  {
-    host: 'localhost',
-    user: 'root',
-    password: 'root',
-    database: 'u1089516_dev_1',
+export async function query({query, values = []}){
+  const dbConnection = await mysql.createConnection({
+    host :'localhost',
+    database : 'u1089516_dev_1',
+    user : 'root',
+    password : ''
+  })
+  try{
+    const [result] = await dbConnection.execute(query, values);
+    dbConnection.end();
+    return result;
   }
-);
-
-const query = (sql, values) => {
-  return new Promise((resolve, reject) => {
-    dbConnection.getConnection((err, connection) => {
-      if (err) {
-        reject(err);
-      } else {
-        connection.query(sql, values, (error, results) => {
-          connection.release(); 
-          if (error) {
-            reject(error);
-          } else {
-            resolve(results);
-          }
-        });
-      }
-    });
-  });
-};
-
-
-
-module.exports = query;
+  catch(error){
+     throw error;
+     return {error};
+    }
+}

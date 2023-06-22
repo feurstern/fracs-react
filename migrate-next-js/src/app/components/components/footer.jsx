@@ -1,9 +1,9 @@
 'use client'
-import styles from "@/app/style";
-import { frac_logo } from "@/app/Assets";
-import { footerLinks, otherLinks } from "@/app/constant";
+import styles from "../../style";
+import { frac_logo } from "../../Assets/index";
+import { footerLinks, otherLinks } from "../../constant/index";
 import Link from "next/link";
-import Gallery from "@/app/gallery/page";
+import Gallery from "../../gallery/page";
 import Image from "next/image";
 
 const Footer = () => (

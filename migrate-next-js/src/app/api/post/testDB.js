@@ -1,17 +1,21 @@
-"use server"
 const db = require('../../helper/db');
 
-
+ const test = "hello"
 const handler = async(req,res)=>{
     try{
         const results = await db('SELECT * FROM api_key',)
-        // res.status(200).json({data:results})
+        res.status(200).json({data:results})
         console.log(results);
     }
     catch(err){
         console.log(`The database is error: ${err}`)
-        // res.status(500).jsonn({data:err})
+        res.status(500).jsonn({data:err})
     }
 };
 
-export default handler
+handler();
+
+export default {
+    handler,
+    test
+}

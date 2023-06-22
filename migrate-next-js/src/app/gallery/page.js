@@ -7,6 +7,7 @@ import ErrorBoundary from '../certifications/error'
 import { useState } from 'react'
 import Section1ga from './section-1-ga'
 import Section2ga from './section-2-ga'
+import Imageslide from './Image-slide'
 
 const Gallery = () => {
   const [error, setError] = useState(null);
@@ -31,6 +32,7 @@ const Gallery = () => {
         <div className={`${styles.boxWidth}`}>
           {/* <Page404/> */}
           <Section1ga/>{/*title of the page*/}
+          <Imageslide/>
           <Section2ga/>{/* image container */}
           <Footer/>
         </div>

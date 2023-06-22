@@ -1,6 +1,6 @@
 import React from "react";
-import styles, {layout} from "@/app/style";
-import Button from "@/app/components/components/Button";
+import styles, {layout} from "../style";
+import Button from "../components/components/Button";
 
 const Section7 = () => {
   return (

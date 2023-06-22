@@ -1,5 +1,5 @@
-import { runDown } from "@/app/constant";
-import styles, { layout } from "@/app/style";
+import { runDown } from "../constant";
+import styles, {layout}from "../style";
 import Image from "next/image";
 
 const FeatureCard = ({ icon, title, content, index }) => (
