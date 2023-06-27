@@ -23,4 +23,5 @@ const Section6 = ({content,name,title, img}) =>(
     </div>
 )
 
+
 export default Section6
