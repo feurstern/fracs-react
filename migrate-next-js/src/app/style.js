@@ -13,6 +13,7 @@ const styles = {
     flexStart: "flex justify-center items-start",
     flexBetween : "flex justify-between",
     flexStart2 : "flex justitfy-start items-start",
+    flexEnd : "flex justitfy-end items-end",
 
 
     lineBorder : "border border-black",

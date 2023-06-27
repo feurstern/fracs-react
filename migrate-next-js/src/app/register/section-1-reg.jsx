@@ -16,7 +16,6 @@ const Section1reg = () => {
     const [endDate, setEndDate] = useState("");
     const [registerLink, setRegisterLink] = useState("");
 
-
     const getDataRegisterApi = () => {
         axios.get("https://ourtoga.com/api_register/dENWTWVaeUFiVUZKUExUUTJNVGd6TWpjd09UVnVSRDlRVWtRNU5UZ3hNemMyYm1jPQ==").then((response) => {
             console.log(`The data API : ${JSON.stringify(response)}`)
@@ -48,7 +47,7 @@ const Section1reg = () => {
                 </h1>
                 <div className={`pt-[10px]`}>
                     <p className={`${styles.paragraph}`}>
-                        Let's register our program
+                        Let's register to our program
                     </p>
                 </div>
             </div>

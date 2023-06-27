@@ -20,7 +20,7 @@ const Register = () => {
 
      <div className={`bg-white  ${styles.paddingX} ${styles.flexStart}`}>
        <div className={`${styles.boxWidth}`}>
-         <Page404/>
+         {/* <Page404/> */}
         <Section1reg/>
         <Footer/>
        </div>
