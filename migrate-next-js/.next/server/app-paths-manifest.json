@@ -1,3 +1,4 @@
 {
+  "/register/page": "app/register/page.js",
   "/api/post/page": "app/api/post/page.js"
 }

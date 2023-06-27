@@ -12,3 +12,11 @@ export default async function handler() {
     console.log("kyyaaaaa it returns error!");
   }
 }
+
+const Page=()=>{
+  return(
+    <div>
+      <h1>Page</h1>
+    </div>
+  )
+}
