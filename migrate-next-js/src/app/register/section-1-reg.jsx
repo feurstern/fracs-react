@@ -1,7 +1,7 @@
 'use client'
-import React, { Component, useState, useReducer} from 'react'
+import React, { Component, useState, useReducer } from 'react'
 import axios, { Axios } from 'axios'
-import styles, {layout} from '../style';
+import styles, { layout } from '../style';
 
 
 class Register extends Component {
@@ -14,9 +14,9 @@ const Section1reg = () => {
     const [eventName, setEventName] = useState("");
     const [startDate, setStartDate] = useState("");
     const [endDate, setEndDate] = useState("");
-    const [registerLink, setRegisterLink]= useState("");
+    const [registerLink, setRegisterLink] = useState("");
 
-    
+
     const getDataRegisterApi = () => {
         axios.get("https://ourtoga.com/api_register/dENWTWVaeUFiVUZKUExUUTJNVGd6TWpjd09UVnVSRDlRVWtRNU5UZ3hNemMyYm1jPQ==").then((response) => {
             console.log(`The data API : ${JSON.stringify(response)}`)
@@ -27,27 +27,33 @@ const Section1reg = () => {
             setRegisterLink(response?.data[0]?.register_link);
         })
     };
-   
-    const reducer=(action, state)=>{
-        switch(action.type){
+
+    const reducer = (action, state) => {
+        switch (action.type) {
             case 'callingData':
-                return{data1:state.getDataRegisterApi(), button:state.button};
+                return { data1: state.getDataRegisterApi(), button: state.button };
             case 'clickButtonTrigger':
-                return{data1 : state.getDataRegisterApi(), button:!state.button};
+                return { data1: state.getDataRegisterApi(), button: !state.button };
             default:
                 return state;
         }
     }
-    const [state, dispatch] = useReducer(reducer,{data1: getDataRegisterApi(), button:true})
+    const [state, dispatch] = useReducer(reducer, { data1: getDataRegisterApi(), button: true })
 
     return (
         <div className={`${styles.flexStart2} mt-[50px]`}>
-            <div className={`${styles.flexStart2}`}>
+            <div className={``}>
                 <h1 className={`${styles.heading2}`}>
-                    Register
+                    Register FRAC Program
                 </h1>
+                <div className={`pt-[10px]`}>
+                    <p className={`${styles.paragraph}`}>
+                        Let's register our program
+                    </p>
+                </div>
             </div>
-            <div className={`${styles.flexStart2}`}>
+            
+            {/* <div className={`${styles.flexStart2}`}>
                 <h2>{data}</h2>
                 <br/>
                 <h2>{eventName}</h2>
@@ -55,7 +61,8 @@ const Section1reg = () => {
                     dispatch({type :'callingDAta'});
                     dispatch({type:'clickButtonTrigger'});
                 }}>click</button>
-            </div>
+            </div> */}
+
         </div>
     )
 }
