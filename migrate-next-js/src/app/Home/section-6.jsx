@@ -1,6 +1,6 @@
 import React from 'react'
-import { quotes } from '@/app/Assets'
-import styles, {layout} from '@/app/style'
+import { quotes } from '../Assets'
+import styles from '../style'
 import Image from 'next/image'
 
 const Section6 = ({content,name,title, img}) =>(
@@ -22,5 +22,6 @@ const Section6 = ({content,name,title, img}) =>(
      </div>
     </div>
 )
+
 
 export default Section6

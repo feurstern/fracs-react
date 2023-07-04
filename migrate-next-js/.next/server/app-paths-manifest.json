@@ -1,4 +1,9 @@
 {
   "/page": "app/page.js",
+<<<<<<< HEAD
+=======
+  "/gallery/page": "app/gallery/page.js",
+  "/certifications/page": "app/certifications/page.js",
+>>>>>>> b701ec8f685c6b9ddeae624f1dafe26c635f2efe
   "/api/post/page": "app/api/post/page.js"
 }

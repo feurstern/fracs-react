@@ -1,5 +1,6 @@
 import React from 'react'
 import Section1reg from './section-1-reg'
+import Section2reg from './section-2-reg'
 import { Navbar, Footer } from '../components/components'
 import styles from '../style'
 import Page404 from './404'
@@ -17,11 +18,12 @@ const Register = () => {
       <div className={`${styles.boxWidth}`}>
       </div>
      </div>
-
+     
      <div className={`bg-white  ${styles.paddingX} ${styles.flexStart}`}>
        <div className={`${styles.boxWidth}`}>
-         <Page404/>
+         {/* <Page404/> */}
         <Section1reg/>
+        <Section2reg/>
         <Footer/>
        </div>
      </div>

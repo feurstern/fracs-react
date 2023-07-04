@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "node": {
     "7cd1d0d744112556d81763ec551cae9b3eced8bd": {
       "workers": {
@@ -17,5 +18,8 @@
       }
     }
   },
+=======
+  "node": {},
+>>>>>>> b701ec8f685c6b9ddeae624f1dafe26c635f2efe
   "edge": {}
 }

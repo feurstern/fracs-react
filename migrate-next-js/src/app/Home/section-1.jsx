@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "@/app/style";
+import styles from "../style";
 // import { GetStarted } from "..";
-import { aboutUs } from "@/app/Assets";
+import { aboutUs } from "../Assets";
 import { Link } from "react-router-dom";
 import Image from "next/image";
 

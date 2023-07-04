@@ -1,9 +1,9 @@
 'use client'
 import React from 'react'
 import { useState } from 'react'
-import { navLinks } from '@/app/constant'
-import { frac_logo, menu } from '@/app/Assets'
-import styles from '@/app/style'
+import { navLinks } from '../../constant/index'
+import { frac_logo, menu } from '../../Assets/index'
+import styles from '../../style'
 import Image from 'next/image'
 import Link from 'next/link'
 
