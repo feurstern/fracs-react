@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 "use server"
 const db = require('../../helper/db');
 
@@ -16,5 +15,3 @@ const handler = async()=>{
 };
 
 export default handler
-=======
->>>>>>> b701ec8f685c6b9ddeae624f1dafe26c635f2efe

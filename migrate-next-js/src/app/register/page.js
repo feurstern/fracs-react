@@ -14,10 +14,10 @@ const Register = () => {
       </div>
      </div>
 
-     <div className={`bg-white border-red-600 ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
+      <div className={`bg-white border-red-600 ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
+        </div>
       </div>
-     </div>
      
      <div className={`bg-white  ${styles.paddingX} ${styles.flexStart}`}>
        <div className={`${styles.boxWidth}`}>
