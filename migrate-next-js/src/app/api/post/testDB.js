@@ -10,7 +10,7 @@ const handler = async()=>{
     }
     catch(err){
         console.log(`The database is error: ${err}`)
-        // res.status(500).jsonn({data:err})
+        // res.status(500).json({data:err})
     }
 };
 
