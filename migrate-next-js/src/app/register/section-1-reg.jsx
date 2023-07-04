@@ -2,6 +2,7 @@
 import React, { Component, useState, useReducer } from 'react'
 import axios, { Axios } from 'axios'
 import styles, { layout } from '../style';
+import Section2reg from './section-2-reg';
 
 
 class Register extends Component {
@@ -11,19 +12,19 @@ class Register extends Component {
 const Section1reg = () => {
 
     const [data, setData] = useState("");
-    const [eventName, setEventName] = useState("");
-    const [startDate, setStartDate] = useState("");
-    const [endDate, setEndDate] = useState("");
-    const [registerLink, setRegisterLink] = useState("");
+    // const [eventName, setEventName] = useState("");
+    // const [startDate, setStartDate] = useState("");
+    // const [endDate, setEndDate] = useState("");
+    // const [registerLink, setRegisterLink] = useState("");
 
     const getDataRegisterApi = () => {
         axios.get("https://ourtoga.com/api_register/dENWTWVaeUFiVUZKUExUUTJNVGd6TWpjd09UVnVSRDlRVWtRNU5UZ3hNemMyYm1jPQ==").then((response) => {
             console.log(`The data API : ${JSON.stringify(response)}`)
-            setData(response?.data[0]?.program_name);
-            setEventName(response?.data[0]?.event_name);
-            setStartDate(response?.data[0]?.start_date);
-            setEndDate(response?.data[0]?.end_date);
-            setRegisterLink(response?.data[0]?.register_link);
+            setData(response?.data);
+            // setEventName(response?.data[0]?.event_name);
+            // setStartDate(response?.data[0]?.start_date);
+            // setEndDate(response?.data[0]?.end_date);
+            // setRegisterLink(response?.data[0]?.register_link);
         })
     };
 
@@ -51,6 +52,15 @@ const Section1reg = () => {
                     </p>
                 </div>
             </div>
+            { data.map((datas)=>(
+                <Section2reg/>
+                {/* <div key={datas.id}>
+                    <h1>Program name: {datas.program_name}</h1>
+                    <h2>The event name : {datas.event_name}</h2>
+                    <button onClick={datas.register_link}>Register</button>
+                </div> */}
+            ))
+            }
             
             {/* <div className={`${styles.flexStart2}`}>
                 <h2>{data}</h2>
