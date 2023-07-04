@@ -53,12 +53,12 @@ const Section1reg = () => {
                 </div>
             </div>
             { data.map((datas)=>(
-                <Section2reg/>
-                {/* <div key={datas.id}>
+    
+                <div key={datas.id}>
                     <h1>Program name: {datas.program_name}</h1>
                     <h2>The event name : {datas.event_name}</h2>
                     <button onClick={datas.register_link}>Register</button>
-                </div> */}
+                </div>
             ))
             }
             
