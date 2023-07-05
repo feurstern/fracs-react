@@ -11,9 +11,10 @@ const styles = {
     defaultHeaderFont : "font-poppins font-semibold text-3xl text-white text-dimWhite",
     flexCenter: "flex justify-center items-center",
     flexStart: "flex justify-center items-start",
-    flexBetween : "flex justify-between",
+    flexBetween : "flex justify-between items-center",
     flexStart2 : "flex justitfy-start items-start",
     flexEnd : "flex justitfy-end items-end",
+    
 
 
     lineBorder : "border border-black",

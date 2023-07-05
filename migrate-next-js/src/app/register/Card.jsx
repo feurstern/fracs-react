@@ -1,9 +1,12 @@
+'use client'
 import React from 'react'
+import { AnimatePresence, motion } from 'framer-motion'
+import { useState, useEffect } from 'react'
 
 const Card = () => {
     return (
 
-        <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <motion.div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             <a href="#">
                 <img class="rounded-t-lg" src="https://media.getmyuni.com/assets/images/articles/group-discussion-topics-for-college-students.webp" alt="" />
             </a>
@@ -24,7 +27,7 @@ const Card = () => {
                     </svg>
                 </a>
             </div>
-        </div>
+        </motion.div>
     )
 }
 

@@ -1,13 +1,18 @@
-
+'use client'
 import React from 'react'
 import styles from '../style'
 import Link from 'next/link'
 import Image from 'next/image'
+import { motion } from 'framer-motion'
+import { useState, useEffect } from 'react'
+
 
 const Section2reg = () => {
+  const price = 7290000;
+
   return (
-    <section className={`pt-[50px] ${styles.flexCenter} pr-[20px]`}>
-      <div className="max-w-sm  pr-bg-white border border-gray-200 rounded-lg  shadow dark:bg-gray-800 dark:border-gray-700">
+    <section className={`${styles.flexBetween} max-auto`}>
+      <motion.div className="max-w-sm  pr-bg-white border border-gray-200 rounded-lg  shadow dark:bg-gray-800 dark:border-gray-700">
         <a href="#">
           <img className="rounded-t-lg" src="https://media.getmyuni.com/assets/images/articles/group-discussion-topics-for-college-students.webp" alt="" />
         </a>
@@ -22,7 +27,7 @@ const Section2reg = () => {
             Donec neque enim, auctor ut blandit id, imperdiet vel elit.
           </p>
           <h3 className='pt-[5px] mb-3 text-white'>
-            Price : IDR. 7.200.000
+            Price : IDR. {price}
           </h3>
           <a href="#" className=" inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
             Register
@@ -31,7 +36,7 @@ const Section2reg = () => {
             </svg>
           </a>
         </div>
-      </div>
+      </motion.div>
 
       <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <a href="#">
@@ -85,6 +90,7 @@ const Section2reg = () => {
         </div>
       </div>
 
+      
 
 
 
