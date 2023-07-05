@@ -15,6 +15,12 @@ const nextConfig = {
             port : '',
             pathname : '/public/img/icon/**',
           },
+          {
+            protocol:'https',
+            hostname :'media.getmyuni.com',
+            port : '',
+            pathname :'/assets/images/articles/*'
+          }
           
         ],
       },

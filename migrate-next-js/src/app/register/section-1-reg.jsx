@@ -52,7 +52,7 @@ const Section1reg = () => {
                     </p>
                 </div>
             </div>
-            { data.map((datas)=>(
+            {/* { data.map((datas)=>(
     
                 <div key={datas.id}>
                     <h1>Program name: {datas.program_name}</h1>
@@ -60,7 +60,7 @@ const Section1reg = () => {
                     <button onClick={datas.register_link}>Register</button>
                 </div>
             ))
-            }
+            } */}
             
             {/* <div className={`${styles.flexStart2}`}>
                 <h2>{data}</h2>
