@@ -9,7 +9,7 @@ class Register extends Component {}
 const Section1reg = () => {
   const [data, setData] = useState([]);
 
-  const [data, setData] = useState("");
+  // const [data, setData] = useState("");
   // const [eventName, setEventName] = useState("");
   // const [startDate, setStartDate] = useState("");
   // const [endDate, setEndDate] = useState("");
@@ -30,20 +30,20 @@ const Section1reg = () => {
       });
   };
 
-  const reducer = (action, state) => {
-    switch (action.type) {
-      case "callingData":
-        return { data1: state.getDataRegisterApi(), button: state.button };
-      case "clickButtonTrigger":
-        return { data1: state.getDataRegisterApi(), button: !state.button };
-      default:
-        return state;
-    }
-  };
-  const [state, dispatch] = useReducer(reducer, {
-    data1: getDataRegisterApi(),
-    button: true,
-  });
+  // const reducer = (action, state) => {
+  //   switch (action.type) {
+  //     case "callingData":
+  //       return { data1: state.getDataRegisterApi(), button: state.button };
+  //     case "clickButtonTrigger":
+  //       return { data1: state.getDataRegisterApi(), button: !state.button };
+  //     default:
+  //       return state;
+  //   }
+  // };
+  // const [state, dispatch] = useReducer(reducer, {
+  //   data1: getDataRegisterApi(),
+  //   button: true,
+  // });
 
   return (
     <div className={`${styles.flexStart2} mt-[50px]`}>

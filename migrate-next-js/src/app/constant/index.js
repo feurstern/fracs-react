@@ -143,11 +143,7 @@ export const otherLinks = [
     icon: "https://rjcons.com/public/img/icon/rj-cons-150x150.avif",
     link: "https://rjcons.com/",
   },
-  {
-    id: "other-link-3",
-    icon: "",
-    link: "",
-  },
+  
 ];
 
 export const footerLinks = [
