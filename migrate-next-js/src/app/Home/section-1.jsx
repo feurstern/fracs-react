@@ -1,14 +1,31 @@
+'use client'
 import React from "react";
 import styles from "../style";
 // import { GetStarted } from "..";
 import { aboutUs } from "../Assets";
 import { Link } from "react-router-dom";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 
 const Section1 = () => {
   return (
-    <section className={`flex md:flex-row flex-col ${styles.paddingY}`}>
+    <motion.section 
+      className={`flex md:flex-row flex-col ${styles.paddingY}`}
+      initial={{ opacity: 0.1, scale: 0.5}}
+        animate={{ opacity: 1, scale: 1, x: 0 }}
+        transition={{
+          ease:[0, 0.71, 0.2, 1.01],
+          duration :'1',
+          scale:{
+            type:'spring',
+            damping: 5,
+            stiffness: 100,
+            restDelta: 0.001
+          }
+
+        }}
+      >
       <div
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
@@ -73,7 +90,7 @@ const Section1 = () => {
       <div className={`ss:hidden ${styles.flexCenter}`}>
         {/* <GetStarted /> */}
       </div>
-    </section>
+    </motion.section>
   );
 };
 

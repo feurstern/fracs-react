@@ -96,14 +96,15 @@ const Section2reg = () => {
         initial={{ opacity: 0.1, scale: 0.5}}
         animate={{ opacity: 1, scale: 1, x: 0 }}
         transition={{
-          duration: 1,
-          ease: [0, 0.71, 0.2, 1.01],
-          scale: {
-            type: 'spring',
+          ease:[0, 0.71, 0.2, 1.01],
+          duration :'1',
+          scale:{
+            type:'spring',
             damping: 5,
             stiffness: 100,
             restDelta: 0.001
           }
+
         }}
         className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <a href="#">
