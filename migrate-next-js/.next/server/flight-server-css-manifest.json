@@ -6,17 +6,33 @@
     ]
   },
   "cssModules": {
+<<<<<<< HEAD
     "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\page": [
       "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\globals.css",
       "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+=======
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/register/page": [
+      "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/globals.css",
+      "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+>>>>>>> 35f08718c2d8b74c807187b436660ef188733a20
     ],
     "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\gallery\\page": [
       "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\globals.css",
       "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
     ],
+<<<<<<< HEAD
     "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\register\\page": [
       "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\globals.css",
       "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+=======
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/page": [
+      "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/globals.css",
+      "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+    ],
+    "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/certifications/page": [
+      "/home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/globals.css",
+      "/home/rio/Documents/Project/fracs-web/migrate-next-js/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+>>>>>>> 35f08718c2d8b74c807187b436660ef188733a20
     ]
   }
 }
