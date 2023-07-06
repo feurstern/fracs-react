@@ -1,10 +1,32 @@
+'use client'
 import React from 'react'
 import styles from '../style'
+import { motion, useAnimation, useInView } from 'framer-motion'
+import { useState, useEffect, useRef } from 'react'
 
 const Section4 = () => {
+    const controls = useAnimation();
+    const ref = useRef(null);
+    const isInView = useInView(ref, {once:true})
+    const [hovered, isHovered] = useState(false)
+    useEffect(()=>{
+        isInView?controls.start('visible') : controls.start('hidden');
+    });
   return (
-    <section className={`mt-[100px] mb-[20px]`}>
-     <div className={`${styles.flexStart2}`}>
+    <motion.section
+    ref={ref}
+    variants={{
+        hidden: {opacity: 0, y:100},
+        visible : {opacity:1, y:0}
+    }} 
+    initial= 'hidden'
+    animate={controls}
+    transition={{duration:1.75}}
+    className={`mt-[100px] mb-[20px]`}>
+     <div 
+     onMouseEnter={()=> isHovered(true)}
+     onMouseLeave={()=> isHovered(false)}
+     className={`${styles.flexStart2}`}>
         <h1 className={`${styles.heading2} text-black`}>
             The FRAC Certification Fee
         </h1>
@@ -71,7 +93,7 @@ const Section4 = () => {
             </tbody>
         </table>
      </div>
-    </section>
+    </motion.section>
   )
 }
 

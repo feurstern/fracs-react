@@ -1,5 +1,5 @@
 'use client'
-import React, { Component, useState, useReducer } from 'react'
+import React, { Component, useState, useRef, useReducer } from 'react'
 import axios, { Axios } from 'axios'
 import styles, { layout } from '../style';
 import Section2reg from './section-2-reg';
@@ -12,33 +12,35 @@ class Register extends Component {
 const Section1reg = () => {
 
     const [data, setData] = useState("");
+    //to limit looping
+    const xData = useRef()
     // const [eventName, setEventName] = useState("");
     // const [startDate, setStartDate] = useState("");
     // const [endDate, setEndDate] = useState("");
     // const [registerLink, setRegisterLink] = useState("");
 
-    const getDataRegisterApi = () => {
-        axios.get("https://ourtoga.com/api_register/dENWTWVaeUFiVUZKUExUUTJNVGd6TWpjd09UVnVSRDlRVWtRNU5UZ3hNemMyYm1jPQ==").then((response) => {
-            console.log(`The data API : ${JSON.stringify(response)}`)
-            setData(response?.data);
-            // setEventName(response?.data[0]?.event_name);
-            // setStartDate(response?.data[0]?.start_date);
-            // setEndDate(response?.data[0]?.end_date);
-            // setRegisterLink(response?.data[0]?.register_link);
-        })
-    };
+    // const getDataRegisterApi = () => {
+    //     axios.get("https://ourtoga.com/api_register/dENWTWVaeUFiVUZKUExUUTJNVGd6TWpjd09UVnVSRDlRVWtRNU5UZ3hNemMyYm1jPQ==").then((response) => {
+    //         console.log(`The data API : ${JSON.stringify(response)}`)
+    //         setData(response?.data);
+    //         // setEventName(response?.data[0]?.event_name);
+    //         // setStartDate(response?.data[0]?.start_date);
+    //         // setEndDate(response?.data[0]?.end_date);
+    //         // setRegisterLink(response?.data[0]?.register_link);
+    //     })
+    // };
 
-    const reducer = (action, state) => {
-        switch (action.type) {
-            case 'callingData':
-                return { data1: state.getDataRegisterApi(), button: state.button };
-            case 'clickButtonTrigger':
-                return { data1: state.getDataRegisterApi(), button: !state.button };
-            default:
-                return state;
-        }
-    }
-    const [state, dispatch] = useReducer(reducer, { data1: getDataRegisterApi(), button: true })
+    // const reducer = (action, state) => {
+    //     switch (action.type) {
+    //         case 'callingData':
+    //             return { data1: state.getDataRegisterApi(), button: state.button };
+    //         case 'clickButtonTrigger':
+    //             return { data1: state.getDataRegisterApi(), button: !state.button };
+    //         default:
+    //             return state;
+    //     }
+    // }
+    // const [state, dispatch] = useReducer(reducer, { data1: getDataRegisterApi(), button: true })
 
     return (
         <div className={`${styles.flexStart2} mt-[50px]`}>

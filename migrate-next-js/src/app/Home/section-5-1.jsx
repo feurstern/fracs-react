@@ -1,12 +1,35 @@
-import React from 'react'
+'use client'
+import React, { useEffect, useRef, useState } from 'react'
 import styles from '../style'
 import Image from 'next/image'
 import { kan } from '../Assets'
+import { motion, useAnimation, useInView } from 'framer-motion'
 
 const Section51 = () => {
+    const ref = useRef(null);
+    const controls = useAnimation();
+    const [hovered, isHovered] = useState(false);
+    const [clicked, isClicked] = useState(false);
+    const isInView = useInView(ref, { once: true });
+    useEffect(() => {
+        isInView ? controls.start('visible') : controls.start('hidden')
+            , [isInView, controls]
+    })
     return (
-        <section className={` pt-[50px]`} >
-            <div className={`${styles.flexCenter}`}>
+        <motion.section
+            ref={ref}
+            variants={{
+                hidden: { opacity: 0,  x:100,  rotate: [0, 0, 0, 0, 0] },
+                visible: { opacity: 1, x:0, rotate: [0, 0, 270, 270, 0] }
+            }}
+            initial='hidden'
+            animate={controls}
+            transition={{duration:1.75}}
+            className={` pt-[50px]`} >
+            <div 
+            onMouseEnter={()=>isHovered(true)}
+            onMouseLeave={()=>isHovered(false)}
+            className={`${styles.flexCenter}`}>
                 <h1 className={`${styles.heading2}`}>
                     Pengakuan dan Kredibilitas Tinggi
                 </h1>
@@ -24,7 +47,7 @@ const Section51 = () => {
 
             </div>
 
-        </section>
+        </motion.section>
     )
 }
 
