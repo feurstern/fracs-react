@@ -34,7 +34,7 @@ const Section3 = () => {
         <h1 className={`${styles.heading2} mb-[20px]`}>Curriculum Schemes</h1>
       </div>
       <div className={`${styles.flexCenter} mb-[30px] pb-[15px]`}>
-        <Image src={scheme} alt='scheme' />
+        <img src='https://fracs.id/wp-content/uploads/2020/10/Kurikulum-1536x555.png' alt='scheme' />
       </div>
       <h3 className={`${styles.flexStart2} font-poppins font-semibold xs:text-[25px] text-[20px] text-black xs:leading-[60px] mb-[25px]`}>
         Tertarik untuk menjadi profesional di bidang manajemen risiko keuangan dengan sertifikasi FRAC? Berikut adalah langkah-langkah dan persyaratan yang perlu Anda penuhi:</h3>

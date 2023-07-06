@@ -15,7 +15,7 @@ const Navbar = () => {
   
   return (
     <nav className='w-full flex py-6 justify-between items-center navbar'>
-        <Image src={frac_logo} alt="FRACS" className='w-[50px] h-[50px]' />
+        <img src="https://ourtoga.com/uploads/provider/18327095nD/product/logo_1607941798.png" alt="FRACS" className='w-[50px] h-[50px]' />
         <h1 className={`${styles.defaultHeaderFont} pl-5`}>FRAC</h1>
         <ul className="list-none text-lg sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (

@@ -20,13 +20,13 @@ const Section2cer = () => {
                     <p className={`${styles.paragraph}`}><b>PT Rajawali Konsulindo (RJ Consulting)</b></p>
                 </div>
                 <div className="grid grid-cols-2 gap-4 mt-8">
-                    <Image
+                    <img
                         className="w-full rounded-lg"
-                        src={office1}
+                        src="https://e1.pxfuel.com/desktop-wallpaper/965/980/desktop-wallpaper-cappuccino-in-white-ceramic-cup-with-saucer-beside-gold-iphone-6s-and-laptop-table-thumbnail.jpg"
                         alt="office content 1"
                     />
-                    <Image className="mt-4 w-full lg:mt-10 rounded-lg"
-                        src={office2}
+                    <img className="mt-4 w-full lg:mt-10 rounded-lg"
+                        src="https://e0.pxfuel.com/wallpapers/6/594/desktop-wallpaper-studygram.jpg"
                         alt="office content 2" />
                 </div>
             </div>

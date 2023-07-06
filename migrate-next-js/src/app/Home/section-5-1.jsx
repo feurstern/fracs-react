@@ -35,9 +35,9 @@ const Section51 = () => {
                 </h1>
             </div>
             <div className={`${styles.flexCenter} pt-[20px] pb-[25px]`}>
-                <Image src={kan}
-                    className='border rounded-lg cursor cursor-pointer'
-                    href='http://kan.or.id/index.php/documents/terakreditasi/doc17021/sni-iso-iec-17024/lembaga-sertifikasi-person' />
+                <img src='https://www.sahabatmutuindonesia.com/wp-content/uploads/2021/04/LOGO-KOMITE-AKREDITASI-NASIONAL.jpg'
+                    height='320px' width='320px' className='border rounded-lg cursor cursor-pointer'
+                     />
             </div>
             <div className={`bg-red-600 border rounded-lg p-[15px]`}>
                 <p className={`${styles.paragraph} text-white`}>

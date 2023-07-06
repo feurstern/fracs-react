@@ -1,3 +1,4 @@
+'use client'
 import React, { useEffect, useRef, useState } from 'react'
 import { quotes } from '../Assets'
 import styles from '../style'

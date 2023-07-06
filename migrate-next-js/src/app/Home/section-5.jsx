@@ -1,3 +1,4 @@
+'use client'
 import React, { useEffect, useRef, useState } from "react";
 import styles from "../style";
 import Section6 from "./section-6";
