@@ -4,7 +4,6 @@ import styles, { layout } from '../style'
 import { standarImparsialitas } from '../constant'
 import { motion, useAnimation, useInView } from 'framer-motion'
 
-
 const Section1cer = ({ id, content }) => {
   const ref = useRef(null);
   const controls = useAnimation();
@@ -90,7 +89,6 @@ const Section1cer = ({ id, content }) => {
         </motion.div>
         <div className={`mt-[10px] mb-[50px]`}>
           <p className={`${styles.paragraph} max-w-[600px]`}></p>
-
         </div>
 
       </div>
