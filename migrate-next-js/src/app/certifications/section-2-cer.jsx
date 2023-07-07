@@ -15,7 +15,7 @@ const Section2cer = () => {
     useEffect(() => {
         isInView ? controls.start('visible') : controls.start('hidden')
         isInView ? controls.start('visible-pic') : controls.start('hidden-pic')
-    })
+    },[isInView, controls])
 
 
     return (
