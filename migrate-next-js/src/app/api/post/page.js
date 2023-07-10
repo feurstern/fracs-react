@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-"use server"
-import React from 'react'
-import handler from './testDB'
-const page = () => {
-    handler();
-  return (
-    <div>
-    {handler}</div>
-  )
-=======
 import excuteQuery  from "../../lib/db";
 
 export default async function handler() {
@@ -22,7 +11,6 @@ export default async function handler() {
   catch (err) {
     console.log("kyyaaaaa it returns error!");
   }
->>>>>>> b701ec8f685c6b9ddeae624f1dafe26c635f2efe
 }
 
 const Page=()=>{

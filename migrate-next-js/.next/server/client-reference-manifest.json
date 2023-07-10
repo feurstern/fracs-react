@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "ssrModuleMapping": {
     "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
       "*": {
@@ -523,26 +522,6 @@
         "async": false
       }
     },
-    "(app-client)/./src/app/Home/section-1.jsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/Home/section-1.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/Home/section-1.jsx",
-        "name": "",
-        "chunks": [],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/Home/section-1.jsx",
-        "name": "default",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./src/app/certifications/error.js": {
       "*": {
         "id": "(sc_client)/./src/app/certifications/error.js",
@@ -618,66 +597,6 @@
       },
       "default": {
         "id": "(sc_client)/./src/app/gallery/page.js",
-        "name": "default",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/page.js": {
-      "*": {
-        "id": "(sc_client)/./src/app/page.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/page.js",
-        "name": "",
-        "chunks": [],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/page.js",
-        "name": "default",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/gallery/error.js": {
-      "*": {
-        "id": "(sc_client)/./src/app/gallery/error.js",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/gallery/error.js",
-        "name": "",
-        "chunks": [],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/gallery/error.js",
-        "name": "default",
-        "chunks": [],
-        "async": false
-      }
-    },
-    "(app-client)/./src/app/register/Card.jsx": {
-      "*": {
-        "id": "(sc_client)/./src/app/register/Card.jsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/app/register/Card.jsx",
-        "name": "",
-        "chunks": [],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/app/register/Card.jsx",
         "name": "default",
         "chunks": [],
         "async": false
@@ -1914,30 +1833,6 @@
       ],
       "async": false
     },
-    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Home\\section-1.jsx": {
-      "id": "(app-client)/./src/app/Home/section-1.jsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Home\\section-1.jsx#": {
-      "id": "(app-client)/./src/app/Home/section-1.jsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\Home\\section-1.jsx#default": {
-      "id": "(app-client)/./src/app/Home/section-1.jsx",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
     "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\certifications\\error.js": {
       "id": "(app-client)/./src/app/certifications/error.js",
       "name": "*",
@@ -2034,92 +1929,6 @@
       ],
       "async": false
     },
-    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\page.js": {
-      "id": "(app-client)/./src/app/page.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\page.js#": {
-      "id": "(app-client)/./src/app/page.js",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\page.js#default": {
-      "id": "(app-client)/./src/app/page.js",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\gallery\\error.js": {
-      "id": "(app-client)/./src/app/gallery/error.js",
-      "name": "*",
-      "chunks": [
-        "app/gallery/error:static/chunks/app/gallery/error.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\gallery\\error.js#": {
-      "id": "(app-client)/./src/app/gallery/error.js",
-      "name": "",
-      "chunks": [
-        "app/gallery/error:static/chunks/app/gallery/error.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\gallery\\error.js#default": {
-      "id": "(app-client)/./src/app/gallery/error.js",
-      "name": "default",
-      "chunks": [
-        "app/gallery/error:static/chunks/app/gallery/error.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\register\\Card.jsx": {
-      "id": "(app-client)/./src/app/register/Card.jsx",
-      "name": "*",
-      "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\register\\Card.jsx#": {
-      "id": "(app-client)/./src/app/register/Card.jsx",
-      "name": "",
-      "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
-      ],
-      "async": false
-    },
-    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\register\\Card.jsx#default": {
-      "id": "(app-client)/./src/app/register/Card.jsx",
-      "name": "default",
-      "chunks": [
-        "app/register/page:static/chunks/app/register/page.js"
-      ],
-      "async": false
-    },
     "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\register\\section-1-reg.jsx": {
       "id": "(app-client)/./src/app/register/section-1-reg.jsx",
       "name": "*",
@@ -2168,6 +1977,20 @@
       ],
       "async": false
     },
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
     "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\register\\error.js": {
       "id": "(app-client)/./src/app/register/error.js",
       "name": "*",
@@ -2193,9 +2016,4 @@
       "async": false
     }
   }
-=======
-  "ssrModuleMapping": {},
-  "edgeSSRModuleMapping": {},
-  "clientModules": {}
->>>>>>> ea98022621b03c09b7d5ac5ec044a99ca215e029
 }
