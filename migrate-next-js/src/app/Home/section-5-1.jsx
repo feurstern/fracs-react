@@ -1,20 +1,43 @@
-import React from 'react'
+'use client'
+import React, { useEffect, useRef, useState } from 'react'
 import styles from '../style'
 import Image from 'next/image'
 import { kan } from '../Assets'
+import { motion, useAnimation, useInView } from 'framer-motion'
 
 const Section51 = () => {
+    const ref = useRef(null);
+    const controls = useAnimation();
+    const [hovered, isHovered] = useState(false);
+    const [clicked, isClicked] = useState(false);
+    const isInView = useInView(ref, { once: true });
+    useEffect(() => {
+        isInView ? controls.start('visible') : controls.start('hidden')
+            , [isInView, controls]
+    })
     return (
-        <section className={` pt-[50px]`} >
-            <div className={`${styles.flexCenter}`}>
+        <motion.section
+            ref={ref}
+            variants={{
+                hidden: { opacity: 0,  x:100,  rotate: [0, 0, 0, 0, 0] },
+                visible: { opacity: 1, x:0, rotate: [0, 0, 270, 270, 0] }
+            }}
+            initial='hidden'
+            animate={controls}
+            transition={{duration:1.75}}
+            className={` pt-[50px]`} >
+            <div 
+            onMouseEnter={()=>isHovered(true)}
+            onMouseLeave={()=>isHovered(false)}
+            className={`${styles.flexCenter}`}>
                 <h1 className={`${styles.heading2}`}>
                     Pengakuan dan Kredibilitas Tinggi
                 </h1>
             </div>
             <div className={`${styles.flexCenter} pt-[20px] pb-[25px]`}>
-                <Image src={kan}
-                    className='border rounded-lg cursor cursor-pointer'
-                    href='http://kan.or.id/index.php/documents/terakreditasi/doc17021/sni-iso-iec-17024/lembaga-sertifikasi-person' />
+                <img src='https://www.sahabatmutuindonesia.com/wp-content/uploads/2021/04/LOGO-KOMITE-AKREDITASI-NASIONAL.jpg'
+                    height='320px' width='320px' className='border rounded-lg cursor cursor-pointer'
+                     />
             </div>
             <div className={`bg-red-600 border rounded-lg p-[15px]`}>
                 <p className={`${styles.paragraph} text-white`}>
@@ -24,7 +47,7 @@ const Section51 = () => {
 
             </div>
 
-        </section>
+        </motion.section>
     )
 }
 

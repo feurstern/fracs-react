@@ -12,8 +12,8 @@ const Footer = () => (
   >
     <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
       <div className="flex-[1] flex flex-col justify-start mr-10">
-        <Image
-          src={frac_logo}
+        <img
+          src="https://ourtoga.com/uploads/provider/18327095nD/product/logo_1607941798.png"
           alt="Frac Logo"
           className="w-[266px] h-[72.14px] object-contain"
         />

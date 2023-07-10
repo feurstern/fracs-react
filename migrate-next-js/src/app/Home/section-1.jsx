@@ -5,28 +5,36 @@ import styles from "../style";
 import { aboutUs } from "../Assets";
 import { Link } from "react-router-dom";
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { motion, useAnimation, useInView } from "framer-motion";
+import { useState, useEffect,useRef } from "react";
 
 
 const Section1 = () => {
+  const [hovered, setHovered ] = useState(false);
+  const controls= useAnimation();
+  const ref = useRef(null);
+  // to get a fucking value from the mouse coordinate to trigger the animation and prevent it starts during on load.
+  const isInView = useInView(ref, {once:true});
+
+  useEffect(()=>{
+    isInView? controls.start("visible"): controls.start("hidden");
+  },[isInView, controls])
+
   return (
     <motion.section 
       className={`flex md:flex-row flex-col ${styles.paddingY}`}
-      initial={{ opacity: 0.1, scale: 0.5}}
-        animate={{ opacity: 1, scale: 1, x: 0 }}
-        transition={{
-          ease:[0, 0.71, 0.2, 1.01],
-          duration :'1',
-          scale:{
-            type:'spring',
-            damping: 5,
-            stiffness: 100,
-            restDelta: 0.001
-          }
-
-        }}
+      ref={ref}
+      variants={{
+        hidden : {opacity:0, y:100},
+        visible : {opacity:1, y:0}
+      }}
+      initial='hidden'
+      animate={controls}
+      transition={{duration:1.75}}
       >
-      <div
+      <div 
+        onMouseEnter={()=>setHovered(true)}
+        onMouseLeave={()=>setHovered(false)}
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
         <div className="flex flex-row items-center py-[6px] px-4 bg-red-gradient rounderd-[10px] mb-2">

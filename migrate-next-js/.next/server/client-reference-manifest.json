@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "ssrModuleMapping": {
     "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
       "*": {
@@ -2192,4 +2193,9 @@
       "async": false
     }
   }
+=======
+  "ssrModuleMapping": {},
+  "edgeSSRModuleMapping": {},
+  "clientModules": {}
+>>>>>>> ea98022621b03c09b7d5ac5ec044a99ca215e029
 }

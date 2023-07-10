@@ -8,8 +8,8 @@ const Banner = () => {
   return (
     <div className={`relative`}>
       <div id='banner' className={``}>
-        <Image src={banner} className='w-[100%] h-[auto] opacity-60' alt='image banner'>
-        </Image>
+        <img src="https://www.corporatecomplianceinsights.com/wp-content/uploads/2012/01/risk-management.jpg" className='w-[100%] h-[auto] opacity-60' alt='image banner'>
+        </img>
       </div>
       <div className={`absolute ${styles.flexCenter} text-center text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2`}>
         <h1 className={`${styles.heading2} text-white cursor-pointer hover:bg-sky-400 text-red border-none rounded-lg `}>

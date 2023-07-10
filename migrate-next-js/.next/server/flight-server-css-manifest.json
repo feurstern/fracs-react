@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "cssImports": {
     "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\src\\app\\layout.js": [
       "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
@@ -19,4 +20,8 @@
       "C:\\Users\\RJ-Ryzen\\Desktop\\Fracs Web\\fracs-react\\migrate-next-js\\node_modules\\next\\font\\google\\target.css?{\"path\":\"src\\\\app\\\\layout.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
     ]
   }
+=======
+  "cssImports": {},
+  "cssModules": {}
+>>>>>>> ea98022621b03c09b7d5ac5ec044a99ca215e029
 }
