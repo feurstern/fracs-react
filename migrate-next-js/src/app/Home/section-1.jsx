@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import React from "react";
 import styles from "../style";
 // import { GetStarted } from "..";
@@ -6,39 +6,38 @@ import { aboutUs } from "../Assets";
 import { Link } from "react-router-dom";
 import Image from "next/image";
 import { motion, useAnimation, useInView } from "framer-motion";
-import { useState, useEffect,useRef } from "react";
-
+import { useState, useEffect, useRef } from "react";
 
 const Section1 = () => {
-  const [hovered, setHovered ] = useState(false);
-  const controls= useAnimation();
+  const [hovered, setHovered] = useState(false);
+  const controls = useAnimation();
   const ref = useRef(null);
   // to get a fucking value from the mouse coordinate to trigger the animation and prevent it starts during on load.
-  const isInView = useInView(ref, {once:true});
+  const isInView = useInView(ref, { once: true });
 
-  useEffect(()=>{
-    isInView? controls.start("visible"): controls.start("hidden");
-  },[isInView, controls])
+  useEffect(() => {
+    isInView ? controls.start("visible") : controls.start("hidden");
+  }, [isInView, controls]);
 
   return (
-    <motion.section 
+    <motion.section
       className={`flex md:flex-row flex-col ${styles.paddingY}`}
       ref={ref}
       variants={{
-        hidden : {opacity:0, y:100},
-        visible : {opacity:1, y:0}
+        hidden: { opacity: 0, y: 100 },
+        visible: { opacity: 1, y: 0 },
       }}
-      initial='hidden'
+      initial="hidden"
       animate={controls}
-      transition={{duration:1.75}}
-      >
-      <div 
-        onMouseEnter={()=>setHovered(true)}
-        onMouseLeave={()=>setHovered(false)}
+      transition={{ duration: 1.75 }}
+    >
+      <div
+        onMouseEnter={() => setHovered(true)}
+        onMouseLeave={() => setHovered(false)}
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
         <div className="flex flex-row items-center py-[6px] px-4 bg-red-gradient rounderd-[10px] mb-2">
-          <img src={``} alt="test" />
+          <img src={null} alt="test" />
           <p className={`${styles.paragraph} ml-2`}>
             <span className="text-black">Register</span>
             <span className="text-black"> here</span>
@@ -63,18 +62,22 @@ const Section1 = () => {
         </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5 `}>
           FRAC adalah program sertifikasi yang memberikan pengakuan profesional
-           berupa gelar FRAC kepada manajer risiko yang
-          memiliki spesialisasi dalam menangani risiko keuangan di perusahaan. 
-          Berbeda dengan manajemen risiko di bank yang telah teregulasi dengan baik, 
-          manajemen risiko keuangan di lingkup korporasi masih belum terstandarisasi dan berkembang secara optimal.
+          berupa gelar FRAC kepada manajer risiko yang memiliki spesialisasi
+          dalam menangani risiko keuangan di perusahaan. Berbeda dengan
+          manajemen risiko di bank yang telah teregulasi dengan baik, manajemen
+          risiko keuangan di lingkup korporasi masih belum terstandarisasi dan
+          berkembang secara optimal.
         </p>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Program ini dirancang untuk mengeksplorasi dan memahami berbagai risiko keuangan yang sering dihadapi oleh perusahaan. 
-        Selain itu, para peserta akan dilatih untuk mengukur dan menangani berbagai jenis risiko menggunakan metodologi yang berlaku di dunia kerja.
+          Program ini dirancang untuk mengeksplorasi dan memahami berbagai
+          risiko keuangan yang sering dihadapi oleh perusahaan. Selain itu, para
+          peserta akan dilatih untuk mengukur dan menangani berbagai jenis
+          risiko menggunakan metodologi yang berlaku di dunia kerja.
         </p>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Program sertifikasi FRAC sangat bermanfaat, tidak hanya bagi individu dengan latar belakang keuangan, 
-        tapi juga bagi profesional di bidang non-finansial seperti operasional, pemasaran, dan hukum, termasuk:
+          Program sertifikasi FRAC sangat bermanfaat, tidak hanya bagi individu
+          dengan latar belakang keuangan, tapi juga bagi profesional di bidang
+          non-finansial seperti operasional, pemasaran, dan hukum, termasuk:
         </p>
         <ul className={`${styles.paragraph} max-w-[470px]`}>
           <li> - Risk Manager in Companies</li>
@@ -88,8 +91,14 @@ const Section1 = () => {
           <li>- Other Professional</li>
         </ul>
       </div>
-      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        <Image src={aboutUs} alt="showcase" className="w-[100%] h-[100%] relative z-[5]" />
+      <div
+        className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
+      >
+        <Image
+          src={aboutUs}
+          alt="showcase"
+          className="w-[100%] h-[100%] relative z-[5]"
+        />
         <div className="absolute z-[0] w-[40%] h-[35%] top-0  pink__gradient" />
         <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />
         <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />

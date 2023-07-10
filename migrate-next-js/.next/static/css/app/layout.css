@@ -909,6 +909,9 @@ video {
 .min-w-\[150px\]{
   min-width: 150px;
 }
+.max-w-5xl{
+  max-width: 64rem;
+}
 .max-w-\[312px\]{
   max-width: 312px;
 }
@@ -932,9 +935,6 @@ video {
 }
 .max-w-sm{
   max-width: 24rem;
-}
-.max-w-5xl{
-  max-width: 64rem;
 }
 .max-w-xs{
   max-width: 20rem;
@@ -1112,6 +1112,9 @@ video {
   -o-object-fit: contain;
      object-fit: contain;
 }
+.p-4{
+  padding: 1rem;
+}
 .p-5{
   padding: 1.25rem;
 }
@@ -1123,9 +1126,6 @@ video {
 }
 .p-\[15px\]{
   padding: 15px;
-}
-.p-4{
-  padding: 1rem;
 }
 .px-1{
   padding-left: 0.25rem;
