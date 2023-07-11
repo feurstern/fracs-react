@@ -7,7 +7,7 @@ const styles = {
 
   galleryImageContainer : "grid grid-cols-2 md:grid-cols-3 gap-4",
   textHoverImage : "text-white text-[16px]",
-
+  registerProgramContainer : 'grid grid-cols-2 md: grid-cols-3 gap-4',
   defaultHeaderFont : "font-poppins font-semibold text-3xl text-white text-dimWhite",
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",

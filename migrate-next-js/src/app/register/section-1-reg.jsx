@@ -51,10 +51,10 @@ const Section1reg = () => {
           </p>
         </div>
       </div>
-      <div>
+      {/* <div>
         AYO BERGABUNG DENGAN KAMI UNTUK MELIHAT KEASIKAN BELAJAR FINANCIAL
         MODELER!!
-      </div>
+      </div> */}
     </div>
   );
 };

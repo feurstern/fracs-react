@@ -38,11 +38,13 @@ const Section2reg = () => {
   }
 
   return (
-    <div className={`${styles.flexBetween} max-auto pt-[20px]`}>
+    <div className={`${styles.registerProgramContainer} max-auto pt-[20px]`}>
       {data?.map((data) => (
-        <section key={data?.num}>
+        <section
+          className={``}
+          key={data?.num}>
           <motion.div
-            initial={{ opacity: 0.1, scale: 0.5, x: -400 }}
+            initial={{ opacity: 0.1, scale: 0.5, x: 1 - 400 }}
             animate={{ opacity: 1, scale: 1, x: 0 }}
             transition={{
               duration: 1,
@@ -54,11 +56,11 @@ const Section2reg = () => {
                 restDelta: 0.001,
               },
             }}
-            className="max-w-sm  pr-bg-white border border-gray-200 rounded-lg  shadow dark:bg-gray-800 dark:border-gray-700"
+            className="max-w-xl  pr-bg-white border border-gray-200 rounded-lg  shadow dark:bg-gray-800 dark:border-gray-700"
           >
             <a href={data?.register_link}>
               <img
-                className="rounded-t-lg"
+                className="rounded-t-2xl"
                 src="https://media.getmyuni.com/assets/images/articles/group-discussion-topics-for-college-students.webp"
                 alt=""
               />
@@ -77,6 +79,7 @@ const Section2reg = () => {
               </h3>
               <a
                 href={data?.register_link}
+                target="_blank"
                 className=" inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
               >
                 Register
