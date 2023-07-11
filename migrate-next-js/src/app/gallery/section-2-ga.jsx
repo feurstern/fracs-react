@@ -14,7 +14,9 @@ const Section2ga = () => {
 
     useEffect(() => {
         isInView ? controls.start('visible') : controls.start('hidden')
+        !isInView ? controls.start('hidden') : controls.start('visible')
     }, [isInView, controls])
+
 
     return (
         <motion.section
@@ -61,49 +63,49 @@ const Section2ga = () => {
                         className='h-auto max-w-full rounded-lg hover:opacity-50'
                         src="https://rjcons.com/wp-content/uploads/photo-gallery/2%20(1).jpg" />
                 </motion.div>
-                <motion.div 
-                whileHover={{scale:1.2}}
-                whileTap={{scale:0.8}}
-                className='hover:bg-red-700'>
+                <motion.div
+                    whileHover={{ scale: 1.2 }}
+                    whileTap={{ scale: 0.8 }}
+                    className='hover:bg-red-700'>
                     <img
                         className='h-auto max-w-full rounded-lg hover:opacity-50'
                         src="https://rjcons.com/wp-content/uploads/photo-gallery/2%20(1).jpg" />
                 </motion.div>
-                <motion.div 
-                whileHover={{scale:1.2}}
-                whileTap={{scale:0.8}}
-                className='hover:bg-red-700'>
+                <motion.div
+                    whileHover={{ scale: 1.2 }}
+                    whileTap={{ scale: 0.8 }}
+                    className='hover:bg-red-700'>
                     <img
                         className='h-auto max-w-full rounded-lg hover:opacity-50'
                         src="https://rjcons.com/wp-content/uploads/photo-gallery/2%20(1).jpg" />
                 </motion.div>
-                <motion.div 
-                whileHover={{scale:1.2}}
-                whileTap={{scale : 0.8}}
-                className='hover:bg-red-700'>
+                <motion.div
+                    whileHover={{ scale: 1.2 }}
+                    whileTap={{ scale: 0.8 }}
+                    className='hover:bg-red-700'>
                     <img
                         className='h-auto max-w-full rounded-lg hover:opacity-50'
                         src="https://rjcons.com/wp-content/uploads/photo-gallery/2%20(1).jpg" />
                 </motion.div>
-                <motion.div 
-                whileHover={{scale:1.2}}
-                className='hover:bg-red-700'>
+                <motion.div
+                    whileHover={{ scale: 1.2 }}
+                    className='hover:bg-red-700'>
                     <img
                         className='h-auto max-w-full rounded-lg hover:opacity-50'
                         src="https://rjcons.com/wp-content/uploads/photo-gallery/2%20(1).jpg" />
                 </motion.div>
-                <motion.div 
-                whileHover={{scale:1.2}}
-                whileTap={{scale:0.8}}
-                className='hover:bg-red-700'>
+                <motion.div
+                    whileHover={{ scale: 1.2 }}
+                    whileTap={{ scale: 0.8 }}
+                    className='hover:bg-red-700'>
                     <img
                         className='h-auto max-w-full rounded-lg hover:opacity-50'
                         src="https://rjcons.com/wp-content/uploads/photo-gallery/2%20(1).jpg" />
                 </motion.div>
-                <motion.div 
-                whileHover={{scale:1.2}}
-                whileTap={{scale:0.8}}
-                className='hover:bg-red-700'>
+                <motion.div
+                    whileHover={{ scale: 1.2 }}
+                    whileTap={{ scale: 0.8 }}
+                    className='hover:bg-red-700'>
                     <img
                         className='h-auto max-w-full rounded-lg hover:opacity-50'
                         src="https://rjcons.com/wp-content/uploads/photo-gallery/2%20(1).jpg" />
