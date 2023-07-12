@@ -30,8 +30,8 @@ const nextConfig = {
     serverActions: true,
   },
   env: {
-    'MYSQL_HOST': 'https://fracs.id',
-    // 'MYSQL_PORT': '',
+    'MYSQL_HOST': 'srv104.niagahoster.com',
+    'MYSQL_PORT': '3306',
     'MYSQL_DATABASE': 'u1089516_dev',
     'MYSQL_USER': 'u1089516_dev_js',
     'MYSQL_PASSWORD': 'Makochankawaii123!',
