@@ -11,30 +11,30 @@ const nextConfig = {
         pathname: '/assets/media/logo/**',
       },
       {
-        protocol : 'https',
-        hostname :'rjcons.com',
-        port : '',
-        pathname : '/public/img/icon/**',
+        protocol: 'https',
+        hostname: 'rjcons.com',
+        port: '',
+        pathname: '/public/img/icon/**',
       },
       {
-        protocol:'https',
-        hostname :'media.getmyuni.com',
-        port : '',
-        pathname :'/assets/images/articles/*'
+        protocol: 'https',
+        hostname: 'media.getmyuni.com',
+        port: '',
+        pathname: '/assets/images/articles/*'
       }
-      
+
     ],
     unoptimized: true
   },
   experimental: {
     serverActions: true,
   },
-  env:{
-    'MYSQL_HOST': '127.0.0.1',
-    'MYSQL_PORT':'3306',
-    'MYSQL_DATABASE': 'u1089516_dev_1',
-    'MYSQL_USER': 'root',
-    'MYSQL_PASSWORD': null,
+  env: {
+    'MYSQL_HOST': 'https://fracs.id',
+    // 'MYSQL_PORT': '',
+    'MYSQL_DATABASE': 'u1089516_dev',
+    'MYSQL_USER': 'u1089516_dev_js',
+    'MYSQL_PASSWORD': 'Makochankawaii123!',
   },
 }
 

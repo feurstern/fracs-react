@@ -221,7 +221,8 @@ export const feedBack = [
     name: "Ricky Raven",
     title: "Backend Developer",
     img: "https://ourtoga.com/uploads/participant/USR-0251983467lBDr/passphoto/passphoto_pbsDztmg.png",
-  }
+  },
+  
 ]
 
 export const standarImparsialitas = [
