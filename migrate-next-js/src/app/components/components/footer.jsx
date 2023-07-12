@@ -40,7 +40,7 @@ const Footer = () => (
                     index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
                   }`}
                 >
-                  <Link href={link.link}>{link.name}</Link>
+                  <Link href={link.link} target="_blank">{link.name}</Link>
                 </li>
               ))}
             </ul>
