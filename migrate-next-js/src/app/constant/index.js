@@ -67,20 +67,20 @@ export const runDown = [
     id: "session-2",
     title: "Sesi 2 ",
     content: "Memahami Risiko Pasar",
-    icon:star
+    icon: star
   },
   {
     id: "session-3",
     title: "Sesi 3",
     content: "Memahami Risiko Kredit",
-    icon:star
+    icon: star
   },
 
   {
     id: "session-4",
     title: "Sesi 4",
     content: "Memahami Risiko Likuiditas dan Arus Kas",
-    icon:star
+    icon: star
   },
   {
     id: "session-5",
@@ -92,43 +92,43 @@ export const runDown = [
     id: "session-6",
     title: "Sesi 6",
     content: "Mengelola Risiko Pasar Melalui Hedging (2)",
-    icon:star
+    icon: star
   },
   {
     id: "session-7",
     title: "Sesi 7",
     content: "Mengelola Risiko Pasar Melalui Operasional",
-    icon:star,
+    icon: star,
   },
   {
     id: "session-8",
     title: "Sesi 8",
     content: "Mengelola Risiko Kredit untuk Korporasi",
-    icon:star,
+    icon: star,
   },
   {
     id: "session-9",
     title: "Sesi 9",
     content: "Mengelola Risiko Likuiditas dan Arus Kas untuk Korporasi",
-    icon:star
+    icon: star
   },
   {
     id: "session-10",
     title: "Sesi 10",
     content: "Memahami Risiko Keuangan yang Timbul dari Kegagalan Bisnis dan Investasi",
-    icon:star
+    icon: star
   },
   {
     id: "session-11",
     title: "Sesi 11",
     content: "Mengenali Potensi Risiko Keuangan dalam Laporan Keuangan",
-    icon:star
+    icon: star
   },
   {
     id: "session-12",
     title: "Sesi 12",
     content: "Praktek Mengenali Potensi Risiko Keuangan dalam Laporan Keuangan",
-    icon:star,
+    icon: star,
   },
 ];
 
@@ -143,7 +143,7 @@ export const otherLinks = [
     icon: "https://rjcons.com/public/img/icon/rj-cons-150x150.avif",
     link: "https://rjcons.com/",
   },
-  
+
 ];
 
 export const footerLinks = [
@@ -161,20 +161,28 @@ export const footerLinks = [
     ],
   },
   {
-    title: "Community",
+    title: "Contact US",
     links: [
       {
-        name: "Name Test",
+        name: "021-58910022/55/60",
         link: "2",
       },
       {
-        name: "3",
-        link: "3",
+        name: "087741206863 ",
+        link: "https://api.whatsapp.com/send/?phone=6287741206863&text&type=phone_number&app_absent=0",
       },
       {
-        name: "4",
-        link: "4",
+        name: "085880500875",
+        link: "https://api.whatsapp.com/send/?phone=6285880500875&text&type=phone_number&app_absent=0",
       },
+      {
+        name: '081385913098',
+        link: 'https://api.whatsapp.com/send/?phone=6281385913098&text&type=phone_number&app_absent=0'
+      },
+      {
+        name : '088294712616',
+        link : 'https://api.whatsapp.com/send/?phone=6288294712616&text&type=phone_number&app_absent=0'
+      }
     ],
   },
   {
@@ -194,51 +202,51 @@ export const footerLinks = [
 
 export const feedBack = [
   {
-    id:1,
-    content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-    name:"Elvin Willis",
-    title :"Full Stack Developer",
-    img:"https://media.licdn.com/dms/image/D5603AQGQkMgNCvH_pA/profile-displayphoto-shrink_800_800/0/1665485543999?e=2147483647&v=beta&t=XbEIiS0pE7rGojHUdLO5yptywK9OHpTRxYYK-bUxOXU"
+    id: 1,
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    name: "Elvin Willis",
+    title: "Full Stack Developer",
+    img: "https://media.licdn.com/dms/image/D5603AQGQkMgNCvH_pA/profile-displayphoto-shrink_800_800/0/1665485543999?e=2147483647&v=beta&t=XbEIiS0pE7rGojHUdLO5yptywK9OHpTRxYYK-bUxOXU"
   },
   {
-    id:2,
-    content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    id: 2,
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
     name: "Farid Darmaji",
-    title :"Frontend Developer",
-    img:"https://media.licdn.com/dms/image/D5603AQHtitc3-4fqpQ/profile-displayphoto-shrink_800_800/0/1679058849581?e=2147483647&v=beta&t=_HLFZbj8VpE3iI2NT9kZYO0tJqq67ziDtA_0IQxhW-E",
+    title: "Frontend Developer",
+    img: "https://media.licdn.com/dms/image/D5603AQHtitc3-4fqpQ/profile-displayphoto-shrink_800_800/0/1679058849581?e=2147483647&v=beta&t=_HLFZbj8VpE3iI2NT9kZYO0tJqq67ziDtA_0IQxhW-E",
   },
   {
-    id:3,
-    content:"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-    name:"Ricky Raven",
-    title:"Backend Developer",
-    img:"https://ourtoga.com/uploads/participant/USR-0251983467lBDr/passphoto/passphoto_pbsDztmg.png",
+    id: 3,
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    name: "Ricky Raven",
+    title: "Backend Developer",
+    img: "https://ourtoga.com/uploads/participant/USR-0251983467lBDr/passphoto/passphoto_pbsDztmg.png",
   }
 ]
 
-export const standarImparsialitas =[
+export const standarImparsialitas = [
   {
-    id:"1",
-    content:"IFMI secara proaktif mengidentifikasi dan meminimalisir risiko terhadap standar dan netralitas, serta menyelesaikan konflik yang mungkin muncul. Kami sangat terbuka untuk menerima masukan dari pihak ketiga terkait prinsip keadilan, netralitas, dan kerahasiaan. Anda dapat mengirimkan masukan tersebut melalui halaman Contact Us."
+    id: "1",
+    content: "IFMI secara proaktif mengidentifikasi dan meminimalisir risiko terhadap standar dan netralitas, serta menyelesaikan konflik yang mungkin muncul. Kami sangat terbuka untuk menerima masukan dari pihak ketiga terkait prinsip keadilan, netralitas, dan kerahasiaan. Anda dapat mengirimkan masukan tersebut melalui halaman Contact Us."
   },
   {
-    id:"2",
+    id: "2",
     content: "Kemitraan strategis dengan Training Partner IFMI ada untuk menjamin kualitas dan standar FRAC. Training Partner IFMI membantu para Kandidat FRAC menjadi siap menghadapi ujian sertifikasi dengan pelatihan berbasis kurikulum FRAC. Namun, IFMI selalu berdiri netral dan tidak memberikan kompensasi dalam bentuk apapun kepada Training Partner terkait partisipasi Kandidat FRAC."
   },
   {
-    id:"3",
-    content : "Kewenangan mutlak dalam menentukan kelulusan Kandidat FRAC ada di tangan IFMI yang memutuskan secara mandiri apakah seorang Kandidat memenuhi standar dan kompetensi sebagai Person Tersertifikasi FRAC. Termasuk dalam hal mencabut atau menarik sertifikat FRAC."
+    id: "3",
+    content: "Kewenangan mutlak dalam menentukan kelulusan Kandidat FRAC ada di tangan IFMI yang memutuskan secara mandiri apakah seorang Kandidat memenuhi standar dan kompetensi sebagai Person Tersertifikasi FRAC. Termasuk dalam hal mencabut atau menarik sertifikat FRAC."
   },
   {
-    id:"4",
-    content : "Penting bagi IFMI untuk menjaga kerahasiaan semua data dan informasi dari para peserta dan Person Tersertifikasi FRAC. Informasi tersebut tidak akan disebarkan kecuali diwajibkan oleh hukum."
+    id: "4",
+    content: "Penting bagi IFMI untuk menjaga kerahasiaan semua data dan informasi dari para peserta dan Person Tersertifikasi FRAC. Informasi tersebut tidak akan disebarkan kecuali diwajibkan oleh hukum."
   },
   {
-    id:"5",
+    id: "5",
     content: "FMI secara proaktif mengidentifikasi dan meminimalisir risiko terhadap standar dan netralitas, serta menyelesaikan konflik yang mungkin muncul. Kami sangat terbuka untuk menerima masukan dari pihak ketiga terkait prinsip keadilan, netralitas, dan kerahasiaan. Anda dapat mengirimkan masukan tersebut melalui halaman Contact Us."
   },
   {
-    id:"6",
-    content : "Sekalipun kami bekerja sama dengan penyedia pelatihan yang menggunakan BOK atau kurikulum kami sebagai acuan, harap diingat bahwa hasil pelatihan atau sertifikat dari mereka bukan indikator kompetensi, jaminan kelulusan ujian, dan tidak berpengaruh pada keputusan ujian program sertifikasi IFMI." 
+    id: "6",
+    content: "Sekalipun kami bekerja sama dengan penyedia pelatihan yang menggunakan BOK atau kurikulum kami sebagai acuan, harap diingat bahwa hasil pelatihan atau sertifikat dari mereka bukan indikator kompetensi, jaminan kelulusan ujian, dan tidak berpengaruh pada keputusan ujian program sertifikasi IFMI."
   }
 ];
