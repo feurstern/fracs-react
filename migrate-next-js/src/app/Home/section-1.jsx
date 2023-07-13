@@ -82,13 +82,13 @@ const Section1 = () => {
         <ul className={`${styles.paragraph} max-w-[470px]`}>
           <li> - Risk Manager in Companies</li>
           <li> - Consultant</li>
-          <li>- Finance Manager and Team</li>
-          <li>- FInance Analyst</li>
-          <li>- Regulator</li>
-          <li>- Educator</li>
-          <li>- Consultant</li>
-          <li>- Senior Management</li>
-          <li>- Other Professional</li>
+          <li> - Finance Manager and Team</li>
+          <li> - FInance Analyst</li>
+          <li> - Regulator</li>
+          <li> - Educator</li>
+          <li> - Consultant</li>
+          <li> - Senior Management</li>
+          <li> - Other Professional</li>
         </ul>
       </div>
       <div
