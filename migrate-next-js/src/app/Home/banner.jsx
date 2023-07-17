@@ -1,18 +1,25 @@
-import React from 'react'
-import Image from 'next/image'
-import { banner } from '../Assets'
-import styles from '../style'
-import { global } from 'styled-jsx/css'
+import React from "react";
+import Image from "next/image";
+import { banner } from "../Assets";
+import styles from "../style";
+import { global } from "styled-jsx/css";
 
 const Banner = () => {
   return (
-    <div className={`relative`}>
-      <div id='banner' className={``}>
-        <img src="https://www.corporatecomplianceinsights.com/wp-content/uploads/2012/01/risk-management.jpg" className='w-[100%] h-[auto] opacity-60' alt='image banner'>
-        </img>
+    <div className={``}>
+      <div id="banner" className={`w-full`}>
+        <img
+          src="https://www.corporatecomplianceinsights.com/wp-content/uploads/2012/01/risk-management.jpg"
+          className="w-[100%] h-[54rem] opacity-60"
+          alt="image banner"
+        ></img>
       </div>
-      <div className={`absolute ${styles.flexCenter} text-center text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2`}>
-        <h1 className={`${styles.heading2} text-white cursor-pointer hover:bg-sky-400 text-red border-none rounded-lg `}>
+      <div
+        className={`absolute ${styles.flexCenter} text-center text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2`}
+      >
+        <h1
+          className={`${styles.heading2} text-white cursor-pointer hover:bg-sky-400 text-red border-none rounded-lg `}
+        >
           Professional Certification in Risk Management for Corporation
         </h1>
         {/* <p className={`${styles.paragraph} text-white`}>
@@ -21,7 +28,7 @@ const Banner = () => {
         </p> */}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Banner
+export default Banner;
