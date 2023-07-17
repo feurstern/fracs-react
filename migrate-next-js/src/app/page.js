@@ -8,6 +8,7 @@ import React,{Component} from 'react';
 import Banner from './Home/banner';
 import Image from 'next/image';
 
+
 //fetch api from nodejs
 class App extends Component{
    constructor(props){
@@ -35,6 +36,7 @@ class App extends Component{
    
    render(){
       return(
+
          <div className="bg-red-700 w-full">
             <div className={`${styles.paddingX} ${styles.flexCenter} sticky top-0 bg-red-700 z-50`} >
                 <div className={`${styles.boxWidth}`}>
