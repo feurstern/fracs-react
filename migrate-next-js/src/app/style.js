@@ -22,6 +22,8 @@ const styles = {
 
   marginX: "sm:mx-16 mx-6",
   marginY: "sm:my-16 my-6",
+
+  circleDiv:"flex justify-center items-center border rounded-full border-solid border-[red] bg-dimBlue w-[64px] h-[64px]",
 };
 
 export const layout = {
@@ -31,7 +33,7 @@ export const layout = {
   sectionImgReverse: `flex-1 flex ${styles.flexCenter} md:mr-10 mr-0 md:mt-0 mt-10 relative`,
   sectionImg: `flex-1 flex ${styles.flexCenter} md:ml-10 ml-0 md:mt-0 mt-10 relative`,
   sectionTagImg : `flex-1 flex ${styles.flexStart} md:ml-10 ml-0 md:mt-0 mt-10 fixed`,
-  sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
+  sectionInfo: `flex-1 ${styles.flexStart}`,
 };
 
 export const card_css = {

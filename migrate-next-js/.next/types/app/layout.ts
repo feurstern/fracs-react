@@ -1,4 +1,4 @@
-// File: /home/rio/Documents/Project/fracs-web/migrate-next-js/src/app/layout.js
+// File: C:\Users\RJ-Ryzen\Desktop\Fracs Web\fracs-react\migrate-next-js\src\app\layout.js
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

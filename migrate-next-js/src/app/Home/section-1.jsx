@@ -53,9 +53,9 @@ const Section1 = () => {
           <h1 className=" font-poppins font-semibold text-gradient ss:text-[52px] text-[48px] ss:leading-[98px] leading-[75px]">
             Vision & Mission
           </h1>
-          <div className="flex justify-content:space-between gap-4">
+          <div className="flex justify-content:space-between gap-6">
             <div className="flex-col">
-              <p className={`${styles.paragraph} max-w-[470px] mt-5 `}>
+              <p className={`${styles.paragraph} max-w-[540px]`}>
                 FRAC adalah program sertifikasi yang memberikan pengakuan
                 profesional berupa gelar FRAC kepada manajer risiko yang
                 memiliki spesialisasi dalam menangani risiko keuangan di
@@ -65,7 +65,7 @@ const Section1 = () => {
                 optimal.
               </p>
               <br />
-              <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+              <p className={`${styles.paragraph} max-w-[540px] mt-5`}>
                 Program ini dirancang untuk mengeksplorasi dan memahami berbagai
                 risiko keuangan yang sering dihadapi oleh perusahaan. Selain
                 itu, para peserta akan dilatih untuk mengukur dan menangani
@@ -94,13 +94,13 @@ const Section1 = () => {
             </div>
           </div>
 
-          <p className={`${styles.paragraph} w-full mt-5`}>
+          <p className={`${styles.paragraph} w-full mt-10 pt-10`}>
             Program sertifikasi FRAC sangat bermanfaat, tidak hanya bagi
             individu dengan latar belakang keuangan, tapi juga bagi profesional
             di bidang non-finansial seperti operasional, pemasaran, dan hukum,
             termasuk:
           </p>
-          <div className="flex justify-evenly">
+          <div className="flex justify-evenly mt-5">
             <div className={`${styles.paragraph}`}>
               <li> Risk Manager in Companies</li>
               <li> Consultant</li>
@@ -117,7 +117,7 @@ const Section1 = () => {
           </div>
         </div>
         <div className="w-full text-center">
-          <button className="bg-green-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+          <button className="bg-green-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center mt-5">
             {/* <img src={null} alt="test" /> */}
             <svg
               xmlns="http://www.w3.org/2000/svg"

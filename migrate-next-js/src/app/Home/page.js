@@ -10,6 +10,11 @@ import Section7 from './section-7'
 import Section51 from './section-5-1'
 import Cta from '../certifications/cta'
 
+
+// componentDidMount(){
+ 
+// };
+
 const Home = () => {
   return (
     <>
