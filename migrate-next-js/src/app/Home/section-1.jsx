@@ -117,7 +117,7 @@ const Section1 = () => {
           </div>
         </div>
         <div className="w-full text-center">
-          <button class="bg-green-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
+          <button className="bg-green-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center">
             {/* <img src={null} alt="test" /> */}
             <svg
               xmlns="http://www.w3.org/2000/svg"
