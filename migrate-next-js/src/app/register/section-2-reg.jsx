@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { motion, animate } from "framer-motion";
 import axios, { Axios } from "axios";
+import moment from "moment";
 
 import { useState, useEffect } from "react";
 
@@ -14,7 +15,7 @@ const Section2reg = () => {
   // usestate for loading data from API and set data from API to data
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
-
+  const tuday = moment().format("yyyy-mm-DD");
   // get data from API
   const getDataRegisterApi = async () => {
     const data = await axios.get(
@@ -24,6 +25,21 @@ const Section2reg = () => {
     // and then set the data needed to the data useState
     setLoading(false);
     setData(data.data);
+
+    // let data_filtered = [];
+    // const filtering_data = data.data.map((items) => {
+    //   // console.log("===> items", items);
+    //   // console.log("===> tuday", tuday);
+    //   // console.log("===> items.end_date", items.end_date);
+    //   if (items.end_date < tuday) {
+    //     // console.log("===> true", true);
+    //     data_filtered = { ...data_filtered, items };
+    //   }
+    // }, null);
+
+    // console.log("===> data_filtered", data_filtered);
+
+    // setData(data_filtered);
   };
 
   useEffect(() => {
@@ -40,9 +56,7 @@ const Section2reg = () => {
   return (
     <div className={`${styles.registerProgramContainer} max-auto pt-[20px]`}>
       {data?.map((data) => (
-        <section
-          className={``}
-          key={data?.num}>
+        <section className={``} key={data?.num}>
           <motion.div
             initial={{ opacity: 0.1, scale: 0.5, x: 1 - 400 }}
             animate={{ opacity: 1, scale: 1, x: 0 }}

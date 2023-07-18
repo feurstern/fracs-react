@@ -3,7 +3,7 @@ import React from 'react'
 const loading = () => {
   return (
     <div>
-        <h2>Loading in ReactJs - GeeksforGeeks</h2>
+        {/* <h2>Loading in ReactJs - GeeksforGeeks</h2>
         <ReactLoading type="balls" color="#0000FF"
             height={100} width={50} />
         <ReactLoading type="bars" color="#0000FF"
@@ -23,7 +23,7 @@ const loading = () => {
             color="#0000FF"
             height={100}
             width={50}
-        />
+        /> */}
     </div>
   )
 }
