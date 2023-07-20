@@ -12,8 +12,8 @@ const styles = {
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
   flexBetween : "flex justify-between items-center",
-  flexStart2 : "flex justitfy-start items-start",
-  flexEnd : "flex justitfy-end items-end",
+  flexStart2 : "flex justify-start items-start",
+  flexEnd : "flex justify-end items-end",
   
   lineBorder : "border border-black",
   paddingX: "sm:px-16 px-6",
