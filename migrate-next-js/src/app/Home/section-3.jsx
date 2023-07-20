@@ -25,7 +25,7 @@ const Section3 = () => {
       initial="hidden"
       animate={controls}
       transition={{ duration: 2 }}
-      className={` mt-[25px]`}
+      className={` mt-[10px]`}
     >
       <div
         onMouseEnter={() => isHovered(true)}
