@@ -137,7 +137,6 @@ export const Section2ga = ({
                 modalContent={modalContent}
             /> */}
         </>
-
     )
 }
 

@@ -19,8 +19,8 @@ export const Constant = () => {
 
 const details = [
     {
-        title : '',
-        description : '',
+        title : 'Online',
+        description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacinia feugiat turpis, nec tincidunt est accumsan vel. Sed lacinia feugiat dolor luctus venenatis. Aenean a bibendum purus. Sed leo orci, egestas a sapien in, ',
         modalContent :(
             <>
                 <p>
@@ -32,7 +32,19 @@ const details = [
     },
 
     {
-        title : '',
+        title : 'a',
+        description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacinia feugiat turpis, nec tincidunt est accumsan vel. Sed lacinia feugiat dolor luctus venenatis. Aenean a bibendum purus. Sed leo orci, egestas a sapien in, ',
+        modalContent :(
+            <>
+                <p>
+                    This the description of the image
+                </p>
+            </>
+
+        )
+    },
+    {
+        title : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacinia feugiat turpis, nec tincidunt est accumsan vel. Sed lacinia feugiat dolor luctus venenatis. Aenean a bibendum purus. Sed leo orci, egestas a sapien in, ',
         description : '',
         modalContent :(
             <>
@@ -44,8 +56,8 @@ const details = [
         )
     },
     {
-        title : '',
-        description : '',
+        title : 'B',
+        description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacinia feugiat turpis, nec tincidunt est accumsan vel. Sed lacinia feugiat dolor luctus venenatis. Aenean a bibendum purus. Sed leo orci, egestas a sapien in, ',
         modalContent :(
             <>
                 <p>
@@ -56,8 +68,8 @@ const details = [
         )
     },
     {
-        title : '',
-        description : '',
+        title : 'C',
+        description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacinia feugiat turpis, nec tincidunt est accumsan vel. Sed lacinia feugiat dolor luctus venenatis. Aenean a bibendum purus. Sed leo orci, egestas a sapien in, ',
         modalContent :(
             <>
                 <p>
@@ -68,20 +80,8 @@ const details = [
         )
     },
     {
-        title : '',
-        description : '',
-        modalContent :(
-            <>
-                <p>
-                    This the description of the image
-                </p>
-            </>
-
-        )
-    },
-    {
-        title : '',
-        description : '',
+        title : 'D',
+        description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacinia feugiat turpis, nec tincidunt est accumsan vel. Sed lacinia feugiat dolor luctus venenatis. Aenean a bibendum purus. Sed leo orci, egestas a sapien in, ',
         modalContent :(
             <>
                 <p>
