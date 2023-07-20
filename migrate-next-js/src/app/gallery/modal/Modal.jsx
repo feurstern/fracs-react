@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import  ReactDOM  from 'react-dom';
+import ReactDOM from 'react-dom';
 import { motion, useAnimation, useInView } from 'framer-motion'
 import Reveal from './Reveal';
 import { title } from 'process';
@@ -23,7 +23,9 @@ export const Modal = ({
         isInView ? control.start('visible') : control.start('hidden')
     })
 
-    return (
+    const content =(
+
+    
         <motion.div
             ref={ref}
             variants={{
@@ -34,24 +36,24 @@ export const Modal = ({
             animate={control}
             transition={{ duration: 0.75 }}
 
+
             className=""
         >
             <div
                 onMouseEnter={() => setHovered(true)}
                 onMouseLeave={() => setHovered(false)}
-                onClick={(e) =>e.stopPropagation }
+                onClick={(e) => e.stopPropagation}
             >
             </div>
 
             <div>
-               <h4>{title}</h4>
-               <div>{modalContent}</div>
+                <h4>{title}</h4>
+                <div>{modalContent}</div>
             </div>
         </motion.div>
-    );
+    )
 
     isOpen ? <></> : 0;
-
     return ReactDOM.createPortal(content, document.getElementById('root'));
 
 }
