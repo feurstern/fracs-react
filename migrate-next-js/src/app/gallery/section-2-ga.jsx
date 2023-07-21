@@ -4,8 +4,8 @@ import styles, { layout } from '../style'
 import Image from 'next/image'
 import { business } from '../Assets'
 import { motion, useAnimation, useInView } from 'framer-motion'
-import {Reveal} from './modal/Reveal'
 import { Modal } from './modal/Modal'
+import { Reveal } from './modal/Reveal'
 
 export const Section2ga = ({
     modalContent,
@@ -47,7 +47,7 @@ export const Section2ga = ({
                     <button type='button' className='pl-[10px] pr-[10px]'>Offline Training</button>
                     <button type='button' className='pl-[10px] pr-[10px]'>Online Training</button>
                 </div>
-                <Reveal width='100%' >
+                <Reveal>
                     <div className={`${styles.galleryImageContainer} cursor-pointer pt-[20px] pb-[20px]`}>
                         <motion.div
                             whileHover={{ scale: 1.2 }}
@@ -133,9 +133,7 @@ export const Section2ga = ({
                     </div>
                 </Reveal>
             </motion.section>
-            {/* <Modal
-                modalContent={modalContent}
-            /> */}
+            <Modal />
         </>
     )
 }

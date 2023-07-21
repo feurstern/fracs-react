@@ -6,7 +6,7 @@ import Page404 from '../certifications/404'
 import ErrorBoundary from '../certifications/error'
 import { useState } from 'react'
 import Section1ga from './section-1-ga'
-import Section2ga from './section-2-ga'
+import {Section2ga} from './section-2-ga'
 import Imageslide from './Image-slide'
 
 const Gallery = () => {

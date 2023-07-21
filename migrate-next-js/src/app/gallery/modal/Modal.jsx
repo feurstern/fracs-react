@@ -3,13 +3,15 @@ import ReactDOM from 'react-dom';
 import { motion, useAnimation, useInView } from 'framer-motion'
 import Reveal from './Reveal';
 import { title } from 'process';
+import {MdClose} from 'react-icons/md'
 
 
 export const Modal = ({
     modalContent,
     isOpen,
     title,
-    setIsOpen
+    setIsOpen,
+    desc
 }) => {
     const ref = useRef(null)
     const control = useAnimation();
@@ -27,7 +29,7 @@ export const Modal = ({
         !isOpen ? getHTMLBody.style.overflowY = 'scroll' : 0
     }, [isOpen])
 
-    console.log(`The value of HTML BODY : ${getHTMLBody}`)
+    // console.log(`The value of HTML BODY : ${getHTMLBody}`)
 
     const content = (
         <div className={``} onClick={() => setIsOpen(false)}>
@@ -65,7 +67,7 @@ export const Modal = ({
     )
 
     isOpen ? <></> : 0;
-    return ReactDOM.createPortal(content, document.getElementById('root'));
+//     return ReactDOM.createPortal(content, document.getElementById('root'));
 }
 
 
