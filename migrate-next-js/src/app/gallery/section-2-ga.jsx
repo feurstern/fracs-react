@@ -3,22 +3,26 @@ import React, { useEffect, useRef, useState } from 'react'
 import styles, { layout } from '../style'
 import Image from 'next/image'
 import { business } from '../Assets'
-import { motion, useAnimation, useInView } from 'framer-motion'
+import { motion, useAnimation, useInView, AnimatePresence } from 'framer-motion'
 import { Modal } from './modal/Modal'
 import { Reveal } from './modal/Reveal'
 
-export const Section2ga = ({
-    modalContent,
-    description,
-    title,
-}) => {
+export const Section2ga = () => {
     const hiddenMask = `repeating-linear-gradient(to right, rgba(0,0,0,0) 0px, rgba(0,0,0,0) 30px, rgba(0,0,0,1) 30px, rgba(0,0,0,1) 30px)`;
     const visibleMask = `repeating-linear-gradient(to right, rgba(0,0,0,0) 0px, rgba(0,0,0,0) 0px, rgba(0,0,0,1) 0px, rgba(0,0,0,1) 30px)`;
     const ref = useRef(null);
     const controls = useAnimation();
     const isInView = useInView(ref, { once: true });
-    const [isLoad, setIsLoad] = useState(false);
-    const [isOpen, setIsOpen] = useState(false);
+
+    const [modalOpen, setModalOpen] = useState(false);
+
+    const handleOpenModal = () => {
+        setModalOpen(true);
+    }
+
+    const handleCloseModal = () => {
+        setModalOpen(false);
+    }
 
     useEffect(() => {
         isInView ? controls.start('visible') : controls.start('hidden')
@@ -40,19 +44,20 @@ export const Section2ga = ({
                 className={`pt-[50px]`}
             >
                 <div
-                    onMouseEnter={() => setIsLoad(true)}
-                    onMouseLeave={() => setIsLoad(false)}
+                    // onMouseEnter={() => setIsLoad(true)}
+                    // onMouseLeave={() => setIsLoad(false)}
                     className={`${styles.flexCenter} pt-[10px]`}>
                     <button type='button' className='pl-[10px] pr-[10px]'>All Categories</button>
                     <button type='button' className='pl-[10px] pr-[10px]'>Offline Training</button>
                     <button type='button' className='pl-[10px] pr-[10px]'>Online Training</button>
                 </div>
-                <Reveal>
+                {/* <Reveal>
+                </Reveal> */}
                     <div className={`${styles.galleryImageContainer} cursor-pointer pt-[20px] pb-[20px]`}>
                         <motion.div
                             whileHover={{ scale: 1.2 }}
                             whileTap={{ scale: 0.8 }}
-                            onClick={() => setIsOpen(true)}
+                            onClick={() => setModalOpen(true)}
                             className='hover:bg-red-700'>
                             <img
                                 className='h-auto max-w-full rounded-lg hover:opacity-50'
@@ -61,7 +66,7 @@ export const Section2ga = ({
                         <motion.div
                             whileHover={{ scale: 1.2 }}
                             whileTap={{ scale: 0.8 }}
-                            onClick={() => setIsOpen(true)}
+                            onClick={() => setModalOpen(true)}
                             className='hover:bg-red-700'>
                             <img
                                 className='h-auto max-w-full rounded-lg hover:opacity-50'
@@ -70,7 +75,7 @@ export const Section2ga = ({
                         <motion.div
                             whileHover={{ scale: 1.2 }}
                             whileTap={{ scale: 0.8 }}
-                            onClicK={() => setIsOpen(true)}
+                            onClicK={() => setModalOpen(true)}
                             className='hover:bg-red-700'>
                             <img
                                 className='h-auto max-w-full rounded-lg hover:opacity-50'
@@ -79,7 +84,7 @@ export const Section2ga = ({
                         <motion.div
                             whileHover={{ scale: 1.2 }}
                             whileTap={{ scale: 0.8 }}
-                            onClick={() => setIsOpen(false)}
+                            onClick={() => setModalOpen(false)}
                             className='hover:bg-red-700'>
                             <img
                                 className='h-auto max-w-full rounded-lg hover:opacity-50'
@@ -88,7 +93,7 @@ export const Section2ga = ({
                         <motion.div
                             whileHover={{ scale: 1.2 }}
                             whileTap={{ scale: 0.8 }}
-                            onClicK={() => setIsOpen(false)}
+                            onClicK={() => setModalOpen(false)}
                             className='hover:bg-red-700'>
                             <img
                                 className='h-auto max-w-full rounded-lg hover:opacity-50'
@@ -97,7 +102,7 @@ export const Section2ga = ({
                         <motion.div
                             whileHover={{ scale: 1.2 }}
                             whileTap={{ scale: 0.8 }}
-                            onClick={() => setIsOpen(false)}
+                            onClick={() => setModalOpen(false)}
                             className='hover:bg-red-700'>
                             <img
                                 className='h-auto max-w-full rounded-lg hover:opacity-50'
@@ -106,7 +111,7 @@ export const Section2ga = ({
                         <motion.div
                             whileHover={{ scale: 1.2 }}
                             whileTap={{ scale: 0.8 }}
-                            onClick={() => setIsOpen(false)}
+                            onClick={() => setModalOpen(false)}
                             className='hover:bg-red-700'>
                             <img
                                 className='h-auto max-w-full rounded-lg hover:opacity-50'
@@ -115,7 +120,7 @@ export const Section2ga = ({
                         <motion.div
                             whileHover={{ scale: 1.2 }}
                             whileTap={{ scale: 0.8 }}
-                            onClick={() => setIsOpen(false)}
+                            onClick={() => setModalOpen(false)}
                             className='hover:bg-red-700'>
                             <img
                                 className='h-auto max-w-full rounded-lg hover:opacity-50'
@@ -124,16 +129,21 @@ export const Section2ga = ({
                         <motion.div
                             whileHover={{ scale: 1.2 }}
                             whileTap={{ scale: 0.8 }}
-                            onClick={() => setIsOpen(false)}
+                            onClick={() => setModalOpen(false)}
                             className='hover:bg-red-700'>
                             <img
                                 className='h-auto max-w-full rounded-lg hover:opacity-50'
                                 src="https://rjcons.com/wp-content/uploads/photo-gallery/2%20(1).jpg" />
                         </motion.div>
                     </div>
-                </Reveal>
             </motion.section>
-            <Modal />
+            <Modal
+                isOpen={modalOpen}
+                closeModal={handleCloseModal}
+                title= 'Example image'
+                imageSrc='https://rjcons.com/wp-content/uploads/photo-gallery/34.jpg'
+                description="This is the hardcode of the modal image"
+            />
         </>
     )
 }

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react'
 import { motion, useAnimation, useInView } from 'framer-motion'
 
-export const Reveal = ({children, width="fit-content"}) => {
+export const Reveal = ({children, width}) => {
     const mainControls = useAnimation();
     const slideControls = useAnimation();
     const ref = useRef(null);
@@ -29,7 +29,6 @@ export const Reveal = ({children, width="fit-content"}) => {
             }}
             >
                 {children}
-
             </motion.div>
             <motion.div
             variants={{
@@ -47,10 +46,8 @@ export const Reveal = ({children, width="fit-content"}) => {
                 right: 0,
                 zIndex : 20
             }}
-            >
-                
+            >   
             </motion.div>
-
         </div>
     )
 }
