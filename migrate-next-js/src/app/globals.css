@@ -68,6 +68,33 @@
   );
 }
 
+.modal{
+  position: fixed;
+  top:0;
+  left : 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content{
+  max-width: 80%;
+  max-height: 80%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  overflow: auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.modal-header{
+  display: flex;
+  justify-content: flex-end;
+}
+
+
 .bg-gray-gradient {
   background: linear-gradient(
     153.47deg,

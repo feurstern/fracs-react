@@ -13,27 +13,28 @@ export const Modal = ({
     title,
     description
 }) => {
-    <AnimatePresence>
+    
+    return (<AnimatePresence>
         {isOpen && (
             <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{opacity :0}}
-                className=''
+                className='modal'
             >
-             <div>
-                <div>
-                <button onClick={closeModal}>
-                X
+             <div className='modal-content'>
+                <div className='modal-header'>
+                <button onClick={closeModal} className='pt-[10px] pb-[15px]'>
+                 <MdClose/>
                 </button>
                 </div>
                 <img src={imageSrc} />
-                <p>{description}</p>
+                <p className={`pt-[10px] text-center`}>{description}</p>
              </div>
-
             </motion.div>
         )}
     </AnimatePresence>
+    )
     // const ref = useRef(null)
     // const control = useAnimation();
 
