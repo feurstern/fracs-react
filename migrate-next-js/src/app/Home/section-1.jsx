@@ -53,10 +53,6 @@ const Section1 = () => {
   // console.log(generateWhatsNumber());
   // console.log(numbers[0].link)
 
-
-
-
-
   return (
     <motion.section
       className={`flex flex-row md:flex-col ${styles.paddingY}`}
@@ -112,18 +108,16 @@ const Section1 = () => {
               </p>
             </div>
             <div
-              className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
+              className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 md:flex-nowrap relative`}
             >
               <Image
                 src={aboutUs}
                 alt="showcase"
-                max-height={300}
-                className="max-w-[350px] max-h-[500px] z-[5] blur-none absolute"
+                className="max-w-[350px] max-h-[500px]  blur-none relative z-[5]"
               />
               <Image
-                src={aboutUs}
+                src={aboutUs} 
                 alt="showcase"
-                max-height={300}
                 className="w-full max-h-[500px] blur absolute"
               />
               <div className="absolute z-[0] w-[40%] h-[35%] top-0  pink__gradient" />
