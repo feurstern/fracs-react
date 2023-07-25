@@ -19,6 +19,44 @@ const Section1 = () => {
     isInView ? controls.start("visible") : controls.start("hidden");
   }, [isInView, controls]);
 
+  const numbers = [
+    {
+      number: "087741206863 ",
+      link: "https://api.whatsapp.com/send/?phone=6287741206863&text&type=phone_number&app_absent=0",
+    },
+    {
+      number: "085880500875",
+      link: "https://api.whatsapp.com/send/?phone=6285880500875&text&type=phone_number&app_absent=0",
+    },
+    {
+      number: '081385913098',
+      link: 'https://api.whatsapp.com/send/?phone=6281385913098&text&type=phone_number&app_absent=0'
+    },
+    {
+      number: '088294712616',
+      link: 'https://api.whatsapp.com/send/?phone=6288294712616&text&type=phone_number&app_absent=0'
+    }
+  ]
+
+  const len = numbers.length - 1;
+
+  const getRandomNumber = () => {
+    return Math.floor(Math.random() * len);
+  }
+
+  const generateWhatsNumber = () => {
+    let index = getRandomNumber();
+    numbers[index].link;
+    console.log(index);
+  }
+
+  // console.log(generateWhatsNumber());
+  // console.log(numbers[0].link)
+
+
+
+
+
   return (
     <motion.section
       className={`flex flex-row md:flex-col ${styles.paddingY}`}
@@ -117,6 +155,7 @@ const Section1 = () => {
           </div>
         </div>
         <div className="w-full text-center">
+          <a href={numbers[getRandomNumber()].link} target="_blank"> 
           <button className="bg-green-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center mt-5">
             {/* <img src={null} alt="test" /> */}
             <svg
@@ -130,6 +169,7 @@ const Section1 = () => {
             {/* <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --> */}
             <span> Register Here</span>
           </button>
+          </a>
         </div>
       </div>
 
