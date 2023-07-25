@@ -54,7 +54,7 @@ const Section2reg = () => {
   }
 
   return (
-    <div className={`${styles.registerProgramContainer} max-auto pt-[20px]`}>
+    <div className={`${styles.registerProgramContainer} pt-[20px]`}>
       {data?.map((data) => (
         <section className={``} key={data?.num}>
           <motion.div
@@ -70,9 +70,9 @@ const Section2reg = () => {
                 restDelta: 0.001,
               },
             }}
-            className="max-w-xl  pr-bg-white border border-gray-200 rounded-lg  shadow dark:bg-gray-800 dark:border-gray-700"
+            className="max-w-sm pr-bg-white border border-gray-200 rounded-lg  shadow dark:bg-gray-800 dark:border-gray-700"
           >
-            <a href={data?.register_link}>
+            <a href={data?.register_link} target="_blank">
               <img
                 className="rounded-t-2xl"
                 src="https://media.getmyuni.com/assets/images/articles/group-discussion-topics-for-college-students.webp"
@@ -80,7 +80,7 @@ const Section2reg = () => {
               />
             </a>
             <div className="p-5">
-              <a href={data?.register_link}>
+              <a href={data?.register_link} target="_blank">
                 <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                   {data?.program_name}
                 </h5>
