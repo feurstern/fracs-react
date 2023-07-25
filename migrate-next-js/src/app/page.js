@@ -56,7 +56,7 @@ class App extends Component{
       <div className={`${styles.boxWidth}`}>
       <Home/>
       <Footer/>
-       
+
       </div>
     </div>
  </div>

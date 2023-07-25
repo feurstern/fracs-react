@@ -18,13 +18,13 @@ const Section51 = () => {
   return (
     <motion.section
       ref={ref}
-      // variants={{
-      //     hidden: { opacity: 0,  x:100,  rotate: [0, 0, 0, 0, 0] },
-      //     visible: { opacity: 1, x:0, rotate: [0, 0, 270, 270, 0] }
-      // }}
+      variants={{
+        hidden : {opacity:0, x:0},
+        visible: {opacity :1, x :100}
+      }}
       initial="hidden"
       animate={controls}
-      transition={{ duration: 1.75 }}
+      transition={{ duration: 1.75 , delay:0.5}}
       className={` pt-[50px]`}
     >
       <div
