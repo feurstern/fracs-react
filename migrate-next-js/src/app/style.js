@@ -8,7 +8,7 @@ const styles = {
   galleryImageContainer : "grid grid-cols-2 md:grid-cols-3 gap-4",
   textHoverImage : "text-white text-[16px]",
   modalImage : 'fixed top-0 left-0 right-0 bottom-0',
-  registerProgramContainer : 'grid grid-cols-2 md: grid-cols-3 gap-4',
+  registerProgramContainer : 'grid grid-cols-1 md:grid-cols-3 gap-5',
   defaultHeaderFont : "font-poppins font-semibold text-3xl text-white text-dimWhite",
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
