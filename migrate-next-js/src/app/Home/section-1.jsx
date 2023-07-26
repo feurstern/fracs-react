@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 import Image from "next/image";
 import { motion, useAnimation, useInView } from "framer-motion";
 import { useState, useEffect, useRef } from "react";
-import ThreeText from "./Threetext";
-import { Canvas } from "@react-three/fiber";
+// import ThreeText from "./Threetext";
+// import { Canvas } from "@react-three/fiber";
 
 const Section1 = () => {
   const [hovered, setHovered] = useState(false);
@@ -80,9 +80,9 @@ const Section1 = () => {
               {" "}
               International Financial Modeling Institute{" "}
             </span>
-            <Canvas>
+            {/* <Canvas>
               <ThreeText/>
-            </Canvas>
+            </Canvas> */}
           </h1>
           {/* <div className="ss:flex hidden md:mr-4 mr-0">
             {<GetStarted /> }

@@ -1,21 +1,26 @@
+import { hrtime } from 'process';
 import React, { useRef, useEffect } from 'react';
 import * as THREE from 'three';
-import {GLTFLoader} from "https://cdn.rawgit.com/mrdoob/three.js/master/examples/jsm/loaders/GLTFLoader.js"
+import { FontLoader } from 'three/addons/loaders/FontLoader.js';
+import {useLoader } from '@react-three/fiber';
 
 const ThreeText = () => {
   const sceneRef = useRef(null);
 
-  useEffect(() => {
+ 
     const scene = new THREE.Scene();
-    const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-    const renderer = new THREE.WebGLRenderer({ antialias: true });
-    renderer.setSize(window.innerWidth, window.innerHeight);
-    sceneRef.current.appendChild(renderer.domElement);
+    // const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+    // const renderer = new THREE.WebGLRenderer({ antialias: true });
+    // renderer.setSize(window.innerWidth, window.innerHeight);
+    // sceneRef.current.appendChild(renderer.domElement);
+
 
     // Create 3D text
-    const fontLoader = new THREE.FontLoader();
-    fontLoader.load('../Assets/roboto_regular.json', (font) => {
-      const textGeometry = new THREE.TextGeometry('Hello, 3D!', {
+    const font = useLoader(THREE.FontLoader, '../Assets/roboto_regular.json')
+    const textMeshRef = useRef();
+
+    useEffect(() => {
+      const textGeometry = new THREE.TubeGeometry('Welcome to the Website!', {
         font: font,
         size: 1,
         height: 0.2,
@@ -28,38 +33,42 @@ const ThreeText = () => {
       });
       const textMaterial = new THREE.MeshStandardMaterial({ color: 0xff00ff });
       const textMesh = new THREE.Mesh(textGeometry, textMaterial);
-      scene.add(textMesh);
-    });
+      textMeshRef.current = textMesh;
+    },[font]);
+    
 
-    // Set up the camera position
-    camera.position.z = 5;
+  // Set up the camera position
+  camera.position.z = 5;
 
-    // Add lighting
-    const light = new THREE.DirectionalLight(0xffffff, 1);
-    light.position.set(5, 3, 5);
-    scene.add(light);
+  // Add lighting
+  const light = new THREE.DirectionalLight(0xffffff, 1);
+  light.position.set(5, 3, 5);
+  scene.add(light);
 
-    // Add ambient light
-    scene.add(new THREE.AmbientLight(0x404040));
+  // Add ambient light
+  scene.add(new THREE.AmbientLight(0x404040));
 
-    // Animation loop
+  // Animation loop
+  useEffect(()=>{
     const animate = () => {
       requestAnimationFrame(animate);
-
+  
+      // Rotate the text mesh
+      textMesh.rotation.x += 0.01;
+      textMesh.rotation.y += 0.01;
+  
       // Render the scene
       renderer.render(scene, camera);
     };
-
     animate();
+  },[])
 
-    return () => {
-      // Clean up the scene and memory when the component unmounts
-      sceneRef.current.removeChild(renderer.domElement);
-      renderer.dispose();
-    };
-  }, []);
+  return(
+    <group>
+      {textMeshRef.current && <primitive object={textMeshRef.current}/>}
+    </group>
+  )
+} 
 
-  return <div ref={sceneRef}></div>;
-};
 
 export default ThreeText;
