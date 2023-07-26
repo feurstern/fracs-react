@@ -1,3 +1,4 @@
+'use client'
 import React, { useState, useReducer, useEffect } from 'react'
 import { motion, animate } from "framer-motion";
 import axios, { Axios } from "axios";

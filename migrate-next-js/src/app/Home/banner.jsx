@@ -3,6 +3,8 @@ import Image from "next/image";
 import { banner } from "../Assets";
 import styles from "../style";
 import { global } from "styled-jsx/css";
+import ThreeText from "./Threetext";
+import { Canvas } from '@react-three/fiber';
 
 const Banner = () => {
   return (
@@ -20,8 +22,11 @@ const Banner = () => {
         <h1
           className={`${styles.heading2} text-white cursor-pointer hover:bg-sky-400 text-red border-none rounded-lg `}
         >
-          Professional Certification in Risk Management for Corporation
+          {/* Professional Certification in Risk Management for Corporation */}
         </h1>
+        
+          <ThreeText />
+        
         {/* <p className={`${styles.paragraph} text-white`}>
           Selamat datang di situs resmi Sertifikasi FRAC!
           Program Sertifikasi FRAC adalah program sertifikasi yang dirancang khusus untuk profesional di bidang manajemen risiko keuangan. Dengan kurikulum yang terstandarisasi dan berfokus pada praktik-praktik risiko keuangan di perusahaan, Sertifikasi FRAC dapat membantu Anda meningkatkan pengetahuan, keterampilan dan kredensial Anda dalam mengelola risiko keuangan di perusahaan
