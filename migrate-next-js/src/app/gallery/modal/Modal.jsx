@@ -4,6 +4,7 @@ import { AnimatePresence, motion, useAnimation, useInView } from 'framer-motion'
 import Reveal from './Reveal';
 import { title } from 'process';
 import { MdClose } from 'react-icons/md'
+import { image } from './image-data';
 
 
 export const Modal = ({
@@ -13,26 +14,27 @@ export const Modal = ({
     title,
     description
 }) => {
-    
+
     return (<AnimatePresence>
-        {isOpen && (
+        {isOpen && image.map((data) => (
             <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                exit={{opacity :0}}
+                exit={{ opacity: 0 }}
                 className='modal'
             >
-             <div className='modal-content'>
-                <div className='modal-header'>
-                <button onClick={closeModal} className='pt-[10px] pb-[15px]'>
-                 <MdClose/>
-                </button>
+                <div className='modal-content'>
+                    <div className='modal-header'>
+                        <button onClick={closeModal} className='pt-[10px] pb-[15px]'>
+                            <MdClose />
+                        </button>
+                    </div>
+                    <p>{data.title}</p>
+                    <img src={data.src} />
+                    <p className={`pt-[10px] text-center`}>{data.description}</p>
                 </div>
-                <img src={imageSrc} />
-                <p className={`pt-[10px] text-center`}>{description}</p>
-             </div>
             </motion.div>
-        )}
+        ))}
     </AnimatePresence>
     )
     // const ref = useRef(null)

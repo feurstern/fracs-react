@@ -56,102 +56,119 @@ export const Section2ga = () => {
                     // onMouseLeave={() => setIsLoad(false)}
                     className={`${styles.flexCenter} pt-[10px]`}>
                     <button type='button' className='pl-[10px] pr-[10px]'>All Categories</button>
-                    <button type='button' className='pl-[10px] pr-[10px]'>Offline Training</button>
+                    <button typew='button' className='pl-[10px] pr-[10px]'>Offline Training</button>
                     <button type='button' className='pl-[10px] pr-[10px]'>Online Training</button>
                 </div>
-                {/* <Reveal>
-                </Reveal> */}
-                <div className={`${styles.galleryImageContainer} cursor-pointer pt-[20px] pb-[20px]`}>
-                    <motion.div
-                        whileHover={{ scale: 1.2 }}
-                        whileTap={{ scale: 0.8 }}
-                        onClick={() => setModalOpen(true)}
-                        className='hover:bg-red-700'>
-                        <img
-                            className='h-auto max-w-full rounded-lg hover:opacity-50'
-                            src={image[getRandomNumber()].src}/>
-                    </motion.div>
-                    <motion.div
-                        whileHover={{ scale: 1.2 }}
-                        whileTap={{ scale: 0.8 }}
-                        onClick={() => setModalOpen(true)}
-                        className='hover:bg-red-700'>
-                        <img
-                            className='h-auto max-w-full rounded-lg hover:opacity-50'
-                            src={image[getRandomNumber()].src} />
-                    </motion.div>
-                    <motion.div
-                        whileHover={{ scale: 1.2 }}
-                        whileTap={{ scale: 0.8 }}
-                        onClicK={() => setModalOpen(true)}
-                        className='hover:bg-red-700'>
-                        <img
-                            className='h-auto max-w-full rounded-lg hover:opacity-50'
-                            src={image[getRandomNumber()].src} />
-                    </motion.div>
-                    <motion.div
-                        whileHover={{ scale: 1.2 }}
-                        whileTap={{ scale: 0.8 }}
-                        onClick={() => setModalOpen(true)}
-                        className='hover:bg-red-700'>
-                        <img
-                            className='h-auto max-w-full rounded-lg hover:opacity-50'
-                            src={image[getRandomNumber()].src}  />
-                    </motion.div>
-                    <motion.div
-                        whileHover={{ scale: 1.2 }}
-                        whileTap={{ scale: 0.8 }}
-                        onClicK={() => setModalOpen(true)}
-                        className='hover:bg-red-700'>
-                        <img
-                            className='h-auto max-w-full rounded-lg hover:opacity-50'
-                            src={image[getRandomNumber()].src}  />
-                    </motion.div>
-                    <motion.div
-                        whileHover={{ scale: 1.2 }}
-                        whileTap={{ scale: 0.8 }}
-                        onClick={() => setModalOpen(true)}
-                        className='hover:bg-red-700'>
-                        <img
-                            className='h-auto max-w-full rounded-lg hover:opacity-50'
-                            src={image[getRandomNumber()].src}/>
-                    </motion.div>
-                    <motion.div
-                        whileHover={{ scale: 1.2 }}
-                        whileTap={{ scale: 0.8 }}
-                        onClick={() => setModalOpen(true)}
-                        className='hover:bg-red-700'>
-                        <img
-                            className='h-auto max-w-full rounded-lg hover:opacity-50'
-                            src={image[getRandomNumber()].src}/>
-                    </motion.div>
-                    <motion.div
-                        whileHover={{ scale: 1.2 }}
-                        whileTap={{ scale: 0.8 }}
-                        onClick={() => setModalOpen(true)}
-                        className='hover:bg-red-700'>
-                        <img
-                            className='h-auto max-w-full rounded-lg hover:opacity-50'
-                            src={image[getRandomNumber()].src} />
-                    </motion.div>
-                    <motion.div
-                        whileHover={{ scale: 1.2 }}
-                        whileTap={{ scale: 0.8 }}
-                        onClick={() => setModalOpen(true)}
-                        className='hover:bg-red-700'>
-                        <img
-                            className='h-auto max-w-full rounded-lg hover:opacity-50'
-                            src={image[getRandomNumber()].src}/>
-                    </motion.div>
+                <div className={`${styles.galleryImageContainer} cursor-pointer pt-[20px]`}>
+                    {image.map((data) => (
+                        <motion.div
+                            whileHover={{ scale: 1.2 }}
+                            whileTap={{ scale: 0.8 }}
+                            className='hover:bg-red-700'
+                            onClick={() => setModalOpen(true)}
+                        >
+                            <img
+                                className='h-auto max-w-full rounded-lg hover:opacity-50'
+                                src={data.src} />
+
+                        </motion.div>
+                    ))}
                 </div>
+                {/* <div className={`${styles.galleryImageContainer} cursor-pointer pt-[20px] pb-[20px]`}>
+                    <motion.div
+                        whileHover={{ scale: 1.2 }}
+                        whileTap={{ scale: 0.8 }}
+                        onClick={() => setModalOpen(true)}
+                        className='hover:bg-red-700'>
+                        <img
+                            className='h-auto max-w-full rounded-lg hover:opacity-50'
+                            src={image[getRandomNumber()].src} />
+                    </motion.div> */}
+                {/* <motion.div
+                        whileHover={{ scale: 1.2 }}
+                        whileTap={{ scale: 0.8 }}
+                        onClick={() => setModalOpen(true)}
+                        className='hover:bg-red-700'>
+                        <img
+                            className='h-auto max-w-full rounded-lg hover:opacity-50'
+                            src={image[getRandomNumber()].src} />
+                    </motion.div>
+                    <motion.div
+                        whileHover={{ scale: 1.2 }}
+                        whileTap={{ scale: 0.8 }}
+                        onClicK={() => setModalOpen(true)}
+                        className='hover:bg-red-700'>
+                        <img
+                            className='h-auto max-w-full rounded-lg hover:opacity-50'
+                            src={image[getRandomNumber()].src} />
+                    </motion.div>
+                    <motion.div
+                        whileHover={{ scale: 1.2 }}
+                        whileTap={{ scale: 0.8 }}
+                        onClick={() => setModalOpen(true)}
+                        className='hover:bg-red-700'>
+                        <img
+                            className='h-auto max-w-full rounded-lg hover:opacity-50'
+                            src={image[getRandomNumber()].src}  />
+                    </motion.div>
+                    <motion.div
+                        whileHover={{ scale: 1.2 }}
+                        whileTap={{ scale: 0.8 }}
+                        onClicK={() => setModalOpen(true)}
+                        className='hover:bg-red-700'>
+                        <img
+                            className='h-auto max-w-full rounded-lg hover:opacity-50'
+                            src={image[getRandomNumber()].src}  />
+                    </motion.div>
+                    <motion.div
+                        whileHover={{ scale: 1.2 }}
+                        whileTap={{ scale: 0.8 }}
+                        onClick={() => setModalOpen(true)}
+                        className='hover:bg-red-700'>
+                        <img
+                            className='h-auto max-w-full rounded-lg hover:opacity-50'
+                            src={image[getRandomNumber()].src}/>
+                    </motion.div>
+                    <motion.div
+                        whileHover={{ scale: 1.2 }}
+                        whileTap={{ scale: 0.8 }}
+                        onClick={() => setModalOpen(true)}
+                        className='hover:bg-red-700'>
+                        <img
+                            className='h-auto max-w-full rounded-lg hover:opacity-50'
+                            src={image[getRandomNumber()].src}/>
+                    </motion.div>
+                    <motion.div
+                        whileHover={{ scale: 1.2 }}
+                        whileTap={{ scale: 0.8 }}
+                        onClick={() => setModalOpen(true)}
+                        className='hover:bg-red-700'>
+                        <img
+                            className='h-auto max-w-full rounded-lg hover:opacity-50'
+                            src={image[getRandomNumber()].src} />
+                    </motion.div>
+                    <motion.div
+                        whileHover={{ scale: 1.2 }}
+                        whileTap={{ scale: 0.8 }}
+                        onClick={() => setModalOpen(true)}
+                        className='hover:bg-red-700'>
+                        <img
+                            className='h-auto max-w-full rounded-lg hover:opacity-50'
+                            src={image[getRandomNumber()].src}/>
+                    </motion.div> */}
+                {/* </div> */}
             </motion.section>
-            <Modal
-                isOpen={modalOpen}
-                closeModal={handleCloseModal}
-                title='Example image'
-                imageSrc={image[getRandomNumber()].src}
-                description="This is the hardcode of the modal image"
-            />
+            {image.map((data) => (
+                <Modal
+                    isOpen={modalOpen}
+                    closeModal={handleCloseModal}
+                    // title={data.title}
+                    // imageSrc={data.src}
+                    // description={data.description}
+                />
+
+            ))
+            }
         </>
     )
 }
