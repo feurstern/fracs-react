@@ -62,6 +62,7 @@ export const Section2ga = () => {
                 <div className={`${styles.galleryImageContainer} cursor-pointer pt-[20px]`}>
                     {image.map((data) => (
                         <motion.div
+                            key={data.src}
                             whileHover={{ scale: 1.2 }}
                             whileTap={{ scale: 0.8 }}
                             className='hover:bg-red-700'
@@ -158,17 +159,14 @@ export const Section2ga = () => {
                     </motion.div> */}
                 {/* </div> */}
             </motion.section>
-            {image.map((data) => (
-                <Modal
-                    isOpen={modalOpen}
-                    closeModal={handleCloseModal}
-                    // title={data.title}
-                    // imageSrc={data.src}
-                    // description={data.description}
-                />
 
-            ))
-            }
+            <Modal
+                isOpen={modalOpen}
+                closeModal={handleCloseModal}
+                // title={data.title}
+                 imageSrc={image}
+            // description={data.description}
+            />
         </>
     )
 }
