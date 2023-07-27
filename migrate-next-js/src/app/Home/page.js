@@ -21,7 +21,6 @@ const Home = () => {
         {/* <Banner/> */}
         <Section1/>
         <Section2/>
-        <Cta/>
         <Section3/>
         <Section4/>
         <Section51/>

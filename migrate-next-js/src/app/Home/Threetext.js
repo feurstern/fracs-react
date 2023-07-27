@@ -16,7 +16,7 @@ const ThreeText = () => {
 
 
     // Create 3D text
-    const font = useLoader(THREE.FontLoader, '../Assets/roboto_regular.json')
+    const font = useLoader(FontLoader, '../Assets/roboto_regular.json')
     const textMeshRef = useRef();
 
     useEffect(() => {

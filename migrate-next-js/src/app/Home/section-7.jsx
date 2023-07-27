@@ -34,7 +34,7 @@ const Section7 = () => {
       <div
         className={`${styles.flexEnd} sm:ml-10 ml-0 sm:mt-0 mt-10 w-full mr-20`}
       >
-        <Button styles={styles.flexCenter} />
+        <Button />
       </div>
     </motion.section>
   );
