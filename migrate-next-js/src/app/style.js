@@ -1,5 +1,5 @@
 const styles = {
-  boxWidth: "xl:max-w-[1280px] w-full",
+  boxWidth: "xl:max-w-[1280px] w-full border border-black",
 
   heading2: "font-poppins font-semibold xs:text-[48px] text-[40px] text-black xs:leading-[76.8px] leading-[66.8px] w-full",
   heading3: "font-poppins font-semibold xs:text-[25px] text-[20px] text-black xs:leading-[50px] ",
@@ -38,7 +38,7 @@ export const layout = {
 };
 
 export const card_css = {
-  card_box: `flex lg:flex-wrap md:flex-nowrap max-w-5xl m-0 auto`,
+  card_box: `flex flex-wrap m-0 w-full`,
   card: `max-w-xs m-4 p-4 border solid #ccc`,
 };
 

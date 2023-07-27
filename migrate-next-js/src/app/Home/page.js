@@ -9,7 +9,8 @@ import Section6 from './section-6'
 import Section7 from './section-7'
 import Section51 from './section-5-1'
 import Cta from '../certifications/cta'
-import Section1cer from '../certifications/section-1-cer'
+import Section1cer from './section-1-cer'
+import Section2cer from './section-2-cer'
 
 
 // componentDidMount(){
@@ -26,6 +27,7 @@ const Home = () => {
         <Section3/>
         <Section4/>
         <Section51/>
+        <Section2cer/>
         <Section5/>
         <Section7/>
     </>

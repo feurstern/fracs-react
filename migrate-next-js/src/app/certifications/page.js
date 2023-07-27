@@ -16,19 +16,12 @@ const page = () => {
                 <Navbar/>
             </div>
         </div>
-
-        <div className={`bg-white border-red-600`}>
-            <div className={`${styles.boxWidth}`}>
-
-            </div>
-        </div>
-
         <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
             {/* <Page404/> */}
-            {/* <Section1cer/> */}
+            <Section1cer/>
             <Section2cer/>
-            <Cta/>
+            {/* <Cta/> */}
             <Footer/>
           </div>
 
