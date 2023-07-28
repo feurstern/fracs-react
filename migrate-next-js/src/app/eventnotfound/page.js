@@ -25,7 +25,7 @@ const page = () => {
         </div>
       </div>
 
-      <div className={`bg-sky-300 ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`bg-blue-900 ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Footer />
         </div>

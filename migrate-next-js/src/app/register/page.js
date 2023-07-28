@@ -8,7 +8,7 @@ import Page404 from './404'
 const Register = () => {
   return (
     <div className='bg-red-700 w-full overflow-hidden'>
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.paddingX} ${styles.flexCenter} sticky bg-red-700`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
         </div>
@@ -27,7 +27,7 @@ const Register = () => {
           {/* <Card/> */}
         </div>
       </div>
-      <div className={`bg-sky-300 ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`bg-sky-900 ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Footer />
         </div>

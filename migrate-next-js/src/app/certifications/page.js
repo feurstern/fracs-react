@@ -11,7 +11,7 @@ import Section2cer from './section-2-cer'
 const page = () => {
   return (
     <div className='bg-red-700 w-full overflow-hidden'>
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.paddingX} ${styles.flexCenter} sticky bg-red-700`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
         </div>
@@ -25,7 +25,7 @@ const page = () => {
           {/* <Footer/> */}
         </div>
       </div>
-      <div className={`bg-sky-300 ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`bg-blue-900 ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Footer />
         </div>

@@ -9,11 +9,7 @@ const Imageslide = () => {
 
   const len = image.length - 1;
   
-  window.addEventListener('DOMContentLoaded', ()=>{
-
-  })
-
-
+  // window.addEventListener('DOMContentLoaded', ()=>{})
 
   return (
     <AnimatePresence

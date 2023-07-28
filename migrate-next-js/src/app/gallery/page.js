@@ -16,8 +16,8 @@ const Gallery = () => {
   const [data, setData] = useState(null);
 
   return (
-    <div className='bg-red-700 w-full overflow-hidden'>
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+    <div className='bg-red-700 w-full'>
+      <div className={`${styles.paddingX} ${styles.flexCenter} sticky top-0 bg-red-700`}>
         <div className={`${styles.boxWidth}`}>
           <Navbar />
         </div>
@@ -38,7 +38,7 @@ const Gallery = () => {
         </div>
       </div>
 
-      <div className={`bg-sky-300 ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`bg-blue-900 ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Footer />
         </div>
