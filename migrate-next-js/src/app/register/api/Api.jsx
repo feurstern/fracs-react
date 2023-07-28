@@ -6,7 +6,7 @@ import moment from "moment";
 import styles from "../../style";
 import Link from "next/link";
 import Image from "next/image";
-import Expired from "../../eventnotfound/expired";
+import Expired from "../../eventnotfound/Expired";
 
 const Api = () => {
   const [data, setData] = useState([]);
@@ -110,7 +110,10 @@ const Api = () => {
           </div>
         ))
       ) : (
-        <Expired />
+        <div className="pb-[50px]">
+          <Expired />
+        </div>
+
       )}
     </div>
   );

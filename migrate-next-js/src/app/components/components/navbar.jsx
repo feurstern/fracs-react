@@ -17,14 +17,14 @@ const Navbar = () => {
       <img
         src="https://ourtoga.com/uploads/provider/18327095nD/product/logo_1607941798.png"
         alt="FRACS"
-        className="w-[50px] h-[50px]"
+        className="w-[85px] h-[85px]"
       />
-      <h1 className={`${styles.defaultHeaderFont} pl-5`}>FRAC</h1>
-      <ul className="list-none text-lg sm:flex hidden justify-end items-center flex-1">
+      <h1 className={`${styles.defaultHeaderFont} pl-5`}>Financial Risk Analyst for Corporation</h1>
+      <ul className="list-none text-xl font-bold sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-[16px] ${
+            className={`font-poppins font-bold cursor-pointer text-xl ${
               active === nav.title ? "text-white" : "text-dimWhite"
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onClick={() => setActive(nav.title)}

@@ -52,7 +52,7 @@ const Section3 = () => {
         className={`${styles.flexCenter} font-poppins text-[18px]`}
       >
         <table className="table-fixed border border-black">
-          <thead className="text-center border border-black bg-red-600 text-white">
+          <thead className="text-center border border-black bg-sky-600 text-white">
             <tr className="border border-black">
               <th className="w-[50px] border border-black">No</th>
               <th className="w-[200px] text-left pl-2 border border-black">

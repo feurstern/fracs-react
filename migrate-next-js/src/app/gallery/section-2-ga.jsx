@@ -13,7 +13,6 @@ export const Section2ga = () => {
 
     const getRandomNumber = () => {
         return Math.floor(Math.random() * len)
-
     }
 
     const hiddenMask = `repeating-linear-gradient(to right, rgba(0,0,0,0) 0px, rgba(0,0,0,0) 30px, rgba(0,0,0,1) 30px, rgba(0,0,0,1) 30px)`;
@@ -49,7 +48,7 @@ export const Section2ga = () => {
                 initial='hidden'
                 animate={controls}
                 transition={{ duration: 2.25 }}
-                className={`pt-[50px]`}
+                className={`pt-[50px] pb-[65px]`}
             >
                 <div
                     // onMouseEnter={() => setIsLoad(true)}

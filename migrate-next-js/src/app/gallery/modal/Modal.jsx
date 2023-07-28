@@ -11,12 +11,12 @@ export const Modal = ({
     isOpen,
     closeModal,
     imageSrc,
-    title,
+    title,  
     description
 }) => {
 
     return (<AnimatePresence>
-        {isOpen && image.map((data) => (
+        {isOpen && (
             <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -29,12 +29,18 @@ export const Modal = ({
                             <MdClose />
                         </button>
                     </div>
-                    <p>{data.title}</p>
-                    <img src={data.src} />
-                    <p className={`pt-[10px] text-center`}>{data.description}</p>
+                    {
+                        image.map((data) => (
+                            <div key={data.src}>
+                                <p>{data.title}</p>
+                                <img src={data.src} />
+                                <p className={`pt-[10px] text-center`}>{data.description}</p>
+                            </div>
+                        ))
+                    }
                 </div>
             </motion.div>
-        ))}
+        )}
     </AnimatePresence>
     )
     // const ref = useRef(null)

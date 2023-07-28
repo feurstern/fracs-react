@@ -25,11 +25,13 @@ const len = numbers.length - 1;
 const getRandomNumber = () => {
   return Math.floor(Math.random() * len);
 };
-
+// console.log(`random number : ${getRandomNumber()}`)
 const Button = ({ styles }) => {
   return (
     <a href={numbers[getRandomNumber()].link} target="_blank">
-      <button className="bg-green-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center mt-5">
+      <button 
+      onClick={getRandomNumber}
+      className="bg-green-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center mt-5">
         {/* <img src={null} alt="test" /> */}
         <svg
           xmlns="http://www.w3.org/2000/svg"
