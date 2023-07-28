@@ -6,7 +6,7 @@ import moment from "moment";
 import styles from "../../style";
 import Link from "next/link";
 import Image from "next/image";
-import Expired from "../../eventnotfound/expired";
+import Expired from "../../eventnotfound/Expired";
 
 const Api = (props) => {
   const [data, setData] = useState([]);

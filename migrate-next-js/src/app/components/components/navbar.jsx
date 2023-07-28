@@ -17,9 +17,9 @@ const Navbar = () => {
       <img
         src="https://ourtoga.com/uploads/provider/18327095nD/product/logo_1607941798.png"
         alt="FRACS"
-        className="w-[50px] h-[50px]"
+        className="w-[85px] h-[85px]"
       />
-      <h1 className={`${styles.defaultHeaderFont} pl-5`}>FRAC</h1>
+      <h1 className={`${styles.defaultHeaderFont} pl-5`}>Financial Risk Analyst for Corporation</h1>
       <ul className="list-none text-lg sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li

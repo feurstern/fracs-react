@@ -1,5 +1,5 @@
 const styles = {
-  boxWidth: "xl:max-w-[1280px] w-full border border-black",
+  boxWidth: "xl:max-w-[1280px] w-full",
 
   heading2: "font-poppins font-semibold xs:text-[48px] text-[40px] text-black xs:leading-[76.8px] leading-[66.8px] w-full",
   heading3: "font-poppins font-semibold xs:text-[25px] text-[20px] text-black xs:leading-[50px] ",
@@ -9,14 +9,14 @@ const styles = {
   textHoverImage : "text-white text-[16px]",
   modalImage : 'fixed top-0 left-0 right-0 bottom-0',
   registerProgramContainer : 'grid grid-cols-1 flex justify-center items-center md:grid-cols-3 gap-5',
-  defaultHeaderFont : "font-poppins font-semibold text-3xl text-white text-dimWhite",
+  defaultHeaderFont : "font-poppins font-semibold text-xs text-white text-dimWhite md:text-2xl",
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
   flexBetween : "flex justify-between items-center",
   flexStart2 : "flex justify-start items-start",
   flexEnd : "flex justify-end items-end",
   
-  lineBorder : "border border-black",
+  // lineBorder : "border border-black",
   paddingX: "sm:px-16 px-6",
   paddingY: "sm:py-16 py-6",
   padding: "sm:px-16 px-6 sm:py-12 py-4",
