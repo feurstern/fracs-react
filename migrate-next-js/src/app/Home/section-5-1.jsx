@@ -44,7 +44,7 @@ const Section51 = () => {
           className="border rounded-lg cursor cursor-pointer"
         />
       </div>
-      <div className={`bg-red-600 border rounded-lg p-[15px]`}>
+      <div className={`bg-blue-500 border rounded-lg p-[15px]`}>
         <p className={`${styles.paragraph} text-white`}>
           Kami di IFMI percaya bahwa kualitas adalah kunci sukses. Oleh karena
           itu, kami telah menciptakan program Sertifikasi FRAC yang komprehensif

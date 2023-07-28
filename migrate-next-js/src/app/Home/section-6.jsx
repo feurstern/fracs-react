@@ -30,7 +30,7 @@ const Section6 = ({content,name,title, img}) =>{
       }}
       onMouseEnter={()=>isHovered(true)}
       onMouseLeave={()=> isHovered(false)}
-      className={`${styles.flexCenter} flex justify-between flex-col px-10 py-12 rounded-[20px] max-w-[360px] md:mr-10 sm:mr-5 mr-0 my-5 feed-back-card hover:bg-red-500 hover:text-white`}>
+      className={`${styles.flexCenter} flex justify-between flex-col px-10 py-12 rounded-[20px] max-w-[360px] md:mr-10 sm:mr-5 mr-0 my-5 feed-back-card hover:bg-sky-500 hover:text-white`}>
           <Image src={quotes} alt="quotes svg" className='w-[42.6px] h-[27px] object-contain' />
           <p className='font-poppins font-normal text-[18px] leading-[32.4px] my-10'>
             {content}
