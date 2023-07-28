@@ -8,6 +8,7 @@ import { useState } from 'react'
 import Section1ga from './section-1-ga'
 import { Section2ga } from './section-2-ga'
 import Imageslide from './Image-slide'
+import Imageslidenew from './Image-slide-new'
 
 const Gallery = () => {
   const [error, setError] = useState(null);
@@ -33,6 +34,7 @@ const Gallery = () => {
           {/* <Page404/> */}
           <Section1ga />{/*title of the page*/}
           {/* <Imageslide /> */}
+          <Imageslidenew/>
           <Section2ga />{/* image container */}
           {/* <Footer/> */}
         </div>
