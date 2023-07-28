@@ -49,7 +49,7 @@ export const Section2ga = () => {
                 initial='hidden'
                 animate={controls}
                 transition={{ duration: 2.25 }}
-                className={`pt-[50px]`}
+                className={`pt-[50px] pb-[65px]`}
             >
                 <div
                     // onMouseEnter={() => setIsLoad(true)}
