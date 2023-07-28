@@ -27,7 +27,7 @@ const Register = () => {
           {/* <Card/> */}
         </div>
       </div>
-      <div className={`bg-sky-900 ${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`bg-blue-900 ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <Footer />
         </div>
