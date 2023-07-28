@@ -3,55 +3,37 @@ import styles from "../style";
 import Image from "next/image";
 import { business } from "../Assets";
 import { AnimatePresence } from "framer-motion";
+import { image } from './modal/image-data'
 
 const Imageslide = () => {
+
+  const len = image.length - 1;
+  
+  window.addEventListener('DOMContentLoaded', ()=>{
+
+  })
+
+
+
   return (
     <AnimatePresence
     >
-      <div id="gallery" className="relative w-full" data-carousel="slide">
+      <div id="gallery" className="relative w-full">
         <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
-          <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img
-              src="https://news.dolanyok.com/wp-content/uploads/2023/02/3-competitive-intelligence-factors.jpg"
-              className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              alt=""
-            />
-          </div>
-
-          <div
-            className="hidden duration-700 ease-in-out"
-            data-carousel-item="active"
-          >
-            <img
-              src="https://news.dolanyok.com/wp-content/uploads/2023/02/3-competitive-intelligence-factors.jpg"
-              className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              alt=""
-            />
-          </div>
-
-          <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img
-              src="https://news.dolanyok.com/wp-content/uploads/2023/02/3-competitive-intelligence-factors.jpg"
-              className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              alt=""
-            />
-          </div>
-
-          <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img
-              src="https://news.dolanyok.com/wp-content/uploads/2023/02/3-competitive-intelligence-factors.jpg"
-              className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              alt=""
-            />
-          </div>
-
-          <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img
-              src="https://news.dolanyok.com/wp-content/uploads/2023/02/3-competitive-intelligence-factors.jpg"
-              className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              alt=""
-            />
-          </div>
+          {
+            image.map((data) => (
+              <div
+              key={data.src} 
+              className="hidden duration-700 ease-in-out" 
+              data-carousel-item>
+                <img
+                  src={data.src}
+                  className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
+                  alt={data.description}
+                />
+              </div>
+            ))
+          }
         </div>
 
         <button
