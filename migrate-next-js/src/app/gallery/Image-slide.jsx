@@ -9,9 +9,7 @@ import { Carousel } from 'flowbite'
 
 const Imageslide = () => {
 
-  // const carousel =  new Carousel(items, options);
-  // carousel.next();
-  // carousel.prev();
+  
   let index = 0;
 
   useEffect(() => {

@@ -32,7 +32,7 @@ const Gallery = () => {
         <div className={`${styles.boxWidth}`}>
           {/* <Page404/> */}
           <Section1ga />{/*title of the page*/}
-          <Imageslide />
+          {/* <Imageslide /> */}
           <Section2ga />{/* image container */}
           {/* <Footer/> */}
         </div>
