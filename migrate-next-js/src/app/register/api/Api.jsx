@@ -107,7 +107,10 @@ const Api = (props) => {
           </div>
         ))
       ) : (
-        <Expired />
+        <div className="pb-[50px]">
+          <Expired />
+        </div>
+
       )}
     </div>
   );
