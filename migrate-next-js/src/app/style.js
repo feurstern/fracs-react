@@ -9,7 +9,7 @@ const styles = {
   textHoverImage : "text-white text-[16px]",
   modalImage : 'fixed top-0 left-0 right-0 bottom-0',
   registerProgramContainer : 'grid grid-cols-1 flex justify-center items-center md:grid-cols-3 gap-5',
-  defaultHeaderFont : "font-poppins font-semibold text-[5px] xs:text-[14px] ss:text-[12px]  text-white text-dimWhite md:text-2xl",
+  defaultHeaderFont : "font-poppins font-semibold text-[8px] xs:text-[14px] ss:text-[12px]  text-white text-dimWhite md:text-2xl",
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
   flexBetween : "flex justify-between items-center",

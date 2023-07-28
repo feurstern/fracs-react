@@ -1,41 +1,77 @@
-import React from "react";
+'use client'
+import React, { useState, useEffect } from "react";
 import styles from "../style";
 import Image from "next/image";
 import { business } from "../Assets";
 import { AnimatePresence } from "framer-motion";
 import { image } from './modal/image-data'
+import { Carousel } from 'flowbite'
 
 const Imageslide = () => {
 
-  const len = image.length - 1;
-  
-  // window.addEventListener('DOMContentLoaded', ()=>{})
+  // const carousel =  new Carousel(items, options);
+  // carousel.next();
+  // carousel.prev();
+  let index = 0;
+
+  useEffect(() => {
+    var getImageData = document.getElementById('img-data')
+    // console.log(`getImageData : ${getImageData}`);
+    var prevBtn = document.getElementById('btn-prev');
+    var nextBtn = document.getElementById('btn-next');
+    console.log(`The value of prevBtn : ${prevBtn}`)
+    console.log(`The value of nextBtn : ${nextBtn}`)
+
+    const carousel = () => {
+      getImageData.src = image[index].src;
+    }
+
+    prevBtn.addEventListener('click', () => {
+      index--;
+      index < image.length - 1 ? index = 0 : 0;
+      carousel();
+      // alert('clicked!')
+    })
+
+
+    nextBtn.addEventListener('click', ()=>{
+      index++;
+      index > image.length - 1 ? index = 0 : 0
+      carousel();
+      // alert('clicked!')
+    })
+  })
+
+
 
   return (
     <AnimatePresence
+    className =" " 
     >
-      <div id="gallery" className="relative w-full">
-        <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
-          {
-            image.map((data) => (
+      <div id="gallery" className={``}>
+        <div className=" relative h-56 rounded-lg md:h-96">
+          
+            {/* image.map((data) => ( */}
               <div
-              key={data.src} 
-              className="hidden duration-700 ease-in-out" 
-              data-carousel-item>
+                key={''}
+                className=" duration-700 ease-in-out"
+                data-carousel-item>
                 <img
-                  src={data.src}
+                  id='img-data'
+                  src={image[0].src}
                   className="absolute block max-w-full h-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                  alt={data.description}
+                  alt={''}
                 />
               </div>
-            ))
-          }
+            {/* )) */}
+          
         </div>
 
         <button
           type="button"
           className="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
           data-carousel-prev
+          id='btn-prev'
         >
           <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
             <svg
@@ -60,6 +96,7 @@ const Imageslide = () => {
           type="button"
           className="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
           data-carousel-next
+          id='btn-next'
         >
           <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
             <svg
@@ -80,6 +117,7 @@ const Imageslide = () => {
             <span className="sr-only">Next</span>
           </span>
         </button>
+      
       </div>
     </AnimatePresence>
   );
