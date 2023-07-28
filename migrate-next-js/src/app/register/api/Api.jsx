@@ -8,7 +8,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Expired from "../../eventnotfound/expired";
 
-const Api = (props) => {
+const Api = () => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const tuday = moment().format("yyyy-mm-DD");
@@ -24,14 +24,17 @@ const Api = (props) => {
 
     // filter data
     let data_filtered = [];
-    const filtering_data = dataApi.data.map((items) => {
-      if (items.start_date > tuday) {
-        data_filtered.push(items);
-      } //else {
-      //   // console.log("===> false", false);
-      // }
-    }, null);
+    const filtering_data = Array.isArray(dataApi.data)
+      ? dataApi.data.map((items) => {
+          if (items.start_date >= tuday) {
+            data_filtered.push(items);
+          } //else {
+          //   // console.log("===> false", false);
+          // }
+        }, null)
+      : "not an array";
 
+    // console.log("===> filtering_data", filtering_data);
     setData(data_filtered);
   };
 

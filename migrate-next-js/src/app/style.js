@@ -24,7 +24,11 @@ const styles = {
   marginX: "sm:mx-16 mx-6",
   marginY: "sm:my-16 my-6",
 
-  circleDiv:"flex justify-center items-center border rounded-full border-solid border-[red] bg-dimBlue w-[64px] h-[64px]",
+  circleDiv: "flex justify-center items-center border rounded-full border-solid border-[red] bg-dimBlue w-[64px] h-[64px]",
+  
+  buttonPrimary: "bg-blue-500 hover:bg-blue-700 text-white p-1 m-0 rounded",
+  buttonPrimaryRound: "bg-blue-500 hover:bg-blue-700 text-white p-1 rounded-full"
+
 };
 
 export const layout = {
