@@ -5,6 +5,7 @@ import moment from "moment";
 
 import { motion, useAnimation, useInView } from "framer-motion";
 import Certified_person_data from "../api/post/certificationApi";
+import { missingPic } from "../Assets";
 
 const Section2cer = () => {
   const ref = useRef(null);
@@ -35,23 +36,27 @@ const Section2cer = () => {
       <div className={`flex-row justify-content-around ${card_css.card_box}`}>
         {data.map((items) => {
           return (
-            <div className={card_css.card} key={items.certification_id}>
+            <div className={card_css.card} key={items?.certification_id}>
               <div className={`${styles.flexCenter}`}>
                 <img
                   className={"object-cover max-w-[150px]"}
-                  src={items.upload_photo}
+                  src={items?.upload_photo ? items?.upload_photo : missingPic}
                   alt="Picture User Certified"
                 />
               </div>
+              <span className="break-words"></span>
               <div className="">
-                <span className="break-words">{`${items.given_to}, FRAC`}</span>
+                <span className="break-words">{`${items?.given_to}, FRAC`}</span>
                 <br />
                 <span className="break-words">{`Expired On : ${moment(
-                  items.expire_date
+                  items?.expire_date
                 ).format("DD-MM-yyyy")}`}</span>
               </div>
               <div className={styles.flexCenter}>
-                <a className={styles.buttonPrimary} href={items.certified_link}>
+                <a
+                  className={styles.buttonPrimary}
+                  href={items?.certified_link}
+                >
                   View Certified Person Profile
                 </a>
               </div>
