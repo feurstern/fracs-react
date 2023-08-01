@@ -1,3 +1,4 @@
+"use client";
 import React from 'react'
 import Banner from './banner'
 import Section1 from './section-1'

@@ -1,3 +1,4 @@
+"use client";
 import { hrtime } from 'process';
 import React, { useRef, useEffect } from 'react';
 import * as THREE from 'three';
