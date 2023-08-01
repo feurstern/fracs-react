@@ -6,7 +6,7 @@ import styles from './style';
 import Home from './Home/page';
 import React, { Component } from 'react';
 import Banner from './Home/banner';
-import Image from 'next/image';
+
 
 
 //fetch api from nodejs

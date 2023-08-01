@@ -7,9 +7,9 @@ import { motion, useAnimation, useInView } from "framer-motion";
 const Section1cer = ({ id, content }) => {
   const ref = useRef(null);
   const controls = useAnimation();
-  const [hovered, ishHovered] = useState(false);
+  // const [hovered, ishHovered] = useState(false);
   const isInView = useInView(ref, { once: true });
-  const [clicked, isClicked] = useState(false);
+  // const [clicked, isClicked] = useState(false);
 
   useEffect(() => {
     isInView ? controls.start("visible") : controls.start("hidden");

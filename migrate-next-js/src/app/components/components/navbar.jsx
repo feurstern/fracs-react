@@ -1,15 +1,29 @@
 "use client";
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
+import { usePathname } from "next/navigation";
 import { navLinks } from "../../constant/index";
-import { frac_logo, menu } from "../../Assets/index";
+import { menu } from "../../Assets/index";
 import styles from "../../style";
 import Image from "next/image";
 import Link from "next/link";
 
 const Navbar = () => {
+  const pathname = usePathname().substring(1, 99);
+  console.log("===> pathname", pathname);
+  let url;
+  if (pathname == "") {
+    url = "Home";
+  } else if (pathname == "certifications") {
+    url = "Certifications";
+  } else if (pathname == "gallery") {
+    url = "Gallery";
+  } else if (pathname == "register") {
+    url = "Register";
+  }
+
+  console.log("===> url", url);
   //create useState to change the condition
-  const [active, setActive] = useState("Home");
+  const [active, setActive] = useState(`${url}`);
   const [toggle, setToggle] = useState(false);
 
   return (
@@ -19,7 +33,9 @@ const Navbar = () => {
         alt="FRACS"
         className="w-[85px] h-[85px]"
       />
-      <h1 className={`${styles.defaultHeaderFont} pl-5`}>Financial Risk Analyst for Corporation</h1>
+      <h1 className={`${styles.defaultHeaderFont} pl-5`}>
+        Financial Risk Analyst for Corporation
+      </h1>
       <ul className="list-none text-xl font-bold sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li

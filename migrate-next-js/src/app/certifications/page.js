@@ -1,14 +1,12 @@
-import React from 'react'
-import ErrorBoundary from './error'
+import React from "react";
 import { Navbar, Footer } from '../components/components'
+
 import styles from '../style'
-import Page404 from './404'
 import Section1cer from './section-1-cer'
-import Cta from './cta'
 import Section2cer from './section-2-cer'
 
-
 const page = () => {
+
   return (
     <div className='bg-red-700 w-full overflow-hidden'>
       <div className={`${styles.paddingX} ${styles.flexCenter} sticky bg-red-700`}>

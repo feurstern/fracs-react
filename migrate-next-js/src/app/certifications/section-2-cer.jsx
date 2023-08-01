@@ -6,6 +6,8 @@ import moment from "moment";
 import { motion, useAnimation, useInView } from "framer-motion";
 import Certified_person_data from "../api/post/certificationApi";
 import { missingPic } from "../Assets";
+import Image from "next/image";
+import Pagination from "../components/components/pagination";
 
 const Section2cer = () => {
   const ref = useRef(null);
@@ -14,7 +16,19 @@ const Section2cer = () => {
   const [clicked, isClicked] = useState(false);
   const isInView = useInView(ref, { once: true });
 
+  // get data from api
   const data = Certified_person_data();
+
+  // set current page and data
+  const [currentPage, setCurrentPage] = useState(1);
+  const [postPerPage] = useState(9);
+
+  const indexOfLastPost = currentPage * postPerPage;
+  const indexOfFirstPost = indexOfLastPost - postPerPage;
+  const currentPost = data.slice(indexOfFirstPost, indexOfLastPost);
+
+  // change pages func
+  const paginate = (pageNumber) => setCurrentPage(pageNumber);
 
   useEffect(() => {
     isInView ? controls.start("visible") : controls.start("hidden");
@@ -31,21 +45,33 @@ const Section2cer = () => {
       initial="hidden"
       animate={controls}
       transition={{ duration: 1.75 }}
-      className="bg-white"
+      className="bg-white border border-blue-300 border-2"
     >
-      <div className={`flex-row justify-content-around ${card_css.card_box}`}>
-        {data.map((items) => {
+      <div className={`flex-row ${card_css.card_box} ${styles.flexEvently}`}>
+        {currentPost.map((items) => {
+          let img_src;
+          if (items?.upload_photo == null || items?.upload_photo == "null") {
+            img_src = (
+              <Image
+                src={missingPic}
+                alt="Picture User Certified"
+                className="object-scale-down h-48 w-96"
+              />
+            );
+          } else {
+            img_src = (
+              <img
+                src={items?.upload_photo}
+                alt="Picture User Certified"
+                className="object-scale-down h-48 w-96"
+              />
+            );
+          }
           return (
             <div className={card_css.card} key={items?.certification_id}>
-              <div className={`${styles.flexCenter}`}>
-                <img
-                  className={"object-cover max-w-[150px]"}
-                  src={items?.upload_photo ? items?.upload_photo : missingPic}
-                  alt="Picture User Certified"
-                />
-              </div>
+              <div className={`${styles.flexCenter}`}>{img_src}</div>
               <span className="break-words"></span>
-              <div className="">
+              <div className="text-center">
                 <span className="break-words">{`${items?.given_to}, FRAC`}</span>
                 <br />
                 <span className="break-words">{`Expired On : ${moment(
@@ -63,6 +89,14 @@ const Section2cer = () => {
             </div>
           );
         })}
+      </div>
+      <div className="my-2 p-2">
+        <Pagination
+          postPerPage={postPerPage}
+          totalPost={data.length}
+          currentPage={currentPage}
+          paginate={paginate}
+        />
       </div>
     </motion.section>
   );
