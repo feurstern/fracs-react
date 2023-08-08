@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   const pathname = usePathname().substring(1, 99);
-  console.log("===> pathname", pathname);
+  // console.log("===> pathname", pathname);
   let url;
   if (pathname == "") {
     url = "Home";
@@ -21,7 +21,7 @@ const Navbar = () => {
     url = "Register";
   }
 
-  console.log("===> url", url);
+  // console.log("===> url", url);
   //create useState to change the condition
   const [active, setActive] = useState(`${url}`);
   const [toggle, setToggle] = useState(false);
