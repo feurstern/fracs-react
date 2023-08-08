@@ -9,7 +9,8 @@ const Expired = () => {
     <section className={`text-center`}>
       <div className="pt-[50px]">
         <h1 className={`${style.heading2}`}>
-          There is no event running at the moment
+          Sedang Tidak Ada Jadwal Acara Pada Saat Ini, Silahkan Kembali Lagi
+          Nanti
         </h1>
       </div>
       <div className={`${style.flexCenter} pt-[20px]`}>
@@ -23,18 +24,18 @@ const Expired = () => {
       <div className={`${style.flexCenter} pt-[50px]`}>
         <div className={`flex justify-between content-around`}>
           <div className="pl-[10px]">
-            <button className="bg-red-700 text-white rounded-lg w-[150px] h-[40px]">
-              <Link href="/"> Back to Home </Link>
+            <button className="bg-red-700 text-white rounded-lg w-[150px] h-[50px]">
+              <Link href="/"> Kembali Ke Dashboard </Link>
             </button>
           </div>
 
           <div className="pl-[200px]">
-            <button className="bg-green-700 text-white rounded-lg w-[150px] h-[40px]">
+            <button className="bg-green-700 text-white rounded-lg w-[150px] h-[50px]">
               <Link
-                href="https://ourtoga.com/program-directory"
+                href="https://ourtoga.com/account_registration"
                 target="_blank"
               >
-                Register to Another
+                Buat Akun Anda
               </Link>
             </button>
           </div>

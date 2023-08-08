@@ -53,7 +53,7 @@ const Section2 = () => {
     >
       <div>
         <h2 className={styles.heading2}>
-          The FRAC <br /> Curriculum
+          Kurikulum <br /> FRAC
         </h2>
       </div>
       <div
@@ -96,19 +96,20 @@ const Section2 = () => {
           </p>
           <p className={`${styles.paragraph} max-w-[600px] mt-5`}></p>
           <h2 className={`${styles.heading3} mt-[20px]`}>
-            About FRAC's Certification
+            Tentang Sertifikasi FRAC
           </h2>
           <p className={`${styles.paragraph} max-w-[600px] mt-5`}>
-            FRAC is a certiﬁcation program that awards the FRAC professional
-            degree to risk professionals and managers who have expertise in
-            handling ﬁnancial risk in corporations. Unlike banks, which are
-            highly regulated, financial risk management in corporations is not
-            well developed and the curriculum is not standardized.
+            FRAC adalah program sertifikasi yang memberikan gelar profesional
+            FRAC kepada profesional risiko dan manajer yang memiliki keahlian
+            dalam menangani risiko keuangan di perusahaan. Berbeda dengan bank
+            yang diatur dengan ketat, manajemen risiko keuangan di perusahaan
+            tidak dikembangkan dengan baik dan kurikulumnya tidak
+            distandarisasi.
           </p>
           <p className={`${styles.paragraph} max-w-[600px] mt-5`}>
-            This curriculum is designed to explore the financial risks that
-            exist in most companies. Participants will also learn to measure and
-            deal with corporate financial risks.
+            Kurikulum ini dirancang untuk mengeksplorasi risiko keuangan yang
+            ada di sebagian besar perusahaan. Peserta juga akan belajar mengukur
+            dan mengatasi risiko keuangan korporasi.
           </p>
         </div>
         <div className={`flex-col col-md-6 `}>

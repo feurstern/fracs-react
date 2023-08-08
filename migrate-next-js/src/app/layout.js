@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'FRAC',
-  description: ' Financial Risk Analyst for Corporation Professional Certification in Risk Management for Corporatio',
+  description: 'Financial Risk Analyst for Corporation Professional Certification in Risk Management for Corporation',
   author : '梨央'
 }
 

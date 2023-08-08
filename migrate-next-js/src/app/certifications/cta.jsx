@@ -39,9 +39,9 @@ const Cta = () => {
           role="alert"
         >
           <span className="text-xs bg-primary-600 rounded-full text-white px-4 py-1.5 mr-3">
-            Register here
+            Daftar Disini
           </span>{" "}
-          <span className="text-sm font-medium">Become rofessional</span>
+          <span className="text-sm font-medium">Jadilah Profesional</span>
           <svg
             className="ml-2 w-5 h-5"
             fill="currentColor"
@@ -58,7 +58,7 @@ const Cta = () => {
         <h1
           className={`${styles.heading2} text-black mb-4 text-4xl  tracking-tight `}
         >
-          We invest in the world’s potential
+          Kami Berinvestasi Pada Potensi Dunia
         </h1>
         <p
           className={`mb-8 text-lg font-normal text-gray-600 lg:text-xl sm:px-16 xl:px-48`}
@@ -71,7 +71,7 @@ const Cta = () => {
             target="_blank"
             className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-black rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
           >
-            Learn more
+            Ketahui Lebih Lanjut
             <svg
               className="ml-2 -mr-1 w-5 h-5"
               fill="currentColor"
@@ -98,7 +98,7 @@ const Cta = () => {
             >
               <path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z"></path>
             </svg>
-            Watch video
+            Tonton Video
           </a>
         </div>
       </div>

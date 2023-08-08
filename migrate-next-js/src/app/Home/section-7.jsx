@@ -25,7 +25,9 @@ const Section7 = () => {
       className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex flex-row flex-col bg-black-radient-2 rounded-[20px] box-shadow`}
     >
       <div className={`flex-1 flex flex-col`}>
-        <h2 className={`${styles.heading2}`}>Let's Register to Our Program!</h2>
+        <h2 className={`${styles.heading2}`}>
+          Mari Mendaftar Di Program Kami!
+        </h2>
         <p className={`${styles.paragraph}`}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.

@@ -29,7 +29,7 @@ const Section1cer = ({ id, content }) => {
     >
       <motion.div>
         <h1 className={`${styles.heading2} ${styles.flexCenter} mb-[50px]`}>
-          Certified Person List
+          Daftar Orang Bersertifikat
         </h1>
       </motion.div>
     </motion.section>

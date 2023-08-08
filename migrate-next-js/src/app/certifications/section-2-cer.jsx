@@ -83,7 +83,7 @@ const Section2cer = () => {
                   className={styles.buttonPrimary}
                   href={items?.certified_link}
                 >
-                  View Certified Person Profile
+                  Lihat Profil Orang Bersertifikat
                 </a>
               </div>
             </div>

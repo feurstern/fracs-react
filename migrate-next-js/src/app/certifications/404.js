@@ -8,7 +8,7 @@ const Page404 = () => {
     <div className={`text-center mt-[50px]`}>
      <div className={`${styles.flexCenter}`}>
         <h1 className={`${styles.heading2}`}>
-            The website is currently under constructions
+            Halaman Ini Sedang Dalam Pengembangan, Silahkan Kembali Lagi Nanti.
         </h1>
      </div>
 

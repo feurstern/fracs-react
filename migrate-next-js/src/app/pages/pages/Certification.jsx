@@ -1,20 +1,19 @@
-import React from 'react'
+import React from "react";
 
-const programReview =()=>{
+const programReview = () => {
   const getProgramReview = [
     {
-      id:"test",
-      content:"",
-    }
-    
+      id: "test",
+      content: "",
+    },
   ];
-}
+};
 const Certification = () => {
   return (
     <div>
-       <h1>This is certifcations page</h1>   
+      <h1>Daftar Orang Bersertifikat</h1>
     </div>
-  )
-}
+  );
+};
 
-export default Certification
+export default Certification;

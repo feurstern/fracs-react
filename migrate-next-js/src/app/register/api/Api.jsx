@@ -80,14 +80,14 @@ const Api = () => {
                     {data?.event_name}
                   </p>
                   <h3 className="pt-[5px] mb-3 text-white">
-                    Price : {data?.price}
+                    Harga : {data?.price}
                   </h3>
                   <a
                     href={data?.register_link}
                     target="_blank"
                     className=" inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                   >
-                    Register
+                    Daftar
                     <svg
                       className="w-3.5 h-3.5 ml-2"
                       aria-hidden="true"
@@ -113,7 +113,6 @@ const Api = () => {
         <div className="pb-[50px]">
           <Expired />
         </div>
-
       )}
     </div>
   );

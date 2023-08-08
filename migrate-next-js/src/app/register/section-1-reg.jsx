@@ -43,10 +43,10 @@ const Section1reg = () => {
   return (
     <div className={`${styles.flexStart2} mt-[50px]`}>
       <div className={``}>
-        <h1 className={`${styles.heading2}`}>Register FRAC Program</h1>
+        <h1 className={`${styles.heading2}`}>Daftar Jadwal Acara FRAC</h1>
         <div className={`pt-[10px]`}>
           <p className={`${styles.paragraph}`}>
-            Let's register to our program
+            Silahkan Mendaftar Ke Salah Satu Acara Di Bawah Ini
             {/* {elements} */}
           </p>
         </div>

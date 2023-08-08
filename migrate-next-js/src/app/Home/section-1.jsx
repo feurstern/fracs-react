@@ -75,7 +75,7 @@ const Section1 = () => {
       >
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-black ss:leading-[100.8px] leading-[75px]">
-            About IFMI
+            Tentang IFMI
             <br className="sm:block hidden" />{" "}
             <span className="font-poppins font-semibold ss:text-[54px] text-[48px] text-black ss:leading-[100px] leading-[75px]">
               {" "}
@@ -91,7 +91,7 @@ const Section1 = () => {
         </div>
         <div>
           <h1 className=" font-poppins font-semibold text-gradient ss:text-[52px] text-[48px] ss:leading-[98px] leading-[75px]">
-            Vision & Mission
+            Visi & Misi
           </h1>
           <div className="flex justify-content:space-between gap-6">
             <div className="flex-col">
