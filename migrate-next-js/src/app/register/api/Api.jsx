@@ -46,7 +46,7 @@ const Api = () => {
     <div>
       {data.length > 0 ? (
         data?.map((data) => (
-          <div className={`${styles.registerProgramContainer} pt-[20px]`}>
+          <div className={`${styles.registerProgramContainer} pt-[20px] mb-5`}>
             <section className={``} key={data?.num}>
               <motion.div
                 initial={{ opacity: 0.1, scale: 0.5, x: 1 - 400 }}
@@ -110,7 +110,7 @@ const Api = () => {
           </div>
         ))
       ) : (
-        <div className="pb-[50px]">
+        <div className="pb-[50px] mb-5">
           <Expired />
         </div>
       )}
