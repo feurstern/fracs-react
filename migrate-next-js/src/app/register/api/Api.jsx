@@ -1,11 +1,10 @@
 "use client";
-import React, { useState, useReducer, useEffect } from "react";
-import { motion, animate } from "framer-motion";
-import axios, { Axios } from "axios";
+import React, { useState, useEffect } from "react";
+import { motion } from "framer-motion";
+import axios from "axios";
 import moment from "moment";
 import styles from "../../style";
-import Link from "next/link";
-import Image from "next/image";
+
 import Expired from "../../eventnotfound/Expired";
 
 const Api = () => {

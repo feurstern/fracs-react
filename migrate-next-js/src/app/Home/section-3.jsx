@@ -1,8 +1,6 @@
 "use client";
 import React, { useState, useEffect, useRef } from "react";
 import styles, { layout } from "../style";
-import { scheme } from "../Assets";
-import Image from "next/image";
 import { animate, motion, useAnimation, useInView } from "framer-motion";
 
 const Section3 = () => {

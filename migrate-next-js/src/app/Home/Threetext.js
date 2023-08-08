@@ -1,14 +1,10 @@
 "use client";
-import { hrtime } from 'process';
 import React, { useRef, useEffect } from 'react';
 import * as THREE from 'three';
 import { FontLoader } from 'three/addons/loaders/FontLoader.js';
 import {useLoader } from '@react-three/fiber';
 
 const ThreeText = () => {
-  const sceneRef = useRef(null);
-
- 
     const scene = new THREE.Scene();
     // const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
     // const renderer = new THREE.WebGLRenderer({ antialias: true });

@@ -3,8 +3,8 @@ import { favico } from "@/app/Assets";
 import React from 'react'
 import { Head } from "next/document";
 
-const Page = (props) => {
-  const programmer = "梨央"
+const Page = () => {
+  const programmer = "梨央, デニー"
   
   return (
     <>

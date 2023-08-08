@@ -3,7 +3,6 @@ import Section1reg from './section-1-reg'
 import Section2reg from './section-2-reg'
 import { Navbar, Footer } from '../components/components'
 import styles from '../style'
-import Page404 from './404'
 
 const Register = () => {
   return (

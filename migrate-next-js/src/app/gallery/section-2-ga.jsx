@@ -1,16 +1,8 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
-import styles, { layout } from "../style";
-import Image from "next/image";
-import { business } from "../Assets";
-import {
-  motion,
-  useAnimation,
-  useInView,
-  AnimatePresence,
-} from "framer-motion";
+import styles from "../style";
+import { motion, useAnimation, useInView } from "framer-motion";
 import { Modal } from "./modal/Modal";
-import { Reveal } from "./modal/Reveal";
 import { image } from "./modal/image-data";
 
 export const Section2ga = () => {
@@ -62,21 +54,21 @@ export const Section2ga = () => {
           <button
             type="button"
             className="pl-[10px] pr-[10px] bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow focus:bg-blue-300"
-            autofocus
+            autoFocus
           >
-            All Categories
+            Semua Kategori
           </button>
           <button
             type="button"
             className="pl-[10px] pr-[10px] bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow focus:bg-blue-300"
           >
-            Offline Training
+            Pelatihan Offline
           </button>
           <button
             type="button"
             className="pl-[10px] pr-[10px] bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow focus:bg-blue-300"
           >
-            Online Training
+            Pelatihan Online
           </button>
         </div>
         <div

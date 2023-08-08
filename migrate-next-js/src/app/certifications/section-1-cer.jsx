@@ -1,10 +1,9 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
-import styles, { layout } from "../style";
-import { standarImparsialitas } from "../constant";
+import styles from "../style";
 import { motion, useAnimation, useInView } from "framer-motion";
 
-const Section1cer = ({ id, content }) => {
+const Section1cer = () => {
   const ref = useRef(null);
   const controls = useAnimation();
   // const [hovered, ishHovered] = useState(false);

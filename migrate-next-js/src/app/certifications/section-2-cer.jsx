@@ -12,8 +12,6 @@ import Pagination from "../components/components/pagination";
 const Section2cer = () => {
   const ref = useRef(null);
   const controls = useAnimation();
-  const [hovered, isHovered] = useState(false);
-  const [clicked, isClicked] = useState(false);
   const isInView = useInView(ref, { once: true });
 
   // get data from api
@@ -82,6 +80,7 @@ const Section2cer = () => {
                 <a
                   className={styles.buttonPrimary}
                   href={items?.certified_link}
+                  target="_blank"
                 >
                   Lihat Profil Orang Bersertifikat
                 </a>

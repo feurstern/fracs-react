@@ -1,17 +1,6 @@
 "use client";
-import React, {
-  Component,
-  useState,
-  useRef,
-  useReducer,
-  useEffect,
-} from "react";
-import axios, { Axios } from "axios";
+import React, { Component } from "react";
 import styles from "../style";
-import Section2reg from "./section-2-reg";
-import { motion, animate } from "framer-motion";
-
-class Register extends Component {}
 
 const Section1reg = () => {
   // // usestate for loading data from API and set data from API to data

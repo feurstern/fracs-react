@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 
 const numbers = [
   {
@@ -26,7 +25,7 @@ const getRandomNumber = () => {
   return Math.floor(Math.random() * len);
 };
 // console.log(`random number : ${getRandomNumber()}`)
-const Button = ({ styles }) => {
+const Button = () => {
   return (
     <a href={numbers[getRandomNumber()].link} target="_blank">
       <button

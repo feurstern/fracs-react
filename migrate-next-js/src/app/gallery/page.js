@@ -2,19 +2,11 @@
 import React from 'react'
 import styles from '../style'
 import { Footer, Navbar } from '../components/components'
-import Page404 from '../certifications/404'
-import ErrorBoundary from '../certifications/error'
-import { useState } from 'react'
 import Section1ga from './section-1-ga'
 import { Section2ga } from './section-2-ga'
-import Imageslide from './Image-slide'
 import Imageslidenew from './Image-slide-new'
 
 const Gallery = () => {
-  const [error, setError] = useState(null);
-  const [isLoaded, setIsLoaded] = useState(false);
-  const [isLoading, setIsLoading] = useState(false);
-  const [data, setData] = useState(null);
 
   return (
     <div className='bg-red-700 w-full'>

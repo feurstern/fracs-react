@@ -1,15 +1,12 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
 import styles from "../style";
-import Image from "next/image";
-import { kan } from "../Assets";
 import { motion, useAnimation, useInView } from "framer-motion";
 
 const Section51 = () => {
   const ref = useRef(null);
   const controls = useAnimation();
   const [hovered, isHovered] = useState(false);
-  const [clicked, isClicked] = useState(false);
   const isInView = useInView(ref, { once: true });
   useEffect(() => {
     isInView ? controls.start("visible") : controls.start("hidden"),
@@ -19,12 +16,12 @@ const Section51 = () => {
     <motion.section
       ref={ref}
       variants={{
-        hidden : {opacity:0, x:0},
-        visible: {opacity :1, x :100}
+        hidden: { opacity: 0, x: 0 },
+        visible: { opacity: 1, x: 100 },
       }}
       initial="hidden"
       animate={controls}
-      transition={{ duration: 1.75 , delay:0.5}}
+      transition={{ duration: 1.75, delay: 0.5 }}
       className={` pt-[50px]`}
     >
       <div

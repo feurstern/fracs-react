@@ -1,13 +1,12 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
-import styles, { layout } from "../style";
+import styles from "../style";
 import Button from "../components/components/Button";
 import { motion, useAnimation, useInView } from "framer-motion";
 
 const Section7 = () => {
   const ref = useRef(null);
   const controls = useAnimation();
-  const [hovered, isHovered] = useState(false);
   const isInView = useInView(ref, { once: true });
   useEffect(() => {
     isInView ? controls.start("visible") : controls.start("hidden");
@@ -22,7 +21,7 @@ const Section7 = () => {
       initial="hidden"
       animate={controls}
       transition={{ duration: 1.75 }}
-      className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex flex-row flex-col bg-black-radient-2 rounded-[20px] box-shadow`}
+      className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex flex-row flex-col bg-black-radiant-2 rounded-[20px] box-shadow`}
     >
       <div className={`flex-1 flex flex-col`}>
         <h2 className={`${styles.heading2}`}>

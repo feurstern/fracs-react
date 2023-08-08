@@ -1,15 +1,11 @@
 "use client";
 import React from "react";
 import styles from "../style";
-// import { GetStarted } from "..";
 import { aboutUs } from "../Assets";
-import { Link } from "react-router-dom";
 import Image from "next/image";
 import { motion, useAnimation, useInView } from "framer-motion";
 import { useState, useEffect, useRef } from "react";
 import Button from "../components/components/Button";
-// import ThreeText from "./Threetext";
-// import { Canvas } from "@react-three/fiber";
 
 const Section1 = () => {
   const [hovered, setHovered] = useState(false);

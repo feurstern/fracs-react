@@ -1,9 +1,7 @@
 "use client";
 import styles from "../../style";
-import { frac_logo } from "../../Assets/index";
 import { footerLinks, otherLinks } from "../../constant/index";
 import Link from "next/link";
-import Gallery from "../../gallery/page";
 import Image from "next/image";
 
 const Footer = () => (
@@ -40,7 +38,9 @@ const Footer = () => (
                     index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
                   }`}
                 >
-                  <Link href={link.link} target="_blank">{link.name}</Link>
+                  <Link href={link.link} target="_blank">
+                    {link.name}
+                  </Link>
                 </li>
               ))}
             </ul>

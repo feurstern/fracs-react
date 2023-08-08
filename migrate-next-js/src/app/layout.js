@@ -1,13 +1,12 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-import Head from 'next/head'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'FRAC',
   description: 'Financial Risk Analyst for Corporation Professional Certification in Risk Management for Corporation',
-  author : '梨央'
+  author : '梨央, デニー'
 }
 
 export default function RootLayout({ children }) {
