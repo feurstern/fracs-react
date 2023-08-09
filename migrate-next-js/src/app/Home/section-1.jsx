@@ -70,10 +70,10 @@ const Section1 = () => {
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-black ss:leading-[100.8px] leading-[75px]">
+          <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-black ss:leading-[80px] leading-[45px]">
             Tentang IFMI
             <br className="sm:block hidden" />{" "}
-            <span className="font-poppins font-semibold ss:text-[54px] text-[48px] text-black ss:leading-[100px] leading-[75px]">
+            <span className="font-poppins font-semibold ss:text-[40px] text-[29px] text-black ss:leading-[80px] leading-[45px]">
               {" "}
               International Financial Modeling Institute{" "}
             </span>
@@ -89,9 +89,9 @@ const Section1 = () => {
           <h1 className=" font-poppins font-semibold text-gradient ss:text-[52px] text-[48px] ss:leading-[98px] leading-[75px]">
             Visi & Misi
           </h1>
-          <div className="flex justify-content:space-between gap-6">
-            <div className="flex-col">
-              <p className={`${styles.paragraph} max-w-[540px] sm:flex-col`}>
+          <div className="flex flex-col overflow-x-scroll sm:flex-row flex-wrap mb-4 mx-2">
+            <div className="flex-col sm:w-1/2">
+              <p className={`${styles.paragraph} max-w-[540px]`}>
                 FRAC adalah program sertifikasi yang memberikan pengakuan
                 profesional berupa gelar FRAC kepada manajer risiko yang
                 memiliki spesialisasi dalam menangani risiko keuangan di
@@ -101,7 +101,7 @@ const Section1 = () => {
                 optimal.
               </p>
               <br />
-              <p className={`${styles.paragraph} max-w-[540px] mt-5 sm:flex-col`}>
+              <p className={`${styles.paragraph} max-w-[540px] mt-5`}>
                 Program ini dirancang untuk mengeksplorasi dan memahami berbagai
                 risiko keuangan yang sering dihadapi oleh perusahaan. Selain
                 itu, para peserta akan dilatih untuk mengukur dan menangani
@@ -110,17 +110,17 @@ const Section1 = () => {
               </p>
             </div>
             <div
-              className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 md:flex-nowrap relative sm:flex-row flex-wrap`}
+              className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 md:flex-nowrap relative`}
             >
               <Image
                 src={aboutUs}
                 alt="showcase"
-                className="max-w-[350px] max-h-[500px]  blur-none relative z-[5] sm:flex-col"
+                className="max-w-[350px] max-h-[500px]  blur-none relative z-[5]"
               />
               <Image
                 src={aboutUs}
                 alt="showcase"
-                className="w-full max-h-[500px] blur absolute sm:flex-col"
+                className="w-full max-h-[500px] blur absolute"
               />
               <div className="absolute z-[0] w-[40%] h-[35%] top-0  pink__gradient" />
               <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />
@@ -128,7 +128,7 @@ const Section1 = () => {
             </div>
           </div>
 
-          <p className={`${styles.paragraph} w-full mt-10 pt-10 sm:flex-col`}>
+          <p className={`${styles.paragraph} w-full mt-10 pt-10`}>
             Program sertifikasi FRAC sangat bermanfaat, tidak hanya bagi
             individu dengan latar belakang keuangan, tapi juga bagi profesional
             di bidang non-finansial seperti operasional, pemasaran, dan hukum,

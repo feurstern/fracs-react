@@ -23,7 +23,9 @@ const Imageslidenew = () => {
     return () => {
       clearInterval(interval);
     };
-  }, []); // just remember to declare empty array to make sure the effects only run once when it renders
+  }, []);
+  
+  // just remember to declare empty array to make sure the effects only run once when it renders
 
   return (
     <div className="relative">

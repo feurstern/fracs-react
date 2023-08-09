@@ -35,7 +35,7 @@ const Section4 = () => {
       </div>
       <div className={`${styles.flexStart2}`}>
         <h2
-          className={`font-poppins font-semibold xs: text-[25px] text-[20px] text-black xs:leading-[50px] mt-[20px]`}
+          className={`font-poppins font-semibold text-black xs:leading-[50px] mt-[20px]`}
         >
           IFMI has set the all of the fees about FRAC as:
         </h2>
@@ -48,14 +48,14 @@ const Section4 = () => {
         </p>
       </div>
 
-      <div className={`${styles.flexCenter} mt-[40px]`}>
-        <table className={`border-collapse border border-black text-[18px]`}>
+      <div className={`${styles.flexCenter} overflow-x-scroll font-poppins text-[18px]  sm:flex-col`}>
+        <table className={` border-collapse border border-black text-[18px] table-fixed`}>
           <thead className="bg-green-600 text-white">
             <tr>
-              <th className="w-[50px] border border-black">No</th>
-              <th className="w-[300px] border border-black">Keterangan</th>
-              <th className="w-[400px] border border-black">Biaya</th>
-              <th className="w-[400px] border border-black">Catatan</th>
+              <th className="w-auto border border-black">No</th>
+              <th className="w-auto border border-black">Keterangan</th>
+              <th className="w-auto border border-black">Biaya</th>
+              <th className="w-auto border border-black">Catatan</th>
             </tr>
           </thead>
           <tbody className="text-center">

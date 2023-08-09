@@ -47,7 +47,7 @@ const Section3 = () => {
       </h3>
       <div
         id="table-scheme"
-        className={`${styles.flexCenter} font-poppins text-[18px]`}
+        className={`${styles.flexCenter} overflow-x-scroll font-poppins text-[18px]`}
       >
         <table className="table-fixed border border-black">
           <thead className="text-center border border-black bg-sky-600 text-white">

@@ -90,7 +90,7 @@ const Section1 = () => {
             Visi & Misi
           </h1>
           <div className="flex-1 flex flex-col sm:flex-row flex-wrap -mb-4 mx-2">
-            <div className="flex-col">
+            <div className="flex-col sm:w-1/2 mb-4 px-2">
               <p className={`${styles.paragraph} max-w-[540px]`}>
                 FRAC adalah program sertifikasi yang memberikan pengakuan
                 profesional berupa gelar FRAC kepada manajer risiko yang
