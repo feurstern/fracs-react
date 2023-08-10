@@ -7,11 +7,15 @@ export const navLinks = [
   },
   {
     id: "/certifications",
-    title: "Certifications",
+    title: "Pemengang Sertifikat",
   },
   {
     id: "/gallery",
     title: "Gallery",
+  },
+  {
+    id:'/about-us',
+    title:'Tentang Kami'
   },
   {
     id: "/register",

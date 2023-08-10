@@ -20,10 +20,10 @@ const Home = () => {
     <>
         {/* <Banner/> */}
         <Section1/>
-        <Section1cer/>
+        {/* <Section1cer/> */}
         <Section2/>
-        <Section3/>
-        <Section4/>
+        {/* <Section3/> */}
+        {/* <Section4/> */}
         <Section51/>
         <Section2cer/>
         <Section5/>
