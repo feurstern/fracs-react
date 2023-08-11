@@ -1,5 +1,6 @@
 import { star } from "../Assets";
 
+const gMap = 'https://www.google.com/maps/dir/-6.1964288,106.7614208/rajawali+konsulindo/@-6.1982766,106.7588543,17z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x2e69f7226210864f:0x95772c54294d992f!2m2!1d106.7619328!2d-6.1997352?entry=ttu'
 export const navLinks = [
   {
     id: "/",
@@ -7,7 +8,7 @@ export const navLinks = [
   },
   {
     id: "/certifications",
-    title: "Pemengang Sertifikat",
+    title: "Sertifikasi",
   },
   {
     id: "/gallery",
@@ -156,11 +157,11 @@ export const otherLinks = [
 
 export const footerLinks = [
   {
-    title: "Related links",
+    title: "Tautan Terkait:",
     links: [
       {
-        name: "Gallery",
-        link: "/gallery",
+        name: "Tentang Kami",
+        link: "/about-us",
       },
       {
         name: "Register",
@@ -169,8 +170,12 @@ export const footerLinks = [
     ],
   },
   {
-    title: "Contact US",
+    title: "Hubungi Kami",
     links: [
+      {
+         name: ' Komplek Rich Palace Blok E no 6, No 36-41, Barat, Jl. Meruya Ilir Raya, RT.8/RW.7, Srengseng, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11620, Indonesia',
+         link: `${gMap}`, 
+      },
       {
         name: "021-58910022/55/60",
         link: "2",
