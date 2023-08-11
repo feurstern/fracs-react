@@ -8,6 +8,7 @@ const loadingContainer = {
   display: "flex",
   justifyContent: "space-around",
 };
+
 const loadingCircle = {
   display: "block",
   width: "1rem",

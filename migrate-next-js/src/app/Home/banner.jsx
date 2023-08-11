@@ -6,8 +6,8 @@ const Banner = () => {
     <div className={``}>
       <div id="banner" className={`w-full`}>
         <img
-          src="https://www.corporatecomplianceinsights.com/wp-content/uploads/2012/01/risk-management.jpg"
-          className="w-[100%] h-[54rem] opacity-60"
+          src="https://e0.pxfuel.com/wallpapers/392/521/desktop-wallpaper-blank-white-white-screen.jpg"
+          className="w-[100%] h-[54rem]"
           alt="image banner"
         ></img>
       </div>

@@ -20,6 +20,7 @@ const Navbar = () => {
   } else if (pathname == "register") {
     url = "Register";
   }
+  const headerTitle = 'Financial Risk Analyst for Corporation'
 
   // console.log("===> url", url);
   //create useState to change the condition
@@ -33,14 +34,17 @@ const Navbar = () => {
         alt="FRACS"
         className="w-[85px] h-[85px]"
       />
-      <h1 className={`${styles.defaultHeaderFont} pl-5`}>
-        Financial Risk Analyst for Corporation
+      <h1 className={`${styles.defaultHeaderFont} pl-5
+      ${headerTitle.length -1 > navLinks.length -1 ? "mr-10" : "mr-0"}
+      `}>
+         {headerTitle}
+     
       </h1>
-      <ul className="list-none text-xl font-bold sm:flex hidden justify-end items-center flex-1">
+      <ul className="list-none text-xl font-bold sm:flex hidden justify-between items-between flex-1">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-bold cursor-pointer text-xl ${
+            className={`font-poppins font-bold cursor-pointer ml-2 ${styles.defaultNavLinkFont} text-center  $
               active === nav.title ? "text-white" : "text-dimWhite"
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onClick={() => setActive(nav.title)}

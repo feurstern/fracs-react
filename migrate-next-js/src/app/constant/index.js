@@ -21,6 +21,10 @@ export const navLinks = [
     id: "/register",
     title: "Register",
   },
+  {
+    id:'https://ourtoga.com/login/api/UFJPLTQ2MTgzMjcwOTVuRA==',
+    title : 'Login'
+  },
 ];
 
 export const KAN = [
