@@ -26,6 +26,7 @@ const Navbar = () => {
   //create useState to change the condition
   const [active, setActive] = useState(`${url}`);
   const [toggle, setToggle] = useState(false);
+  
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">

@@ -11,7 +11,7 @@ export const navLinks = [
   },
   {
     id: "/gallery",
-    title: "Gallery",
+    title: "Galleri",
   },
   {
     id:'/about-us',
@@ -19,11 +19,11 @@ export const navLinks = [
   },
   {
     id: "/register",
-    title: "Register",
+    title: "Pendaftaran",
   },
   {
     id:'https://ourtoga.com/login/api/UFJPLTQ2MTgzMjcwOTVuRA==',
-    title : 'Login'
+    title : 'Masuk'
   },
 ];
 
