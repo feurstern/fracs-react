@@ -15,16 +15,16 @@ export const navLinks = [
     title: "Galleri",
   },
   {
-    id:'/about-us',
-    title:'Tentang Kami'
+    id: '/about-us',
+    title: 'Tentang Kami'
   },
   {
     id: "/register",
     title: "Pendaftaran",
   },
   {
-    id:'https://ourtoga.com/login/api/UFJPLTQ2MTgzMjcwOTVuRA==',
-    title : 'Masuk'
+    id: 'https://ourtoga.com/login/api/UFJPLTQ2MTgzMjcwOTVuRA==',
+    title: 'Masuk'
   },
 ];
 
@@ -173,8 +173,8 @@ export const footerLinks = [
     title: "Hubungi Kami",
     links: [
       {
-         name: ' Komplek Rich Palace Blok E no 6, No 36-41, Barat, Jl. Meruya Ilir Raya, RT.8/RW.7, Srengseng, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11620, Indonesia',
-         link: `${gMap}`, 
+        name: ' Komplek Rich Palace Blok E no 6, No 36-41, Barat, Jl. Meruya Ilir Raya, RT.8/RW.7, Srengseng, Kec. Kembangan, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta 11620, Indonesia',
+        link: `${gMap}`,
       },
       {
         name: "021-58910022/55/60",
@@ -193,8 +193,8 @@ export const footerLinks = [
         link: 'https://api.whatsapp.com/send/?phone=6281385913098&text&type=phone_number&app_absent=0'
       },
       {
-        name : '088294712616',
-        link : 'https://api.whatsapp.com/send/?phone=6288294712616&text&type=phone_number&app_absent=0'
+        name: '088294712616',
+        link: 'https://api.whatsapp.com/send/?phone=6288294712616&text&type=phone_number&app_absent=0'
       }
     ],
   },
@@ -235,7 +235,7 @@ export const feedBack = [
     title: "Backend Developer",
     img: "https://ourtoga.com/uploads/participant/USR-0251983467lBDr/passphoto/passphoto_pbsDztmg.png",
   },
-  
+
 ]
 
 export const standarImparsialitas = [
@@ -264,3 +264,28 @@ export const standarImparsialitas = [
     content: "Sekalipun kami bekerja sama dengan penyedia pelatihan yang menggunakan BOK atau kurikulum kami sebagai acuan, harap diingat bahwa hasil pelatihan atau sertifikat dari mereka bukan indikator kompetensi, jaminan kelulusan ujian, dan tidak berpengaruh pada keputusan ujian program sertifikasi IFMI."
   }
 ];
+
+export const bannerData = [
+  {
+    title: 'FRAC Meningkatkan Akurasi Analisa Perusahaan',
+    img: '',
+    tagline: ''
+  },
+  {
+    title: 'FRAC Meningkatkan analyst Terampil dan Professional',
+    img: '',
+    tagline: ''
+  },
+  {
+    title: 'FRAC telah Terakreditasi',
+    img: '',
+    tagline: ''
+  },
+  {
+    title: 'Promosi Ujian Terdekat.',
+    img: '',
+    tagline: ''
+  },
+];
+
+

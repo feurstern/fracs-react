@@ -19,15 +19,15 @@ const Home = () => {
   return (
     <>
         {/* <Banner/> */}
-        <Section1/>
+        {/* <Section1/> */}
         {/* <Section1cer/> */}
-        <Section2/>
+        {/* <Section2/> */}
         {/* <Section3/> */}
         {/* <Section4/> */}
-        <Section51/>
-        <Section2cer/>
-        <Section5/>
-        <Section7/>
+        {/* <Section51/> */}
+        {/* <Section2cer/> */}
+        {/* <Section5/> */}
+        {/* <Section7/> */}
     </>
 
   )
