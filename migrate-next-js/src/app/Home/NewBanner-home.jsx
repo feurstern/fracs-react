@@ -29,7 +29,7 @@ const NewBanner = () => {
                 hidden:{opacity:0, y:100},
                 visible : {opacity:1, y:0}
                 }}
-            initial="hidden"
+            // initial="hidden"
             animate={controls}
             transition={{ duration: 1.75 }}
             className={`py-4`}>
