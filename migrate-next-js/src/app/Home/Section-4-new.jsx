@@ -10,7 +10,7 @@ const Section4new = () => {
   console.log(arr);
 
   for (let i = 0; i < arr.length; i++) {
-   arr[i].charAt(0) === "f" ? arr[i] =arr[i].toUpperCase() :arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
+    arr[i].charAt(0) === "f" ? arr[i] = arr[i].toUpperCase() : arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
   };
   console.log(arr);
   const sectionTitle = arr.join(" ");
@@ -19,7 +19,7 @@ const Section4new = () => {
     <section className={`${styles.flexCenter}`}>
       {/* title */}
       <div className={`${styles.heading2}`}>
-       {sectionTitle}
+        {sectionTitle}
       </div>
     </section>
   )
