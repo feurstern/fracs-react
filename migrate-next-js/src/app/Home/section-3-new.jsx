@@ -36,32 +36,35 @@ const Section3new = () => {
   }, [getRandomNumber])
 
   return (
-    <motion.section 
-    ref={ref}
-    variants={{
-      hidden :{opacity:0,y:100},
-      visible:{opacity:1, y:0}
-    }}
-    initial="hidden"
-    animate={controls}
-    transition={{
-      duration:3.5
-    }}
-    className='py-4 '>
-      <div className={`${styles.flexCenter}`}>
-        <h1 className={`${styles.heading2} py-2`}>{sectionTitle}</h1>
-      </div>
+    <motion.section
+      ref={ref}
+      variants={{
+        hidden: { opacity: 0, y: 100 },
+        visible: { opacity: 1, y: 0 }
+      }}
+      initial="hidden"
+      animate={controls}
+      transition={{
+        duration: 3.5
+      }}
+      className='border-4 border-black border-dashed rounded-xl'>
+      <motion.section
+        className='py-4 mr-2 pt-[25px] ml-2'>
+        <div className={`${styles.flexCenter}`}>
+          <h1 className={`${styles.heading2} py-2`}>{sectionTitle}</h1>
+        </div>
         <p className={`${styles.paragraph} py-2`}>{content}</p>
-      {
-        reasonsData.map((data, index) => (
-          <div key={data.id}>
-            <ul className={`pr-2 px-2 py-4  ${styles.flexBetween}`}>
-            <h2 className={`${styles.heading3} px-2`}>{index+1}.</h2>
-            <li className={`${randomBgColour[getRandomNumber()]} text-white rounded-lg pt-2 pl-2 pr-2 py-4 mb-0 mt-0 border-2 border-white border-dashed `}>{data.content}</li>
-            </ul>
-          </div>
-        ))
-      }
+        {
+          reasonsData.map((data, index) => (
+            <div key={data.id}>
+              <ul className={`pr-2 px-2 py-4  ${styles.flexBetween}`}>
+                <h2 className={`${styles.heading3} px-2`}>{index + 1}.</h2>
+                <li className={`${randomBgColour[getRandomNumber()]} text-white rounded-lg pt-2 pl-2 pr-2 py-4 mb-0 mt-0 border-2 border-white border-dashed `}>{data.content}</li>
+              </ul>
+            </div>
+          ))
+        }
+      </motion.section>
     </motion.section>
 
   )
