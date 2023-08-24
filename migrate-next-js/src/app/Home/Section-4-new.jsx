@@ -15,11 +15,16 @@ const Section4new = () => {
   console.log(arr);
   const sectionTitle = arr.join(" ");
 
+  const content = 'FRAC menggunakan metode yang berlaku di perusahaan sehingga sangat berguna bagi Anda yang berlatar keuangan, selain itu fungsi nonfinansial seperti operasional, pemasaran dan hukum akan menerima manfaat sertifikasi ini. Sertifikasi FRAC sangat bermanfaat bagi profesi dibawah ini:'
+
   return (
-    <section className={`${styles.flexCenter}`}>
+    <section className={`bg-sky-600 rounded-xl ${styles.flexCenter} py-6`}>
       {/* title */}
       <div className={`${styles.heading2}`}>
         {sectionTitle}
+      <p className={`${styles.paragraph}`}>
+        {content}
+      </p>
       </div>
     </section>
   )

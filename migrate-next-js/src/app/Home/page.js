@@ -14,16 +14,20 @@ import Section3new from './section-3-new'
 import Section1new from './section-1-new'
 import Section4new from './Section-4-new'
 // componentDidMount(){
+
+///bg-gradient-to-tr from-black via-cyan-300 to-blue-500 w-full
  
 // };
 
 const Home = () => {
   return (
-    <>
+    <section>
         {/* <Banner/> */}
         <Section1new/>
         <Section3new/>
-        <Section4new/>
+        <div className=''>
+          <Section4new/>
+        </div>
         {/* <Section1cer/> */}
         {/* <Section2/> */}
         {/* <Section3/> */}
@@ -34,7 +38,7 @@ const Home = () => {
         {/* <Section7/> */}
         
         
-    </>
+    </section>
 
   )
 }

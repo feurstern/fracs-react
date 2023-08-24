@@ -24,11 +24,11 @@ const NewBanner = () => {
             // variants={{
             //     hidden: { opacity: 0, y: 100 },
             //     visible: { opacity: 1, y: 0 }
-            // }}
-            variants={{
-                hidden:{opacity:0, y:100},
-                visible : {opacity:1, y:0}
-                }}
+            // // }}
+            // variants={{
+            //     hidden:{opacity:0, y:100},
+            //     visible : {opacity:1, y:0}
+            //     }}
             // initial="hidden"
             animate={controls}
             transition={{ duration: 1.75 }}

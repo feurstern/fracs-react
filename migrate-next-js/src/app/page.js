@@ -7,6 +7,7 @@ import Home from './Home/page';
 import React, { Component } from 'react';
 import Banner from './Home/banner';
 import NewBanner from './Home/NewBanner-home';
+import Section4 from './Home/section-4';
 
 
 //fetch api from nodejs
@@ -37,8 +38,8 @@ class App extends Component {
    render() {
       return (
 
-         <div className="bg-red-700 w-full">
-            <div className={`${styles.paddingX} ${styles.flexCenter} sticky top-0 bg-red-700 z-50`} >
+         <div className="">
+            <div className={`bg-red-700 w-full ${styles.paddingX} ${styles.flexCenter} sticky top-0 bg-red-700 z-50`} >
                <div className={`${styles.boxWidth}`}>
                   <Navbar />
                   {/* <RouterProvider router={router} /> */}
@@ -46,15 +47,21 @@ class App extends Component {
             </div>
             <div className={``}>
                {/* <Banner /> */}
-              
+
             </div>
             <div className={`bg-white border-red-600 ${styles.flexStart}`}>
                <div className={`${styles.boxWidth}`}>
-               <NewBanner />
+                  <NewBanner />
                </div>
             </div>
 
-            <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
+            <div className={` ${styles.paddingX} ${styles.flexStart}`}>
+               <div className={`${styles.boxWidth}`}>
+                 {/* this div suppose to create the full bgcolor but since I have to use separate routes 
+                 for each page and each section I think it will be time consuming and hard to implement. I want to use the cou */}
+               </div>
+            </div>
+            <div className={` ${styles.paddingX} ${styles.flexStart}`}>
                <div className={`${styles.boxWidth}`}>
                   <Home />
                </div>

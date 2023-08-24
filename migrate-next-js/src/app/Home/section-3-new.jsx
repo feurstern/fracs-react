@@ -13,7 +13,7 @@ const Section3new = () => {
 
 
   let sectionTitle = arr.join(" ");
-
+  let content = 'Memiliki sertifikasi FRAC dapat memberikan beberapa manfaat bagi professional di bidang manajemen risiko, antara lain sebagai berikut:'
 
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
@@ -26,7 +26,7 @@ const Section3new = () => {
   })
 
   const randomBgColour = [
-    'bg-sky-600', 'bg-red-600', 'bg-green-600', 'bg-purple-600'
+    'bg-sky-600', 'bg-red-600', 'bg-purple-600', 'bg-emerald-600'
   ]
   const getRandomNumber = () => {
     return Math.floor(Math.random() * randomBgColour.length)
@@ -36,15 +36,28 @@ const Section3new = () => {
   }, [getRandomNumber])
 
   return (
-    <motion.section className='py-4'>
+    <motion.section 
+    ref={ref}
+    variants={{
+      hidden :{opacity:0,y:100},
+      visible:{opacity:1, y:0}
+    }}
+    initial="hidden"
+    animate={controls}
+    transition={{
+      duration:3.5
+    }}
+    className='py-4 '>
       <div className={`${styles.flexCenter}`}>
-        <h1 className={`${styles.heading2}`}>{sectionTitle}</h1>
+        <h1 className={`${styles.heading2} py-2`}>{sectionTitle}</h1>
       </div>
+        <p className={`${styles.paragraph} py-2`}>{content}</p>
       {
         reasonsData.map((data, index) => (
           <div key={data.id}>
-            <ul className='pr-2 pl-2'>
-              <li className={`${randomBgColour[getRandomNumber()]} text-white rounded-lg py-4 mb-0 mt-0`}>{data.content}</li>
+            <ul className={`pr-2 px-2 py-4  ${styles.flexBetween}`}>
+            <h2 className={`${styles.heading3} px-2`}>{index+1}.</h2>
+            <li className={`${randomBgColour[getRandomNumber()]} text-white rounded-lg pt-2 pl-2 pr-2 py-4 mb-0 mt-0 border-2 border-white border-dashed `}>{data.content}</li>
             </ul>
           </div>
         ))
