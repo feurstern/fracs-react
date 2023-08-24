@@ -35,7 +35,7 @@ const Navbar = () => {
         alt="FRACS"
         className="w-[85px] h-[85px]"
       />
-      <h1 className={`${styles.defaultHeaderFont} pl-5
+      <h1 className={`${styles.defaultHeaderFont} text-white pl-5
       ${headerTitle.length -1 > navLinks.length -1 ? "mr-10" : "mr-0"}
       `}>
          {headerTitle}
@@ -50,7 +50,7 @@ const Navbar = () => {
             } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
             onClick={() => setActive(nav.title)}
           >
-            <Link href={`${nav.id}`}>{nav.title}</Link>
+            <Link className="text-white" href={`${nav.id}`}>{nav.title}</Link>
           </li>
         ))}
       </ul>

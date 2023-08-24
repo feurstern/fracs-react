@@ -14,10 +14,10 @@ export const navLinks = [
     id: "/gallery",
     title: "Galleri",
   },
-  {
-    id: '/about-us',
-    title: 'Tentang Kami'
-  },
+  // {
+  //   id: '/about-us',
+  //   title: 'Tentang Kami'
+  // },
   {
     id: "/register",
     title: "Pendaftaran",
@@ -292,4 +292,30 @@ export const bannerData = [
   },
 ];
 
-
+//THis is data for section 3 - new js  about Mengapa sertifikasifor homepage
+export const reasonsData=[
+  {
+    id:1,
+    content: 'Pengakuan profesional: Sertifikasi FRAC adalah gelar profesional yang diakui yang menunjukkan keahlian dalam manajemen risiko yang dapat meningkatkan kredibilitas dan reputasi.'
+  },
+  {
+    id:2,
+    content: 'Peluang kemajuan karir: Sertifikasi FRAC dapat membuka pintu bagi peluang karir baru dan kemajuan di dalam organisasi. Ini dapat membantu individu menjadi lebih menonjol di antara rekan-rekan mereka dan meningkatkan peluang mereka untuk dipertimbangkan untuk promosi atau posisi tingkat lebih tinggi.'
+  },
+  {
+    id:3,
+    content: 'Pengetahuan dan keterampilan yang diperluas: Program sertifikasi FRAC melibatkan kurikulum khusus yang mencakup berbagai aspek manajemen risiko yang mendalam dan bermanfaat untuk mengembangkan keterampilan lanjutan dalam penilaian risiko, mitigasi, dan manajemen.'
+  },
+  {
+    id:4,
+    content: 'Keunggulan kompetitif: Sertifikasi FRAC menunjukkan komitmen dari profesional di bidang risiko perusahaan terhadap pengembangan profesional dan dedikasi untuk tetap terkini dengan praktik dan standar terbaru dalam manajemen risiko perusahaan yang memberikan keunggulan kompetitif.'
+  },
+  {
+    id:5,
+    content: 'Peluang jaringan: Sertifikasi FRAC dapat memberikan individu akses ke jaringan profesional di bidang manajemen risiko, Jaringan koneksi berharga, mentorship, dan peluang untuk kolaborasi dan berbagi pengetahuan.'
+  },
+  {
+    id:6,
+    content: 'Potensi pendapatan yang lebih tinggi: Sertifikasi FRAC dapat berpotensi mengarah pada gaji dan paket kompensasi yang lebih tinggi sejalan dengan penghargaan dari perusahaan yang menghargai para profesional dengan keahlian yang sertifikasi dan teruji.'
+  },
+]

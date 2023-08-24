@@ -10,8 +10,9 @@ import Section51 from './section-5-1'
 import Section1cer from './section-1-cer'
 import Section2cer from './section-2-cer'
 import NewBanner from './NewBanner-home'
-
-
+import Section3new from './section-3-new'
+import Section1new from './section-1-new'
+import Section4new from './Section-4-new'
 // componentDidMount(){
  
 // };
@@ -20,7 +21,9 @@ const Home = () => {
   return (
     <>
         {/* <Banner/> */}
-        {/* <Section1/> */}
+        <Section1new/>
+        <Section3new/>
+        <Section4new/>
         {/* <Section1cer/> */}
         {/* <Section2/> */}
         {/* <Section3/> */}
@@ -29,7 +32,7 @@ const Home = () => {
         {/* <Section2cer/> */}
         {/* <Section5/> */}
         {/* <Section7/> */}
-        <NewBanner />
+        
         
     </>
 

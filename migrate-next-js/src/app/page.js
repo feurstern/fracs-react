@@ -6,7 +6,7 @@ import styles from './style';
 import Home from './Home/page';
 import React, { Component } from 'react';
 import Banner from './Home/banner';
-
+import NewBanner from './Home/NewBanner-home';
 
 
 //fetch api from nodejs
@@ -45,10 +45,12 @@ class App extends Component {
                </div>
             </div>
             <div className={``}>
-               <Banner />
+               {/* <Banner /> */}
+              
             </div>
             <div className={`bg-white border-red-600 ${styles.flexStart}`}>
                <div className={`${styles.boxWidth}`}>
+               <NewBanner />
                </div>
             </div>
 
