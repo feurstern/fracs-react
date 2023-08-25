@@ -35,8 +35,8 @@ const Home = () => {
         {/* <Section4/> */}
         
         {/* <Section2cer/> */}
-        {/* <Section5/> */}
-        {/* <Section7/> */}
+        <Section5/>
+        <Section7/>
         
         
     </section>

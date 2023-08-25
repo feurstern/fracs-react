@@ -4,29 +4,33 @@ import styles from "../style";
 import Section6 from "./section-6";
 import { feedBack } from "../constant";
 import { easeOut, motion, useAnimation, useInView } from "framer-motion";
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Scrollbar, A11y, Virtual, EffectCoverflow, Autoplay } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/autoplay';
 
 const Section5 = () => {
   const ref = useRef(null);
   const [hoverd, isHovered] = useState(false);
   const controls = useAnimation();
   const isInView = useInView(ref, { once: true });
-
   useEffect(() => {
+
     isInView ? controls.start("visible") : controls.start("hidden");
   }, [isInView, controls]);
   return (
     <motion.section
-      ref={ref}
-      variants={{
-        hidden: { opacity: 0, y: 100 },
-        visible: { opacity: 1, y: 0 },
-      }}
-      initial="hidden"
-      animate={controls}
-      transition={{
-        ease: easeOut,
-        duration: 2.25,
-      }}
+      // ref={ref}
+      // variants={{
+      //   hidden: { opacity: 0, y: 100 },
+      //   visible: { opacity: 1, y: 0 },
+      // }}
+      // initial="hidden"
+      // animate={controls}
+      // transition={{
+      //   ease: easeOut,
+      //   duration: 2.25,
+      // }}
       className={`${styles.paddingY} ${styles.flexCenter} flex-col relative mt-[100px]`}
     >
       <div className="absolute z-[0] w-[60%] -right-[50%] rounded-full red__gradient bottom-40 "></div>
@@ -52,11 +56,23 @@ const Section5 = () => {
         </div>
       </div>
 
-      <div className="flex flex-wrap sm:justify-start justify-center w-full feed-back-container relative z-[1]">
-        {feedBack.map((card) => (
-          <Section6 key={card.id} {...card} />
-        ))}
-      </div>
+      <Swiper
+        modules={[Virtual, Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCoverflow]}
+        // centeredSlides={true}
+        spaceBetween={0}
+        slidesPerView={1}
+        navigation={true}
+        pagination={{ clickable: true }}
+        scrollbar={{draggable:true}}
+      >
+        <div className="flex flex-wrap sm:justify-start justify-center w-full feed-back-container relative z-[1]">
+          {feedBack.map((card, index) => (
+            <SwiperSlide>
+              <Section6 key={card.id} {...card} />
+            </SwiperSlide>
+          ))}
+        </div>
+      </Swiper>
     </motion.section>
   );
 };

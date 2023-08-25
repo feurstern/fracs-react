@@ -235,6 +235,28 @@ export const feedBack = [
     title: "Backend Developer",
     img: "https://ourtoga.com/uploads/participant/USR-0251983467lBDr/passphoto/passphoto_pbsDztmg.png",
   },
+  {
+    id: 3,
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    name: "Ricky Raven",
+    title: "Backend Developer",
+    img: "https://ourtoga.com/uploads/participant/USR-0251983467lBDr/passphoto/passphoto_pbsDztmg.png",
+  },
+  {
+    id: 2,
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    name: "Farid Darmaji",
+    title: "Frontend Developer",
+    img: "https://media.licdn.com/dms/image/D5603AQHtitc3-4fqpQ/profile-displayphoto-shrink_800_800/0/1679058849581?e=2147483647&v=beta&t=_HLFZbj8VpE3iI2NT9kZYO0tJqq67ziDtA_0IQxhW-E",
+  },
+  {
+    id: 1,
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    name: "Elvin Willis",
+    title: "Full Stack Developer",
+    img: "https://media.licdn.com/dms/image/D5603AQGQkMgNCvH_pA/profile-displayphoto-shrink_800_800/0/1665485543999?e=2147483647&v=beta&t=XbEIiS0pE7rGojHUdLO5yptywK9OHpTRxYYK-bUxOXU"
+  },
+
 
 ]
 

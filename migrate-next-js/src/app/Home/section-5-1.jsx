@@ -52,8 +52,8 @@ const Section51 = () => {
           className="border rounded-lg cursor cursor-pointer"
         />
       </div>
-      <div className={`bg-blue-500 border rounded-lg p-[15px]`}>
-        <p className={`${styles.paragraph} text-white`}>
+      <div className={`bg-blue-500 border rounded-lg p-[15px] `}>
+        <p className={`${styles.paragraph} mt-4 mb-4 text-white`}>
          {content}
         </p>
       </div>

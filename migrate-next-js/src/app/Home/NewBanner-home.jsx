@@ -54,7 +54,7 @@ const NewBanner = () => {
                 }}
                 navigation={true}
                 pagination={{ clickable: true }}
-                scroll={{ draggable: true }}
+                scrollbar={{ draggable: true }}
                 onSwiper={(swiper) => console.log(swiper)}
                 onSlideChange={() => console.log('slide change!')}
             >
