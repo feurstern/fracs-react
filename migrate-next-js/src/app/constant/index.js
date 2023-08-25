@@ -328,8 +328,6 @@ export const targetMarket = [
   'Finance Analyst',
   'Regulator',
   'Educator',
-  'Financial analyst',    
-  'Regulator',
   'Consultant',
   'Senior management',
   'Other professions'
