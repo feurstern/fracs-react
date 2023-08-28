@@ -4,7 +4,7 @@ import styles from "../style";
 import Button from "../components/components/Button";
 import { motion, useAnimation, useInView } from "framer-motion";
 import BtnAbout from '../components/components/BtnAbout'
-
+import BtnRegist from '../components/components/BtnRegist'
 const Section7 = () => {
   const ref = useRef(null);
   const controls = useAnimation();
@@ -24,20 +24,22 @@ const Section7 = () => {
       initial="hidden"
       animate={controls}
       transition={{ duration: 1.75 }}
-      className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex flex-row flex-col bg-black-radiant-2 rounded-[20px] box-shadow`}
+      className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex  flex-col bg-black-radiant-2 rounded-[20px] box-shadow`}
     >
-      <div className={`flex-1 flex flex-col`}>
+      <div className={`${styles.flexCenter}`}>
         <h2 className={`${styles.heading2}`}>
           {content}
         </h2>
-        <p className={`${styles.paragraph}`}>
+        {/* <p className={`${styles.paragraph}`}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
-        </p>
+        </p> */}
       </div>
-      <div className={`flex justify-between items-start`}>
+      <div className={`flex flex-1 flex-col-reverse items-center lg:flex-row `}>
         <Button />
         <BtnAbout />
+        <BtnRegist/>
+        
       </div>
     </motion.section>
   );
