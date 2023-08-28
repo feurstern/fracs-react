@@ -56,12 +56,15 @@ const Section3new = () => {
         <p className={`${styles.paragraph} py-2`}>{content}</p>
         {
           reasonsData.map((data, index) => (
-            <div key={data.id}>
+            <motion.div key={data.id} 
+            whileHover={{scale:1.2}}
+            whileTap={{scale:0.8}}
+            className='cursor-pointer'>
               <ul className={`pr-2 px-2 py-4  ${styles.flexBetween}`}>
                 <h2 className={`${styles.heading3} px-2`}>{index + 1}.</h2>
                 <li className={`${randomBgColour[getRandomNumber()]} text-white rounded-lg pt-2 pl-2 pr-2 py-4 mb-0 mt-0 border-2 border-white border-dashed `}><span className={`${styles.paragraph} text-white`}>{data.content}</span></li>
               </ul>
-            </div>
+            </motion.div>
           ))
         }
       </motion.section>
