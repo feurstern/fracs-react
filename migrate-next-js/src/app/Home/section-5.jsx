@@ -31,7 +31,7 @@ const Section5 = () => {
       //   ease: easeOut,
       //   duration: 2.25,
       // }}
-      className={`${styles.paddingY} ${styles.flexCenter} flex-col relative mt-[100px]`}
+      className={`${styles.paddingY} ${styles.flexCenter} flex-col relative mt-[40px]`}
     >
       <div className="absolute z-[0] w-[60%] -right-[50%] rounded-full red__gradient bottom-40 "></div>
 
@@ -60,16 +60,16 @@ const Section5 = () => {
         modules={[Virtual, Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCoverflow]}
         // centeredSlides={true}
         spaceBetween={0}
-        slidesPerView={1}
+        slidesPerView={3}
         navigation={true}
         pagination={{ clickable: true }}
         scrollbar={{draggable:true}}
       >
         <div className="flex flex-wrap sm:justify-start justify-center w-full feed-back-container relative z-[1]">
           {feedBack.map((card, index) => (
-            <SwiperSlide>
+  
               <Section6 key={card.id} {...card} />
-            </SwiperSlide>
+            
           ))}
         </div>
       </Swiper>

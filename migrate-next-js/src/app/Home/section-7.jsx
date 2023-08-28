@@ -24,7 +24,7 @@ const Section7 = () => {
       initial="hidden"
       animate={controls}
       transition={{ duration: 1.75 }}
-      className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex  flex-col bg-black-radiant-2 rounded-[20px] box-shadow`}
+      className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex  flex-col bg-black-radiant-2 rounded-[20px] box-shadow hover:shadow-3xl`}
     >
       <div className={`${styles.flexCenter}`}>
         <h2 className={`${styles.heading2}`}>

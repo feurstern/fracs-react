@@ -47,7 +47,7 @@ const Section3new = () => {
       transition={{
         duration: 3.5
       }}
-      className='border-4 border-black border-dashed rounded-xl'>
+      className='border-4 my-6 border-black border-dashed rounded-xl'>
       <motion.section
         className='py-4 mr-2 pt-[25px] ml-2'>
         <div className={`${styles.flexCenter}`}>
@@ -59,7 +59,7 @@ const Section3new = () => {
             <div key={data.id}>
               <ul className={`pr-2 px-2 py-4  ${styles.flexBetween}`}>
                 <h2 className={`${styles.heading3} px-2`}>{index + 1}.</h2>
-                <li className={`${randomBgColour[getRandomNumber()]} text-white rounded-lg pt-2 pl-2 pr-2 py-4 mb-0 mt-0 border-2 border-white border-dashed `}>{data.content}</li>
+                <li className={`${randomBgColour[getRandomNumber()]} text-white rounded-lg pt-2 pl-2 pr-2 py-4 mb-0 mt-0 border-2 border-white border-dashed `}><span className={`${styles.paragraph} text-white`}>{data.content}</span></li>
               </ul>
             </div>
           ))

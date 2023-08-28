@@ -1,15 +1,15 @@
 const styles = {
   boxWidth: "xl:max-w-[1280px] w-full",
 
-  heading2: "font-poppins font-semibold xs:text-[48px] text-[40px] text-black xs:leading-[76.8px] leading-[66.8px] w-full",
-  heading3: "font-poppins font-semibold xs:text-[25px] text-[20px] text-black xs:leading-[50px] ",
-  paragraph: "font-poppins font-normal text-black text-[18px] leading-[30.8px] text-justify",
+  heading2: "font-poppins font-semibold text-3xl xs:text-5xl text-3xl text-black xs:leading-[76.8px] leading-[66.8px] w-full",
+  heading3: "font-poppins font-semibold text-2xl xs:text-[25px] text-[20px] text-black xs:leading-[50px] ",
+  paragraph: "font-poppins font-normal text-black text-l xs:text-[27px] leading-[30.8px] text-justify",
 
   galleryImageContainer : "grid grid-cols-2 md:grid-cols-3 gap-4",
   textHoverImage : "text-white text-[16px]",
   modalImage : 'fixed top-0 left-0 right-0 bottom-0',
   registerProgramContainer : 'grid grid-cols-1 flex justify-center items-center md:grid-cols-3 gap-5',
-  defaultHeaderFont : "font-poppins font-bold xl:text-2xl lg:text-xl md:text-xl ss:text-[15px] xs:text-[12px] ",
+  defaultHeaderFont : "font-poppins font-bold text-xs xl:text-2xl lg:text-xl md:text-xl ss:text-[15px] xs:text-[12px] ",
   'defaultNavLinkFont' : "font-poppins font-semibold xl:text-2xl lg:text-2xl md:text-xl ss:text-[13px] xs:text-[11px]",
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
