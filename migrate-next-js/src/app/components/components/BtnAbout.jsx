@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const BtnAbout = () => {
   return (
-    <a href='' target="_blank">
+    <a href='/about-us' target="_blank">
     <button
       onClick=''
       className="bg-sky-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center mt-5"
