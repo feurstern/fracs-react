@@ -26,10 +26,10 @@ const Section3new = () => {
   })
 
   const randomBgColour = [
-    'bg-sky-600', 'bg-red-600', 'bg-purple-600', 'bg-emerald-600'
+    'bg-sky-600', 'bg-red-600', 'bg-purple-600', 'bg-emerald-600', 'bg-cyan-600', 'bg-lime-600'
   ]
   const getRandomNumber = () => {
-    return Math.floor(Math.random() * randomBgColour.length)
+    return Math.floor(Math.random() * randomBgColour.length -1)
   }
   useEffect(() => {
     getRandomNumber();
@@ -62,7 +62,7 @@ const Section3new = () => {
             className='cursor-pointer'>
               <ul className={`pr-2 px-2 py-4  ${styles.flexBetween}`}>
                 <h2 className={`${styles.heading3} px-2`}>{index + 1}.</h2>
-                <li className={`${randomBgColour[getRandomNumber()]} text-white rounded-lg pt-2 pl-2 pr-2 py-4 mb-0 mt-0 border-2 border-white border-dashed `}><span className={`${styles.paragraph} text-white`}>{data.content}</span></li>
+                <li className={`${randomBgColour[index]} text-white rounded-lg pt-2 pl-2 pr-2 py-4 mb-0 mt-0 border-2 border-white border-dashed `}><span className={`${styles.paragraph} text-white`}>{data.content}</span></li>
               </ul>
             </motion.div>
           ))
