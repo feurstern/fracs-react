@@ -8,6 +8,11 @@ import React, { Component } from 'react';
 import Banner from './Home/banner';
 import NewBanner from './Home/NewBanner-home';
 import Section4 from './Home/section-4';
+import Section1new from './Home/section-1-new';
+import Section3new from './Home/section-3-new';
+import Section4new from './Home/Section-4-new';
+import Section5 from './Home/section-5';
+import Section7 from './Home/section-7';
 
 
 //fetch api from nodejs
@@ -57,13 +62,20 @@ class App extends Component {
 
             <div className={` ${styles.paddingX} ${styles.flexStart}`}>
                <div className={`${styles.boxWidth}`}>
-                 {/* this div suppose to create the full bgcolor but since I have to use separate routes 
-                 for each page and each section I think it will be time consuming and hard to implement. I want to use the cou */}
+                  <Section1new />
+                  <Section3new />
+               </div>
+            </div>
+            <div className={`bg-blue-700 w-full ${styles.paddingX} ${styles.flexCenter}`} >
+               <div className={`${styles.boxWidth}`}>
+                  <Section4new />
+                  {/* <RouterProvider router={router} /> */}
                </div>
             </div>
             <div className={` ${styles.paddingX} ${styles.flexStart}`}>
                <div className={`${styles.boxWidth}`}>
-                  <Home />
+                <Section5/>
+                <Section7></Section7>
                </div>
             </div>
 
