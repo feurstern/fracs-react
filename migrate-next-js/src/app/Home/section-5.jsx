@@ -20,17 +20,17 @@ const Section5 = () => {
   }, [isInView, controls]);
   return (
     <motion.section
-      // ref={ref}
-      // variants={{
-      //   hidden: { opacity: 0, y: 100 },
-      //   visible: { opacity: 1, y: 0 },
-      // }}
-      // initial="hidden"
-      // animate={controls}
-      // transition={{
-      //   ease: easeOut,
-      //   duration: 2.25,
-      // }}
+      ref={ref}
+      variants={{
+        hidden: { opacity: 0, y: 100 },
+        visible: { opacity: 1, y: 0 },
+      }}
+      initial="hidden"
+      animate={controls}
+      transition={{ 
+        ease: easeOut,
+        duration: 2.25,
+      }}
       className={`${styles.paddingY} ${styles.flexCenter} flex-col relative mt-[40px]`}
     >
       <div className="absolute z-[0] w-[60%] -right-[50%] rounded-full red__gradient bottom-40 "></div>
@@ -60,11 +60,12 @@ const Section5 = () => {
         modules={[Virtual, Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCoverflow]}
         // centeredSlides={true}
         spaceBetween={0}
-        slidesPerView={3}
+        slidesPerView={1}
         navigation={true}
         pagination={{ clickable: true }}
         scrollbar={{draggable:true}}
       >
+       
         <div className="flex flex-wrap sm:justify-start justify-center w-full feed-back-container relative z-[1]">
           {feedBack.map((card, index) => (
   
@@ -72,6 +73,7 @@ const Section5 = () => {
             
           ))}
         </div>
+       
       </Swiper>
     </motion.section>
   );

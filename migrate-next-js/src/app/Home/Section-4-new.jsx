@@ -28,6 +28,8 @@ const Section4new = () => {
      isInView ? controls.start('visible') : controls.start('hidden'); 
   },[controls, isInView])
 
+  const avgStr = 17
+
   return (
     <motion.section
       ref={ref}
@@ -46,7 +48,7 @@ const Section4new = () => {
         <div className=''>
           <div className={`${styles.heading2} text-center pt-[50px] pb-[50px] mr-2 ml-2 text-white`}>
             {sectionTitle}
-            <p className={` mr-6 ml-2  mb-2 text-white`}>
+            <p className={` mr-6 ml-2  text-white`}>
               <span className={`${styles.paragraph} text-white`}>{content}</span>
             </p>
           </div>
@@ -54,12 +56,12 @@ const Section4new = () => {
         <div className={`mt-4 ml-2 mr-2 grid md:grid-cols-3 gap-8`}>
           {
             targetMarket.map((data, index) => (
-              <ul key={index} className='cursor-pointer hover:bg-white rounded-lg px-2'>
-                <li className={` text-l xs:text-[27px] flex gap-4 items-start`}>
-                  <svg class="w-6 h-6 mr-2 text-green-500 dark:text-green-400 flex-shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+              <ul key={index} className='cursor-pointer bg-white rounded-lg px-2'>
+                <li className={` text-l xs:text-[27px] flex gap-4 ${data.length > avgStr ? 'items-start' : 'items-end'}`}>
+                  <svg class={`w-6 h-6 mr-2 ${data.length >avgStr ? 'mt-6' : 'mt-[2px]'} text-green-500 dark:text-green-400 flex-shrink-0`} aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
                   </svg>
-                  <span className={` text-white hover:text-black`}>{data}</span>
+                  <span className={` text-black`}>{data}</span>
                 </li>
               </ul>
             ))
