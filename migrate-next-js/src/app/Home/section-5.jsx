@@ -27,7 +27,7 @@ const Section5 = () => {
       }}
       initial="hidden"
       animate={controls}
-      transition={{ 
+      transition={{
         ease: easeOut,
         duration: 2.25,
       }}
@@ -63,17 +63,18 @@ const Section5 = () => {
         slidesPerView={1}
         navigation={true}
         pagination={{ clickable: true }}
-        scrollbar={{draggable:true}}
+        scrollbar={{ draggable: true }}
       >
-       
+
         <div className="flex flex-wrap sm:justify-start justify-center w-full feed-back-container relative z-[1]">
           {feedBack.map((card, index) => (
-  
+            <SwiperSlide>
               <Section6 key={card.id} {...card} />
-            
+            </SwiperSlide>
+
           ))}
         </div>
-       
+
       </Swiper>
     </motion.section>
   );

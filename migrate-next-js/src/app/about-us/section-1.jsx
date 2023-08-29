@@ -3,6 +3,7 @@ import React, { useEffect, useRef, useState } from "react";
 import styles from "../style";
 
 import { motion, useAnimation, useInView } from "framer-motion";
+import { standarImparsialitas } from "../constant";
 
 const Section1aboutus = () => {
   const ref = useRef(null);
@@ -12,6 +13,15 @@ const Section1aboutus = () => {
   useEffect(() => {
     isInView ? controls.start("visible") : controls.start("hidden");
   }, [isInView, controls]);
+
+
+  const randomBgColour = [
+    'bg-red-600', 'bg-sky-600', 'bg-teal-600', 'bg-green-600', 'bg-cyan-600', 'bg-purple-600'
+  ];
+
+  const getRandomNumber=()=>Math.floor(Math.random() * randomBgColour.length -1);
+
+  console.log(getRandomNumber());
 
   return (
     <motion.section
@@ -31,20 +41,25 @@ const Section1aboutus = () => {
         </h1>
       </div>
       <div className={``}>
-        <motion.div
-          whileHover={{ scale: 1.2 }}
-          whileTap={{ scale: 0.8 }}
-          className={`cursor-pointer bg-red-600 max-w-[600px] p-[10px] border rounded-lg`}
-        >
-          <p
-            className={`${styles.paragraph} mt-[10px] max-w-[600px] text-white`}
-          >
-            IFMI berkomitmen penuh menjaga standar dan keadilan dalam seluruh
-            proses sertifikasi FRAC. Kami berupaya untuk memastikan keadilan dan
-            netralitas dengan menerapkan kebijakan dan prosedur yang ketat.
-          </p>
-        </motion.div>
-        <motion.div
+        {
+          standarImparsialitas.map((data, index) => (
+            <motion.div
+              whileHover={{ scale: 1.2 }}
+              whileTap={{ scale: 0.8 }}
+              key={data.id}
+              className={`cursor-pointer ${randomBgColour[index]} max-w-[600px] p-[10px] border rounded-lg`}
+            >
+              <p
+                className={`${styles.paragraph} mt-[10px] max-w-[600px] text-white`}
+              >
+                {data.content}
+              </p>
+            </motion.div>
+
+          ))
+        }
+
+        {/* <motion.div
           whileHover={{ scale: 1.2 }}
           whileTap={{ scale: 0.8 }}
           className={`cursor-pointer flex justify-end items-end text-white mt-[10px]`}
@@ -112,7 +127,7 @@ const Section1aboutus = () => {
             kompetensi, jaminan kelulusan ujian, dan tidak berpengaruh pada
             keputusan ujian program sertifikasi IFMI.
           </p>
-        </motion.div>
+        </motion.div> */}
         <div className={`mt-[10px] mb-[50px]`}>
           <p className={`${styles.paragraph} max-w-[600px]`}></p>
         </div>
