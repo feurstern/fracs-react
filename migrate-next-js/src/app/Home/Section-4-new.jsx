@@ -58,16 +58,15 @@ const Section4new = () => {
             </p>
           </div>
         </div>
-        <div
-          className={`mt-4 ml-2 mr-2 grid md:grid-cols-3 gap-8 justify-center`}
-        >
-          {targetMarket.map((data, index) => (
+        <div className={`mt-4 ml-2 mr-2 grid md:grid-cols-3 gap-8`}>
+          {/* 3 div dengan space rata */}
+          {targetMarket.slice(0, targetMarket.length - 2).map((data, index) => (
             <div
               key={index}
               className={`cursor-pointer bg-white rounded-lg px-2 text-l xs:text-[27px] flex gap-4 justify-start items-center h-[100px] w-[auto]`}
             >
               <svg
-                class={`w-6 h-6 mr-2 text-green-500 dark:text-green-400 flex-shrink-0`}
+                className={`w-6 h-6 mr-2 text-green-500 dark:text-green-400 flex-shrink-0`}
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -78,6 +77,28 @@ const Section4new = () => {
               <span className={` text-black`}>{data}</span>
             </div>
           ))}
+          {/* sisa 2 div dengan space evently */}
+          {targetMarket.length > 6 && (
+            <div className={`md:col-span-3 flex justify-evenly`}>
+              {targetMarket.slice(-2).map((data, index) => (
+                <div
+                  key={index}
+                  className={`cursor-pointer bg-white rounded-lg px-2 text-l xs:text-[27px] flex gap-4 justify-start items-center h-[100px] w-[400px]`}
+                >
+                  <svg
+                    className={`w-6 h-6 mr-2 text-green-500 dark:text-green-400 flex-shrink-0`}
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path d="M10 .5a9.5 9.5 0 1 0 9.5 9.5A9.51 9.51 0 0 0 10 .5Zm3.707 8.207-4 4a1 1 0 0 1-1.414 0l-2-2a1 1 0 0 1 1.414-1.414L9 10.586l3.293-3.293a1 1 0 0 1 1.414 1.414Z" />
+                  </svg>
+                  <span className={` text-black`}>{data}</span>
+                </div>
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </motion.section>
