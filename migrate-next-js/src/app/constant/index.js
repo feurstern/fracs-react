@@ -343,14 +343,24 @@ export const reasonsData = [
 ]
 
 // this array data for section 4 about siapa perlu mengambil sertifikat FRAC
+// export const targetMarket = [
+//   'Risk Manager in Companies',
+//   'Consultant',
+//   'Finance Manager and Team',
+//   'Finance Analyst',
+//   'Regulator',
+//   'Educator',
+//   'Consultant',
+//   'Senior management',
+//   'Other professions'
+// ]
 export const targetMarket = [
-  'Risk Manager in Companies',
-  'Consultant',
-  'Finance Manager and Team',
-  'Finance Analyst',
+  'Manager Resiko di Perusahaan',
+  'Konsultan',
+  'Manager Keuangan dan Tim',
+  'Analis Keuangan',
   'Regulator',
-  'Educator',
-  'Consultant',
-  'Senior management',
-  'Other professions'
+  'Pengajar',
+  'Manager Senior',
+  'Profesi Lainnya'
 ]
