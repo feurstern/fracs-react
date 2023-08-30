@@ -4,10 +4,18 @@ import styles from "../style";
 import Section6 from "./section-6";
 import { feedBack } from "../constant";
 import { easeOut, motion, useAnimation, useInView } from "framer-motion";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Scrollbar, A11y, Virtual, EffectCoverflow, Autoplay } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/autoplay';
+import { Swiper, SwiperSlide } from "swiper/react";
+import {
+  Navigation,
+  Pagination,
+  Scrollbar,
+  A11y,
+  Virtual,
+  EffectCoverflow,
+  Autoplay,
+} from "swiper/modules";
+import "swiper/css";
+import "swiper/css/autoplay";
 
 const Section5 = () => {
   const ref = useRef(null);
@@ -15,7 +23,6 @@ const Section5 = () => {
   const controls = useAnimation();
   const isInView = useInView(ref, { once: true });
   useEffect(() => {
-
     isInView ? controls.start("visible") : controls.start("hidden");
   }, [isInView, controls]);
   return (
@@ -33,8 +40,6 @@ const Section5 = () => {
       }}
       className={`${styles.paddingY} ${styles.flexCenter} flex-col relative mt-[40px]`}
     >
-      <div className="absolute z-[0] w-[60%] -right-[50%] rounded-full red__gradient bottom-40 "></div>
-
       <div
         onMouseEnter={() => isHovered(true)}
         onMouseLeave={() => isHovered(false)}
@@ -55,27 +60,26 @@ const Section5 = () => {
           </p>
         </div>
       </div>
-
-      <Swiper
-        modules={[Virtual, Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCoverflow]}
-        // centeredSlides={true}
-        spaceBetween={0}
-        slidesPerView={1}
-        navigation={true}
-        pagination={{ clickable: true }}
-        scrollbar={{ draggable: true }}
-      >
-
-        <div className="flex flex-wrap sm:justify-start justify-center w-full feed-back-container relative z-[1]">
-          {feedBack.map((card, index) => (
-            <SwiperSlide>
-              <Section6 key={card.id} {...card} />
-            </SwiperSlide>
-
-          ))}
-        </div>
-
-      </Swiper>
+      <div className="flex-row w-full">
+        <Swiper
+          modules={[Navigation, Pagination, Scrollbar, A11y]}
+          spaceBetween={1}
+          slidesPerView={3}
+          navigation
+          pagination={{ clickable: true }}
+          scrollbar={{ draggable: true }}
+          // onSwiper={(swiper) => console.log(swiper)}
+          // onSlideChange={() => console.log("slide change")}
+        >
+          <div className="sm:justify-start justify-center w-full feed-back-container relative z-[1]">
+            {feedBack.map((card, index) => (
+              <SwiperSlide>
+                <Section6 key={index} {...card} />
+              </SwiperSlide>
+            ))}
+          </div>
+        </Swiper>
+      </div>
     </motion.section>
   );
 };

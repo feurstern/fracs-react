@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import axios from "axios";
+import axios, { Axios } from "axios";
 import moment from "moment";
 import styles from "../../style";
 
@@ -11,11 +11,13 @@ const Api = () => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const tuday = moment().format("yyyy-mm-DD");
+
   // get data from API
   const getDataRegisterApi = async () => {
     const dataApi = await axios.get(
       "https://ourtoga.com/api_register/dENWTWVaeUFiVUZKUExUUTJNVGd6TWpjd09UVnVSRDlRVWtRNU5UZ3hNemMyYm1jPQ=="
     );
+    // console.log("===> dataApi", dataApi);
     // if data has been initialized then set the loading to false
     // and then set the data needed to the data useState
     setLoading(false);

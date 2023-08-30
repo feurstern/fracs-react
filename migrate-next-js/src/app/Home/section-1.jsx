@@ -46,12 +46,10 @@ const Section1 = () => {
   const generateWhatsNumber = () => {
     let index = getRandomNumber();
     numbers[index].link;
-    console.log(index);
+    // console.log(index);
   };
 
-  const sectionTitle = 'Tentang Sertifikasi FRAC';
-
-
+  const sectionTitle = "Tentang Sertifikasi FRAC";
 
   // console.log(generateWhatsNumber());
   // console.log(numbers[0].link)
@@ -75,7 +73,6 @@ const Section1 = () => {
       >
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-black ss:leading-[80px] leading-[45px]">
-
             <br className="sm:block hidden" />{" "}
             <span className="font-poppins font-semibold ss:text-[40px] text-[29px] text-black ss:leading-[80px] leading-[45px]">
               {sectionTitle}
@@ -94,14 +91,17 @@ const Section1 = () => {
           </h1>
           <div className="flex flex-col overflow-x-scroll sm:flex-row flex-wrap mb-4 mx-2">
             <div className="flex-col sm:w-1/2">
-            {/* just add the tag of p, if you want to create another section of paragraph*/}
+              {/* just add the tag of p, if you want to create another section of paragraph*/}
               <p className={`${styles.paragraph} max-w-[540px]`}>
-                Sertifikasi FRAC adalah sertifikasi profesional dalam 
-                manajemen risiko untuk perusahaan. 
-                Tujuan dari sertifikasi FRAC adalah memberikan gelar profesional kepada para ahli dan manajer manajemen 
-                risiko yang memiliki keahlian dalam menangani risiko. 
-                Program sertifikasi ini memiliki kurikulum khusus dan skema sertifikasi. 
-                Memperoleh sertifikasi FRAC dapat membantu individu menunjukkan pengetahuan dan keahlian mereka dalam manajemen risiko, yang dapat membuka peluang kemajuan karier dan meningkatkan kredibilitas di bidang tersebut.
+                Sertifikasi FRAC adalah sertifikasi profesional dalam manajemen
+                risiko untuk perusahaan. Tujuan dari sertifikasi FRAC adalah
+                memberikan gelar profesional kepada para ahli dan manajer
+                manajemen risiko yang memiliki keahlian dalam menangani risiko.
+                Program sertifikasi ini memiliki kurikulum khusus dan skema
+                sertifikasi. Memperoleh sertifikasi FRAC dapat membantu individu
+                menunjukkan pengetahuan dan keahlian mereka dalam manajemen
+                risiko, yang dapat membuka peluang kemajuan karier dan
+                meningkatkan kredibilitas di bidang tersebut.
               </p>
               <br />
             </div>

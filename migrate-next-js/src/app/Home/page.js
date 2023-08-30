@@ -5,6 +5,7 @@ import Section2 from './section-2'
 import Section3 from './section-3'
 import Section4  from './section-4'
 import Section5 from './section-5'
+// import Section6 from './section-6'
 import Section7 from './section-7'
 import Section51 from './section-5-1'
 import Section1cer from './section-1-cer'
@@ -36,6 +37,7 @@ const Home = () => {
         
         {/* <Section2cer/> */}
         <Section5/>
+        {/* <Section6/> */}
         <Section7/>
         
         

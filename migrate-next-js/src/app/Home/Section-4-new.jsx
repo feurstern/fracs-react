@@ -10,14 +10,14 @@ const Section4new = () => {
   to uppercase by using long script instead declare it properly on the variable heheheh
   */
   const arr = rawSectionTitle.split(" ");
-  console.log(arr);
+  // console.log(arr);
 
   for (let i = 0; i < arr.length; i++) {
     arr[i].charAt(0) === "f"
       ? (arr[i] = arr[i].toUpperCase())
       : (arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1));
   }
-  console.log(arr);
+  // console.log(arr);
   const sectionTitle = arr.join(" ");
 
   const content =
