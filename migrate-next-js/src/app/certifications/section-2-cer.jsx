@@ -47,6 +47,7 @@ const Section2cer = () => {
     >
       <div className={`flex-row ${card_css.card_box} ${styles.flexEvently}`}>
         {currentPost.map((items) => {
+          // console.log("===> items", items);
           let img_src;
           if (items?.upload_photo == null || items?.upload_photo == "null") {
             img_src = (

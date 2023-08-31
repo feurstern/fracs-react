@@ -73,8 +73,8 @@ const Section5 = () => {
         >
           <div className="sm:justify-start justify-center w-full feed-back-container relative z-[1]">
             {feedBack.map((card, index) => (
-              <SwiperSlide>
-                <Section6 key={index} {...card} />
+              <SwiperSlide key={index}>
+                <Section6 {...card} />
               </SwiperSlide>
             ))}
           </div>

@@ -6,15 +6,15 @@ import Image from 'next/image'
 const Page404 = () => {
   return (
     <div className={`text-center mt-[50px]`}>
-     <div className={`${styles.flexCenter}`}>
+      <div className={`${styles.flexCenter}`}>
         <h1 className={`${styles.heading2}`}>
-            The website is currently under constructions
+          The website is currently under constructions
         </h1>
-     </div>
+      </div>
 
-     <div className={`${styles.flexCenter} mx-auto `}>
-      <Image src={stop}/>
-     </div>
+      <div className={`${styles.flexCenter} mx-auto `}>
+        <Image src={stop} alt="page not found"/>
+      </div>
 
     </div>
   )
