@@ -364,3 +364,27 @@ export const targetMarket = [
   'Manager Senior',
   'Profesi Lainnya'
 ]
+
+// section 1 about us 'tentang IFMI'
+export const aboutIfmi = [
+  {
+    id: '1',
+    text: 'International Financial Modeling Institute (IFMI) adalah organisasi yang didirikan dengan visi untuk memfasilitasi pengembangan bidang pemodelan keuangan dan manajemen risiko melalui pendidikan, sertifikasi, berbagi, penelitian, dan praktik. IFMI berusaha untuk mempromosikan praktik terbaik dalam pemodelan keuangan dan manajemen risiko dan mendukung pengembangan profesional yang berkelanjutan dari karir yang sesuai.'
+  },
+  {
+    id: '2',
+    text: 'FRAC adalah program sertifikasi di bidang risiko keuangan untuk korporasi. Program sertifikasi ini memberikan FRAC Designation kepada para profesional yang memenuhi syarat. IFMI mengelola penyelenggaraan Ujian FRAC di seluruh dunia.'
+  },
+  {
+    id: '3',
+    text: 'Program FRAC mematuhi standar dan proses yang sesuai dengan standar global untuk memastikan ketidakberpihakan dan keadilan dari keseluruhan proses. Untuk ini,  FRAC telah mendapatkan akreditasi dari Komite Akreditasi Nasional, sebuah badan akreditasi resmi Pemerintah Republik Indonesia. '
+  },
+  // {
+  //   id: '4',
+  //   text: 'Klik di sini untuk membaca kebijakan ketidakberpihakan dan keadilan IFMI."'
+  // },
+  {
+    id: '5',
+    text: 'FRAC mengharuskan kandidat untuk mengikuti pelatihan wajib persiapan ujian sertifikasi. IFMI mendukung RTP untuk memberikan program pelatihan mengenai program yang dikelola oleh IFMI untuk negara atau wilayah tertentu.'
+  },
+]

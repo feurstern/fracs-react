@@ -1,145 +1,112 @@
-"use client";
-import React, { useEffect, useRef, useState } from "react";
-import styles from "../style";
+'use client'
+import React, { useEffect, useRef, useState } from 'react'
+import styles from '../style'
+import { motion, useAnimation, useInView } from 'framer-motion'
+import { aboutIfmi } from '../constant'
+import { Swiper, SwiperSlide } from 'swiper/react'
+import {
+    Navigation,
+    Pagination,
+    Scrollbar,
+    A11y,
+    EffectCube,
+    Autoplay,
+} from "swiper/modules";
 
-import { motion, useAnimation, useInView } from "framer-motion";
-import { standarImparsialitas } from "../constant";
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import "swiper/css/autoplay";
+
 
 const Section1aboutus = () => {
-  const ref = useRef(null);
-  const controls = useAnimation();
-  const isInView = useInView(ref, { once: true });
+    const ref = useRef(null);
+    const controls = useAnimation();
+    const [hovered, isHovered] = useState('false');
+    const isInView = useInView(ref, { once: true });
+    useEffect(() => {
+        isInView ? controls.start('visible') : controls.start('hidden')
+    }, [isInView, controls])
 
-  useEffect(() => {
-    isInView ? controls.start("visible") : controls.start("hidden");
-  }, [isInView, controls]);
+    const rawTitle = 'tentang ifmi';
+    let arr = rawTitle.split(' ');
+    const firstIndex = 0;
+    const sliceIndex = 1;
 
 
-  const randomBgColour = [
-    'bg-red-600', 'bg-sky-600', 'bg-teal-600', 'bg-green-600', 'bg-cyan-600', 'bg-purple-600'
-  ];
+    for (let i = 0; i < arr.length; i++) {
+        arr[i].charAt(firstIndex) === 'i' ? arr[i] = arr[i].toUpperCase() : arr[i] = arr[i].charAt(firstIndex).toUpperCase() + arr[i].slice(sliceIndex);
+    }
 
-  const getRandomNumber=()=>Math.floor(Math.random() * randomBgColour.length -1);
+    const title = arr.join(' ');
 
-  console.log(getRandomNumber());
 
-  return (
-    <motion.section
-      ref={ref}
-      variants={{
-        hidden: { opacity: 0, y: 100 },
-        visible: { opacity: 1, y: 0 },
-      }}
-      initial="hidden"
-      animate={controls}
-      transition={{ duration: 2.5 }}
-      className={`${styles.center} mt-[50px]`}
-    >
-      <div>
-        <h1 className={`${styles.heading2} ${styles.flexCenter} mb-[50px]`}>
-          Standar & Imparsialitas
-        </h1>
-      </div>
-      <div className={``}>
-        {
-          standarImparsialitas.map((data, index) => (
-            <motion.div
-              whileHover={{ scale: 1.2 }}
-              whileTap={{ scale: 0.8 }}
-              key={data.id}
-              className={`cursor-pointer ${randomBgColour[index]} max-w-[600px] p-[10px] border rounded-lg`}
-            >
-              <p
-                className={`${styles.paragraph} mt-[10px] max-w-[600px] text-white`}
-              >
-                {data.content}
-              </p>
-            </motion.div>
+    console.log(title)
+    return (
+        <motion.section
+            ref={ref}
+            variants={{
+                hidden: { opacity: 0, x: 100 },
+                visible: { opacity: 1, x: 0 }
+            }}
+            animate={controls}
+            initial='hidden'
+            transition={{
+                duration: 2.25
+            }}
 
-          ))
-        }
+            className={`my-4`}>
+            <div className={`${styles.flexCenter}`}>
+                <h1 className={`${styles.heading2}`}>
+                    {title}
+                </h1>
+            </div>
+            <div className={`py-4 border-8 border-dashed border-black  rounded-lg mt-4 flex-row w-full`}>
+                <Swiper
+                    modules={[
+                        Navigation,
+                        Pagination,
+                        Scrollbar,
+                        A11y,
+                        Autoplay,
+                        EffectCube,
+                    ]}
+                    spaceBetween={5}
+                    slidesPerView={1}
+                    navigation={true}
+                    pagination={{ clickable: true }}
+                    scrollbar={{ draggable: true }}
+                    centeredSlides={true}
+                    effect='cube'
+                    cubeEffect={{
+                        shadow: true,
+                        slideShadows: true,
+                        shadowOffset: 20,
+                        shadowScale: 0.94,
+                    }}
+                    autoplay={{
+                        delay: 8000,
+                        disableOnInteraction: false
+                    }}
+                >
+                    {
+                        aboutIfmi.map((data, index) => (
 
-        {/* <motion.div
-          whileHover={{ scale: 1.2 }}
-          whileTap={{ scale: 0.8 }}
-          className={`cursor-pointer flex justify-end items-end text-white mt-[10px]`}
-        >
-          <p
-            className={`${styles.paragraph} mt-[20px] max-w-[600px] bg-blue-600 p-[10px] border rounded-lg text-white`}
-          >
-            Kemitraan strategis dengan Training Partner IFMI ada untuk menjamin
-            kualitas dan standar FRAC. Training Partner IFMI membantu para
-            Kandidat FRAC menjadi siap menghadapi ujian sertifikasi dengan
-            pelatihan berbasis kurikulum FRAC. Namun, IFMI selalu berdiri netral
-            dan tidak memberikan kompensasi dalam bentuk apapun kepada Training
-            Partner terkait partisipasi Kandidat FRAC.
-          </p>
-        </motion.div>
-        <motion.div
-          whileHover={{ scale: 1.2 }}
-          whileTap={{ scale: 0.8 }}
-          className={`cursor-pointer mt-[10px] max-w-[600px] bg-green-600 text-white border rounded-lg`}
-        >
-          <p className={`${styles.paragraph} p-[10px] text-white`}>
-            Kewenangan mutlak dalam menentukan kelulusan Kandidat FRAC ada di
-            tangan IFMI yang memutuskan secara mandiri apakah seorang Kandidat
-            memenuhi standar dan kompetensi sebagai Person Tersertifikasi FRAC.
-            Termasuk dalam hal mencabut atau menarik sertifikat FRAC.
-          </p>
-        </motion.div>
-        <motion.div
-          whileHover={{ scale: 1.2 }}
-          whileTap={{ scale: 0.8 }}
-          className={`cursor-pointer flex justify-end items-end p-[10px]`}
-        >
-          <p
-            className={`${styles.paragraph} p-[10px] text-white max-w-[600px] bg-cyan-600 border rounded-lg`}
-          >
-            Penting bagi IFMI untuk menjaga kerahasiaan semua data dan informasi
-            dari para peserta dan Person Tersertifikasi FRAC. Informasi tersebut
-            tidak akan disebarkan kecuali diwajibkan oleh hukum.
-          </p>
-        </motion.div>
-        <motion.div
-          whileHover={{ scale: 1.2 }}
-          whileTap={{ scale: 0.8 }}
-          className={`cursor-pointer mt-[10px] max-w-[600px] bg-violet-600 border rounded-lg`}
-        >
-          <p className={`${styles.paragraph} text-white p-[10px]`}>
-            IFMI secara proaktif mengidentifikasi dan meminimalisir risiko
-            terhadap standar dan netralitas, serta menyelesaikan konflik yang
-            mungkin muncul. Kami sangat terbuka untuk menerima masukan dari
-            pihak ketiga terkait prinsip keadilan, netralitas, dan kerahasiaan.
-            Anda dapat mengirimkan masukan tersebut melalui halaman Contact Us.
-          </p>
-        </motion.div>
-        <motion.div
-          whileTap={{ scale: 0.8 }}
-          whileHover={{ scale: 1.2 }}
-          className={`cursor-pointer flex justify-end items-end pt-[10px]`}
-        >
-          <p
-            className={`${styles.paragraph} max-w-[600px] bg-rose-600 text-white border rounded-lg p-[10px]`}
-          >
-            Sekalipun kami bekerja sama dengan penyedia pelatihan yang
-            menggunakan BOK atau kurikulum kami sebagai acuan, harap diingat
-            bahwa hasil pelatihan atau sertifikat dari mereka bukan indikator
-            kompetensi, jaminan kelulusan ujian, dan tidak berpengaruh pada
-            keputusan ujian program sertifikasi IFMI.
-          </p>
-        </motion.div> */}
-        <div className={`mt-[10px] mb-[50px]`}>
-          <p className={`${styles.paragraph} max-w-[600px]`}></p>
-        </div>
-      </div>
-      {/*  run error when I want to use map for the array*/}
-      {/* <div className=''>
-      {standarImparsialitas.map((data,index)=>(  
-       <Section1cer key={data.id} {...data} index={index}/>
-      ))} 
-      </div> */}
-    </motion.section>
-  );
-};
+                            <SwiperSlide>
+                            <div className='relative'>
+                                <p className={`${styles.paragraph} mx-4 my-4 absolute`}>{data.text}</p>
+                            </div>
+                            </SwiperSlide>
 
-export default Section1aboutus;
+                        ))
+                    }
+                </Swiper>
+            </div>
+        </motion.section>
+
+    )
+}
+
+export default Section1aboutus
