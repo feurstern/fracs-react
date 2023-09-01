@@ -1,4 +1,5 @@
 import { star } from "../Assets";
+import styles from "../style";
 
 const gMap = 'https://www.google.com/maps/dir/-6.1964288,106.7614208/rajawali+konsulindo/@-6.1982766,106.7588543,17z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x2e69f7226210864f:0x95772c54294d992f!2m2!1d106.7619328!2d-6.1997352?entry=ttu'
 export const navLinks = [
@@ -262,28 +263,30 @@ export const feedBack = [
 
 export const standarImparsialitas = [
   {
-    id: "1",
-    content: "IFMI secara proaktif mengidentifikasi dan meminimalisir risiko terhadap standar dan netralitas, serta menyelesaikan konflik yang mungkin muncul. Kami sangat terbuka untuk menerima masukan dari pihak ketiga terkait prinsip keadilan, netralitas, dan kerahasiaan. Anda dapat mengirimkan masukan tersebut melalui halaman Contact Us."
+    key: "1",
+    label : <h4 className={`${styles.heading4}`}>1</h4>,
+    children: <p className={`${styles.paragraph}`}>IFMI memahami pentingnya menjaga keadilan dan ketidakberpihakan kepada semua pelamar, kandidat, dan Orang yang telah disertifikasi. IFMI telah menerapkan kebijakan dan prosedur untuk memastikan bahwa keadilan dan ketidakberpihakan dijaga dalam setiap proses terkait Sertifikasi FRAC.</p>
   },
   {
-    id: "2",
-    content: "Kemitraan strategis dengan Training Partner IFMI ada untuk menjamin kualitas dan standar FRAC. Training Partner IFMI membantu para Kandidat FRAC menjadi siap menghadapi ujian sertifikasi dengan pelatihan berbasis kurikulum FRAC. Namun, IFMI selalu berdiri netral dan tidak memberikan kompensasi dalam bentuk apapun kepada Training Partner terkait partisipasi Kandidat FRAC."
+    key: "2",
+    label: <h3 className={`${styles.heading4}`}>2</h3>,
+    children: <p className={`${styles.paragraph}`}>
+    IFMI tidak menyediakan pelatihan persiapan untuk kandidat FRAC dan sebagai gantinya, mengembangkan kemitraan dengan Penyedia Pelatihan Terdaftar untuk menyelenggarakan pelatihan persiapan bagi kandidat FRAC. Dalam hal ini, RTP tidak diizinkan untuk membuat janji bahwa partisipasi dalam pelatihan yang disediakan oleh RTP mana pun menjamin bahwa Kandidat akan lulus Ujian FRAC atau mendapatkan konsesi tertentu, yang membuat ujian menjadi tidak adil dan lebih mudah lulus bagi peserta mereka. IFMI tidak mempertimbangkan apakah Kandidat telah berpartisipasi dalam program pelatihan RTP mana pun saat mengambil keputusan lulus atau tidak lulus.</p>
   },
   {
-    id: "3",
-    content: "Kewenangan mutlak dalam menentukan kelulusan Kandidat FRAC ada di tangan IFMI yang memutuskan secara mandiri apakah seorang Kandidat memenuhi standar dan kompetensi sebagai Person Tersertifikasi FRAC. Termasuk dalam hal mencabut atau menarik sertifikat FRAC."
+    key: "3",
+    label:<h3 className={`${styles.heading4}`}>3</h3>,
+    children: <p className={`${styles.paragraph}`}> IFMI bertanggung jawab sepenuhnya untuk memberikan, menangguhkan, mencabut, dan mencabut sertifikasi peserta dan tidak akan pernah mendelegasikan keputusan tersebut kepada pihak lain.</p>
   },
   {
-    id: "4",
-    content: "Penting bagi IFMI untuk menjaga kerahasiaan semua data dan informasi dari para peserta dan Person Tersertifikasi FRAC. Informasi tersebut tidak akan disebarkan kecuali diwajibkan oleh hukum."
+   key: "4",
+   label:<h3 className={`${styles.heading4}`}>4</h3>,
+   children: <p className={`${styles.paragraph}`}> IFMI memperlakukan semua data dan informasi yang disediakan oleh pelamar, kandidat, dan Orang yang telah disertifikasi sebagai rahasia. IFMI tidak akan mengungkapkan informasi kepada pihak ketiga kecuali diharuskan oleh hukum yang berlaku.</p>
   },
   {
-    id: "5",
-    content: "FMI secara proaktif mengidentifikasi dan meminimalisir risiko terhadap standar dan netralitas, serta menyelesaikan konflik yang mungkin muncul. Kami sangat terbuka untuk menerima masukan dari pihak ketiga terkait prinsip keadilan, netralitas, dan kerahasiaan. Anda dapat mengirimkan masukan tersebut melalui halaman Contact Us."
-  },
-  {
-    id: "6",
-    content: "Sekalipun kami bekerja sama dengan penyedia pelatihan yang menggunakan BOK atau kurikulum kami sebagai acuan, harap diingat bahwa hasil pelatihan atau sertifikat dari mereka bukan indikator kompetensi, jaminan kelulusan ujian, dan tidak berpengaruh pada keputusan ujian program sertifikasi IFMI."
+    key: "5",
+    label : <h3 className={`${styles.heading4}`}>5</h3>,
+    children: <p className={`${styles.paragraph}`}> IFMI akan terus mengidentifikasi ancaman terhadap keadilan dan ketidakberpihakan. Setiap pelanggaran yang dirasakan terhadap ketidakberpihakan atau konflik kepentingan akan ditinjau untuk investigasi dan resolusi. IFMI menerima informasi dari pihak ketiga terkait setiap pelanggaran yang dirasakan terhadap ketidakberpihakan, keadilan, dan kerahasiaan. Kirim email ke impartial@professionalfinancialmodeler.org.</p>
   }
 ];
 
