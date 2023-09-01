@@ -3,6 +3,7 @@ const styles = {
 
   heading2: "font-poppins font-semibold text-3xl xs:text-5xl text-3xl text-black xs:leading-[76.8px] leading-[66.8px] w-full",
   heading3: "font-poppins font-semibold text-2xl xs:text-[25px] text-[20px] text-black xs:leading-[50px] ",
+  heading4: 'font-poppins font-semibold text-l sm:text-xl',
   paragraph: "font-poppins font-normal text-black text-l xs:text-[27px] leading-[30.8px] text-justify",
 
   galleryImageContainer : "grid grid-cols-2 md:grid-cols-3 gap-4",
