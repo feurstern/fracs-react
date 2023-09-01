@@ -4,6 +4,7 @@ import styles from "../style";
 
 import { motion, useAnimation, useInView } from "framer-motion";
 import { standarImparsialitas } from "../constant";
+import CollapseCard from "./CollapseCard";
 
 const Section2aboutus = () => {
   const ref = useRef(null);
@@ -41,13 +42,14 @@ const Section2aboutus = () => {
         </h1>
       </div>
       <div className={``}>
-        {
+      <CollapseCard/>
+        {/* {
           standarImparsialitas.map((data, index) => (
             <motion.div
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.8 }}
               key={data.id}
-              className={`cursor-pointer ${randomBgColour[index]} flex justify-end items-end max-w-[600px] p-[10px] border rounded-lg`}
+              className={`cursor-pointer ${randomBgColour[index]} ${index%2===0 ?'flex justify-end items-end' : 0} max-w-[600px] p-[10px] border rounded-lg`}
             >
               <p
                 className={`${styles.paragraph} mt-[10px] max-w-[600px] text-white`}
@@ -57,12 +59,13 @@ const Section2aboutus = () => {
             </motion.div>
 
           ))
-        }
-        <motion.div
+        } */}
+        {/* <motion.div
           whileHover={{ scale: 1.2 }}
           whileTap={{ scale: 0.8 }}
           className={`cursor-pointer flex justify-end items-end text-white mt-[10px]`}
         >
+
           <p
             className={`${styles.paragraph} mt-[20px] max-w-[600px] bg-blue-600 p-[10px] border rounded-lg text-white`}
           >
@@ -72,8 +75,8 @@ const Section2aboutus = () => {
             pelatihan berbasis kurikulum FRAC. Namun, IFMI selalu berdiri netral
             dan tidak memberikan kompensasi dalam bentuk apapun kepada Training
             Partner terkait partisipasi Kandidat FRAC.
-          </p>
-        </motion.div>
+          </p>  
+        </motion.div> */}
 
         {/* 
         <motion.div

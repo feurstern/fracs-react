@@ -257,8 +257,6 @@ export const feedBack = [
     title: "Full Stack Developer",
     img: "https://media.licdn.com/dms/image/D5603AQGQkMgNCvH_pA/profile-displayphoto-shrink_800_800/0/1665485543999?e=2147483647&v=beta&t=XbEIiS0pE7rGojHUdLO5yptywK9OHpTRxYYK-bUxOXU"
   },
-
-
 ]
 
 export const standarImparsialitas = [
