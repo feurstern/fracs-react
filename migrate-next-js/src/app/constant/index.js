@@ -262,28 +262,28 @@ export const feedBack = [
 export const standarImparsialitas = [
   {
     key: "1",
-    label : <h4 className={`${styles.heading4}`}>1</h4>,
+    label: <h4 className={`${styles.heading4}`}>1</h4>,
     children: <p className={`${styles.paragraph}`}>IFMI memahami pentingnya menjaga keadilan dan ketidakberpihakan kepada semua pelamar, kandidat, dan Orang yang telah disertifikasi. IFMI telah menerapkan kebijakan dan prosedur untuk memastikan bahwa keadilan dan ketidakberpihakan dijaga dalam setiap proses terkait Sertifikasi FRAC.</p>
   },
   {
     key: "2",
     label: <h3 className={`${styles.heading4}`}>2</h3>,
     children: <p className={`${styles.paragraph}`}>
-    IFMI tidak menyediakan pelatihan persiapan untuk kandidat FRAC dan sebagai gantinya, mengembangkan kemitraan dengan Penyedia Pelatihan Terdaftar untuk menyelenggarakan pelatihan persiapan bagi kandidat FRAC. Dalam hal ini, RTP tidak diizinkan untuk membuat janji bahwa partisipasi dalam pelatihan yang disediakan oleh RTP mana pun menjamin bahwa Kandidat akan lulus Ujian FRAC atau mendapatkan konsesi tertentu, yang membuat ujian menjadi tidak adil dan lebih mudah lulus bagi peserta mereka. IFMI tidak mempertimbangkan apakah Kandidat telah berpartisipasi dalam program pelatihan RTP mana pun saat mengambil keputusan lulus atau tidak lulus.</p>
+      IFMI tidak menyediakan pelatihan persiapan untuk kandidat FRAC dan sebagai gantinya, mengembangkan kemitraan dengan Penyedia Pelatihan Terdaftar untuk menyelenggarakan pelatihan persiapan bagi kandidat FRAC. Dalam hal ini, RTP tidak diizinkan untuk membuat janji bahwa partisipasi dalam pelatihan yang disediakan oleh RTP mana pun menjamin bahwa Kandidat akan lulus Ujian FRAC atau mendapatkan konsesi tertentu, yang membuat ujian menjadi tidak adil dan lebih mudah lulus bagi peserta mereka. IFMI tidak mempertimbangkan apakah Kandidat telah berpartisipasi dalam program pelatihan RTP mana pun saat mengambil keputusan lulus atau tidak lulus.</p>
   },
   {
     key: "3",
-    label:<h3 className={`${styles.heading4}`}>3</h3>,
+    label: <h3 className={`${styles.heading4}`}>3</h3>,
     children: <p className={`${styles.paragraph}`}> IFMI bertanggung jawab sepenuhnya untuk memberikan, menangguhkan, mencabut, dan mencabut sertifikasi peserta dan tidak akan pernah mendelegasikan keputusan tersebut kepada pihak lain.</p>
   },
   {
-   key: "4",
-   label:<h3 className={`${styles.heading4}`}>4</h3>,
-   children: <p className={`${styles.paragraph}`}> IFMI memperlakukan semua data dan informasi yang disediakan oleh pelamar, kandidat, dan Orang yang telah disertifikasi sebagai rahasia. IFMI tidak akan mengungkapkan informasi kepada pihak ketiga kecuali diharuskan oleh hukum yang berlaku.</p>
+    key: "4",
+    label: <h3 className={`${styles.heading4}`}>4</h3>,
+    children: <p className={`${styles.paragraph}`}> IFMI memperlakukan semua data dan informasi yang disediakan oleh pelamar, kandidat, dan Orang yang telah disertifikasi sebagai rahasia. IFMI tidak akan mengungkapkan informasi kepada pihak ketiga kecuali diharuskan oleh hukum yang berlaku.</p>
   },
   {
     key: "5",
-    label : <h3 className={`${styles.heading4}`}>5</h3>,
+    label: <h3 className={`${styles.heading4}`}>5</h3>,
     children: <p className={`${styles.paragraph}`}> IFMI akan terus mengidentifikasi ancaman terhadap keadilan dan ketidakberpihakan. Setiap pelanggaran yang dirasakan terhadap ketidakberpihakan atau konflik kepentingan akan ditinjau untuk investigasi dan resolusi. IFMI menerima informasi dari pihak ketiga terkait setiap pelanggaran yang dirasakan terhadap ketidakberpihakan, keadilan, dan kerahasiaan. Kirim email ke impartial@professionalfinancialmodeler.org.</p>
   }
 ];
@@ -388,4 +388,121 @@ export const aboutIfmi = [
     id: '5',
     text: 'FRAC mengharuskan kandidat untuk mengikuti pelatihan wajib persiapan ujian sertifikasi. IFMI mendukung RTP untuk memberikan program pelatihan mengenai program yang dikelola oleh IFMI untuk negara atau wilayah tertentu.'
   },
+]
+
+
+// this is the data for skema sertifikasi for section-1 for certification page
+export const certificationSchemes = [
+  {
+    key: '1',
+    label: <h3 className={`${styles.heading4}`}>1</h3>,
+    children: <p className={`${styles.paragraph}`}>	Pria atau wanita yang berusia minimal 21 tahun.</p>
+  },
+  {
+    key: '2',
+    label: <h3 className={`${styles.heading4}`}>2</h3>,
+    children: <p className={`${styles.paragraph}`}>Pendidikan terendah lulusan SMU.</p>
+  },
+  {
+    key: '3',
+    label: <h3 className={`${styles.heading4}`}>3</h3>,
+    children: <p className={`${styles.paragraph}`}>Memiliki pengalaman kerja minimal 2 tahun akumulatif atau sedang kuliah sarjana strata 1 atau diploma bidang apapun.</p>
+  },
+  {
+    key: '4',
+    label: <h3 className={`${styles.heading4}`}>4</h3>,
+    children: <p className={`${styles.paragraph}`}>Memiliki akun profile di website yang ditentukan dan telah menyerahkan dengan lengkap semua persyaratan dokumen yang diperlukan, sebagai berikut: CV, Foto Profesional diri Anda, KTP yang dikeluarkan oleh Pemerintah dan sertifikat pelatihan dengan menggunakan kurikulum FRAC</p>
+  },
+  {
+    key: '5',
+    label: <h3 className={`${styles.heading4}`}>5</h3>,
+    children: <p className={`${styles.paragraph}`}>Pelamar telah mengikuti pelatihan sertifikasi FRAC yang diselenggarakan dengan menggunakan kurikulum FRAC.</p>
+  },
+  {
+    key: '6',
+    label: <h3 className={`${styles.heading4}`}>6</h3>,
+    children: <p className={`${styles.paragraph}`}>Telah mengikuti dan dinyatakan lulus kelas pelatihan FRAC yang diselenggarakan oleh Training Partner IFMI.</p>
+  },
+  {
+    key: '7',
+    label: <h3 className={`${styles.heading4}`}>7</h3>,
+    children: <p className={`${styles.paragraph}`}>Menyatakan komitmen untuk menjaga integritas dan kerahasiaan proses, dokumentasi dan materi pelatihan sertifikasi FRAC yang didapatkan dari Manajemen IFMI dan/atau Training Partner IFMI termasuk tidak menggunakan sertifikat lulus pelatihan FRAC sebagai dasar klaim bukti kompetensi sertifikasi FRAC.</p>
+  },
+
+  {
+    key: '8',
+    label: <h3 className={`${styles.heading4}`}>8</h3>,
+    children: <p className={`${styles.paragraph}`}>Menyatakan komitmen untuk tidak terlibat dalam tindakan pelanggaran etika, kecurangan, kejahatan dan/atau hal lain yang dapat menyebabkan kerugian secara materi dan non materi kepada IFMI dan dan setiap pihak yang terafiliasi dengan IFMI dan sertifikasi FRAC.</p>
+  },
+  {
+    key: '9',
+    label: <h3 className={`${styles.heading4}`}>9</h3>,
+    children: <p className={`${styles.paragraph}`}>Membayar lunas biaya ujian sertifikasi FRAC sesuai yang ditetapkan IFMI.</p>
+  },
+  {
+    key: '10',
+    label: <h3 className={`${styles.heading4}`}>10</h3>,
+    children: <p className={`${styles.paragraph}`}>Peminat/Kandidat/Person Tersertifikasi perlu memiliki kemampuan untuk melihat dengan baik, tidak boleh tuna netra, dan dapat menggunakan komputer secara mandiri.</p>
+  },
+
+
+]
+
+// this is the data for alur proses sertifikasi FRAC on section-2 certification page
+
+export const certificationProses = [
+  {
+    id:'1',
+    content : 'Pelamar mengikuti pelatihan sertifikasi FRAC yang diselenggarakan mitra pelatihan yang menggunakan kurikulum FRAC.',
+  },
+  {
+    id:'2',
+    content : 'Pelamar harus mengikuti dan lulus kelas yang telah ditentukan dalam kurikulum FRAC.',
+  },
+  {
+    id:'3',
+    content : 'Pelamar memenuhi persyaratan sertifikasi FRAC dan lulus ujian sertifikasi FRAC yang mencakup materi dalam kurikulum FRAC.',
+  },
+  {
+    id:'4',
+    content : 'Setelah lulus ujian, pelamar akan diberikan FRAC Designation sebagai gelar profesional dalam manajemen risiko keuangan untuk korporasi.',
+  },
+  {
+    id:'5',
+    content : 'Resertifikasi setiap 2 tahun',
+  },
+]
+
+// this is the data for section 3 on certificationpage
+export const riskManagementList =[
+  {
+    id:'1',
+    content : 'Memahami Risiko Keuangan Perusahaan'
+  },
+  {
+    id:'2',
+    content : 'Memahami dan mengelola Risiko Pasar'
+  },
+  {
+    id:'3',
+    content : 'Memahami dan mengelola Risiko Kredit'
+  },
+  {
+    id:'4',
+    content : 'Memahami dan mengelola Risiko Likuiditas'
+  },
+  {
+    id:'5',
+    content : 'Memahami risiko keuangan dari kegagalan bisnis '
+  },
+  {
+    id:'6',
+    content : 'Memahami risiko keuangan dari kegagalan investasi'
+  },
+  {
+    id:'7',
+    content : 'Memahami risiko keuangan melalui review atas laporan keuangan perusahaan dan prakteknya'
+  },
+
+
 ]
