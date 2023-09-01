@@ -5,7 +5,8 @@ import styles from '../style'
 import Section1cer from './section-1-cer'
 import Section2cer from './section-2-cer'
 import Section1cernew from "./Section-1-cer-new";
-
+import Section2cernew from './section-2-cer-new'
+import Section3cernew from './Section-3-cer-new'
 const page = () => {
 
   return (
@@ -19,6 +20,8 @@ const page = () => {
         <div className={`${styles.boxWidth}`}>
           {/* <Page404/> */}
           <Section1cernew/>
+          <Section2cernew/>
+          <Section3cernew/>
           <Section1cer />
           <Section2cer />
           {/* <Cta/> */}

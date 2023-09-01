@@ -473,6 +473,10 @@ export const certificationProses = [
   },
 ]
 
+// the title of the section 3 for certifcation page
+
+export const riskManegementTitle = 'Kurikulum FRAC dirancang untuk memastikan setiap individu yang tersertifikasi FRAC memiliki kemampuan untuk mengidentifikasi dan menangani risiko keuangan di perusahaan. Proses sertifikasi FRAC melibatkan evaluasi menyeluruh terhadap kurikulum, materi pembelajaran, metode evaluasi, dan proses pengujian dalam program sertifikasi FRAC untuk memastikan bahwa program tersebut memenuhi standar kualitas yang ditetapkan oleh badan akreditasi. Dengan memperoleh sertifikasi FRAC, individu dapat memperoleh pengakuan resmi dan meningkatkan kredibilitas dan reputasi mereka di industri manajemen risiko.'
+
 // this is the data for section 3 on certificationpage
 export const riskManagementList =[
   {

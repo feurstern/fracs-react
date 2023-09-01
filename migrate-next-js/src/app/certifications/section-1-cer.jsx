@@ -24,7 +24,7 @@ const Section1cer = () => {
       initial="hidden"
       animate={controls}
       transition={{ duration: 2.5 }}
-      className={`${styles.center} mt-[50px]`}
+      className={`${styles.center} mt-[75px]`}
     >
       <motion.div>
         <h1 className={`${styles.heading2} ${styles.flexCenter} mb-[50px]`}>
