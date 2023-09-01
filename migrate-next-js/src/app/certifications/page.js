@@ -4,6 +4,7 @@ import { Navbar, Footer } from '../components/components'
 import styles from '../style'
 import Section1cer from './section-1-cer'
 import Section2cer from './section-2-cer'
+import Section1cernew from "./Section-1-cer-new";
 
 const page = () => {
 
@@ -17,6 +18,7 @@ const page = () => {
       <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           {/* <Page404/> */}
+          <Section1cernew/>
           <Section1cer />
           <Section2cer />
           {/* <Cta/> */}

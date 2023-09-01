@@ -1,7 +1,6 @@
 'use client'
 import React from 'react';
 import { Collapse } from 'antd';
-import styles from '../style';
 import { standarImparsialitas } from '../constant';
 
 const CollapseCard = () => {
