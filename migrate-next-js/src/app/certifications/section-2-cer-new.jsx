@@ -1,6 +1,6 @@
 'use client'
-import React from 'react'
-import { motion } from 'framer-motion'
+import React, { useEffect, useRef } from 'react'
+import { motion, useAnimation, useInView } from 'framer-motion'
 import styles from '../style'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation, Pagination, A11y, Autoplay, Scrollbar } from 'swiper/modules'
@@ -24,11 +24,30 @@ const Section2cernew = () => {
     };
     return arr.join(' ');
   }
-
   const title = titleToUpperCase(rawTitle, firstIndex, sliceIndex);
   const subTitle = titleToUpperCase(rawSubTitle, firstIndex, sliceIndex);
+
+  // framer motion configuration
+  const ref = useRef(null)
+  const controls = useAnimation();
+  const isInView = useInView(ref,{once:true})
+
+  useEffect(()=>{
+    useInView?controls.start('visible') : controls.start('hidden');
+  },[ref, useInView])
+
   return (
-    <section className='mt-[50px]'>
+    <motion.section 
+     ref={ref}
+     variants={{
+       visible:{opacity: 1, y:0},
+       hidden : {opacity :0, y:100}
+     }}
+     animate={controls}
+     initial='hidden'
+     transition={{duration: 2.5}}
+    
+    className='mt-[50px]'>
       <div className={`px-2`}>
         <h1 className={`${styles.heading2}`}>{title}</h1>
       </div>
@@ -64,7 +83,7 @@ const Section2cernew = () => {
 
       </Swiper>
 
-    </section>
+    </motion.section>
   )
 }
 
