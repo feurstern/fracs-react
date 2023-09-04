@@ -27,7 +27,7 @@ const getRandomNumber = () => {
 // console.log(`random number : ${getRandomNumber()}`)
 const Button = () => {
   return (
-    <a href={numbers[getRandomNumber()].link} target="_blank">
+    <a className="px-4" href={numbers[getRandomNumber()].link} target="_blank">
       <button
         onClick={getRandomNumber}
         className="bg-green-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center mt-5"

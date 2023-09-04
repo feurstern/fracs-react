@@ -4,8 +4,7 @@ import styles from '../style'
 import Section2aboutus from './section-2'
 import Section1aboutus from './section-1'
 import Section7 from '../Home/section-7'
-import Test from './CollapseCard'
-import CollapseCard from './CollapseCard'
+
 
 const page = () => {
   return (
@@ -26,7 +25,7 @@ const page = () => {
           {/* <Page404/> */}
           <Section1aboutus />
           <Section2aboutus/>
-          <Section7></Section7>
+          {/* <Section7></Section7> */}
     
           {/* <Card/> */}
         </div>

@@ -15,14 +15,19 @@ const Section2aboutus = () => {
     isInView ? controls.start("visible") : controls.start("hidden");
   }, [isInView, controls]);
 
-
   const randomBgColour = [
-    'bg-red-600', 'bg-sky-600', 'bg-teal-600', 'bg-green-600', 'bg-cyan-600', 'bg-purple-600'
+    "bg-red-600",
+    "bg-sky-600",
+    "bg-teal-600",
+    "bg-green-600",
+    "bg-cyan-600",
+    "bg-purple-600",
   ];
 
-  const getRandomNumber=()=>Math.floor(Math.random() * randomBgColour.length -1);
+  // const getRandomNumber = () =>
+  //   Math.floor(Math.random() * randomBgColour.length - 1);
 
-  console.log(getRandomNumber());
+  // console.log(getRandomNumber());
 
   return (
     <motion.section
@@ -42,7 +47,7 @@ const Section2aboutus = () => {
         </h1>
       </div>
       <div className={``}>
-      <CollapseCard/>
+        <CollapseCard />
         {/* {
           standarImparsialitas.map((data, index) => (
             <motion.div
