@@ -1,8 +1,7 @@
 'use client'
-import React from 'react'
+import React, { useRef ,useEffect} from 'react'
 import styles from '../style'
-import { motion } from 'framer-motion'
-import BtnDownload from '../components/components/BtnDownload'
+import { motion, useAnimation, useInView } from 'framer-motion'
 import Iframe from 'react-iframe';
 
 
@@ -24,8 +23,27 @@ const Section1newga = () => {
   const title = titleToUpperCase(rawTitle, firstIndex, sliceIndex);
   const subTitle = titleToUpperCase(rawSubTitle, firstIndex, sliceIndex);
 
+  // Framer motion Configuration
+  const ref = useRef(null);
+  const controls = useAnimation();
+  const isInView = useInView(ref, {once:true});
+  
+  useEffect(()=>{
+    isInView ? controls.start('visible') : controls.start('hidden');
+  },[ref, isInView]);
+
   return (
-    <section className={`mt-[25px] md:mt-[50px]`}>
+    <motion.section 
+    ref={ref}
+    variants={{
+      visible : {opacity:1, y:0},
+      hidden : {opacity:0, y:100}
+    }}
+    animate={controls}
+    transition={{
+      duration : 2.5
+    }}
+    className={`mt-[25px] md:mt-[50px]`}>
       <div className='px-2'>
         <h1 className={`${styles.heading2}`}>
           {title}
@@ -44,7 +62,7 @@ const Section1newga = () => {
         >
         </Iframe>
       </div>
-    </section>
+    </motion.section>
     //  cursed page,
   )
 }
