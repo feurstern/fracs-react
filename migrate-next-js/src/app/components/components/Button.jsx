@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import React, { useEffect, useState } from "react";
 
 const numbers = [
   {
@@ -21,11 +22,15 @@ const numbers = [
 
 const len = numbers.length - 1;
 
-const getRandomNumber = () => {
-  return Math.floor(Math.random() * len);
-};
-// console.log(`random number : ${getRandomNumber()}`)
 const Button = () => {
+  const [getNum, setNum] = useState(0);
+  useEffect(() => {
+    setNum(Math.floor(Math.random() * len));
+  }, [getNum]);
+  const getRandomNumber = () => {
+    return getNum;
+  };
+  // console.log(`random number : ${getNum}`);
   return (
     <a className="px-4" href={numbers[getRandomNumber()].link} target="_blank">
       <button

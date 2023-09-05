@@ -58,8 +58,11 @@ const Section2cernew = () => {
       <div className={`px-2`}>
         <h1 className={`${styles.heading2}`}>{title}</h1>
       </div>
-      <div>
-        <img src="https://img.freepik.com/free-vector/hand-drawn-flat-design-business-communication-concept_52683-77369.jpg?w=996&t=st=1693553162~exp=1693553762~hmac=83cd4c2ce7b269963c55bee025a6537eaceaf1d62a0d485b44a818577ab5df8e" />
+      <div className="flex-col">
+        <img
+          className="mx-auto"
+          src="https://img.freepik.com/free-vector/hand-drawn-flat-design-business-communication-concept_52683-77369.jpg?w=996&t=st=1693553162~exp=1693553762~hmac=83cd4c2ce7b269963c55bee025a6537eaceaf1d62a0d485b44a818577ab5df8e"
+        />
         <h2 className={`${styles.heading3}`}>{subTitle}</h2>
       </div>
       <Swiper
@@ -86,3 +89,5 @@ const Section2cernew = () => {
     </motion.section>
   );
 };
+
+export default Section2cernew;
