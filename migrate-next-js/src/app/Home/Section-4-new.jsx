@@ -43,16 +43,16 @@ const Section4new = () => {
       initial="hidden"
       animate={controls}
       transition={{ duration: 2.25 }}
-      className={` ${styles.flexCenter} mt-[50px] py-4 w-[500px xs:w-full ]`}
+      className={` ${styles.flexCenter} mt-[50px] py-4`}
     >
       <div className={`mb-[80px]`}>
         <div className="">
           <div
-            className={`${styles.heading2} text-center pt-[50px] pb-[50px] mr-2 ml-2 text-white`}
+            className={`${styles.heading2} text-white`}
           >
             {sectionTitle}
-            <p className={` mr-6 ml-2  text-white`}>
-              <span className={`${styles.paragraph} text-white`}>
+            <p className={` text-white`}>
+              <span className={`${styles.paragraph} text-center text-white`}>
                 {content}
               </span>
             </p>
@@ -83,7 +83,7 @@ const Section4new = () => {
               {targetMarket.slice(-2).map((data, index) => (
                 <div
                   key={index}
-                  className={`cursor-pointer bg-white rounded-lg px-2 text-l xs:text-[27px] flex gap-4 justify-start items-center h-[100px] w-[400px]`}
+                  className={`cursor-pointer bg-white rounded-lg px-2 text-l xs:text-[27px] flex gap-4 justify-start items-center h-[50px] w-[150px] md:h-[100px] md:w-[400px]`}
                 >
                   <svg
                     className={`w-6 h-6 mr-2 text-green-500 dark:text-green-400 flex-shrink-0`}

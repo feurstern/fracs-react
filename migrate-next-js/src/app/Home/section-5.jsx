@@ -25,20 +25,20 @@ const Section5 = () => {
   const controls = useAnimation();
   const isInView = useInView(ref, { once: true });
 
- function getCurrentDimension(){
-    return{
-      width :  window.innerWidth,
-      height : window.innerHeight
+  function getCurrentDimension() {
+    return {
+      width: window.innerWidth,
+      height: window.innerHeight
     };
   }
 
   useEffect(() => {
     isInView ? controls.start("visible") : controls.start("hidden");
-    const updateDimension = ()=>{
+    const updateDimension = () => {
       setScreenSize(getCurrentDimension());
     }
     window.addEventListener('resize', updateDimension);
-    return(()=>{
+    return (() => {
       window.removeEventListener('resize', updateDimension)
     })
   }, [isInView, controls, screenSize]);
@@ -84,14 +84,12 @@ const Section5 = () => {
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={1}
-          slidesPerView={`${
-            screenSize.width > 931 ? '3' : '1'
-            }`}
+          slidesPerView={`${screenSize.width > 930 ? '3' : '1'}`}
           navigation
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
-          // onSwiper={(swiper) => console.log(swiper)}
-          // onSlideChange={() => console.log("slide change")}
+        // onSwiper={(swiper) => console.log(swiper)}
+        // onSlideChange={() => console.log("slide change")}
         >
           <div className={`${styles.galleryImageContainer}`}>
             {feedBack.map((card, index) => (
