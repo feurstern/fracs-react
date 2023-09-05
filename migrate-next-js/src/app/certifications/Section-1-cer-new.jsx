@@ -1,12 +1,24 @@
-import React from 'react'
+'use client'
+
+import React, { useEffect, useRef } from 'react'
 import styles from '../style'
 import CollapseSc1 from './CollapaseSc1'
+import { motion, useAnimation, useInView } from 'framer-motion'
 
 const Section1cernew = () => {
   const rawTitle = 'persyaratan sertifikasi frac';
   const subTitleRaw = 'berikut adalah persyaratan sertifikasi frac:'
   const firstIndex = 0;
   const sliceIndex = 1;
+  
+
+  const ref = useRef(null);
+  const controls = useAnimation();
+  const isInView = useInView(ref,{once:true});
+  useEffect(()=>{
+    isInView ? controls.start('visible') : controls.start('hidden');
+  },[isInView, controls])
+
 
 
   const titleUpperCase = (index, s, title) => {
@@ -20,11 +32,20 @@ const Section1cernew = () => {
 
   }
 
-  
+
   const title = titleUpperCase(firstIndex, sliceIndex, rawTitle);
   const subTitle = titleUpperCase(firstIndex, sliceIndex, subTitleRaw);
   return (
-    <section className={`px-4 mt-[25px] md:mt-[50px]`}>
+    <motion.section 
+    ref={ref}
+    variants={{
+      hidden: {opacity:0, x:100},
+      visible: {opacity:1, x:0}
+    }}
+    initial='hidden'
+    animate={controls}
+    transition={{duration: 1.75}}
+    className={`px-4 mt-[25px] md:mt-[50px]`}>
       <div>
         <h1 className={`${styles.heading2}`}>{title}</h1>
       </div>
@@ -34,7 +55,7 @@ const Section1cernew = () => {
       <div className='px-8 mt-[35px] md:mt-[50px]'>
         <CollapseSc1 />
       </div>
-    </section>
+    </motion.section>
   )
 }
 
