@@ -1,6 +1,8 @@
-import React from 'react'
+'use client'
+import React, { useEffect, useRef } from 'react'
 import styles from '../style'
 import { riskManagementList, riskManegementTitle } from '../constant';
+import { motion, useAnimation, useInView } from 'framer-motion';
 
 const Section3cernew = () => {
   const rawTitle = 'kurikulum frac';
@@ -16,11 +18,30 @@ const Section3cernew = () => {
 
     return arr.join(' ');
   }
-
   const title = titleToUpperCase(rawTitle, firstIndex, sliceIndex);
+  // framer motion 
+  const ref = useRef(null);
+  const controls = useAnimation(); 
+  const  isInView = useInView(ref, {once:true});
+  useEffect(()=>{
+    isInView ? controls.start('visible') : controls.start('hidden');
+  },[ref, useInView])
+  
+
 
   return (
-    <section className='mt-[75px] px-4'>
+    <motion.section 
+    ref={ref}
+    variants={{
+      visible :{opacity:1, x:0},
+      hidden :{opacity:0, x:100}
+    }}
+   animate={controls}
+   initial='hidden'
+   transition={{
+    duration : 2.75,
+   }}
+    className='mt-[75px] px-4'>
       <div className='px-2'>
         <h1 className={`${styles.heading2}`}>
           {title}
@@ -43,7 +64,7 @@ const Section3cernew = () => {
           }
         </div>
       </div>
-    </section>
+    </motion.section>
   )
 }
 
