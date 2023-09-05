@@ -17,14 +17,34 @@ import {
 import "swiper/css";
 import "swiper/css/autoplay";
 
+
 const Section5 = () => {
   const ref = useRef(null);
   const [hoverd, isHovered] = useState(false);
+  const [screenSize, setScreenSize] = useState(getCurrentDimension)
   const controls = useAnimation();
   const isInView = useInView(ref, { once: true });
+
+  function getCurrentDimension() {
+    return {
+      width: window.innerWidth,
+      height: window.innerHeight
+    };
+  }
+
   useEffect(() => {
     isInView ? controls.start("visible") : controls.start("hidden");
-  }, [isInView, controls]);
+    const updateDimension = () => {
+      setScreenSize(getCurrentDimension());
+    }
+    window.addEventListener('resize', updateDimension);
+    return (() => {
+      window.removeEventListener('resize', updateDimension)
+    })
+  }, [isInView, controls, screenSize]);
+
+
+
   return (
     <motion.section
       ref={ref}
@@ -47,7 +67,7 @@ const Section5 = () => {
       >
         <h2 className={`${styles.heading2} text-white`}>
           Apa yang Dikatakan Orang
-          <br className="sm:hidden" /> Tentang Kami
+          <br className="sm:hidden" /> Tentang Kami {screenSize.width}
         </h2>
         <div className="w-full md:mt-0 mt-6">
           <p
@@ -64,14 +84,14 @@ const Section5 = () => {
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={1}
-          slidesPerView={3}
+          slidesPerView={`${screenSize.width > 930 ? '3' : '1'}`}
           navigation
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
-          // onSwiper={(swiper) => console.log(swiper)}
-          // onSlideChange={() => console.log("slide change")}
+        // onSwiper={(swiper) => console.log(swiper)}
+        // onSlideChange={() => console.log("slide change")}
         >
-          <div className="sm:justify-start justify-center w-full feed-back-container relative z-[1]">
+          <div className={`${styles.galleryImageContainer}`}>
             {feedBack.map((card, index) => (
               <SwiperSlide key={index}>
                 <Section6 {...card} />

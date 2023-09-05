@@ -2,10 +2,9 @@
 import React from 'react'
 import styles from '../style'
 import { Footer, Navbar } from '../components/components'
-import Section1ga from './section-1-ga'
-import { Section2ga } from './section-2-ga'
-import Imageslidenew from './Image-slide-new'
 import Page404 from './404'
+import Section1newga from './Section-1-new-ga'
+import Section2ganew from './Section-2-new-ga'
 
 const Gallery = () => {
 
@@ -24,12 +23,8 @@ const Gallery = () => {
 
       <div className={`bg-white ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <Page404/>
-          {/* <Section1ga /> */}
-          {/* <Imageslide /> */}
-          {/* <Imageslidenew/> */}
-          {/* <Section2ga />image container */}
-          {/* <Footer/> */}
+         <Section1newga/> 
+         <Section2ganew/>
         </div>
       </div>
 

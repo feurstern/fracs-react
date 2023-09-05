@@ -80,7 +80,7 @@ export const Section2ga = () => {
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.8 }}
               className="hover:bg-red-700"
-              onClick={() => setModalOpen(true)}
+              // onClick={() => setModalOpen(true)}
             >
               <img
                 className="h-auto max-w-full rounded-lg hover:opacity-50"
