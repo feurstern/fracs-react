@@ -74,7 +74,7 @@ export const Section2ga = () => {
         <div
           className={`${styles.galleryImageContainer} cursor-pointer pt-[20px]`}
         >
-          {image.map((data, index) => (
+          {/* {image.map((data, index) => (
             <motion.div
               key={index}
               whileHover={{ scale: 1.2 }}
@@ -87,7 +87,7 @@ export const Section2ga = () => {
                 src={data.src}
               />
             </motion.div>
-          ))}
+          ))} */}
         </div>
         {/* <div className={`${styles.galleryImageContainer} cursor-pointer pt-[20px] pb-[20px]`}>
                     <motion.div
@@ -184,3 +184,4 @@ export const Section2ga = () => {
     </>
   );
 };
+export default Section2ga;

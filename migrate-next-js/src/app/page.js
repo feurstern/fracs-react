@@ -66,7 +66,7 @@ class App extends Component {
                   <Section3new />
                </div>
             </div>
-            <div className={`bg-blue-700 w-full ${styles.paddingX} ${styles.flexCenter}`} >
+            <div className={`bg-blue-900 w-full ${styles.paddingX} ${styles.flexCenter}`} >
                <div className={`${styles.boxWidth}`}>
                   <Section4new />
                   {/* <RouterProvider router={router} /> */}

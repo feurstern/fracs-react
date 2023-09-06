@@ -51,9 +51,9 @@ const Section4new = () => {
             className={`${styles.heading2} text-white`}
           >
             {sectionTitle}
-            <p className={` text-white`}>
-              <span className={`${styles.paragraph} text-center text-white`}>
+            <p className={`${styles.paragraph} text-white`}>
                 {content}
+              <span className={` text-center text-white`}>
               </span>
             </p>
           </div>

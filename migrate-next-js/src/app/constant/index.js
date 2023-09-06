@@ -396,53 +396,53 @@ export const certificationSchemes = [
   {
     key: '1',
     label: <h3 className={`${styles.paragraph} font-bold`}>1. Usia</h3>,
-    children: <p className={`${styles.paragraph} `}>	Pria atau wanita yang berusia minimal 21 tahun.</p>
+    children: <p className={`${styles.subParagraph} `}>	Pria atau wanita yang berusia minimal 21 tahun.</p>
   },
   {
     key: '2',
     label: <h3 className={`${styles.paragraph} font-bold`}>2. Pendidikan</h3>,
-    children: <p className={`${styles.paragraph}`}>Pendidikan terendah lulusan SMU.</p>
+    children: <p className={`${styles.subParagraph} `}>Pendidikan terendah lulusan SMU.</p>
   },
   {
     key: '3',
     label: <h3 className={`${styles.paragraph} font-bold`}>3. Pengalaman</h3>,
-    children: <p className={`${styles.paragraph}`}>Memiliki pengalaman kerja minimal 2 tahun akumulatif atau sedang kuliah sarjana strata 1 atau diploma bidang apapun.</p>
+    children: <p className={`${styles.subParagraph} `}>Memiliki pengalaman kerja minimal 2 tahun akumulatif atau sedang kuliah sarjana strata 1 atau diploma bidang apapun.</p>
   },
   {
     key: '4',
     label: <h3 className={`${styles.paragraph} font-bold`}>4. Dokumen</h3>,
-    children: <p className={`${styles.paragraph}`}>Memiliki akun profile di website yang ditentukan dan telah menyerahkan dengan lengkap semua persyaratan dokumen yang diperlukan, sebagai berikut: CV, Foto Profesional diri Anda, KTP yang dikeluarkan oleh Pemerintah dan sertifikat pelatihan dengan menggunakan kurikulum FRAC</p>
+    children: <p className={`${styles.subParagraph} `}>Memiliki akun profile di website yang ditentukan dan telah menyerahkan dengan lengkap semua persyaratan dokumen yang diperlukan, sebagai berikut: CV, Foto Profesional diri Anda, KTP yang dikeluarkan oleh Pemerintah dan sertifikat pelatihan dengan menggunakan kurikulum FRAC</p>
   },
   {
     key: '5',
     label: <h3 className={`${styles.paragraph} font-bold`}>5. Pelatihan</h3>,
-    children: <p className={`${styles.paragraph}`}>Pelamar telah mengikuti pelatihan sertifikasi FRAC yang diselenggarakan dengan menggunakan kurikulum FRAC.</p>
+    children: <p className={`${styles.subParagraph} `}>Pelamar telah mengikuti pelatihan sertifikasi FRAC yang diselenggarakan dengan menggunakan kurikulum FRAC.</p>
   },
   {
     key: '6',
     label: <h3 className={`${styles.paragraph} font-bold`}>6. Kelulusan</h3>,
-    children: <p className={`${styles.paragraph}`}>Telah mengikuti dan dinyatakan lulus kelas pelatihan FRAC yang diselenggarakan oleh Training Partner IFMI.</p>
+    children: <p className={`${styles.subParagraph} `}>Telah mengikuti dan dinyatakan lulus kelas pelatihan FRAC yang diselenggarakan oleh Training Partner IFMI.</p>
   },
   {
     key: '7',
     label: <h3 className={`${styles.paragraph} font-bold`}>7. Komitmen Integritas</h3>,
-    children: <p className={`${styles.paragraph}`}>Menyatakan komitmen untuk menjaga integritas dan kerahasiaan proses, dokumentasi dan materi pelatihan sertifikasi FRAC yang didapatkan dari Manajemen IFMI dan/atau Training Partner IFMI termasuk tidak menggunakan sertifikat lulus pelatihan FRAC sebagai dasar klaim bukti kompetensi sertifikasi FRAC.</p>
+    children: <p className={`${styles.subParagraph} `}>Menyatakan komitmen untuk menjaga integritas dan kerahasiaan proses, dokumentasi dan materi pelatihan sertifikasi FRAC yang didapatkan dari Manajemen IFMI dan/atau Training Partner IFMI termasuk tidak menggunakan sertifikat lulus pelatihan FRAC sebagai dasar klaim bukti kompetensi sertifikasi FRAC.</p>
   },
 
   {
     key: '8',
     label: <h3 className={`${styles.paragraph} font-bold`}>8. Komitmen </h3>,
-    children: <p className={`${styles.paragraph}`}>Menyatakan komitmen untuk tidak terlibat dalam tindakan pelanggaran etika, kecurangan, kejahatan dan/atau hal lain yang dapat menyebabkan kerugian secara materi dan non materi kepada IFMI dan dan setiap pihak yang terafiliasi dengan IFMI dan sertifikasi FRAC.</p>
+    children: <p className={`${styles.subParagraph} `}>Menyatakan komitmen untuk tidak terlibat dalam tindakan pelanggaran etika, kecurangan, kejahatan dan/atau hal lain yang dapat menyebabkan kerugian secara materi dan non materi kepada IFMI dan dan setiap pihak yang terafiliasi dengan IFMI dan sertifikasi FRAC.</p>
   },
   {
     key: '9',
     label: <h3 className={`${styles.paragraph} font-bold`}>9. Pembayaran</h3>,
-    children: <p className={`${styles.paragraph}`}>Membayar lunas biaya ujian sertifikasi FRAC sesuai yang ditetapkan IFMI.</p>
+    children: <p className={`${styles.subParagraph} `}>Membayar lunas biaya ujian sertifikasi FRAC sesuai yang ditetapkan IFMI.</p>
   },
   {
     key: '10',
     label: <h3 className={`${styles.paragraph} font-bold`}>10. Kemampuan Dasar</h3>,
-    children: <p className={`${styles.paragraph}`}>Peminat/Kandidat/Person Tersertifikasi perlu memiliki kemampuan untuk melihat dengan baik, tidak boleh tuna netra, dan dapat menggunakan komputer secara mandiri.</p>
+    children: <p className={`${styles.subParagraph}`}>Peminat/Kandidat/Person Tersertifikasi perlu memiliki kemampuan untuk melihat dengan baik, tidak boleh tuna netra, dan dapat menggunakan komputer secara mandiri.</p>
   },
 
 

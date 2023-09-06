@@ -15,7 +15,7 @@ const Section2newga = () => {
                 ? (arr[i] = arr[i].toUpperCase())
                 : (arr[i] = arr[i].charAt(index).toUpperCase() + arr[i].slice(s))
         }
-        return arr;
+        return arr.join(' ');
     }
     const title = titleToUpperCase(rawTitle, firstIndex, sliceIndex);
 
@@ -47,7 +47,7 @@ const Section2newga = () => {
                 </h1>
             </div>
             <div>
-                {/* <Section2ga/> */}
+                <Section2ga/>
             </div>
         </section>
     )

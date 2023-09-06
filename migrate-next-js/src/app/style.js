@@ -5,7 +5,7 @@ const styles = {
   heading3: "font-poppins font-semibold text-2xl xs:text-[25px] text-[20px] text-black xs:leading-[50px] ",
   heading4: 'font-poppins font-semibold text-l sm:text-xl',
   paragraph: "font-poppins font-normal text-black text-l xs:text-[27px] leading-[30.8px] text-justify",
-
+  subParagraph : 'font-poppins font-normal text-black text-base xs:text-[24px] leading-[27.8px] text-justify',
   galleryImageContainer : "grid grid-cols-2 md:grid-cols-3 gap-4",
   textHoverImage : "text-white text-[16px]",
   modalImage : 'fixed top-0 left-0 right-0 bottom-0',

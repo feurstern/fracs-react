@@ -54,7 +54,7 @@ const Section1newga = () => {
       </div>
       <div className={`${styles.flexCenter} mt-[25px] md:mt-[50px]`}>
         {/* <BtnDownload /> */}
-        <Iframe src='/2022-REAC-Ebook-FRAC-Guideline.pdf'
+        <Iframe src='/test.pdf'
         display='block'
         // position='relative'
         width='1280px'
