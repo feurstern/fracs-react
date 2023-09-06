@@ -71,12 +71,12 @@ const Section5 = () => {
         </h2>
         <div className="w-full md:mt-0 mt-6">
           <p
-            className={`${styles.paragraph}text-left max-w-[450px] text-white`}
+            className={`${styles.paragraph} max-w-[450px] text-white`}
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            aliquip ex ea commodo consequat. {screenSize.width}
           </p>
         </div>
       </div>
@@ -84,7 +84,7 @@ const Section5 = () => {
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={1}
-          slidesPerView={`${screenSize.width > 930 ? '3' : '1'}`}
+          slidesPerView={`${screenSize.width > 1024   ? '3' : screenSize.width > 959  ? '2' : screenSize.width > 682  ? '1' : '1'}`}
           navigation
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
