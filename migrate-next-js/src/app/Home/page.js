@@ -25,7 +25,6 @@ const Home = () => {
         <Section5/>
         <Section7/>
     </section>
-
   )
 }
 

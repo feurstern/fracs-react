@@ -53,7 +53,7 @@ const Section3cernew = () => {
           {riskManagementList.map((data, index) => (
             <div
               key={index}
-              className={` ${styles.flexBetween} mt[45px] md:mt-[25px] px-4 bg-gray-400 rounded-lg`}
+              className={` ${styles.flexBetween} mt-[45px] md:mt-[25px] md:w-auto md:h-auto px-4 bg-gray-400 rounded-lg`}
             >
               <p className={`${styles.paragraph} m-4 px-4`}>{data.content}</p>
             </div>
