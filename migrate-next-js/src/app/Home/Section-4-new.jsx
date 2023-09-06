@@ -58,7 +58,7 @@ const Section4new = () => {
             </p>
           </div>
         </div>
-        <div className={`mt-4 ml-2 mr-2 grid md:grid-cols-3 gap-8`}>
+        <div className={`mt-4 ml-2 mr-2 md:grid grid-cols-3 gap-8 flex flex-col`}>
           {/* 3 div dengan space rata */}
           {targetMarket.slice(0, targetMarket.length - 2).map((data, index) => (
             <div
@@ -79,11 +79,11 @@ const Section4new = () => {
           ))}
           {/* sisa 2 div dengan space evently */}
           {targetMarket.length > 6 && (
-            <div className={`md:col-span-3 flex justify-evenly`}>
+            <div className={`sm:flex sm:flex-col items-center md:col-span-3 md:flex md:justify-evenly`}>
               {targetMarket.slice(-2).map((data, index) => (
                 <div
                   key={index}
-                  className={`cursor-pointer bg-white rounded-lg px-2 text-l xs:text-[27px] flex gap-4 justify-start items-center h-[50px] w-[150px] md:h-[100px] md:w-[400px]`}
+                  className={`cursor-pointer mt-10 bg-white rounded-lg text-l xs:text-[27px] flex gap-4 justify-start items-center h-[100px] w-auto sm:h-[100px] sm:w-auto md:h-[100px] md:w-[400px]`}
                 >
                   <svg
                     className={`w-6 h-6 mr-2 text-green-500 dark:text-green-400 flex-shrink-0`}

@@ -67,7 +67,7 @@ const Section5 = () => {
       >
         <h2 className={`${styles.heading2} text-white`}>
           Apa yang Dikatakan Orang
-          <br className="sm:hidden" /> Tentang Kami {screenSize.width}
+          <br className="sm:hidden" /> Tentang Kami 
         </h2>
         <div className="w-full md:mt-0 mt-6">
           <p

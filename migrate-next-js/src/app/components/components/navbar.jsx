@@ -41,6 +41,7 @@ const Navbar = () => {
       ${headerLength > navLinkLength? "mr-12" : "mr-0" }
       ${headerLength> navLinkLength? 'text-[10px]' : 0}
       `}>
+        <Link href={'/'}></Link>
          {headerTitle}
      
       </h1>
