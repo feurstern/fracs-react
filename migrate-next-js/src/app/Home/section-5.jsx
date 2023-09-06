@@ -21,9 +21,10 @@ import "swiper/css/autoplay";
 const Section5 = () => {
   const ref = useRef(null);
   const [hoverd, isHovered] = useState(false);
-  const [screenSize, setScreenSize] = useState(getCurrentDimension)
+  // const [screenSize, setScreenSize] = useState(getCurrentDimension)
   const controls = useAnimation();
   const isInView = useInView(ref, { once: true });
+  
 
   function getCurrentDimension() {
     return {
@@ -34,14 +35,14 @@ const Section5 = () => {
 
   useEffect(() => {
     isInView ? controls.start("visible") : controls.start("hidden");
-    const updateDimension = () => {
-      setScreenSize(getCurrentDimension());
-    }
-    window.addEventListener('resize', updateDimension);
-    return (() => {
-      window.removeEventListener('resize', updateDimension)
-    })
-  }, [isInView, controls, screenSize]);
+    // const updateDimension = () => {
+    //   setScreenSize(getCurrentDimension());
+    // }
+    // window.addEventListener('resize', updateDimension);
+    // return (() => {
+    //   window.removeEventListener('resize', updateDimension)
+    // })
+  }, [isInView, controls]);
 
 
 
@@ -76,7 +77,7 @@ const Section5 = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. {screenSize.width}
+            aliquip ex ea commodo consequat
           </p>
         </div>
       </div>
@@ -84,7 +85,8 @@ const Section5 = () => {
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={1}
-          slidesPerView={`${screenSize.width > 1024   ? '3' : screenSize.width > 959  ? '2' : screenSize.width > 682  ? '1' : '1'}`}
+          // slidesPerView={`${screenSize.width > 1024   ? '3' : screenSize.width > 959  ? '2' : screenSize.width > 682  ? '1' : '1'}`} // temporary disabled because we can't use a fucking window when using SSR  
+          slidesPerView={3}
           navigation
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}

@@ -18,7 +18,7 @@ const styles = {
   flexStart2 : "flex justify-start items-start",
   flexEnd : "flex justify-end items-end",
   flexEvently : "flex justify-evenly content-evenly items-center place-content-evenly place-items-center",
-  
+  // 
   // lineBorder : "border border-black",
   paddingX: "sm:px-16 px-6",
   paddingY: "sm:py-16 py-6",

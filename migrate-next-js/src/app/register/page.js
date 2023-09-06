@@ -4,6 +4,7 @@ import Section2reg from './section-2-reg'
 import { Navbar, Footer } from '../components/components'
 import styles from '../style'
 
+
 const Register = () => {
   return (
     <div className='bg-red-700 w-full overflow-hidden'>
@@ -23,7 +24,7 @@ const Register = () => {
           {/* <Page404/> */}
           <Section1reg />
           <Section2reg />
-          {/* <Card/> */}
+          {/* <Card/> */}z  
         </div>
       </div>
       <div className={`bg-blue-900 ${styles.paddingX} ${styles.flexStart}`}>
