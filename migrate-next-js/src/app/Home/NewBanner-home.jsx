@@ -81,9 +81,9 @@ const NewBanner = () => {
             onMouseLeave={() => setHovered(false)}
             className="cursor-pointer"
           >
-            <div className={`z-index relative`}>
-              <div className={``}>
-                <h1 className={`${styles.heading2}`}>{data.title}</h1>
+            <div className={`relative`}>
+              <div className={`${styles.flexCenter}`}>
+                <h1 className={`${styles.heading2} ml-[25px]`}>{data.title}</h1>
               </div>
               <img src={data.img} className="rounded-lg opacity-50 " />
               <p className={`${styles.heading3} top-[50%] left-[50%] absolute`}>{data.tagline}</p>

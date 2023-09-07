@@ -2,7 +2,7 @@ import React from 'react'
 import styles from '../style'
 import { motion } from 'framer-motion'
 import image from './modal/image-data'
-
+import {Swiper,SwiperSlide} from 'swiper'
 
 const Imageswiper = () => {
   return (

@@ -5,7 +5,7 @@ import { Footer, Navbar } from '../components/components'
 import Page404 from './404'
 import Section1newga from './Section-1-new-ga'
 import Section2ganew from './Section-2-new-ga'
-import Main from './ThreeComponent/Main'
+
 
 const Gallery = () => {
 
@@ -26,7 +26,7 @@ const Gallery = () => {
         <div className={`${styles.boxWidth}`}>
          <Section1newga/> 
          <Section2ganew/>
-         <Main/>
+         {/* <Main/> */}
         </div>
       </div>
 

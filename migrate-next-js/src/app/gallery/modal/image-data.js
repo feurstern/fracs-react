@@ -44,11 +44,4 @@ export const image = [
         title : 'Offline Training',
         description : '',     
     },
-
-
-
-
-
-
-
 ];
