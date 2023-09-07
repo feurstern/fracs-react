@@ -27,7 +27,7 @@ const nextConfig = {
     unoptimized: true
   },
   experimental: {
-    serverActions: false,
+    serverActions: true,
   },
   env: {
     

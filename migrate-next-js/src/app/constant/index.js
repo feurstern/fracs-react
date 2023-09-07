@@ -452,63 +452,110 @@ export const certificationSchemes = [
 
 export const certificationProses = [
   {
-    id:'1',
-    content : 'Pelamar mengikuti pelatihan sertifikasi FRAC yang diselenggarakan mitra pelatihan yang menggunakan kurikulum FRAC.',
+    id: '1',
+    content: 'Pelamar mengikuti pelatihan sertifikasi FRAC yang diselenggarakan mitra pelatihan yang menggunakan kurikulum FRAC.',
   },
   {
-    id:'2',
-    content : 'Pelamar harus mengikuti dan lulus kelas yang telah ditentukan dalam kurikulum FRAC.',
+    id: '2',
+    content: 'Pelamar harus mengikuti dan lulus kelas yang telah ditentukan dalam kurikulum FRAC.',
   },
   {
-    id:'3',
-    content : 'Pelamar memenuhi persyaratan sertifikasi FRAC dan lulus ujian sertifikasi FRAC yang mencakup materi dalam kurikulum FRAC.',
+    id: '3',
+    content: 'Pelamar memenuhi persyaratan sertifikasi FRAC dan lulus ujian sertifikasi FRAC yang mencakup materi dalam kurikulum FRAC.',
   },
   {
-    id:'4',
-    content : 'Setelah lulus ujian, pelamar akan diberikan FRAC Designation sebagai gelar profesional dalam manajemen risiko keuangan untuk korporasi.',
+    id: '4',
+    content: 'Setelah lulus ujian, pelamar akan diberikan FRAC Designation sebagai gelar profesional dalam manajemen risiko keuangan untuk korporasi.',
   },
   {
-    id:'5',
-    content : 'Resertifikasi setiap 2 tahun',
+    id: '5',
+    content: 'Resertifikasi setiap 2 tahun',
   },
 ]
 
 // the title of the section 3 for certifcation page
 
 export const riskManegementTitle = ['Kurikulum FRAC dirancang untuk memastikan setiap individu yang tersertifikasi FRAC memiliki kemampuan untuk mengidentifikasi dan menangani risiko keuangan di perusahaan. Proses sertifikasi FRAC melibatkan evaluasi menyeluruh terhadap kurikulum, materi pembelajaran, metode evaluasi, dan proses pengujian dalam program sertifikasi FRAC untuk memastikan bahwa program tersebut memenuhi standar kualitas yang ditetapkan oleh badan akreditasi. Dengan memperoleh sertifikasi FRAC, individu dapat memperoleh pengakuan resmi dan meningkatkan kredibilitas dan reputasi mereka di industri manajemen risiko.'
-, 'Setiap person yang tersertifikasi FRAC adalah person yang terlatih, paham dan dapat menerapkan dan aplikasi dari konsep manajemen risiko keuangan sebagai berikut:']
+  , 'Setiap person yang tersertifikasi FRAC adalah person yang terlatih, paham dan dapat menerapkan dan aplikasi dari konsep manajemen risiko keuangan sebagai berikut:']
 
 // this is the data for section 3 on certificationpage
-export const riskManagementList =[
+export const riskManagementList = [
   {
-    id:'1',
-    content : 'Memahami Risiko Keuangan Perusahaan'
+    id: '1',
+    content: 'Memahami Risiko Keuangan Perusahaan'
   },
   {
-    id:'2',
-    content : 'Memahami dan mengelola Risiko Pasar'
+    id: '2',
+    content: 'Memahami dan mengelola Risiko Pasar'
   },
   {
-    id:'3',
-    content : 'Memahami dan mengelola Risiko Kredit'
+    id: '3',
+    content: 'Memahami dan mengelola Risiko Kredit'
   },
   {
-    id:'4',
-    content : 'Memahami dan mengelola Risiko Likuiditas'
+    id: '4',
+    content: 'Memahami dan mengelola Risiko Likuiditas'
   },
   {
-    id:'5',
-    content : 'Memahami risiko keuangan dari kegagalan bisnis '
+    id: '5',
+    content: 'Memahami risiko keuangan dari kegagalan bisnis '
   },
   {
-    id:'6',
-    content : 'Memahami risiko keuangan dari kegagalan investasi'
+    id: '6',
+    content: 'Memahami risiko keuangan dari kegagalan investasi'
   },
   {
-    id:'7',
-    content : 'Memahami risiko keuangan melalui review atas laporan keuangan perusahaan dan prakteknya'
+    id: '7',
+    content: 'Memahami risiko keuangan melalui review atas laporan keuangan perusahaan dan prakteknya'
   },
 
 ]
 
 
+// this for gallery swiper data
+export const gallerySwiper = [
+  {
+    src: 'https://rjcons.com/wp-content/uploads/photo-gallery/34.jpg',
+    title: 'Offline Training',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacinia feugiat turpis, nec tincidunt est accumsan vel. Sed lacinia feugiat dolor luctus venenatis. Aenean a bibendum purus. Sed leo orci, egestas a sapien in,'
+
+  },
+  {
+    src: 'https://rjcons.com/wp-content/uploads/photo-gallery/2%20(3).jpg',
+    title: 'Offline Training',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacinia feugiat turpis, nec tincidunt est accumsan vel. Sed lacinia feugiat dolor luctus venenatis. Aenean a bibendum purus. Sed leo orci, egestas a sapien in,'
+
+  },
+  {
+    src: 'https://rjcons.com/wp-content/uploads/photo-gallery/2%20(2).jpg',
+    title: 'Offline Training',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacinia feugiat turpis, nec tincidunt est accumsan vel. Sed lacinia feugiat dolor luctus venenatis. Aenean a bibendum purus. Sed leo orci, egestas a sapien in,'
+
+  },
+  {
+    src: 'https://rjcons.com/wp-content/uploads/photo-gallery/1%20(2).jpg',
+    title: 'Offline Training',
+    description: '',
+  },
+  {
+    src: 'https://rjcons.com/wp-content/uploads/photo-gallery/3%20(2).jpg',
+    title: 'Offline Training',
+    description: '',
+  },
+  {
+    src: 'https://rjcons.com/wp-content/uploads/photo-gallery/3%20(2).jpg',
+    title: 'Offline Training',
+    description: '',
+  },
+
+  {
+    src: 'https://rjcons.com/wp-content/uploads/photo-gallery/2%20(2).jpg',
+    title: 'Offline Training',
+    description: '',
+  },
+  {
+    src: 'https://rjcons.com/wp-content/uploads/photo-gallery/344.jpg',
+    title: 'Offline Training',
+    description: '',
+  },
+]
