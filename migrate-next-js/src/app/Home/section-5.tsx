@@ -12,27 +12,22 @@ import {
   A11y,
   Virtual,
   EffectCoverflow,
-  Autoplay,
+  Autoplay
 } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/autoplay";
-
-
 const Section5 = () => {
   const ref = useRef(null);
   const [hoverd, isHovered] = useState(false);
   // const [screenSize, setScreenSize] = useState(getCurrentDimension)
   const controls = useAnimation();
   const isInView = useInView(ref, { once: true });
-  
-
   function getCurrentDimension() {
     return {
       width: window.innerWidth,
       height: window.innerHeight
     };
   }
-
   useEffect(() => {
     isInView ? controls.start("visible") : controls.start("hidden");
     // const updateDimension = () => {
@@ -43,21 +38,18 @@ const Section5 = () => {
     //   window.removeEventListener('resize', updateDimension)
     // })
   }, [isInView, controls]);
-
-
-
   return (
     <motion.section
       ref={ref}
       variants={{
         hidden: { opacity: 0, y: 100 },
-        visible: { opacity: 1, y: 0 },
+        visible: { opacity: 1, y: 0 }
       }}
       initial="hidden"
       animate={controls}
       transition={{
         ease: easeOut,
-        duration: 2.25,
+        duration: 2.25
       }}
       className={`${styles.paddingY} ${styles.flexCenter} flex-col relative mt-[40px]`}
     >
@@ -68,12 +60,10 @@ const Section5 = () => {
       >
         <h2 className={`${styles.heading2} text-white`}>
           Apa yang Dikatakan Orang
-          <br className="sm:hidden" /> Tentang Kami 
+          <br className="sm:hidden" /> Tentang Kami
         </h2>
         <div className="w-full md:mt-0 mt-6">
-          <p
-            className={`${styles.paragraph} max-w-[450px] text-white`}
-          >
+          <p className={`${styles.paragraph} max-w-[450px] text-white`}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -85,13 +75,11 @@ const Section5 = () => {
         <Swiper
           modules={[Navigation, Pagination, Scrollbar, A11y]}
           spaceBetween={1}
-          // slidesPerView={`${screenSize.width > 1024   ? '3' : screenSize.width > 959  ? '2' : screenSize.width > 682  ? '1' : '1'}`} // temporary disabled because we can't use a fucking window when using SSR  
+          // slidesPerView={`${screenSize.width > 1024   ? '3' : screenSize.width > 959  ? '2' : screenSize.width > 682  ? '1' : '1'}`} // temporary disabled because we can't use a fucking window when using SSR
           slidesPerView={3}
           navigation
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
-        // onSwiper={(swiper) => console.log(swiper)}
-        // onSlideChange={() => console.log("slide change")}
         >
           <div className={`${styles.galleryImageContainer}`}>
             {feedBack.map((card, index) => (
@@ -105,5 +93,4 @@ const Section5 = () => {
     </motion.section>
   );
 };
-
 export default Section5;
