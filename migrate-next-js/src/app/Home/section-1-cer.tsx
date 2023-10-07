@@ -1,24 +1,20 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
 import styles from "../style";
-
 import { motion, useAnimation, useInView } from "framer-motion";
-
 const Section1cer = () => {
   const ref = useRef(null);
   const controls = useAnimation();
   const isInView = useInView(ref, { once: true });
-
   useEffect(() => {
     isInView ? controls.start("visible") : controls.start("hidden");
   }, [isInView, controls]);
-
   return (
     <motion.section
       ref={ref}
       variants={{
         hidden: { opacity: 0, y: 100 },
-        visible: { opacity: 1, y: 0 },
+        visible: { opacity: 1, y: 0 }
       }}
       initial="hidden"
       animate={controls}
@@ -117,14 +113,7 @@ const Section1cer = () => {
           <p className={`${styles.paragraph} max-w-[600px]`}></p>
         </div>
       </div>
-      {/*  run error when I want to use map for the array*/}
-      {/* <div className=''>
-      {standarImparsialitas.map((data,index)=>(  
-       <Section1cer key={data.id} {...data} index={index}/>
-      ))} 
-      </div> */}
     </motion.section>
   );
 };
-
 export default Section1cer;

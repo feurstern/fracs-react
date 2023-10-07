@@ -6,61 +6,56 @@ import Image from "next/image";
 import { motion, useAnimation, useInView } from "framer-motion";
 import { useState, useEffect, useRef } from "react";
 import Button from "../components/components/Button";
-
 const Section1 = () => {
   const [hovered, setHovered] = useState(false);
   const controls = useAnimation();
   const ref = useRef(null);
   // to get a fucking value from the mouse coordinate to trigger the animation and prevent it starts during on load.
   const isInView = useInView(ref, { once: true });
-
   useEffect(() => {
     isInView ? controls.start("visible") : controls.start("hidden");
   }, [isInView, controls]);
-
   const numbers = [
     {
       number: "087741206863 ",
-      link: "https://api.whatsapp.com/send/?phone=6287741206863&text&type=phone_number&app_absent=0",
+      link:
+        "https://api.whatsapp.com/send/?phone=6287741206863&text&type=phone_number&app_absent=0"
     },
     {
       number: "085880500875",
-      link: "https://api.whatsapp.com/send/?phone=6285880500875&text&type=phone_number&app_absent=0",
+      link:
+        "https://api.whatsapp.com/send/?phone=6285880500875&text&type=phone_number&app_absent=0"
     },
     {
       number: "081385913098",
-      link: "https://api.whatsapp.com/send/?phone=6281385913098&text&type=phone_number&app_absent=0",
+      link:
+        "https://api.whatsapp.com/send/?phone=6281385913098&text&type=phone_number&app_absent=0"
     },
     {
       number: "088294712616",
-      link: "https://api.whatsapp.com/send/?phone=6288294712616&text&type=phone_number&app_absent=0",
-    },
+      link:
+        "https://api.whatsapp.com/send/?phone=6288294712616&text&type=phone_number&app_absent=0"
+    }
   ];
-
   const len = numbers.length - 1;
-
   const getRandomNumber = () => {
     return Math.floor(Math.random() * len);
   };
-
   const generateWhatsNumber = () => {
     let index = getRandomNumber();
     numbers[index].link;
     // console.log(index);
   };
-
   const sectionTitle = "Tentang Sertifikasi FRAC";
-
   // console.log(generateWhatsNumber());
   // console.log(numbers[0].link)
-
   return (
     <motion.section
       className={`flex flex-row md:flex-col ${styles.paddingY}`}
       ref={ref}
       variants={{
         hidden: { opacity: 0, y: 100 },
-        visible: { opacity: 1, y: 0 },
+        visible: { opacity: 1, y: 0 }
       }}
       initial="hidden"
       animate={controls}
@@ -77,21 +72,12 @@ const Section1 = () => {
             <span className="font-poppins font-semibold ss:text-[40px] text-[29px] text-black ss:leading-[80px] leading-[45px]">
               {sectionTitle}
             </span>
-            {/* <Canvas>
-              <ThreeText/>
-            </Canvas> */}
           </h1>
-          {/* <div className="ss:flex hidden md:mr-4 mr-0">
-            {<GetStarted /> }
-          </div> */}
         </div>
         <div>
-          <h1 className=" font-poppins font-semibold text-gradient ss:text-[52px] text-[48px] ss:leading-[98px] leading-[75px]">
-            {/*  this is sub title of the website.*/}
-          </h1>
+          <h1 className=" font-poppins font-semibold text-gradient ss:text-[52px] text-[48px] ss:leading-[98px] leading-[75px]"></h1>
           <div className="flex flex-col overflow-x-scroll sm:flex-row flex-wrap mb-4 mx-2">
             <div className="flex-col sm:w-1/2">
-              {/* just add the tag of p, if you want to create another section of paragraph*/}
               <p className={`${styles.paragraph} max-w-[540px]`}>
                 Sertifikasi FRAC adalah sertifikasi profesional dalam manajemen
                 risiko untuk perusahaan. Tujuan dari sertifikasi FRAC adalah
@@ -123,37 +109,12 @@ const Section1 = () => {
               <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
             </div>
           </div>
-
-          {/* <p className={`${styles.paragraph} w-full mt-10 pt-10`}>
-            Program sertifikasi FRAC sangat bermanfaat, tidak hanya bagi
-            individu dengan latar belakang keuangan, tapi juga bagi profesional
-            di bidang non-finansial seperti operasional, pemasaran, dan hukum,
-            termasuk:
-          </p>
-          <div className="flex justify-evenly mt-5">
-            <div className={`${styles.paragraph}`}>
-              <li> Risk Manager in Companies</li>
-              <li> Consultant</li>
-              <li> Finance Manager and Team</li>
-              <li> FInance Analyst</li>
-              <li> Regulator</li>
-            </div>
-            <div className={`${styles.paragraph}`}>
-              <li> Educator</li>
-              <li> Consultant</li>
-              <li> Senior Management</li>
-              <li> Other Professional</li>
-            </div>
-          </div> */}
         </div>
         <div className="w-full text-center">{<Button />}</div>
       </div>
 
-      <div className={`ss:hidden ${styles.flexCenter}`}>
-        {/* <GetStarted /> */}
-      </div>
+      <div className={`ss:hidden ${styles.flexCenter}`}></div>
     </motion.section>
   );
 };
-
 export default Section1;

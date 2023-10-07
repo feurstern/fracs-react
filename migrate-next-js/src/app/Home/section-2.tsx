@@ -4,7 +4,6 @@ import styles, { layout } from "../style";
 import Image from "next/image";
 import { motion, useAnimation, useInView } from "framer-motion";
 import { useState, useEffect, useRef } from "react";
-
 const FeatureCard = ({ icon, title, content, index }) => (
   <div
     className={`flex flex-row p-6 rounded-[20px] ${
@@ -24,29 +23,26 @@ const FeatureCard = ({ icon, title, content, index }) => (
     </div>
   </div>
 );
-
 const Section2 = () => {
   const ref = useRef(null);
   const controls = useAnimation();
   const isInView = useInView(ref, { once: true });
   const [hovered, isHovered] = useState(false);
   const [clicked, isClicked] = useState(false);
-
   useEffect(() => {
     isInView ? controls.start("visible") : controls.start("hidden");
   });
-
   return (
     <motion.section
       ref={ref}
       variants={{
         hidden: { opacity: 0, x: 100 },
-        visible: { opacity: 1, x: 0 },
+        visible: { opacity: 1, x: 0 }
       }}
       initial="hidden"
       animate={controls}
       transition={{
-        duration: 1.75,
+        duration: 1.75
       }}
       id="features"
       className={`flex-1 flex flex-col mt-[25px]`}
@@ -121,5 +117,4 @@ const Section2 = () => {
     </motion.section>
   );
 };
-
 export default Section2;

@@ -5,6 +5,7 @@ import Section6 from "./section-6";
 import { feedBack } from "../constant";
 import { easeOut, motion, useAnimation, useInView } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
+
 import {
   Navigation,
   Pagination,
