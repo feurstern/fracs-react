@@ -2,7 +2,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import styles, { layout } from "../style";
 import { animate, motion, useAnimation, useInView } from "framer-motion";
-
 const Section3 = () => {
   const controls = useAnimation();
   const ref = useRef(null);
@@ -12,13 +11,12 @@ const Section3 = () => {
     isInView ? controls.start("visible") : controls.start("hidden"),
       [isInView, controls];
   });
-
   return (
     <motion.section
       ref={ref}
       variants={{
         hidden: { opacity: 0, x: 200 },
-        visible: { opacity: 1, x: 0 },
+        visible: { opacity: 1, x: 0 }
       }}
       initial="hidden"
       animate={controls}
@@ -133,5 +131,4 @@ const Section3 = () => {
     </motion.section>
   );
 };
-
 export default Section3;

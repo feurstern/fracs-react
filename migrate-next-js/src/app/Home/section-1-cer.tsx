@@ -3,9 +3,9 @@ import React, { useEffect, useRef, useState } from "react";
 import styles from "../style";
 import { motion, useAnimation, useInView } from "framer-motion";
 const Section1cer = () => {
-  const ref = useRef(null);
-  const controls = useAnimation();
-  const isInView = useInView(ref, { once: true });
+  const ref :any = useRef(null);
+  const controls : any = useAnimation();
+  const isInView :any = useInView(ref, { once: true });
   useEffect(() => {
     isInView ? controls.start("visible") : controls.start("hidden");
   }, [isInView, controls]);

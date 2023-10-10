@@ -3,14 +3,16 @@ import React, { useEffect, useRef, useState } from "react";
 import styles from "../style";
 import { motion, useAnimation, useInView } from "framer-motion";
 const Section1new = () => {
-  const ref = useRef(null);
-  const controls = useAnimation();
-  const isInView = useInView(ref, { once: true });
+  const ref : any = useRef(null);
+  const controls :any = useAnimation();
+  const isInView :any = useInView(ref, { once: true });
   useEffect(() => {
     isInView ? controls.start("visible") : controls.start("hidden");
     isInView ? controls.start("visible-pic") : controls.start("hidden-pic");
   }, [isInView, controls]);
-  const sectionTitle = "Sekilas Tentang FRAC";
+  const rawTittle :string = "sekilas tentang frac";
+  let str :string = [];
+  
   return (
     <motion.section
       ref={ref}
@@ -25,7 +27,7 @@ const Section1new = () => {
     >
       <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
         <div className="font-light text-black sm:text-lg">
-          <h1 className={`mb-0 ${styles.heading2}`}>{sectionTitle}</h1>
+          <h1 className={`mb-0 ${styles.heading2}`}></h1>
           <p className={`${styles.paragraph} mb-4`}>
             Sertifikasi FRAC adalah sertifikasi profesional dalam manajemen
             risiko untuk perusahaan. Tujuan dari sertifikasi FRAC adalah

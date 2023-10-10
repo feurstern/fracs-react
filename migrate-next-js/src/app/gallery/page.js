@@ -5,7 +5,7 @@ import { Footer, Navbar } from '../components/components'
 import Page404 from './404'
 import Section1newga from './Section-1-new-ga'
 import Section2ganew from './Section-2-new-ga'
-
+import Main from './ThreeComponent/Main'
 
 const Gallery = () => {
 
@@ -40,3 +40,10 @@ const Gallery = () => {
 }
 
 export default Gallery
+
+// Dear students, I would like to inform you about the postponement of of our upcoming class scheduled on Saturday from 10:00 to 10:35 (if you agree).
+//  Unfortunately, I must make this adjustment due to I have to attend the online training session of Ministry Technology on Saturday start from 09:00 - 10:30 which stack with our class's schedule.
+
+// Please choose these selection form whether you're agree or not, if we reschedule  our class to 10:35(WIB) Thank you
+// 
+//
