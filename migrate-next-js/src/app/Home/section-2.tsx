@@ -24,8 +24,8 @@ const FeatureCard = ({ icon, title, content, index }) => (
   </div>
 );
 const Section2 = () => {
-  const ref = useRef(null);
-  const controls = useAnimation();
+  const ref :any = useRef(null);
+  const controls :any = useAnimation();
   const isInView = useInView(ref, { once: true });
   const [hovered, isHovered] = useState(false);
   const [clicked, isClicked] = useState(false);

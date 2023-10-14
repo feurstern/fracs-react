@@ -3,7 +3,6 @@ import React from "react";
 import styles from "../style";
 import { motion, useAnimation, useInView } from "framer-motion";
 import { useState, useEffect, useRef } from "react";
-
 const Section4 = () => {
   const controls = useAnimation();
   const ref = useRef(null);
@@ -17,7 +16,7 @@ const Section4 = () => {
       ref={ref}
       variants={{
         hidden: { opacity: 0, y: 100 },
-        visible: { opacity: 1, y: 0 },
+        visible: { opacity: 1, y: 0 }
       }}
       initial="hidden"
       animate={controls}
@@ -48,8 +47,12 @@ const Section4 = () => {
         </p>
       </div>
 
-      <div className={`${styles.flexCenter} overflow-x-scroll font-poppins text-[18px]  sm:flex-col`}>
-        <table className={` border-collapse border border-black text-[18px] table-fixed`}>
+      <div
+        className={`${styles.flexCenter} overflow-x-scroll font-poppins text-[18px]  sm:flex-col`}
+      >
+        <table
+          className={` border-collapse border border-black text-[18px] table-fixed`}
+        >
           <thead className="bg-green-600 text-white">
             <tr>
               <th className="w-auto border border-black">No</th>
@@ -122,5 +125,4 @@ const Section4 = () => {
     </motion.section>
   );
 };
-
 export default Section4;

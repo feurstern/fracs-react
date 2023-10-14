@@ -4,28 +4,25 @@ import { quotes } from "../Assets";
 import styles from "../style";
 import Image from "next/image";
 import { motion, useAnimation, useInView } from "framer-motion";
-
 const Section6 = ({ content, name, title, img }) => {
   const ref = useRef(null);
   const [hovered, isHovered] = useState(false);
   const controls = useAnimation();
   const isInView = useInView(ref, { once: true });
-
   useEffect(() => {
     isInView ? controls.start("visible") : controls.start("hidden");
   }, [isInView, controls]);
-
   return (
     <motion.div
       ref={ref}
       variants={{
         hidden: { opacity: 0, x: 100 },
-        visible: { opacity: 1, x: 0 },
+        visible: { opacity: 1, x: 0 }
       }}
       initial="hidden"
       animate={controls}
       transition={{
-        duration: 2.25,
+        duration: 2.25
       }}
       onMouseEnter={() => isHovered(true)}
       onMouseLeave={() => isHovered(false)}
@@ -36,9 +33,7 @@ const Section6 = ({ content, name, title, img }) => {
         alt="quotes svg"
         className="w-[42.6px] h-[27px] object-contain"
       />
-      <p className={`${styles.paragraph} my-10`}>
-        {content}
-      </p>
+      <p className={`${styles.paragraph} my-10`}>{content}</p>
       <div className="flex flex-row">
         <img
           src={img}
@@ -57,5 +52,4 @@ const Section6 = ({ content, name, title, img }) => {
     </motion.div>
   );
 };
-
 export default Section6;
