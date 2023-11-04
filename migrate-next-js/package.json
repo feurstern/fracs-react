@@ -34,6 +34,7 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.10.1",
     "react-iframe": "^1.8.5",
+    "react-js-to-ts": "^1.4.0",
     "react-router-dom": "^6.12.1",
     "serverless-mysql": "^1.5.5",
     "sort-by": "^0.0.2",
