@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "antd": "^5.8.5"
+    "antd": "^5.8.5",
+    "uglify-js": "^3.17.4"
   }
 }
