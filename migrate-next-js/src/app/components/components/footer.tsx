@@ -3,7 +3,6 @@ import styles from "../../style";
 import { footerLinks, otherLinks } from "../../constant/index";
 import Link from "next/link";
 import Image from "next/image";
-
 const Footer = () => (
   <section
     className={`${styles.flexCenter} ${styles.paddingY} flex-col pt-[50px]`}
@@ -22,7 +21,7 @@ const Footer = () => (
       </div>
 
       <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
-        {footerLinks.map((footerlink) => (
+        {footerLinks.map(footerlink => (
           <div
             key={footerlink.title}
             className={`flex flex-col ss:my-0 my-4 min-w-[150px]`}
@@ -36,7 +35,7 @@ const Footer = () => (
                   key={link.link}
                   className={`font-poppins font-normal text-[16px] leading-[24px] text-white hover:text-secondary cursor-pointer 
                   ${index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"}
-                  ${link.name.length > 20 ? 'w-[200px]' : 0} 
+                  ${link.name.length > 20 ? "w-[200px]" : 0} 
                     `}
                 >
                   <Link href={link.link} target="_blank">
@@ -63,8 +62,9 @@ const Footer = () => (
             alt={oth.id}
             width={20}
             height={20}
-            className={`w-[21px] h-[21px] object-contain cursor-pointer ${index !== oth.length - 1 ? "mr-6" : "mr-0"
-              }`}
+            className={`w-[21px] h-[21px] object-contain cursor-pointer ${
+              index !== oth.length - 1 ? "mr-6" : "mr-0"
+            }`}
             onClick={() => window.open(oth.link)}
           />
         ))}
@@ -72,5 +72,4 @@ const Footer = () => (
     </div>
   </section>
 );
-
 export default Footer;
