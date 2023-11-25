@@ -10,16 +10,13 @@ import {
   Scrollbar,
   A11y,
   EffectCube,
-  Autoplay,
+  Autoplay
 } from "swiper/modules";
-
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "swiper/css/autoplay";
-
-
 const Section1aboutus = () => {
   const ref = useRef(null);
   const controls = useAnimation();
@@ -28,35 +25,29 @@ const Section1aboutus = () => {
   useEffect(() => {
     isInView ? controls.start("visible") : controls.start("hidden");
   }, [isInView, controls]);
-
   const rawTitle = "tentang ifmi";
   let arr = rawTitle.split(" ");
   const firstIndex = 0;
   const sliceIndex = 1;
-
   for (let i = 0; i < arr.length; i++) {
     arr[i].charAt(firstIndex) === "i"
       ? (arr[i] = arr[i].toUpperCase())
       : (arr[i] =
           arr[i].charAt(firstIndex).toUpperCase() + arr[i].slice(sliceIndex));
   }
-
   const title = arr.join(" ");
-
   //   console.log(title);
-  console.log('Type:' , title);
-  
   return (
     <motion.section
       ref={ref}
       variants={{
         hidden: { opacity: 0, x: 100 },
-        visible: { opacity: 1, x: 0 },
+        visible: { opacity: 1, x: 0 }
       }}
       animate={controls}
       initial="hidden"
       transition={{
-        duration: 2.25,
+        duration: 2.25
       }}
       className={`my-4`}
     >
@@ -75,5 +66,4 @@ const Section1aboutus = () => {
     </motion.section>
   );
 };
-
 export default Section1aboutus;
