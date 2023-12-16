@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+
 const BtnAbout = () => {
   return (
     <a className="px-4" href="/about-us" target="_blank">

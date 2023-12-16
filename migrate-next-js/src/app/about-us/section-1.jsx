@@ -58,7 +58,7 @@ const Section1aboutus = () => {
       transition={{
         duration: 2.25,
       }}
-      className={`my-4`}
+      className={`my-4`}  
     >
       <div className={`${styles.flexCenter} text-center`}>
         <h1 className={`${styles.heading2}`}>{title}</h1>
