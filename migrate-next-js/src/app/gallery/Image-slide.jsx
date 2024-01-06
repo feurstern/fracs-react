@@ -42,7 +42,7 @@ const Imageslide = () => {
     return (
       <div className="flex justify-content-center m-2">
         <h1 className="text-5 font-">No current image selected</h1>
-        <button><link href="/"> Back to Home</link></button>
+        <button><link href="/"> Back to </link></button>
       </div>
     );
 
