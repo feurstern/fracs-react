@@ -3,7 +3,6 @@ import style from "../style";
 import { warning } from "../Assets";
 import Image from "next/image";
 import Link from "next/link";
-
 const Expired = () => {
   return (
     <section className={`text-center`}>
@@ -44,5 +43,4 @@ const Expired = () => {
     </section>
   );
 };
-
 export default Expired;

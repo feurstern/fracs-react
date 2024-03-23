@@ -22,4 +22,5 @@ const BtnAbout = () => {
     </a>
   );
 };
+
 export default BtnAbout;
