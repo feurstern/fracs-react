@@ -24,6 +24,7 @@ const Section2cer = () => {
   const indexOfLastPost = currentPage * postPerPage;
   const indexOfFirstPost = indexOfLastPost - postPerPage;
   const currentPost = data.slice(indexOfFirstPost, indexOfLastPost);
+  console.log('current post:', currentPost);
 
   // change pages func
   const paginate = (pageNumber) => setCurrentPage(pageNumber);

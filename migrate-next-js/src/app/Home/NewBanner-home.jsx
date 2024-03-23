@@ -85,8 +85,8 @@ const NewBanner = () => {
               <div className={`${styles.flexCenter}`}>
                 <h1 className={`${styles.heading2} ml-[25px]`}>{data.title}</h1>
               </div>
-              <img src={data.img} className="rounded-lg opacity-50 " />
-              <p className={`${styles.heading3} top-[50%] left-[50%] absolute`}>{data.tagline}</p>
+              <img src={data.img} className="rounded-lg " />
+              {/* <p className={`${styles.heading3} top-[50%] left-[50%] absolute`}>{data.tagline}</p> */}
             </div>
           </SwiperSlide>
         ))}

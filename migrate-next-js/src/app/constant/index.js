@@ -289,28 +289,25 @@ export const standarImparsialitas = [
 ];
 
 
-
-
-
 export const bannerData = [
   {
     title: 'FRAC Meningkatkan Akurasi Analisa Perusahaan',
-    img: ' https://static.vecteezy.com/system/resources/previews/001/879/506/original/ideas-and-inspiration-in-learning-and-education-people-sitting-on-books-modern-online-learning-lamp-bulb-and-pencil-education-business-illustration-for-business-card-banner-brochure-flyer-free-vector.jpg',
+    img: 'img/Akreditasi FRAC-02.png',
     tagline: 'This is the data content for the first banner'
   },
   {
     title: 'FRAC Meningkatkan analyst Terampil dan Professional',
-    img: 'https://static.vecteezy.com/system/resources/previews/001/879/506/original/ideas-and-inspiration-in-learning-and-education-people-sitting-on-books-modern-online-learning-lamp-bulb-and-pencil-education-business-illustration-for-business-card-banner-brochure-flyer-free-vector.jpg',
+    img: 'img/Akreditasi FRAC-03.png',
     tagline: 'This is the data content for the second banner'
   },
   {
     title: 'FRAC telah Terakreditasi',
-    img: 'https://static.vecteezy.com/system/resources/previews/001/879/506/original/ideas-and-inspiration-in-learning-and-education-people-sitting-on-books-modern-online-learning-lamp-bulb-and-pencil-education-business-illustration-for-business-card-banner-brochure-flyer-free-vector.jpg',
+    img: 'img/Akreditasi FRAC-01.png',
     tagline: 'This is the data content for the third banner'
   },
   {
     title: 'Promosi Ujian Terdekat.',
-    img: 'https://static.vecteezy.com/system/resources/previews/001/879/506/original/ideas-and-inspiration-in-learning-and-education-people-sitting-on-books-modern-online-learning-lamp-bulb-and-pencil-education-business-illustration-for-business-card-banner-brochure-flyer-free-vector.jpg',
+    img: 'img/Akreditasi FRAC-04.png',
     tagline: 'This is the data content for the fourth banner'
   },
 ];

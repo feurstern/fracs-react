@@ -21,13 +21,13 @@ const nextConfig = {
         hostname: 'media.getmyuni.com',
         port: '',
         pathname: '/assets/images/articles/*'
-      }
+      } 
 
     ],
     unoptimized: true
   },
   experimental: {
-    serverActions: true,
+    serverActions: false,
   },
   env: {
     

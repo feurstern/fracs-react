@@ -15,7 +15,7 @@ const Footer = () => (
           alt="Frac Logo"
           className="w-[266px] h-[72.14px] object-contain"
         />
-        <p className={`${styles.paragraph} mt-4 max-w-[312px]  text-white`}>
+        <p className={`${styles.subParagraph} mt-4 max-w-[314px]  text-white`}>
           Financial Risk Analyst for Corporation Professional Certification in
           Risk Management for Corporation
         </p>
