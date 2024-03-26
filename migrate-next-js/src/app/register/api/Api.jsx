@@ -17,7 +17,7 @@ const Api = () => {
     const dataApi = await axios.get(
       "https://ourtoga.com/api_register/dENWTWVaeUFiVUZKUExUUTJNVGd6TWpjd09UVnVSRDlRVWtRNU5UZ3hNemMyYm1jPQ=="
     );
-    // console.log("===> dataApi", dataApi);
+    console.log("===> dataApi", dataApi);
     // if data has been initialized then set the loading to false
     // and then set the data needed to the data useState
     setLoading(false);

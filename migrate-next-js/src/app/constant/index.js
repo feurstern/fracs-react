@@ -217,45 +217,31 @@ export const footerLinks = [
 export const feedBack = [
   {
     id: 1,
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-    name: "Elvin Willis",
-    title: "Full Stack Developer",
-    img: "https://media.licdn.com/dms/image/D5603AQGQkMgNCvH_pA/profile-displayphoto-shrink_800_800/0/1665485543999?e=2147483647&v=beta&t=XbEIiS0pE7rGojHUdLO5yptywK9OHpTRxYYK-bUxOXU"
+    content: "Sangat bagus, membutuhkan pemahaman utuh tentang rasio-rasio keuangan dan pemahamana risikonya pada perusahaan",
+    name: "Decky Yusub ",
+    title: " Office 3 Data Management at PT Telkom Indonesia",
+    img: "https://ourtoga.com/uploads/participant/USR-0571942863RuPl/profpic/profpic_1697238776.png"
   },
   {
     id: 2,
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-    name: "Farid Darmaji",
-    title: "Frontend Developer",
-    img: "https://media.licdn.com/dms/image/D5603AQHtitc3-4fqpQ/profile-displayphoto-shrink_800_800/0/1679058849581?e=2147483647&v=beta&t=_HLFZbj8VpE3iI2NT9kZYO0tJqq67ziDtA_0IQxhW-E",
+    content: "Menambah wawasan terkait manajemen risiko",
+    name: "Yuliasman",
+    title: "Manager",
+    img: "https://ourtoga.com/uploads/participant/USR-1372486059bwEW/passphoto/passphoto_20210920045013.jpg",
   },
   {
     id: 3,
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-    name: "Ricky Raven",
-    title: "Backend Developer",
-    img: "https://ourtoga.com/uploads/participant/USR-0251983467lBDr/passphoto/passphoto_pbsDztmg.png",
+    content: "Kualitas sistem ujian untuk mendukung integritas ujian terjaga sangat bagus",
+    name: "Perkasa Agape Soebijakto",
+    title: "Tax at BPJS Kesehatan",
+    img: "https://ourtoga.com/uploads/participant/USR-9805612473kMZQ/passphoto/passphoto_nPK8ec1L.JPG",
   },
   {
-    id: 3,
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-    name: "Ricky Raven",
-    title: "Backend Developer",
-    img: "https://ourtoga.com/uploads/participant/USR-0251983467lBDr/passphoto/passphoto_pbsDztmg.png",
-  },
-  {
-    id: 2,
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-    name: "Farid Darmaji",
-    title: "Frontend Developer",
-    img: "https://media.licdn.com/dms/image/D5603AQHtitc3-4fqpQ/profile-displayphoto-shrink_800_800/0/1679058849581?e=2147483647&v=beta&t=_HLFZbj8VpE3iI2NT9kZYO0tJqq67ziDtA_0IQxhW-E",
-  },
-  {
-    id: 1,
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-    name: "Elvin Willis",
-    title: "Full Stack Developer",
-    img: "https://media.licdn.com/dms/image/D5603AQGQkMgNCvH_pA/profile-displayphoto-shrink_800_800/0/1665485543999?e=2147483647&v=beta&t=XbEIiS0pE7rGojHUdLO5yptywK9OHpTRxYYK-bUxOXU"
+    id: 4,
+    content: "Metode Uji spt ini sangat efektif dan menjaga kualitas hasil uji, melalui tuntutan integritas yang tinggi dalam menyelesaikan ujian",
+    name: "Ecep Mochammad Holiqurrahman",
+    title: "Production Planning & Inventory Control, and Investment Manager at BPJS Kesehatan",
+    img: "https://ourtoga.com/uploads/participant/USR-PFM104142154/passphoto/passphoto_20210920060906.jpg",
   },
 ]
 

@@ -24,7 +24,7 @@ const Register = () => {
           {/* <Page404/> */}
           <Section1reg />
           <Section2reg />
-          {/* <Card/> */}z  
+          {/* <Card/> */}  
         </div>
       </div>
       <div className={`bg-blue-900 ${styles.paddingX} ${styles.flexStart}`}>
